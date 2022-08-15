@@ -19,7 +19,7 @@
     <item>
         <type>GROUP</type>
         <label>#11 INPUT 01</label>
-        <expanded>false</expanded>
+        <expanded>true</expanded>
         <channel>1</channel>
         <videolayer>10</videolayer>
         <delay>0</delay>
@@ -157,7 +157,7 @@
     <item>
         <type>GROUP</type>
         <label>#14 INPUT 04</label>
-        <expanded>false</expanded>
+        <expanded>true</expanded>
         <channel>1</channel>
         <videolayer>10</videolayer>
         <delay>0</delay>
@@ -231,7 +231,7 @@
                 <remotetriggerid></remotetriggerid>
                 <storyid></storyid>
                 <stopCommand>STOP 15-10</stopCommand>
-                <playCommand>PLAY 15-10 &quot;ndi://A4NBUDNICKNB/Intel Iris Plus Graphics 1&quot;</playCommand>
+                <playCommand>PLAY 15-10 &quot;ndi://CHZOOM/Intel Iris Xe Graphics 1&quot;</playCommand>
                 <loadCommand></loadCommand>
                 <pauseCommand></pauseCommand>
                 <nextCommand></nextCommand>
@@ -249,7 +249,7 @@
     <item>
         <type>GROUP</type>
         <label>#16 INPUT 06</label>
-        <expanded>false</expanded>
+        <expanded>true</expanded>
         <channel>1</channel>
         <videolayer>10</videolayer>
         <delay>0</delay>
@@ -295,7 +295,7 @@
     <item>
         <type>GROUP</type>
         <label>#17 AUX INPUT 07</label>
-        <expanded>false</expanded>
+        <expanded>true</expanded>
         <channel>1</channel>
         <videolayer>10</videolayer>
         <delay>0</delay>
@@ -312,8 +312,8 @@
             <item>
                 <type>STILL</type>
                 <devicename>CasparCG_Main</devicename>
-                <label>GRAFIKEN/AUX_01</label>
-                <name>GRAFIKEN/AUX_01</name>
+                <label>GRAFIKEN/COMINGHOME-HG</label>
+                <name>GRAFIKEN/COMINGHOME-HG</name>
                 <channel>17</channel>
                 <videolayer>10</videolayer>
                 <delay>0</delay>
@@ -424,7 +424,7 @@
                 <type>STILL</type>
                 <devicename>CasparCG_Main</devicename>
                 <label>AUX_05</label>
-                <name>GRAFIKEN/COMINGHOME-HG</name>
+                <name>GRAFIKEN/AUX_05</name>
                 <channel>17</channel>
                 <videolayer>10</videolayer>
                 <delay>0</delay>
@@ -610,7 +610,7 @@
     <item>
         <type>GROUP</type>
         <label>Beamer Grafiken</label>
-        <expanded>false</expanded>
+        <expanded>true</expanded>
         <channel>1</channel>
         <videolayer>10</videolayer>
         <delay>0</delay>
@@ -628,7 +628,7 @@
                 <type>STILL</type>
                 <devicename>CasparCG_Main</devicename>
                 <label>Grafik 01</label>
-                <name>GRAFIKEN/TEST-GRAFIK-01</name>
+                <name>GRAFIKEN/COMINGHOME-HG</name>
                 <channel>4</channel>
                 <videolayer>20</videolayer>
                 <delay>0</delay>
@@ -945,7 +945,7 @@
     <item>
         <type>GROUP</type>
         <label>OpenLP INPUT Main</label>
-        <expanded>true</expanded>
+        <expanded>false</expanded>
         <channel>1</channel>
         <videolayer>10</videolayer>
         <delay>0</delay>
