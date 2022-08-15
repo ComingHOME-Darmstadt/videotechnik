@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+	<meta charset="utf-8" />
+	<title>multiview</title>
+	<style type="text/css">
+		html {
+			/* Explicitly set background color */
+			background-color: transparent;
+
+			/* Disable scrollbars by clipping page overflow */
+			overflow: hidden;
+
+			/* Set default box-sizing to border-box for easier sizing of elements */
+			box-sizing: border-box;
+
+			/* Set default font family */
+			font-family: Arial, Helvetica, sans-serif;
+
+			/* Set responsive root font size to 43.2px at 1080p */
+			font-size: 3vh;
+		}
+
+		*, *:before, *:after {
+			/* Make box-sizing property easy to change by components if required */
+			box-sizing: inherit;
+		}
+
+		body {
+			margin: 0;
+			padding: 0;
+		}
+
+		div {
+			margin: 0;
+			padding: 0;
+			border: 0.5vmin solid black;
+			position: absolute;
+		}
+
+		.testing {
+			border: 0;
+			padding-left: 1vmin;
+			padding-right: 1vmin;
+		}
+
+		p {
+			margin: 0;
+			padding: 0;
+			position: absolute;
+			bottom: 0.1rem;
+			width: 100%;
+			text-align: center;
+		}
+
+		.label {
+			background-color: white;
+			padding-left: 0.5vmin;
+			padding-right: 0.5vmin;
+			font-stretch: ultra-condensed;
+		}
+
+		.preview {
+			border-color: gold;
+		}
+
+		.program {
+			border-color: red;
+		}
+
+		.small {
+			border-color: lightblue;
+		}
+
+		.large {
+			border-color: blue;
+		}
+
+		.preview.program {
+			border-color: red gold;
+		}
+		.preview.small {
+			border-color: gold lightblue;
+		}
+		.preview.large {
+			border-color: gold blue;
+		}
+		.program.small {
+			border-color: red lightblue;
+		}
+		.program.large {
+			border-color: red blue;
+		}
+		.small.large {
+			border-color: blue lightblue;
+		}
+		.preview.program.small {
+			border-color: red gold red lightblue;
+		}
+		.preview.program.large {
+			border-color: red gold red blue;
+		}
+		.program.small.large {
+			border-color: red blue red lightblue;
+		}
+		.preview.program.small.large {
+			border-color: red blue gold lightblue;
+		}
+
+		#input1 {
+			top: 25vh;
+			left: 0vw;
+			width: 25vw;
+			height: 25vh;
+		}
+
+		#input2 {
+			top: 25vh;
+			left: 25vw;
+			width: 25vw;
+			height: 25vh;
+		}
+
+		#input3 {
+			top: 25vh;
+			left: 50vw;
+			width: 25vw;
+			height: 25vh;
+		}
+
+		#input4 {
+			top: 0vh;
+			left: 0vw;
+			width: 25vw;
+			height: 25vh;
+		}
+
+		#input5 {
+			top: 0vh;
+			left: 25vw;
+			width: 25vw;
+			height: 25vh;
+		}
+
+		#input6 {
+			top: 0vh;
+			left: 50vw;
+			width: 25vw;
+			height: 25vh;
+		}
+
+		#inputAux {
+			top: 0vh;
+			left: 75vw;
+			width: 25vw;
+			height: 25vh;
+		}
+
+		#inputVideo {
+			top: 25vh;
+			left: 75vw;
+			width: 25vw;
+			height: 25vh;
+		}
+
+		#preview {
+			top: 50vh;
+			left: 0vw;
+			width: 50vw;
+			height: 50vh;
+			border-width: 0;
+			border-right-width: 0.1vmin;
+		}
+
+		#program {
+			top: 50vh;
+			left: 50vw;
+			width: 50vw;
+			height: 50vh;
+			border-width: 0;
+			border-left-width: 0.1vmin;
+		}
+	</style>
+</head>
+<body>
+	<div id="input1">
+		<p><span class="label"><span id="input1Prefix">Input 1 </span><span id="input1Label"></span></span></p>
+	</div>
+	<div id="input2">
+		<p><span class="label"><span id="input2Prefix">Input 2 </span><span id="input2Label"></span></span></p>
+	</div>
+	<div id="input3">
+		<p><span class="label"><span id="input3Prefix">Input 3 </span><span id="input3Label"></span></span></p>
+	</div>
+	<div id="input4">
+		<p><span class="label"><span id="input4Prefix">Input 4 </span><span id="input4Label"></span></span></p>
+	</div>
+	<div id="input5">
+		<p><span class="label"><span id="input5Prefix">Input 5 </span><span id="input5Label"></span></span></p>
+	</div>
+	<div id="input6">
+		<p><span class="label"><span id="input6Prefix">Input 6 </span><span id="input6Label"></span></span></p>
+	</div>
+	<div id="inputAux">
+		<p><span class="label"><span id="inputAuxPrefix">Aux</span><span id="inputAuxLabel"></span></span></p>
+	</div>
+	<div id="inputVideo">
+		<p><span class="label"><span id="inputVideoPrefix">Video/OpenLP</span><span id="inputVideoLabel"></span></span></p>
+	</div>
+	<div id="preview">
+		<div class="testing">
+			<script>
+				function testSetLabel() {
+					const label = document.getElementById('setLabelLabel').value
+					switch(document.getElementById('setLabelInput').value) {
+						case 'input1':
+							setInput1Label(label)
+							break
+						case 'input2':
+							setInput2Label(label)
+							break
+						case 'input3':
+							setInput3Label(label)
+							break
+						case 'input4':
+							setInput4Label(label)
+							break
+						case 'input5':
+							setInput5Label(label)
+							break
+						case 'input6':
+							setInput6Label(label)
+							break
+						case 'preview':
+							setPreviewLabel(label)
+							break
+						case 'program':
+							setProgramLabel(label)
+							break
+					}
+				}
+
+				function testSetPreview() {
+					setPreview(document.getElementById('inputSelect').value)
+				}
+
+				function testSetProgram() {
+					setProgram(document.getElementById('inputSelect').value)
+				}
+
+				function testSetPipSmall() {
+					setPipSmall(document.getElementById('inputSelect').value)
+				}
+
+				function testSetPipLarge() {
+					setPipLarge(document.getElementById('inputSelect').value)
+				}
+			</script>
+			<select id="setLabelInput">
+				<option value="input1">Input 1</option>
+				<option value="input2">Input 2</option>
+				<option value="input3">Input 3</option>
+				<option value="input4">Input 4</option>
+				<option value="input5">Input 5</option>
+				<option value="input6">Input 6</option>
+				<option value="preview">Preview</option>
+				<option value="program">Program</option>
+			</select>
+			<label for="setLabelLabel" style="font-size:0.5rem;">label</label>
+			<input id="setLabelLabel" type="text"/>
+			<input type="button" onclick="testSetLabel()" value="set"/>
+			</br>
+			<select id="inputSelect">
+				<option value="input1">Input 1</option>
+				<option value="input2">Input 2</option>
+				<option value="input3">Input 3</option>
+				<option value="input4">Input 4</option>
+				<option value="input5">Input 5</option>
+				<option value="input6">Input 6</option>
+				<option value="inputAux">Aux</option>
+				<option value="inputVideo">Video/OpenLP</option>
+			</select>
+			<input type="button" onclick="testSetPreview()" value="setPreview"/>
+			<input type="button" onclick="testSetProgram()" value="setProgram"/>
+			<input type="button" onclick="testSetPipSmall()" value="setPipSmall"/>
+			<input type="button" onclick="testSetPipLarge()" value="setPipLarge"/>
+		</div>
+		<p><span class="label">Preview: <span id="previewLabel"></span></span></p>
+	</div>
+	<div id="program">
+		<div class="testing">
+			<input type="button" onclick="play()" value="play()"/>
+		</div>
+		<p><span class="label">Program: <span id="programLabel"></span></span></p>
+	</div>
+	<script>
+		function play() {
+			log('play() called')
+			const list = document.getElementsByClassName('testing')
+			while (list.length > 0) {
+				list[0].parentNode.removeChild(list[0])
+			}
+			log('play() finished')
+		}
+
+		function stop() {
+			log('stop() called, nothing to do')
+		}
+
+		function next() {
+			log('next() called, nothin to do')
+		}
+
+		function update(data) {
+			log('update() called, nothing to do, data: ' + typeof data + "  " + data)
+		}
+
+		const inputElements = [document.getElementById('input1')
+													,document.getElementById('input2')
+													,document.getElementById('input3')
+													,document.getElementById('input4')
+													,document.getElementById('input5')
+													,document.getElementById('input6')
+													,document.getElementById('inputAux')
+													,document.getElementById('inputVideo')
+													]
+
+		function setPreview(id) {
+			for(let element of inputElements) {
+				if (element.id == id) {
+					element.classList.add("preview")
+				}
+				else {
+					element.classList.remove("preview")
+				}
+			}
+
+			const prefix = document.getElementById(id + 'Prefix').textContent
+			const label = document.getElementById(id + 'Label').textContent
+			setPreviewLabel(prefix + label)
+		}
+
+		function setProgram(id) {
+			for(let element of inputElements) {
+				if (element.id == id) {
+					element.classList.add("program")
+				}
+				else {
+					element.classList.remove("program")
+				}
+			}
+
+			const prefix = document.getElementById(id + 'Prefix').textContent
+			const label = document.getElementById(id + 'Label').textContent
+			setProgramLabel(prefix + label)
+		}
+
+		function setPipSmall(id) {
+			for(let element of inputElements) {
+				if (element.id == id) {
+					element.classList.add("small")
+				}
+				else {
+					element.classList.remove("small")
+				}
+			}
+		}
+
+		function setPipLarge(id) {
+			for(let element of inputElements) {
+				if (element.id == id) {
+					element.classList.add("large")
+				}
+				else {
+					element.classList.remove("large")
+				}
+			}
+		}
+
+		function setInput1Label(label) {
+			setLabel(label, 'input1')
+		}
+
+		function setInput2Label(label) {
+			setLabel(label, 'input2')
+		}
+
+		function setInput3Label(label) {
+			setLabel(label, 'input3')
+		}
+
+		function setInput4Label(label) {
+			setLabel(label, 'input4')
+		}
+
+		function setInput5Label(label) {
+			setLabel(label, 'input5')
+		}
+
+		function setInput6Label(label) {
+			setLabel(label, 'input6')
+		}
+
+		function getPreviewLabel() {
+			return document.getElementById('previewLabel').textContent
+		}
+
+		function setPreviewLabel(label) {
+			document.getElementById('previewLabel').textContent = label
+		}
+
+		function getProgramLabel() {
+			return document.getElementById('programLabel').textContent
+		}
+
+		function setProgramLabel(label) {
+			document.getElementById('programLabel').textContent = label
+		}
+
+		function setLabel(newLabel, id) {
+			const labelElemnt = document.getElementById(id + 'Label')
+			const oldLabel = labelElemnt.textContent
+			labelElemnt.textContent = newLabel
+
+			const prefix = document.getElementById(id + 'Prefix').textContent
+			const oldText = prefix + oldLabel
+			const newText = prefix + newLabel
+
+			if (getPreviewLabel() == oldText) {
+				setPreviewLabel(newText)
+			}
+			if (getProgramLabel() == oldText) {
+				setProgramLabel(newText)
+			}
+		}
+
+		window.onerror = function(msg) {
+			log('error ' + msg)
+		}
+
+		function log(s) {
+			console.log(s)
+		}
+
+		log(window.location.href)
+		log('Chrome: ' + window.navigator.userAgent.match(/Chrome\/([^ ]+)/)[1])
+		log('window.caspar: ' + !!window.caspar)
+		log('html.backgroundColor: ' + window.getComputedStyle(document.getElementsByTagName('html')[0]).backgroundColor)
+		log('body.backgroundColor: ' + window.getComputedStyle(document.getElementsByTagName('body')[0]).backgroundColor)
+	</script>
+</body>
+</html>

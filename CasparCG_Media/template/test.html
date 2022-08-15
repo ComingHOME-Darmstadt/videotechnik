@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+	<meta charset="utf-8" />
+	<title>multiview</title>
+</head>
+<body>
+	<p>hallo</p>
+	<script>
+		function play() {
+			log('play() called');
+			log('play() finished')
+		}
+
+		function stop() {
+			log('stop() called, nothing to do');
+		}
+
+		function next() {
+			log('next() called, nothin to do');
+		}
+
+		function update(data) {
+			log('update() called, nothing to do, data: ' + typeof data + "  " + data);
+		}
+
+		window.onerror = function(msg) {
+			log('error ' + msg);
+		}
+
+		function log(s) {
+			console.log(s)
+		}
+
+		log(window.location.href)
+		log('Chrome: ' + window.navigator.userAgent.match(/Chrome\/([^ ]+)/)[1])
+		log('window.caspar: ' + !!window.caspar)
+		log('html.backgroundColor: ' + window.getComputedStyle(document.getElementsByTagName('html')[0]).backgroundColor)
+		log('body.backgroundColor: ' + window.getComputedStyle(document.getElementsByTagName('body')[0]).backgroundColor)
+	</script>
+</body>
+</html>
