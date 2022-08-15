@@ -17,8 +17,7 @@ start /min scanner.exe --caspar.config ..\config\casparcg-server.config
 
 timeout /t 1
 
-cd "%mePath%..\casparcg-server"
-start /min casparcg.exe ..\config\casparcg-server.config
+start /min %mePath%casparcg_auto_restart.bat
 
 timeout /t 1
 
