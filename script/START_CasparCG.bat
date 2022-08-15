@@ -1,29 +1,26 @@
-@echo OFF
+@echo off
+set me=%~f0
+set mePath=%~dp0
 
-cd "C:\Program Files\obs-studio\bin\64bit\"
-start /min obs64.exe
-
-timeout /t 1
-
-cd "C:\Users\ComingHome\Documents\CasparCG_Client\casparcg-client\"
-start CasparCG-Client.exe -r C:\Users\ComingHome\Documents\20ch_companion.xml
+cd "%ProgramFiles%\obs-studio\bin\64bit\"
+start /min obs64.exe --minimize-to-tray --disable-updater
 
 timeout /t 1
 
-cd "C:\Users\ComingHome\Documents\CasparCG_Server\"
-start /min scanner.exe
+cd "%mePath%..\casparcg-client"
+start "CasparCG client" "CasparCG Client.exe" -r \comingHOME\videotechnik\config\caspercg-client.xml
 
 timeout /t 1
 
-cd "C:\Users\ComingHome\Documents\CasparCG_Server\"
-start /min casparcg.exe
+cd "%mePath%..\casparcg-server"
+start /min scanner.exe --caspar.config ..\config\casparcg-server.config
 
 timeout /t 1
 
-REM cd "C:\Users\ComingHome\Documents\CasparCG_Server\"
-REM start /min caspar-bitc.exe --output.channel 19
+cd "%mePath%..\casparcg-server"
+start /min casparcg.exe ..\config\casparcg-server.config
 
-REM timeout /t 1
+timeout /t 1
 
-cd "C:\Program Files\NDI\NDI 5 Tools\Studio Monitor\"
-start Application.Network.StudioMonitor.x64.exe
+cd "%ProgramFiles%\NDI\NDI 5 Tools\Studio Monitor\"
+start /min Application.Network.StudioMonitor.x64.exe
