@@ -2,18 +2,21 @@
 set me=%~f0
 set mePath=%~dp0
 
-set cfgFile=%mePath%labels.cfg
-set cfgFileNew=%mePath%labels-new.cfg
+set cfgPath=%mePath%..\config\
+set cfgFile=%cfgPath%inputLabels.cfg
+set cfgFileNew=%cfgPath%inputLabels-new.cfg
 
 setlocal ENABLEDELAYEDEXPANSION
 
 echo.
-echo.soll ein Label beibehalten werden, einfach mit Return best„tigen.
+echo.soll ein Input-Label beibehalten werden, einfach mit Return best„tigen.
 echo.
 pause
 echo.
 
+if NOT EXIST %cfgFile% echo input01=Input 1 > %cfgFile%
 if EXIST %cfgFileNew% del %cfgFileNew%
+
 for /F "tokens=1,2 delims==" %%i in (%cfgFile%) do (
   set varName=%%i
   set varValue=%%j
