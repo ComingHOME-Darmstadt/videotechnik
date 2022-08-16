@@ -14,7 +14,7 @@ echo.
 pause
 echo.
 
-if NOT EXIST %cfgFile% echo input01=Input 1 > %cfgFile%
+if NOT EXIST %cfgFile% echo input1=Input 1 > %cfgFile%
 if EXIST %cfgFileNew% del %cfgFileNew%
 
 for /F "tokens=1,2 delims==" %%i in (%cfgFile%) do (

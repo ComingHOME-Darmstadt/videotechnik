@@ -3,11 +3,11 @@ set me=%~f0
 set mePath=%~dp0
 
 set cfgPath=%mePath%..\config\
-set cfgFile=%cfgPath%inputLabels.cfg
+set cfgFile=%cfgPath%camera2Labels.cfg
 
 setlocal ENABLEDELAYEDEXPANSION
 
-if NOT EXIST %cfgFile% echo input1=Input 1 > %cfgFile%
+if NOT EXIST %cfgFile% echo pos1=Recall 1 > %cfgFile%
 
 for /F "delims=" %%i in (%cfgFile%) do set %%i
 
