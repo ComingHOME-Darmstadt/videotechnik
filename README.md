@@ -11,3 +11,7 @@ Die Skripte und Konfigurationen gehen davon aus, dass im Unterverzeichnis `caspa
 Im Untervezeichnis `config` werden alle Konfigurations-Dateien gesammelt. Hierbei ist jedoch `config/media/Videos` von der Überwachung durch die Versionierung ausgenommen.
 
 Die Programme `OBS Studio 27.2.4`, `Bitfocus Companion 2.2.3` und `NDI 5.5.0.0` werden in den vom Installationsprogramm vorgeschlagenen Ordnern erwartet.
+
+`OBS Studio` benötigt das `obs-websocket` Plugin.
+
+Zwei `NDI Studio Monitor`e müssen mit Web Control auf Port `80` und `81` laufen.
