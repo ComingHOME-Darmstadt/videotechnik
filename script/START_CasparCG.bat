@@ -7,6 +7,7 @@ start /min obs64.exe --minimize-to-tray --disable-updater
 
 timeout /t 1
 
+if not exist "%mePath%..\temp" mkdir "%mePath%..\temp"
 cd "%mePath%..\temp"
 start /min ..\casparcg-server\scanner.exe --caspar.config ..\config\casparcg-server.config --paths.ffmpeg ..\casparcg-server\ffmpeg.exe --paths.ffprobe ..\casparcg-server\ffprobe.exe
 
