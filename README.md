@@ -17,3 +17,7 @@ Die Programme `OBS Studio 27.2.4`, `Bitfocus Companion 2.3.0` und `NDI 5.5.0.0` 
 Zwei `NDI Studio Monitor`e müssen mit Web Control auf Port `80` und `81` laufen. Sie sollten automatisch starten.
 
 `casparcg-client` kann z.Z. beim Starten nicht gleichzeitig das Rundown laden, da dann die OSC-Befehle vom `Bitfocus Companion` nicht an den `casparcg-server` weitergegeben werden. Dies bedeutet, das zum Benutzen manuell das Rundown `config/casparcg-client.xml` geladen werden muss.
+
+FritzBox mit WLan verbinden
+---------------------------
+![Screeenshot Internet->Zugangsdaten](file:///fritzBoxMitWLanVerbinden.png)
