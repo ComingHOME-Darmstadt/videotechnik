@@ -1,0 +1,955 @@
+<!DOCTYPE html>
+<html itemscope="" itemtype="http://schema.org/WebPage" lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <title>Creating production-ready HTML templates for CasparCG - Reto Inderbitzin</title>
+  <meta name="description" content="In this article we are going to create a production-ready HTML template. We will look at the characteristics of a robust template and then discover the details of the layout and design of a production-ready lower-third template. At last we will test the template with CasparCG. Have a look at the live example and its source code.
+This article is the second installment of the series “A comprehensive guide to HTML templates for CasparCG”.">
+  <meta name="author" content="Reto Inderbitzin"><script async="" src="production-readyHTMLtemplates-Dateien/989fc720b2a6d46ad76792732.js"></script><script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "name": "Reto Inderbitzin",
+    
+    "url": "https:\/\/www.indr.ch"
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "",
+  "url": "https:\/\/www.indr.ch"
+  
+  
+  
+  
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "https:\/\/www.indr.ch",
+          "name": "home"
+        }
+    },{
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@id": "https:\/\/www.indr.ch\/2019\/01\/creating-production-ready-html-templates-for-casparcg\/",
+          "name": "Creating production ready h t m l templates for caspar c g"
+        }
+    }]
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "author": {
+    "name" : "Reto Inderbitzin"
+  },
+  "headline": "Creating production-ready HTML templates for CasparCG",
+  "description" : "In this article we are going to create a production-ready HTML template. We will look at the characteristics of a robust template and then discover the details of the layout and design of a production-ready lower-third template. At last we will test the template with CasparCG. Have a look at the live example and its source code.\nThis article is the second installment of the series \x26ldquo;A comprehensive guide to HTML templates for CasparCG\x26rdquo;.",
+  "inLanguage" : "en",
+  "wordCount":  3310 ,
+  "datePublished" : "2019-01-27T17:07:00",
+  "dateModified" : "2019-01-27T17:07:00",
+  "image" : "https:\/\/www.indr.ch",
+  "keywords" : [ "casparcg, html producer, webcg" ],
+  "mainEntityOfPage" : "https:\/\/www.indr.ch\/2019\/01\/creating-production-ready-html-templates-for-casparcg\/",
+  "publisher" : {
+    "@type": "Organization",
+    "name" : "https:\/\/www.indr.ch",
+    "logo" : {
+        "@type" : "ImageObject",
+        "url" : "https:\/\/www.indr.ch",
+        "height" :  60 ,
+        "width" :  60
+    }
+  }
+}
+</script>
+
+<meta property="og:title" content="Creating production-ready HTML templates for CasparCG">
+<meta property="og:description" content="In this article we are going to create a production-ready HTML template. We will look at the characteristics of a robust template and then discover the details of the layout and design of a production-ready lower-third template. At last we will test the template with CasparCG. Have a look at the live example and its source code.
+This article is the second installment of the series “A comprehensive guide to HTML templates for CasparCG”.">
+<meta property="og:url" content="https://www.indr.ch/2019/01/creating-production-ready-html-templates-for-casparcg/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Reto Inderbitzin">
+
+  <meta name="twitter:title" content="Creating production-ready HTML templates for CasparCG">
+  <meta name="twitter:description" content="In this article we are going to create a production-ready HTML template. We will look at the characteristics of a robust template and then discover the details of the layout and design of a …">
+  <meta name="twitter:card" content="summary">
+  <meta name="generator" content="Hugo 0.59.1">
+  <link rel="alternate" href="https://www.indr.ch/index.xml" type="application/rss+xml" title="Reto Inderbitzin"><link rel="stylesheet" href="production-readyHTMLtemplates-Dateien/katex.min.css" integrity="sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y" crossorigin="anonymous">
+  <link rel="stylesheet" href="production-readyHTMLtemplates-Dateien/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" href="production-readyHTMLtemplates-Dateien/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"><link rel="stylesheet" href="production-readyHTMLtemplates-Dateien/main.css"><link rel="stylesheet" href="production-readyHTMLtemplates-Dateien/css_002.css">
+  <link rel="stylesheet" href="production-readyHTMLtemplates-Dateien/css.css">
+  <link rel="stylesheet" href="production-readyHTMLtemplates-Dateien/highlight.min.css"><link rel="stylesheet" href="production-readyHTMLtemplates-Dateien/codeblock.css"><link rel="stylesheet" href="production-readyHTMLtemplates-Dateien/photoswipe.min.css" integrity="sha384-h/L2W9KefUClHWaty3SLE5F/qvc4djlyR4qY3NUV5HGQBBW7stbcfff1+I/vmsHh" crossorigin="anonymous">
+  <link rel="stylesheet" href="production-readyHTMLtemplates-Dateien/default-skin.min.css" integrity="sha384-iD0dNku6PYSIQLyfTOpB06F2KCZJAKLOThS5HRe8b3ibhdEQ6eKsFf/EeFxdOt5R" crossorigin="anonymous"><link rel="stylesheet" href="production-readyHTMLtemplates-Dateien/style.css">
+
+
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:1023827,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script><script async="" src="production-readyHTMLtemplates-Dateien/hotjar-1023827.js"></script>
+
+
+<script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/1cb239227accabb99c131407e/989fc720b2a6d46ad76792732.js");</script>
+
+
+
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="https://www.indr.ch/">Reto Inderbitzin</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+        
+          
+            <li>
+              <a title="Articles" href="https://www.indr.ch/categories/articles">Articles</a>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Notes" href="https://www.indr.ch/categories/notes">Notes</a>
+            </li>
+          
+        
+          
+            <li class="navlinks-container" style="min-width: 104px;">
+              <a class="navlinks-parent">Projects</a>
+              <div class="navlinks-children">
+                
+                  <a href="https://www.indr.ch/phundus/">phundus</a>
+                
+                  <a href="https://www.indr.ch/three-three-five/">335</a>
+                
+              </div>
+            </li>
+          
+        
+
+        
+
+        
+      </ul>
+    </div>
+
+    
+
+  </div>
+</nav>
+
+
+
+
+    
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+
+  
+  
+  
+
+
+
+
+
+
+  
+
+  <header class="header-section ">
+    
+    <div class="intro-header no-img">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="post-heading">
+              
+                <h1>Creating production-ready HTML templates for CasparCG</h1>
+              
+              
+              
+              
+                <span class="post-meta">
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Posted on January 27, 2019
+  
+  
+  
+  
+    
+      &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;Reto Inderbitzin
+    
+  
+  
+</span>
+
+
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+    
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+        
+
+<p>In this article we are going to create a production-ready HTML 
+template. We will look at the characteristics of a robust template and 
+then discover the details of the layout and design of a production-ready
+ lower-third template. At last we will test the template with CasparCG. 
+Have a look at the <a href="https://indr.github.io/webcg-framework/lower-third-responsive.html?debug=true">live example</a> and its <a href="https://github.com/indr/webcg-framework/blob/master/docs/lower-third-responsive.html">source code</a>.</p>
+
+<p>This article is the second installment of the series “A comprehensive
+ guide to HTML templates for CasparCG”. Have a look at the first part <a href="https://www.indr.ch/2018/09/introdution-to-casparcgs-html-producer/">Introduction to CasparCG’s HTML producer</a> to learn using HTML templates with CasparCG.</p>
+
+<h2 id="characteristics-of-production-ready-templates">Characteristics of production-ready templates</h2>
+
+<p>A production-ready template has to follow and observe a few things:</p>
+
+<ul>
+<li>It has to ensure that the background is transparent and visible 
+elements are clipped at the edges of the viewport to prevent the HTML 
+producer from drawing scrollbars.</li>
+<li>It should be able to be used with different screen sizes. Its layout and design should be resolution independent.</li>
+<li>It gracefully handles AMCP commands with idempotency where possible, and</li>
+<li>it is capable of parsing incoming data in the form of the 
+traditional component XML data or JSON strings to be used with new and 
+dated official and custom AMCP clients.</li>
+</ul>
+
+<h2 id="css-properties-overflow-and-background-color">CSS properties overflow and background-color</h2>
+
+<p>The template should make sure that the background color is 
+transparent and the visible elements are clipped at the edges of the 
+viewport. To ensure this, we set the <code>background-color: transparent</code> and <code>overflow: hidden</code>:</p>
+
+<pre><code class="language-html hljs xml"><span class="hljs-doctype">&lt;!DOCTYPE html&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">html</span> <span class="hljs-attribute">lang</span>=<span class="hljs-value">"en"</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">meta</span> <span class="hljs-attribute">charset</span>=<span class="hljs-value">"utf-8"</span> /&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">title</span>&gt;</span>lower-third-responsive.html<span class="hljs-tag">&lt;/<span class="hljs-title">title</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">style</span> <span class="hljs-attribute">type</span>=<span class="hljs-value">"text/css"</span>&gt;</span><span class="css">
+        <span class="hljs-tag">html</span> <span class="hljs-rules">{
+            <span class="hljs-comment">/* Explicitly set background color */</span>
+            <span class="hljs-rule"><span class="hljs-attribute">background-color</span>:<span class="hljs-value"> transparent</span></span>;
+
+            <span class="hljs-comment">/* Disable scrollbars by clipping page overflow */</span>
+            <span class="hljs-rule"><span class="hljs-attribute">overflow</span>:<span class="hljs-value"> hidden</span></span>;
+        }</span>
+    </span><span class="hljs-tag">&lt;/<span class="hljs-title">style</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">head</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">body</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"overlay"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"line line-1"</span>&gt;</span>Lower third with a subtitle<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">class</span>=<span class="hljs-value">"line line-2"</span>&gt;</span>and without animations<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">html</span>&gt;</span>
+</code></pre>
+
+<p>Why do we set these properties only on the html tag and not the body 
+tag? There is a weird behavior that “[I]n the absence of a background on
+ the html element, the body background will cover the page. If there is a
+ background on the html element, the body background behaves just like 
+any other element.”<sup class="footnote-ref" id="fnref:1"><a href="#fn:1">1</a></sup>
+ and thus doesn’t cover the entire page. So in order to prevent any 
+template code to accidentally unset the windows background color via 
+body tag, we explicitly set the background on the html tag.
+The overflow property can be set on either or both html and body tag. As
+ far as I can tell it doesn’t make a difference. The overflow of an 
+absolutely positioned element is clipped even if the body behaves like 
+any other (block) element. For simplicity and clarity I define it in the
+ html tag alongside the background-color.</p>
+
+<h3 id="bonus-easier-sizing-of-elements-with-box-sizing-border-box">Bonus: easier sizing of elements with box-sizing: border-box</h3>
+
+<p>From the <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing">Mozilla Developer Network documentation</a>:</p>
+
+<blockquote>
+<p>The <code>box-sizing</code> CSS property defines how the user agent should calculate the total width and height of an element.</p>
+
+<p>By default in the <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Introduction_to_the_CSS_box_model">CSS box model</a>,
+ the width and height you assign to an element is applied only to the 
+element’s content box. If the element has any border or padding, this is
+ then added to the width and height to arrive at the size of the box 
+that’s rendered on the screen. This means that when you set width and 
+height, you have to adjust the value you give to allow for any border or
+ padding that may be added.</p>
+
+<p>The <code>box-sizing</code> property can be used to adjust this behavior:</p>
+
+<ul>
+<li><code>content-box</code> gives you the default CSS <code>box-sizing</code>
+ behavior. If you set an element’s width to 100 pixels, then the 
+element’s content box will be 100 pixels wide, and the width of any 
+border or padding will be added to the final rendered width.</li>
+<li><code>border-box</code> tells the browser to account for any border 
+and padding in the values you specify for an element’s width and height.
+ If you set an element’s width to 100 pixels, that 100 pixels will 
+include any border or padding you added, and the content box will shrink
+ to absorb that extra width. <strong><em>This typically makes it much easier to size elements</em></strong> [emphasis added].</li>
+</ul>
+</blockquote>
+
+<p>I recommend you to start developing your HTML templates with <code>box-sizing: border-box</code>.
+ It keeps your templates more flexible and saves you time if you need to
+ change for example the font size and you have to adjust an elements 
+padding. I also recommend it if you want to create templates that have a
+ dynamic width based on its content, for example a dynamic image or 
+text.</p>
+
+<p>Include in your CSS instructions the latest best practice<sup class="footnote-ref" id="fnref:2"><a href="#fn:2">2</a></sup>:</p>
+
+<pre><code class="language-css hljs"><span class="hljs-tag">html</span> <span class="hljs-rules">{
+    <span class="hljs-comment">/* Set default box-sizing to border-box for easier sizing of elements */</span>
+    <span class="hljs-rule"><span class="hljs-attribute">box-sizing</span>:<span class="hljs-value"> border-box</span></span>;
+}</span>
+
+*, *<span class="hljs-pseudo">:before</span>, *<span class="hljs-pseudo">:after</span> <span class="hljs-rules">{
+    <span class="hljs-comment">/* Make box-sizing property easy to change by components if required */</span>
+    <span class="hljs-rule"><span class="hljs-attribute">box-sizing</span>:<span class="hljs-value"> inherit</span></span>;
+}</span>
+</code></pre>
+
+<p><code>box-sizing: border-box</code> also makes it easier to create 
+templates that are independent to the HTML producers, respectively the 
+browsers, resolution. This leads us to the second characteristic of 
+production-ready templates.</p>
+
+<h2 id="resolution-independent-layout-and-design">Resolution independent layout and design</h2>
+
+<p>Ideally your templates look and behave identically no matter the 
+video format you are using them with. This obviously saves you time 
+since you don’t need to create and maintain templates for different 
+resolutions. Additionally it makes today’s templates ready for future 
+use with resolutions like 4k or 8k.</p>
+
+<p>Templates that adhere to different resolutions have to be created 
+with relative length units. You can’t use absolute length units such as <code>px</code>, <code>pt</code>.
+ Imagine you create a station bug template optimized for 1080p video 
+mode that positions an image in the top right corner with a fixed 
+distance of 48px to the edges of screen and a width and height of 192px.</p>
+
+<p><img src="production-readyHTMLtemplates-Dateien/resolution-chart-absolute.png" alt="absolute">
+Comparison chart with a template designed using absolute length units for 1080p.</p>
+
+<p>As you can see in the chart above, the red square illustrating a 
+station bug overlay is perfectly designed for the video mode 1080p. It’s
+ size and distance to the edges and the entire screen is well balanced. 
+In the smaller video mode of 720p, the red square and the distance to 
+the edges is too big. In the bigger video mode of 4k, the red square and
+ the distance to the edges is too small. This is even more visible in 
+the even larger video mode of 8k, where the overlay is disproportionally
+ way to small.</p>
+
+<p>In the chart below the red square in the video mode of 1080p is 
+identical to the chart above, but it is designed with relative length 
+units:</p>
+
+<p><img src="production-readyHTMLtemplates-Dateien/resolution-chart-relative.png" alt="relative">
+Comparison chart with a template designed with relative length units.</p>
+
+<p>As you can see here, the red square changes its size and distance to 
+the edges according to the video mode. You can play with this <a href="https://indr.github.io/webcg-framework/responsive-design.html">responsive design example live demonstration</a>
+ to see the effect. As you can see in the demonstration, one of the two 
+squares changes its position and size like the red square in the chart. 
+It behaves <em>responsive</em> to the window or screen size. This responsiveness is part of <a href="https://en.wikipedia.org/wiki/Responsive_web_design">responsive web design</a>, an approach to web design that makes web pages render well on a variety of devices.</p>
+
+<p>Even though responsive web design is mainly about the fluid grid 
+concept (for example the number of elements in a row) and media queries 
+that allow the page to use different CSS style rules based on the screen
+ size (for example the display of a hamburger button on smaller 
+devices), both of which are not that interesting for responsive HTML 
+templates, the key takeaway is that we have to set certain properties of
+ elements with responsiveness in mind, these include:</p>
+
+<ul>
+<li>Position and size of elements</li>
+<li>Font sizes and padding</li>
+<li>Flexible, auto-scaling images</li>
+</ul>
+
+<h2 id="responsive-positioning-and-sizing-of-elements">Responsive positioning and sizing of elements</h2>
+
+<p>Responsive positioning and sizing can be achieved with the <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/percentage">percentage CSS data type</a> (for example <code>width: 50%</code>) or the viewport-percentage lengths (for example <code>width: 50vw</code>), which is a subset of the <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/length#Units">relative length units</a>.</p>
+
+<p>The difference between percentage and viewport-percentage is that the
+ former is relative to the parent element. For example, if you have a 
+div with a width of 100 pixels and you define <code>width: 50%</code> in a child div, that div will have a size of 50 pixels.</p>
+
+<p>The latter, viewport-percentage, is always relative to the viewport. 
+The viewport is the visible area of the web page that is displayed in 
+the browser. The size of the browser is the size of the channel the HTML
+ producer belongs to. Therefore, the viewport has the resolution of the 
+channels video mode. Additionally, since we define <code>overflow: hidden</code> on the html tag, the viewport and the page size should be the same at any given time.</p>
+
+<p>Viewport-percentage lengths are ideal to design responsive HTML 
+templates. There is currently four lengths/units that are currently 
+supported:</p>
+
+<table>
+<thead>
+<tr>
+<th>Unit</th>
+<th>Description</th>
+<th>1080p (1920x1080)</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td><code>vh</code></td>
+<td>Equal to 1% of the height of the viewport</td>
+<td>1vh = 10.8px</td>
+</tr>
+
+<tr>
+<td><code>vw</code></td>
+<td>Equal to 1% of the width of the viewport</td>
+<td>1vw = 19.2px</td>
+</tr>
+
+<tr>
+<td><code>vmin</code></td>
+<td>Equal to the smaller of <code>vw</code> and <code>vh</code></td>
+<td>1vmin = 10.8px</td>
+</tr>
+
+<tr>
+<td><code>vmax</code></td>
+<td>Equal to the larger of <code>vw</code> and <code>vh</code></td>
+<td>1vmax = 19.2px</td>
+</tr>
+</tbody>
+</table>
+
+<p>These units can be used both for positioning and sizing:</p>
+
+<pre><code class="language-css hljs"><span class="hljs-class">.overlay</span> <span class="hljs-rules">{
+    <span class="hljs-comment">/* Position overlay with equal margin to the left and bottom, 96px at 1080p */</span>
+    <span class="hljs-rule"><span class="hljs-attribute">position</span>:<span class="hljs-value"> absolute</span></span>;
+    <span class="hljs-rule"><span class="hljs-attribute">left</span>:<span class="hljs-value"> <span class="hljs-number">5vmax</span></span></span>;
+    <span class="hljs-rule"><span class="hljs-attribute">bottom</span>:<span class="hljs-value"> <span class="hljs-number">5vmax</span></span></span>;
+    
+    <span class="hljs-comment">/* Set a max-width to prevent going over the right margin at 100% - 2 * margin, 1728px at 1080p */</span>
+    <span class="hljs-rule"><span class="hljs-attribute">max-width</span>:<span class="hljs-value"> <span class="hljs-function">calc</span>(<span class="hljs-number">100vw</span> - <span class="hljs-number">2</span> * <span class="hljs-number">5vmax</span>)</span></span>;
+}</span>
+</code></pre>
+
+<p>The above CSS rules position the <code>.overlay</code> absolute in the bottom left corner with <code>5vmax</code> distance to the viewport edges. <code>vmax</code> refers to the larger of <code>vw</code> and <code>vh</code> which in the case of the video mode 1080p is <code>vw</code> with <code>1920px</code>. <code>5vmax</code> is therefore equal to <code>96px</code>
+ (1920px * 5%). I am using the same value for both the horizontal and 
+vertical positioning in order to have the overlay equally spaced in the 
+corner of the screen not matter its size.</p>
+
+<p>The size of the <code>.overlay</code> is implicitly set to <code>auto</code>.
+ The width and height will therefore be determined by its content. In 
+order to prevent the overlay from going over the (imagined) right 
+margin, we calculate the <code>max-width</code> based on the full width of the viewport minus two times the margin of <code>5vmax</code>.</p>
+
+<h2 id="responsive-font-sizing-and-padding">Responsive font sizing and padding</h2>
+
+<p>Responsive font sizing and padding is also achieved through 
+viewport-percentage lengths. It is possible to directly set an elements <code>font-size</code> and <code>padding</code> properties to a viewport-percentage. The problem with this approach is that</p>
+
+<ol>
+<li>you lose the flexibility of sizing different elements font sizes relative to each other with respect to a common base, and</li>
+<li>you sacrifice the ability to size an elements properties relative to that elements font size.</li>
+</ol>
+
+<p>The <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/length#Units">relative length units</a> have a subset specifically for and relative to font sizes. The two that are important for HTML templates are:</p>
+
+<table>
+<thead>
+<tr>
+<th>Unit</th>
+<th>Description</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td><code>rem</code></td>
+<td>Represents the <code>font-size</code> of the root element (typically html).</td>
+</tr>
+
+<tr>
+<td><code>em</code></td>
+<td>Represents the calculated <code>font-size</code> of the element.</td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="using-rem-to-set-the-font-size">Using rem to set the font-size</h3>
+
+<p><code>rem</code> is used to set an elements font size relative to the html elements <code>font-size</code> property. For example, we can set the font size of the html element to <code>40px</code> and then set another elements font size to <code>1.1rem</code>. The resulting calculated font size for that element will be <code>44px</code>.</p>
+
+<p>Instead of setting the html elements <code>font-size</code> property 
+to a fixed value we can make all font sizes in the HTML template 
+responsive by setting the root elements font-size with 
+viewport-percentage length units.</p>
+
+<pre><code class="language-css hljs"><span class="hljs-tag">html</span> <span class="hljs-rules">{
+    <span class="hljs-comment">/* Set responsive root font size to 43.2px at 1080p */</span>
+    <span class="hljs-rule"><span class="hljs-attribute">font-size</span>:<span class="hljs-value"> <span class="hljs-number">4vh</span></span></span>;
+}</span>
+
+<span class="hljs-class">.line-1</span> <span class="hljs-rules">{
+    <span class="hljs-comment">/* Calculated font size is 43.3px */</span>
+    <span class="hljs-rule"><span class="hljs-attribute">font-size</span>:<span class="hljs-value"> <span class="hljs-number">1.0rem</span></span></span>;
+}</span>
+
+<span class="hljs-class">.line-2</span> <span class="hljs-rules">{
+    <span class="hljs-comment">/* Calculated font size is about 34.56px */</span>
+    <span class="hljs-rule"><span class="hljs-attribute">font-size</span>:<span class="hljs-value"> <span class="hljs-number">0.8rem</span></span></span>;
+}</span>
+</code></pre>
+
+<p>Since the line elements size is automatically determined by their 
+content, which is now based on the height of the viewport through <code>4vh</code>, we have made the HTML template responsive.</p>
+
+<h3 id="using-em-to-set-padding">Using em to set padding</h3>
+
+<p><code>em</code> is used to set any property that takes a length relative to the font size of that element. For example, you can set the <code>padding</code> (the spacing between the elements edges and the text) property relative the elements calculated <code>font-size</code>.
+ This is useful because larger text looks better with a larger padding 
+while smaller text looks better with smaller padding. For example, we 
+can define a padding for both lines like this:</p>
+
+<pre><code class="language-css hljs"><span class="hljs-class">.line</span> <span class="hljs-rules">{
+    <span class="hljs-comment">/* Define padding relative to the font size */</span>
+    <span class="hljs-rule"><span class="hljs-attribute">padding</span>:<span class="hljs-value"> <span class="hljs-number">0.2em</span></span></span>;
+}</span>
+</code></pre>
+
+<p>Since this CSS class is applied to both lines, the calculated padding for <code>.line-1</code> will be <code>8.66px</code> (43.3px * 0.2) and for <code>.line-2</code> <code>6.912px</code> (34.56px * 0.2).</p>
+
+<h2 id="flexible-auto-scaling-images">Flexible, auto-scaling images</h2>
+
+<p>Images should also behave responsive. Usually there is two different 
+use cases. The first use case is where you want to make a static image 
+responsive for example a <a href="https://indr.github.io/webcg-framework/station-bug.html?debug=true">station bug</a>. The image is preferably vector based such as an SVG. The img tag can then either be set to a specific size, for example with <code>width: 8vmax</code> or the parent element can be set to a specific size and the image tag to <code>width: 100%</code>.</p>
+
+<p>The second use case is where you want to display a dynamic image in a
+ fixed size parent element, for example a portrait picture or a team 
+logo that is dynamically passed to the template. In this case you will 
+heavily relay on the <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit">object-fit CSS property</a>
+ to achieve the desired result. The responsive display and especially 
+the transfer of images through AMCP will be covered in a future article.</p>
+
+<h2 id="finishing-up-the-design">Finishing up the design</h2>
+
+<p>The visuals of our lower third template still lack a few things. We 
+should at least define a font family and the text and background color 
+of the title and the subtitle lines.</p>
+
+<p>I recommend you to set a default font family (and actually <a href="https://www.luu.io/posts/web-devs-font-color">a font color, too</a>) alongside the font size in the html root element. The full CSS rules for the <code>html</code> selector look like this:</p>
+
+<pre><code class="language-css hljs"><span class="hljs-tag">html</span> <span class="hljs-rules">{
+    <span class="hljs-comment">/* Explicitly set background color */</span>
+    <span class="hljs-rule"><span class="hljs-attribute">background-color</span>:<span class="hljs-value"> transparent</span></span>;
+
+    <span class="hljs-comment">/* Set default box-sizing to border-box for easier sizing of elements */</span>
+    <span class="hljs-rule"><span class="hljs-attribute">box-sizing</span>:<span class="hljs-value"> border-box</span></span>;
+
+    <span class="hljs-comment">/* Disable scrollbars by clipping page overflow */</span>
+    <span class="hljs-rule"><span class="hljs-attribute">overflow</span>:<span class="hljs-value"> hidden</span></span>;
+
+    <span class="hljs-comment">/* Set default font family */</span>
+    <span class="hljs-rule"><span class="hljs-attribute">font-family</span>:<span class="hljs-value"> Verdana, Geneva, sans-serif</span></span>;
+
+    <span class="hljs-comment">/* Set responsive root font size to 43.2px at 1080p */</span>
+    <span class="hljs-rule"><span class="hljs-attribute">font-size</span>:<span class="hljs-value"> <span class="hljs-number">4vh</span></span></span>;
+}</span>
+</code></pre>
+
+<p>After adding the text and background color to the two lines the respective CSS classes look like this:</p>
+
+<pre><code class="language-css hljs"><span class="hljs-class">.line-1</span> <span class="hljs-rules">{
+    <span class="hljs-comment">/* Define background and text color */</span>
+    <span class="hljs-rule"><span class="hljs-attribute">background</span>:<span class="hljs-value"> <span class="hljs-hexcolor">#29539b</span> <span class="hljs-function">linear-gradient</span>(<span class="hljs-number">315deg</span>, <span class="hljs-hexcolor">#29539b</span> <span class="hljs-number">0%</span>, <span class="hljs-hexcolor">#1e3b70</span> <span class="hljs-number">74%</span>)</span></span>;
+    <span class="hljs-rule"><span class="hljs-attribute">color</span>:<span class="hljs-value"> white</span></span>;
+
+    <span class="hljs-comment">/* Calculated font size is 43.3px at 1080p */</span>
+    <span class="hljs-rule"><span class="hljs-attribute">font-size</span>:<span class="hljs-value"> <span class="hljs-number">1rem</span></span></span>;
+}</span>
+
+<span class="hljs-class">.line-2</span> <span class="hljs-rules">{
+    <span class="hljs-comment">/* Define background and text color */</span>
+    <span class="hljs-rule"><span class="hljs-attribute">background</span>:<span class="hljs-value"> <span class="hljs-hexcolor">#f6f6f6</span> <span class="hljs-function">linear-gradient</span>(<span class="hljs-number">315deg</span>, <span class="hljs-hexcolor">#f6f6f6</span> <span class="hljs-number">0%</span>, <span class="hljs-hexcolor">#e9e9e9</span> <span class="hljs-number">74%</span>)</span></span>;
+    <span class="hljs-rule"><span class="hljs-attribute">color</span>:<span class="hljs-value"> <span class="hljs-hexcolor">#222</span></span></span>;
+
+    <span class="hljs-comment">/* Calculated font size is 34.56px at 1080p */</span>
+    <span class="hljs-rule"><span class="hljs-attribute">font-size</span>:<span class="hljs-value"> <span class="hljs-number">0.8rem</span></span></span>;
+}</span>
+</code></pre>
+
+<p>Check out <a href="https://www.eggradients.com/">Eggradients.com</a> to find beautiful color combinations and gradients.</p>
+
+<p>One last and important thing to remember is to take care of 
+accidental line breaks (text wrapping). For example if you put a text in
+ a line of the lower third that is too long to be displayed, you may 
+want to cut it off instead of having it wrap to multiple lines. This is 
+achieved by setting the <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/white-space">white-space CSS property</a> to <code>nowrap</code> and at the same time hiding the overflow. The full <code>.line</code> class looks like this:</p>
+
+<pre><code class="language-css hljs"><span class="hljs-class">.line</span> <span class="hljs-rules">{
+    <span class="hljs-comment">/* Define padding relative to the font size */</span>
+    <span class="hljs-rule"><span class="hljs-attribute">padding</span>:<span class="hljs-value"> <span class="hljs-number">0.2em</span></span></span>;
+
+    <span class="hljs-comment">/* Prevent text wrapping and overflow */</span>
+    <span class="hljs-rule"><span class="hljs-attribute">white-space</span>:<span class="hljs-value"> nowrap</span></span>;
+    <span class="hljs-rule"><span class="hljs-attribute">overflow</span>:<span class="hljs-value"> hidden</span></span>;
+}</span>
+</code></pre>
+
+<h2 id="playing-and-stopping-the-template">Playing and stopping the template</h2>
+
+<p>It’s about time to test the template with CasparCG’s HTML producer. 
+But before we can do that we need to employ a mechanism to show and hide
+ the template when it is played and stopped. The AMCP command <a href="https://github.com/CasparCG/help/wiki/AMCP-Protocol#cg-add">CG ADD</a> for adding a new template takes an argument for the <code>play-on-load</code> flag. This means that the template may be loaded but has to remain invisible, respectively not playing immediately.</p>
+
+<p>There is at least four options to make an element invisible:</p>
+
+<ol>
+<li>removing the element from the document tree, or</li>
+<li>setting the elements <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/display">display CSS property</a> to <code>none</code>, or</li>
+<li>setting the elements <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/visibility">visibility CSS property</a> to <code>hidden</code> or <code>collapsed</code>, or</li>
+<li>making an element fully transparent by setting the elements <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/opacity">opacity CSS property</a> to <code>0</code>.</li>
+</ol>
+
+<p>I recommend you to use the fourth option, setting the elements opacity because of these reasons:</p>
+
+<ul>
+<li>Temporarily removing an element from the document tree may lead to 
+unpredictable behavior, for example when you want to update the data 
+before you start to play the template.</li>
+<li>If you set the elements <code>display</code> property, you have to know its previous value to reset it to when you want to make it visible again.</li>
+<li>Animation libraries like VelocityJS or d3js may have to set the <code>display</code> property to <code>block</code> in order to work properly. Therefore it’s advisable to not use this property.</li>
+<li>The <code>opacity</code> property doesn’t have any effect on the flow layout, it’s effect is purely visual and not structural.</li>
+<li>The <code>opacity</code> property is the way to do transitions like 
+fade ins or fade outs, and is used by animation libraries alike. 
+Therefore an opacity set to zero is the correct initial value.</li>
+</ul>
+
+<p>After adding the <code>opacity</code> property the full <code>.overlay</code> CSS class looks like this:</p>
+
+<pre><code class="language-css hljs"><span class="hljs-class">.overlay</span> <span class="hljs-rules">{
+    <span class="hljs-comment">/* Initially hide the overlay */</span>
+    <span class="hljs-rule"><span class="hljs-attribute">opacity</span>:<span class="hljs-value"> <span class="hljs-number">0</span></span></span>;
+
+    <span class="hljs-comment">/* Position overlay with equal margin to the left and bottom, 96px at 1080p */</span>
+    <span class="hljs-rule"><span class="hljs-attribute">position</span>:<span class="hljs-value"> absolute</span></span>;
+    <span class="hljs-rule"><span class="hljs-attribute">left</span>:<span class="hljs-value"> <span class="hljs-number">5vmax</span></span></span>;
+    <span class="hljs-rule"><span class="hljs-attribute">bottom</span>:<span class="hljs-value"> <span class="hljs-number">5vmax</span></span></span>;
+
+    <span class="hljs-comment">/* Set a max-width to prevent going over the right margin at 100% - 2 * margin, 1728px at 1080p */</span>
+    <span class="hljs-rule"><span class="hljs-attribute">max-width</span>:<span class="hljs-value"> <span class="hljs-function">calc</span>(<span class="hljs-number">100vw</span> - <span class="hljs-number">2</span> * <span class="hljs-number">5vmax</span>)</span></span>;
+}</span>
+</code></pre>
+
+<h2 id="handling-play-and-stop-commands">Handling play and stop commands</h2>
+
+<p>After the HTML producer has loaded the template, it will at some point receive the AMCP commands <code>CG PLAY</code> and <code>CG STOP</code> to play and stop the template. This will trigger the global JavaScript functions <code>play()</code> and <code>stop()</code>. These functions are the locations to hook up the code that changes the opacity of the overlay.</p>
+
+<p>Below the style tag and above the closing head tag, we can add a 
+script tag with the type “text/javascript” that contains the two 
+functions:</p>
+
+<pre><code class="language-js hljs javascript"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">play</span> <span class="hljs-params">()</span> </span>{
+  <span class="hljs-keyword">const</span> overlay = <span class="hljs-built_in">document</span>.querySelector(<span class="hljs-string">'.overlay'</span>)
+  overlay.style.opacity = <span class="hljs-number">1</span>
+}
+
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">stop</span> <span class="hljs-params">()</span> </span>{
+  <span class="hljs-keyword">const</span> overlay = <span class="hljs-built_in">document</span>.querySelector(<span class="hljs-string">'.overlay'</span>)
+  overlay.style.opacity = <span class="hljs-number">0</span>
+}
+</code></pre>
+
+<p>The JavaScript code is simple: We first find an element that has a CSS class <code>.overlay</code> applied and then set that element’s CSS property <code>opacity</code> accordingly.</p>
+
+<h2 id="playing-the-template-with-casparcg">Playing the template with CasparCG</h2>
+
+<p>Save your copy of the template (or obtain the <a href="https://github.com/indr/webcg-framework/blob/master/docs/lower-third-responsive.html">source code</a>) to your servers template directory with a name for example <code>lower-third-responsive.html</code>. Start CasparCG and play the template with your favorite AMCP client or enter these commands into the servers console:</p>
+
+<p><code>CG 1 ADD 0 "lower-third-responsive" 1</code> to load and play, and</p>
+
+<p><code>CG 1 STOP 0</code> to stop.</p>
+
+<p><img src="production-readyHTMLtemplates-Dateien/screenshot-720p5000.png" alt="Screenshot 720p5000">
+Screenshot of a channel in video mode 720p5000</p>
+
+<p><img src="production-readyHTMLtemplates-Dateien/screenshot-1080p5000.png" alt="Screenshot 1080p5000">
+Screenshot of a channel in video mode 1080p5000</p>
+
+<p><img src="production-readyHTMLtemplates-Dateien/screenshot-2160p5000.png" alt="Screenshot 2160p5000">
+Screenshot of a channel in video mode 2160p5000</p>
+
+<p>All these screenshots were taken with the image producer with the command <code>ADD 1 IMAGE filename</code>. They all look the same 🎉</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>In this second part of the series we have covered the important bits 
+about creating production-ready HTML templates for CasparCG:</p>
+
+<ul>
+<li>The CSS styles that should be applied to ensure that the background 
+is transparent and visible elements are clipped without the appearance 
+of scrollbars.</li>
+<li>Explored the reasoning behind border-box sizing for a peaceful mind.</li>
+<li>Resolution independence and future-proof design through responsive 
+positioning and sizing of elements and responsive font sizing and 
+padding.
+<br></li>
+</ul>
+
+<p>We have also learned how to play and stop a template by using 
+JavaScript to set the overlays opacity. In the next part of the series, 
+we are going to have a look at the other AMCP commands and how we can 
+make a template dynamic by consuming the incoming data. We will also 
+have a look at advanced testing and debugging and what production-ready 
+JavaScript code should feature.</p>
+
+<p>In the mean time I invite you to <a href="https://casparcgforum.org/t/introduction-to-casparcgs-html-producer/1386">join the discussion in the official CasparCG forum</a>.</p>
+<div class="footnotes">
+
+<hr>
+
+<ol>
+<li id="fn:1"><a href="https://css-tricks.com/just-one-of-those-weird-things-about-css-background-on-body/">https://css-tricks.com/just-one-of-those-weird-things-about-css-background-on-body/</a>
+ <a class="footnote-return" href="#fnref:1"><sup>[return]</sup></a></li>
+<li id="fn:2"><a href="https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/">https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/</a>
+ <a class="footnote-return" href="#fnref:2"><sup>[return]</sup></a></li>
+</ol>
+</div>
+
+
+        
+          <div class="blog-tags">
+            
+              <a href="https://www.indr.ch/tags/casparcg/">casparcg</a>&nbsp;
+            
+              <a href="https://www.indr.ch/tags/html-producer/">html producer</a>&nbsp;
+            
+              <a href="https://www.indr.ch/tags/webcg/">webcg</a>&nbsp;
+            
+          </div>
+        
+
+        
+
+        
+      </article>
+
+      
+        <ul class="pager blog-pager">
+          
+            <li class="previous">
+              <a href="https://www.indr.ch/2018/09/introduction-to-casparcgs-html-producer/" data-toggle="tooltip" data-placement="top" title="Introduction to CasparCG's HTML producer">← Previous Post</a>
+            </li>
+          
+          
+            <li class="next">
+              <a href="https://www.indr.ch/2019/02/loading-and-playing-websites-from-arbitrary-urls-with-casparcg/" data-toggle="tooltip" data-placement="top" title="Loading and playing websites from arbitrary URLs with CasparCG">Next Post →</a>
+            </li>
+          
+        </ul>
+      
+
+
+      
+
+    </div>
+  </div>
+</div>
+
+      
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 mb-3" style="text-align:center">
+    <div class="mailchimp">
+        <p>I post infrequently. Get an email whenever I do.</p>
+        <form class="validate" action="https://indr.us17.list-manage.com/subscribe/post?u=1cb239227accabb99c131407e&amp;id=4682950f73" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate="">
+
+            
+            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_1cb239227accabb99c131407e_4682950f73" tabindex="-1"></div>
+
+            <div class="row">
+                <div class="col-xs-12 col-sm-8 mt-1">
+                    <label class="sr-only" for="mce-EMAIL">Email address</label>
+                    <input type="email" name="EMAIL" class="form-control email " id="mce-EMAIL" placeholder="email address" required="">
+                </div>
+                <div class="col-xs-12 col-sm-4 mt-1">
+                    <input type="submit" value="Subscribe" name="subscribe" class="btn btn-primary button" style="width: 100%" id="mc-embedded-subscribe">
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+    </div>
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+          
+              <li>
+                <a href="mailto:mail@indr.ch" title="Email me">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/indr" title="GitHub">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+          
+          <li>
+            <a href="" title="RSS">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+        </ul>
+        <p class="credits copyright text-muted">
+          
+            
+              <a href="https://www.indr.ch/">Reto Inderbitzin</a>
+            
+          
+
+          &nbsp;•&nbsp;©
+          
+            2019
+          
+        </p>
+        
+        <p class="credits theme-by text-muted">
+          <a href="https://gohugo.io/">Hugo v0.59.1</a> powered &nbsp;•&nbsp; Theme <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a> adapted from <a href="https://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a>
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</footer><script src="production-readyHTMLtemplates-Dateien/katex.min.js" integrity="sha384-K3vbOmF2BtaVai+Qk37uypf7VrgBubhQreNQe9aGsz9lB63dIFiQVlJbr92dw2Lx" crossorigin="anonymous"></script>
+<script src="production-readyHTMLtemplates-Dateien/auto-render.min.js" integrity="sha384-kmZOZB5ObwgQnS/DuDg6TScgOiWWBiVt0plIRkZCmE6rDZGrEOQeHM5PcHi+nyqe" crossorigin="anonymous"></script>
+<script src="production-readyHTMLtemplates-Dateien/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="production-readyHTMLtemplates-Dateien/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script src="production-readyHTMLtemplates-Dateien/main.js"></script>
+<script src="production-readyHTMLtemplates-Dateien/highlight.min.js"></script>
+<script> hljs.initHighlightingOnLoad(); </script>
+<script> $(document).ready(function() {$("pre.chroma").css("padding","0");}); </script><script> renderMathInElement(document.body); </script><script src="production-readyHTMLtemplates-Dateien/photoswipe.min.js" integrity="sha384-QELNnmcmU8IR9ZAykt67vGr9/rZJdHbiWi64V88fCPaOohUlHCqUD/unNN0BXSqy" crossorigin="anonymous"></script>
+<script src="production-readyHTMLtemplates-Dateien/photoswipe-ui-default.min.js" integrity="sha384-m67o7SkQ1ALzKZIFh4CiTA8tmadaujiTa9Vu+nqPSwDOqHrDmxLezTdFln8077+q" crossorigin="anonymous"></script><script src="production-readyHTMLtemplates-Dateien/load-photoswipe.js"></script>
+
+
+
+
+
+
+
+<script async="" src="production-readyHTMLtemplates-Dateien/google-analytics_analytics.js"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-104922561-1');
+</script>
+
+
+
+    
+  
+
+
+</body></html>

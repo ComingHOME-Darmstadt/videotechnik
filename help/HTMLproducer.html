@@ -1,0 +1,944 @@
+<!DOCTYPE html>
+<html itemscope="" itemtype="http://schema.org/WebPage" lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <title>Introduction to CasparCG's HTML producer - Reto Inderbitzin</title>
+  <meta name="description" content="CasparCG is a free and open source playout server used to deliver high quality live television broadcasts. It supports data-driven templates for graphic overlays created with Adobe Flash and HTML websites. Although support for HTML based templates has been around for years, it’s neglected by many template creators who consider it less powerful and thus it’s difficult to find information and resources about HTML based templates.
+This blog post series aims to be a comprehensive guide to CasparCG’s HTML producer: We will first have a look at what’s at hand.">
+  <meta name="author" content="Reto Inderbitzin"><script async="" src="HTMLproducer-Dateien/989fc720b2a6d46ad76792732.js"></script><script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "name": "Reto Inderbitzin",
+    
+    "url": "https:\/\/www.indr.ch"
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "",
+  "url": "https:\/\/www.indr.ch"
+  
+  
+  
+  
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "https:\/\/www.indr.ch",
+          "name": "home"
+        }
+    },{
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@id": "https:\/\/www.indr.ch\/2018\/09\/introduction-to-casparcgs-html-producer\/",
+          "name": "Introduction to caspar c g\x27s h t m l producer"
+        }
+    }]
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "author": {
+    "name" : "Reto Inderbitzin"
+  },
+  "headline": "Introduction to CasparCG\x27s HTML producer",
+  "description" : "CasparCG is a free and open source playout server used to deliver high quality live television broadcasts. It supports data-driven templates for graphic overlays created with Adobe Flash and HTML websites. Although support for HTML based templates has been around for years, it\x26rsquo;s neglected by many template creators who consider it less powerful and thus it\x26rsquo;s difficult to find information and resources about HTML based templates.\nThis blog post series aims to be a comprehensive guide to CasparCG\x26rsquo;s HTML producer: We will first have a look at what\x26rsquo;s at hand.",
+  "inLanguage" : "en",
+  "wordCount":  2489 ,
+  "datePublished" : "2018-09-21T10:32:00",
+  "dateModified" : "2018-09-21T10:32:00",
+  "image" : "https:\/\/www.indr.ch",
+  "keywords" : [ "casparcg, html producer, webcg" ],
+  "mainEntityOfPage" : "https:\/\/www.indr.ch\/2018\/09\/introduction-to-casparcgs-html-producer\/",
+  "publisher" : {
+    "@type": "Organization",
+    "name" : "https:\/\/www.indr.ch",
+    "logo" : {
+        "@type" : "ImageObject",
+        "url" : "https:\/\/www.indr.ch",
+        "height" :  60 ,
+        "width" :  60
+    }
+  }
+}
+</script>
+
+<meta property="og:title" content="Introduction to CasparCG's HTML producer">
+<meta property="og:description" content="CasparCG is a free and open source playout server used to deliver high quality live television broadcasts. It supports data-driven templates for graphic overlays created with Adobe Flash and HTML websites. Although support for HTML based templates has been around for years, it’s neglected by many template creators who consider it less powerful and thus it’s difficult to find information and resources about HTML based templates.
+This blog post series aims to be a comprehensive guide to CasparCG’s HTML producer: We will first have a look at what’s at hand.">
+<meta property="og:url" content="https://www.indr.ch/2018/09/introduction-to-casparcgs-html-producer/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Reto Inderbitzin">
+
+  <meta name="twitter:title" content="Introduction to CasparCG's HTML producer">
+  <meta name="twitter:description" content="CasparCG is a free and open source playout server used to deliver high quality live television broadcasts. It supports data-driven templates for graphic overlays created with Adobe Flash and HTML …">
+  <meta name="twitter:card" content="summary">
+  <meta name="generator" content="Hugo 0.59.1">
+  <link rel="alternate" href="https://www.indr.ch/index.xml" type="application/rss+xml" title="Reto Inderbitzin"><link rel="stylesheet" href="HTMLproducer-Dateien/katex.min.css" integrity="sha384-9eLZqc9ds8eNjO3TmqPeYcDj8n+Qfa4nuSiGYa6DjLNcv9BtN69ZIulL9+8CqC9Y" crossorigin="anonymous">
+  <link rel="stylesheet" href="HTMLproducer-Dateien/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <link rel="stylesheet" href="HTMLproducer-Dateien/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"><link rel="stylesheet" href="HTMLproducer-Dateien/main.css"><link rel="stylesheet" href="HTMLproducer-Dateien/css_002.css">
+  <link rel="stylesheet" href="HTMLproducer-Dateien/css.css">
+  <link rel="stylesheet" href="HTMLproducer-Dateien/highlight.min.css"><link rel="stylesheet" href="HTMLproducer-Dateien/codeblock.css"><link rel="stylesheet" href="HTMLproducer-Dateien/photoswipe.min.css" integrity="sha384-h/L2W9KefUClHWaty3SLE5F/qvc4djlyR4qY3NUV5HGQBBW7stbcfff1+I/vmsHh" crossorigin="anonymous">
+  <link rel="stylesheet" href="HTMLproducer-Dateien/default-skin.min.css" integrity="sha384-iD0dNku6PYSIQLyfTOpB06F2KCZJAKLOThS5HRe8b3ibhdEQ6eKsFf/EeFxdOt5R" crossorigin="anonymous"><link rel="stylesheet" href="HTMLproducer-Dateien/style.css">
+
+
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:1023827,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script><script async="" src="HTMLproducer-Dateien/hotjar-1023827.js"></script>
+
+
+<script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/1cb239227accabb99c131407e/989fc720b2a6d46ad76792732.js");</script>
+
+
+
+  </head>
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom top-nav-short">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="https://www.indr.ch/">Reto Inderbitzin</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+        
+          
+            <li>
+              <a title="Articles" href="https://www.indr.ch/categories/articles">Articles</a>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Notes" href="https://www.indr.ch/categories/notes">Notes</a>
+            </li>
+          
+        
+          
+            <li class="navlinks-container" style="min-width: 104px;">
+              <a class="navlinks-parent">Projects</a>
+              <div class="navlinks-children">
+                
+                  <a href="https://www.indr.ch/phundus/">phundus</a>
+                
+                  <a href="https://www.indr.ch/three-three-five/">335</a>
+                
+              </div>
+            </li>
+          
+        
+
+        
+
+        
+      </ul>
+    </div>
+
+    
+
+  </div>
+</nav>
+
+
+
+
+    
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+
+  
+  
+  
+
+
+
+
+
+
+  
+
+  <header class="header-section ">
+    
+    <div class="intro-header no-img">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="post-heading">
+              
+                <h1>Introduction to CasparCG's HTML producer</h1>
+              
+              
+              
+              
+                <span class="post-meta">
+  
+  
+  <i class="fas fa-calendar"></i>&nbsp;Posted on September 21, 2018
+  
+  
+  
+  
+    
+      &nbsp;|&nbsp;<i class="fas fa-user"></i>&nbsp;Reto Inderbitzin
+    
+  
+  
+</span>
+
+
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+    
+<div class="container" role="main">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+        
+
+<p><a href="https://www.casparcg.com/">CasparCG</a> is a free and open 
+source playout server used to deliver high quality live television 
+broadcasts. It supports data-driven templates for graphic overlays 
+created with Adobe Flash and HTML websites. Although support for HTML 
+based templates has been around for years, it’s neglected by many 
+template creators who consider it less powerful and thus it’s difficult 
+to find information and resources about HTML based templates.</p>
+
+<p>This blog post series aims to be a comprehensive guide to CasparCG’s 
+HTML producer: We will first have a look at what’s at hand. We will 
+examine the current different CasparCG server versions and what they 
+have under the hood. We will create a basic template and explore how to 
+control it with AMCP commands to change and update the templates state 
+and data.</p>
+
+<p>We then have a look at how a production-ready template looks like and
+ what needs to be considered in terms of dimensions and resolutions. We 
+will also have a look at how we parse incoming data and introduce the <a href="https://github.com/indr/webcg-framework">webcg-framework</a>,
+ a drop-in script that takes care of AMCP command subscription and of 
+the data parsing and processing and enables you to develop and debug 
+templates.</p>
+
+<h2 id="introduction">Introduction</h2>
+
+<p>HTML templates are fully functional HTML websites and vice versa. You
+ can play any HTML website with CasparCG’s HTML producer. The HTML 
+producer uses the Chromium Embedded Framework (CEF) to render websites 
+and mix them into the video channel. At the time of the first 
+publication of this article, there were three different server versions:
+ the latest stable in version 2.0.7 (December 2014), the latest official
+ beta in version 2.1.0 Beta 2 (April 2017), both to find on the <a href="https://casparcg.com/download.html">official download website</a> and the <a href="https://github.com/CasparCG/server/releases/tag/v2.2.0-beta1">latest release on GitHub</a>
+ in version 2.2.0 Beta (February 2018). The article has since been 
+updated in December 2018 and January 2019 to include the latest version,
+ currently 2.2.0 Stable.</p>
+
+<p>All server versions come with a bundled CEF and thus the HTML 
+producer works out of the box. The older two versions come with Chrome 
+33. Starting with version 2.2.0 the bundled CEF has been updated to 
+version 63 as we can see in this comparison chart:</p>
+
+<table>
+<thead>
+<tr>
+<th>Release</th>
+<th>Date</th>
+<th>Version</th>
+<th>Chrome</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>2.0.7</td>
+<td>2017-12-11</td>
+<td>2.0.7.e9fc25a</td>
+<td>33.0.1750.170</td>
+</tr>
+
+<tr>
+<td>2.1.0 Beta 2</td>
+<td>2017-04-13</td>
+<td>2.1.0.3437 dc2e94b</td>
+<td>33.0.1750.170</td>
+</tr>
+
+<tr>
+<td>2.2.0 Beta</td>
+<td>2018-02-28</td>
+<td>2.2.0.3 f61e8975</td>
+<td>63.0.3239.132</td>
+</tr>
+
+<tr>
+<td>2.2.0 Beta 7</td>
+<td>2018-09-01</td>
+<td>2.2.0 8fab6484</td>
+<td>63.0.3239.132</td>
+</tr>
+
+<tr>
+<td>2.2.0 Stable</td>
+<td>2018-12-29</td>
+<td>2.2.0 66a9e3e2</td>
+<td>63.0.3239.132</td>
+</tr>
+</tbody>
+</table>
+
+<p>Chrome version 33.0.1750 was released in February 2014 <sup class="footnote-ref" id="fnref:1"><a href="#fn:1">1</a></sup>. This is rather dated in terms of web development. For example, CSS grid layout <sup class="footnote-ref" id="fnref:2"><a href="#fn:2">2</a></sup> or Array.prototype.find() <sup class="footnote-ref" id="fnref:3"><a href="#fn:3">3</a></sup>
+ is not supported. Before we go into the details of the differences 
+between the server versions, let’s get something on screen and play a 
+basic template.</p>
+
+<h2 id="a-basic-template">A basic template</h2>
+
+<p>An HTML template is a file that contains an HTML document. The most 
+minimal and yet syntactically and semantically correct HTML document 
+looks like this:</p>
+
+<pre><code class="language-html hljs xml"><span class="hljs-doctype">&lt;!DOCTYPE html&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">html</span> <span class="hljs-attribute">lang</span>=<span class="hljs-value">"en"</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">head</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">meta</span> <span class="hljs-attribute">charset</span>=<span class="hljs-value">"utf-8"</span> /&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">title</span>&gt;</span>basic-template<span class="hljs-tag">&lt;/<span class="hljs-title">title</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">head</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">body</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">style</span>=<span class="hljs-value">"background-color: white;"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">h1</span>&gt;</span>basic-template.html<span class="hljs-tag">&lt;/<span class="hljs-title">h1</span>&gt;</span>    
+  <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">html</span>&gt;</span>
+</code></pre>
+
+<p>This HTML document, or website, displays a big, black text on a white
+ background. Save this file in your server’s template folder as 
+“basic-template.html” and you can play this template just like your 
+Flash templates, for example by issuing these commands in your server’s 
+console:</p>
+
+<p><code>CG 1 ADD 0 "basic-template" 1</code> to load and play, and</p>
+
+<p><code>CG 1 REMOVE 0</code> to remove the template.</p>
+
+<p>The HTML producer can be invoked just like the Flash producer. You can use the offical CasparCG Client, issue <a href="https://github.com/CasparCG/help/wiki/AMCP-Protocol#template-commands">AMCP template commands</a>
+ in the server’s console or use your custom client. There should be no 
+difference in invoking them, since you must not provide a file extension
+ when you load (add) a template. If there is a Flash template with the 
+name “basic-template.ft”, it will take precedence and therefore the 
+Flash producer is told to load (and play) the Flash template.</p>
+
+<h2 id="handling-amcp-commands">Handling AMCP commands</h2>
+
+<p>A fully functional HTML template should define functions that correspond to the <a href="https://github.com/CasparCG/help/wiki/AMCP-Protocol#template-commands">AMCP template commands</a>. The minimal set of required functions defined on the global window object are: <code>play()</code>, <code>next()</code>, <code>stop()</code> and <code>update()</code>.
+ These are the functions that will be called by the HTML producer. If 
+they are not present, you will see JavaScript error messages in your 
+server’s console.</p>
+
+<p>Here is a template that logs the function calls to the console and 
+adds them to a list on screen. Additionally, a global error handler logs
+ any given errors. The template also defines the functions <code>remove()</code> (commented) and <code>action1()</code>. We will discuss these two in the next section.</p>
+
+<pre><code class="language-html hljs xml"><span class="hljs-doctype">&lt;!DOCTYPE html&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">html</span> <span class="hljs-attribute">lang</span>=<span class="hljs-value">"en"</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">head</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">meta</span> <span class="hljs-attribute">charset</span>=<span class="hljs-value">"utf-8"</span> /&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">title</span>&gt;</span>debug-template<span class="hljs-tag">&lt;/<span class="hljs-title">title</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">head</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-title">body</span>&gt;</span>  
+  <span class="hljs-tag">&lt;<span class="hljs-title">div</span> <span class="hljs-attribute">style</span>=<span class="hljs-value">"background-color: white;"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">h1</span>&gt;</span>debug-template.html<span class="hljs-tag">&lt;/<span class="hljs-title">h1</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-title">ul</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-title">ul</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-title">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-title">script</span>&gt;</span><span class="javascript">  
+  <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">play</span><span class="hljs-params">()</span> </span>{
+    log(<span class="hljs-string">'play()'</span>);
+  }
+    
+  <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">stop</span><span class="hljs-params">()</span> </span>{
+    log(<span class="hljs-string">'stop()'</span>);
+  }
+  
+  <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">next</span><span class="hljs-params">()</span> </span>{
+    log(<span class="hljs-string">'next()'</span>);
+  }
+  
+  <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">update</span><span class="hljs-params">(data)</span> </span>{
+    log(<span class="hljs-string">'update() '</span> + <span class="hljs-keyword">typeof</span> data + <span class="hljs-string">"  "</span> + data);
+  }
+  
+  <span class="hljs-comment">// function remove() {</span>
+  <span class="hljs-comment">//   log('remove()');</span>
+  <span class="hljs-comment">// }</span>
+  
+  <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">action1</span><span class="hljs-params">()</span> </span>{
+    log(<span class="hljs-string">'action1() '</span> + <span class="hljs-built_in">JSON</span>.stringify(<span class="hljs-built_in">arguments</span>));
+  }
+  
+  <span class="hljs-built_in">window</span>.onerror = <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">(msg)</span> </span>{
+    log(<span class="hljs-string">'error '</span> + msg);    
+  }
+  
+  <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">log</span><span class="hljs-params">(s)</span> </span>{
+    <span class="hljs-built_in">console</span>.log(s)
+    <span class="hljs-keyword">const</span> li = <span class="hljs-built_in">document</span>.createElement(<span class="hljs-string">'li'</span>);
+    li.innerText = s;
+    <span class="hljs-built_in">document</span>.body.querySelector(<span class="hljs-string">'ul'</span>).appendChild(li);
+  }
+  
+  log(<span class="hljs-built_in">window</span>.location)
+  log(<span class="hljs-string">'Chrome: '</span> + <span class="hljs-built_in">window</span>.navigator.userAgent.match(<span class="hljs-regexp">/Chrome\/([^ ]+)/</span>)[<span class="hljs-number">1</span>])
+  log(<span class="hljs-string">'window.caspar: '</span> + !!<span class="hljs-built_in">window</span>.caspar)
+  log(<span class="hljs-string">'html.backgroundColor: '</span> + <span class="hljs-built_in">window</span>.getComputedStyle(<span class="hljs-built_in">document</span>.getElementsByTagName(<span class="hljs-string">'html'</span>)[<span class="hljs-number">0</span>]).backgroundColor)
+  log(<span class="hljs-string">'body.backgroundColor: '</span> + <span class="hljs-built_in">window</span>.getComputedStyle(<span class="hljs-built_in">document</span>.getElementsByTagName(<span class="hljs-string">'body'</span>)[<span class="hljs-number">0</span>]).backgroundColor)
+  </span><span class="hljs-tag">&lt;/<span class="hljs-title">script</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">body</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-title">html</span>&gt;</span>
+</code></pre>
+
+<p>Save this template in your templates folder as “debug-template.html”.
+ You should then be able to play the template by entering this command 
+in your server’s console:</p>
+
+<p><code>CG 1 ADD 0 "debug-template" 1</code></p>
+
+<p>And later remove it with:</p>
+
+<p><code>CG 1 REMOVE 0</code>.</p>
+
+<p>When you add (and play) this template, you should see something like this on screen:</p>
+
+<ul>
+<li>file:///C:/Users/Reto/Desktop/CasparCG/templates/debug-template.html</li>
+<li>Chrome: 63.0.3239.132</li>
+<li>window.caspar: true</li>
+<li>html.backgroundColor: rgba(0, 0, 0, 0)</li>
+<li>body.backgroundColor: rgba(0, 0, 0, 0)</li>
+<li>update() string</li>
+<li>play()</li>
+</ul>
+
+<h2 id="amcp-template-commands">AMCP template commands</h2>
+
+<p>In this section we are going to have a look at the <a href="https://github.com/CasparCG/help/wiki/AMCP-Protocol#template-commands">AMCP template commands</a>
+ and examine the HTML producers behavior and the differences between the
+ server versions 2.0.7, 2.1.0 Beta 2, 2.2.0 Beta 1 and 2.2.0 Beta 7.</p>
+
+<h3 id="a-word-about-video-channel-layer-and-cg-layer">A word about video_channel, layer and cg_layer</h3>
+
+<p>The CasparCG server can host one producer per <code>video_channel</code> and (video) <code>layer</code>.
+ If you load a Flash template on the video_channel 1 and layer 20, and 
+later you load a HTML template on the same video_channel and layer, the 
+Flash producer and its templates will be unloaded and replaced with the 
+HTML producer.</p>
+
+<p>The Flash producer supports the parameter <code>cg_layer</code> and can play different templates on 10’000 distinct layers. The HTML producer does not support layers. This means that:</p>
+
+<ol>
+<li>If you want to play several HTML templates at the same time, each template has to be played on a different (video) <code>layer</code>, and</li>
+<li>The <code>cg_layer</code> parameter has no effect, thus you can<br>
+<code>CG 1-10 ADD 55 "html-template" 1</code> to add and play a template, and later<br>
+<code>CG 1-10 REMOVE 44</code> to remove the very same template.</li>
+</ol>
+
+<h3 id="cg-add">CG ADD</h3>
+
+<p>Syntax: <code>CG [video_channel:int]{-[layer:int]|-9999} ADD [cg_layer:int] [template:string] [play-on-load:0,1] {[data]}</code></p>
+
+<p>The <a href="https://github.com/CasparCG/help/wiki/AMCP-Protocol#cg-add">CG ADD</a>
+ command, according to the official documentation, “prepares a template 
+for displaying. It won’t show until you call CG PLAY (unless you supply 
+the play-on-load flag, 1 for true).”</p>
+
+<p>As this description is true for the Flash producer, the HTML producer works differently: No matter whether you set the <code>play-on-load</code>
+ flag, your HTML template is loaded, displayed and therefore visible if 
+you don’t hide it with JavaScript and/or CSS. After loading the 
+template, the HTML producer then calls the functions <code>update()</code> and/or <code>play()</code> according to the following specifications:</p>
+
+<p>If you provide a <code>data</code> argument in server version 2.0.7, the function <code>update()</code> is called, otherwise it is not called. Starting from server version 2.1.0 Beta 2 the <code>update()</code> function is always called regardless whether you specify a <code>data</code> argument or not. In all server versions, after a possible call to <code>update()</code>, the <code>play()</code> function is called if you have set the <code>play-on-load</code> flag.</p>
+
+<p>The format of the <code>data</code> argument has to follow strict specifications. These are explained in the <code>CG UPDATE</code> command description below.</p>
+
+<h4 id="examples">Examples</h4>
+
+<p>Add a template to channel 1, layer 10, and play it:<br>
+<code>CG 1-10 ADD 0 "folder/basic-template" 1</code></p>
+
+<p>Add a template to channel 1, layer 0 (specific layer is omitted), but don’t play it:<br>
+<code>CG 1 ADD 0 "folder/basic-template" 0</code></p>
+
+<p>Add a template to channel 1, layer 0, and update with data previously stored with key “key1”, and play it:<br>
+<code>CG 1 ADD 0 "folder/basic-template" 1 "key1"</code></p>
+
+<p>Add a template to channel 1, layer 0, update with XML data, and play it:<br>
+<code>CG 1 ADD 0 "folder/basic-template" 1 
+"&lt;templateDate&gt;&lt;componentData id=\"f0\"&gt;&lt;data id=\"text\"
+ 
+value=\"https://www.indr.ch\"/&gt;&lt;/componentData&gt;&lt;/templateData&gt;"</code></p>
+
+<p>Version 2.1.0 Beta 2 and above: Add a template to channel 1, layer 0, update with JSON data, and play it:<br>
+<code>CG 1 ADD 0 "folder/basic-template" 1 "{\"f0\":\"Reto\"}"</code></p>
+
+<h3 id="cg-play">CG PLAY</h3>
+
+<p>Syntax: <code>CG [video_channel:int]{-[layer:int]|-9999} PLAY [cg_layer:int]</code></p>
+
+<p>The <a href="https://github.com/CasparCG/help/wiki/AMCP-Protocol#cg-play">CG PLAY</a>
+ command “plays and displays the template in the specified layer.”. As 
+noted in the previous section, the template is displayed (visible) after
+ it has been loaded with <code>CG ADD</code>. The <code>CG PLAY</code> command tells the HTML producer the call the <code>play()</code> function.</p>
+
+<p>The <code>play()</code> function is the ideal point where you start 
+playing your template by starting intro animations and/or displaying it 
+with JavaScript/CSS. Take a note that nothing prevents multiple calls of
+ <code>CG PLAY</code> commands and subsequent calls to <code>play()</code>.</p>
+
+<h4 id="examples-1">Examples</h4>
+
+<p><code>CG 1 PLAY 0</code></p>
+
+<h3 id="cg-stop">CG STOP</h3>
+
+<p>Syntax: <code>CG [video_channel:int]{-[layer:int]|-9999} STOP [cg_layer:int]</code></p>
+
+<p>The <a href="https://github.com/CasparCG/help/wiki/AMCP-Protocol#cg-stop">CG STOP</a>
+ command “stops and removes the template from the specified layer. This 
+is different from REMOVE in that the template gets a chance to animate 
+out when it is stopped.”.</p>
+
+<p>The HTML producer only calls the function <code>stop()</code>. It neither stops the execution of your template, hides it nor removes it.</p>
+
+<p>The <code>stop()</code> function is the ideal point where you stop 
+playing your template by starting outro animations and/or hiding it with
+ JavaScript/CSS. Take a note that nothing prevents multiple calls of <code>CG STOP</code> commands and/or subsequent calls to <code>stop()</code>.</p>
+
+<h4 id="examples-2">Examples</h4>
+
+<p><code>CG 1 STOP 0</code></p>
+
+<h3 id="cg-next">CG NEXT</h3>
+
+<p>Syntax: <code>CG [video_channel:int]{-[layer:int]|-9999} NEXT [cg_layer:int]</code></p>
+
+<p>The <a href="https://github.com/CasparCG/help/wiki/AMCP-Protocol#cg-next">CG NEXT</a>
+ command “triggers a ‘continue’ in the template on the specified layer. 
+This is used to control animations that has multiple discreet steps.”.</p>
+
+<p>The HTML producer will call the <code>next()</code> function.</p>
+
+<h4 id="examples-3">Examples</h4>
+
+<p><code>CG 1 NEXT 0</code></p>
+
+<h3 id="cg-remove">CG REMOVE</h3>
+
+<p>Syntax: <code>CG [video_channel:int]{-[layer:int]|-9999} REMOVE [cg_layer:int]</code></p>
+
+<p>The <a href="https://github.com/CasparCG/help/wiki/AMCP-Protocol#cg-remove">CG REMOVE</a> command “removes a template from the specified layer.”.</p>
+
+<p>What the HTML producer does depends on the server version. In version
+ 2.0.7 the HTML template will be removed immediately. The same is true 
+for version 2.1.0 Beta 2 unless a function <code>remove()</code> exists 
+in your HTML template. If a function exists, the function is called but 
+the template or the HTML producer is not removed. In version 2.2.0 Beta 1
+ and above, an existing function is called, but the template is never 
+removed even if no function exists.</p>
+
+<h4 id="examples-4">Examples</h4>
+
+<p><code>CG 1 REMOVE 0</code></p>
+
+<h3 id="cg-update">CG UPDATE</h3>
+
+<p>Syntax: <code>CG [video_channel:int]{-[layer:int]|-9999} UPDATE [cg_layer:int] [data:string]</code></p>
+
+<p>The <a href="https://github.com/CasparCG/help/wiki/AMCP-Protocol#cg-update">CG UPDATE</a> command “sends new data to the template on specified layer. Data is either inline XML or a reference to a saved dataset.”.</p>
+
+<p>The HTML producer will call the <code>update()</code> function with either the value provided for the parameter <code>data</code> or if a data store key with said value exists, the value that was previously stored with <a href="https://github.com/CasparCG/help/wiki/AMCP-Protocol#data-store">DATA STORE</a> command is passed to the <code>update()</code> function.</p>
+
+<p>The documentation says “inline XML”. The command accepts any string 
+that starts with a less-than symbol “&lt;“. The string is then passed to
+ the HTML producer that calls the <code>update()</code> function with the value as a string.</p>
+
+<p>Starting from server version 2.1.0 Beta 1, the producer accepts a 
+string that starts with a curly bracket “{”. This can be used to pass a 
+stringified JSON object (but not an array starting with a square bracket
+ “[“) to the <code>update()</code> function. Be aware that the 
+implemention doesn’t do any validation checks neither for the XML string
+ nor for the JSON string. It simply checks for the first character to 
+decide whether to lookup previously stored data store keys or not.</p>
+
+<h4 id="examples-5">Examples</h4>
+
+<p>Update with an XML string:<br>
+<code>CG 1 UPDATE 1 "&lt;templateData&gt;&lt;componentData 
+id=\"f0\"&gt;&lt;data id=\"text\" 
+value=\"https://indr.ch/\"/&gt;&lt;/componentData&gt;&lt;/templateData&gt;"</code></p>
+
+<p>Update with the value stored with key “key1”:<br>
+<code>CG 1 UPDATE 1 "key1"</code></p>
+
+<p>Version 2.1.0 Beta 2 and above: Update with a JSON object string:<br>
+<code>CG 1 UPDATE 1 "{\"f0\":123}"</code></p>
+
+<h3 id="cg-invoke">CG INVOKE</h3>
+
+<p>Syntax: <code>CG [video_channel:int]{-[layer:int]|-9999} INVOKE [cg_layer:int] [method:string]</code></p>
+
+<p>The <a href="https://github.com/CasparCG/help/wiki/AMCP-Protocol#cg-invoke">CG INVOKE</a> command “invokes the given method on the template on the specified layer.”.</p>
+
+<p>The HTML producer will call a global function with the name specfied as <code>method</code>. If <code>method</code> is a JavaScript function expression in the form of <code>name()</code> the function is called with the supplied parameters. If the function does not exist a normal <code>Uncaught ReferenceError</code> is thrown by the JavaScript runtime.</p>
+
+<p>If you try to invoke a function called “remove”, the producer behaves
+ differently depending on the server version: In version 2.1.0 Beta 2 
+and below the effect is the same as calling <code>CG 1 REMOVE 0</code>. In version 2.2.0 Beta 1 and above an existing <code>remove()</code> function is called. If the function does not exist no error is thrown.</p>
+
+<h4 id="examples-6">Examples</h4>
+
+<p>Calls the function <code>action1()</code>:<br>
+<code>CG 1 INVOKE 1 "action1"</code></p>
+
+<p>Calls the function <code>action1('abc', 123)</code>:<br>
+<code>CG 1 INVOKE 1 "action('abc', 123)"</code></p>
+
+<h3 id="cg-info">CG INFO</h3>
+
+<p>The <a href="https://github.com/CasparCG/help/wiki/AMCP-Protocol#cg-info">CG INFO</a> command doesn’t seem to work with the HTML producer and always causes the JavaScript runtime to throw an <code>Uncaught SyntaxError</code> in version 2.0.7. <code>CG INFO</code> has no effect in version 2.1.0 Beta 2 and above.</p>
+
+<h2 id="summary">Summary</h2>
+
+<p>This blog post covered all the basics you need to know to get started
+ with CasparCG’s HTML producer. We had a look at how to load, play, 
+update and stop a HTML template and discovered the traits and behaviors 
+of the different server versions. There is two interesting and 
+significant differences. One is that starting from 2.1.0 Beta 2 you can 
+pass stringified JSON objects to the template. The second is that 
+starting from 2.2.0 Beta 1 you have a more recent Chrome version under 
+the hood.</p>
+
+<p>In the <a href="https://www.indr.ch/2019/01/creating-production-ready-html-templates-for-casparcg/">next blog</a> post we will have a look at how a production-ready template looks like. And we will introduce the <a href="https://github.com/indr/webcg-framework">webcg-framework</a>,
+ a drop-in script that has been used in production for more than a year.
+ It let’s you conveniently register to AMCP commands and it 
+automatically parses the incoming data to a JavaScript object. And on 
+top of that, you can easily debug your templates with the lazy loaded <a href="https://github.com/indr/webcg-devtools">webcg-devtools</a>.</p>
+
+<p><a href="https://casparcgforum.org/t/introduction-to-casparcgs-html-producer/1386">Join the discussion in the official CasparCG forum</a>.</p>
+
+<h2 id="appendix">Appendix</h2>
+
+<h3 id="user-agent-strings">User agent strings</h3>
+
+<table>
+<thead>
+<tr>
+<th>CasparCG</th>
+<th>User agent string</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>2.0.7.e9fc25a Stable Release</td>
+<td>Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.170 Safari/537.36</td>
+</tr>
+
+<tr>
+<td>2.1.0.3437 dc2e94b Beta 2 x64</td>
+<td>Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.170 Safari/537.36</td>
+</tr>
+
+<tr>
+<td>2.2.0.3 f61e8975 Beta 1 x64</td>
+<td>Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36</td>
+</tr>
+
+<tr>
+<td>2.2.0 8fab6484 Beta 7 x64</td>
+<td>Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36</td>
+</tr>
+
+<tr>
+<td>2.2.0 66a9e3e2 Stable x64</td>
+<td>Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36</td>
+</tr>
+</tbody>
+</table>
+
+<h3 id="window-caspar-property">window.caspar property</h3>
+
+<table>
+<thead>
+<tr>
+<th>CasparCG</th>
+<th>window.caspar</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>2.0.7.e9fc25a Stable Release</td>
+<td>undefined</td>
+</tr>
+
+<tr>
+<td>2.1.0.3437 dc2e94b Beta 2 x64</td>
+<td>undefined</td>
+</tr>
+
+<tr>
+<td>2.2.0.3 f61e8975 Beta 1 x64</td>
+<td>{}</td>
+</tr>
+
+<tr>
+<td>2.2.0 8fab6484 Beta 7 x64</td>
+<td>{}</td>
+</tr>
+
+<tr>
+<td>2.2.0 66a9e3e2 Stable x64</td>
+<td>{}</td>
+</tr>
+</tbody>
+</table>
+<div class="footnotes">
+
+<hr>
+
+<ol>
+<li id="fn:1"><a href="https://en.wikipedia.org/wiki/Google_Chrome_version_history">https://en.wikipedia.org/wiki/Google_Chrome_version_history</a>
+ <a class="footnote-return" href="#fnref:1"><sup>[return]</sup></a></li>
+<li id="fn:2"><a href="https://caniuse.com/#feat=css-grid">https://caniuse.com/#feat=css-grid</a>
+ <a class="footnote-return" href="#fnref:2"><sup>[return]</sup></a></li>
+<li id="fn:3"><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find#Polyfill#Browser_compatibility">https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find#Polyfill#Browser_compatibility</a>
+ <a class="footnote-return" href="#fnref:3"><sup>[return]</sup></a></li>
+</ol>
+</div>
+
+
+        
+          <div class="blog-tags">
+            
+              <a href="https://www.indr.ch/tags/casparcg/">casparcg</a>&nbsp;
+            
+              <a href="https://www.indr.ch/tags/html-producer/">html producer</a>&nbsp;
+            
+              <a href="https://www.indr.ch/tags/webcg/">webcg</a>&nbsp;
+            
+          </div>
+        
+
+        
+
+        
+      </article>
+
+      
+        <ul class="pager blog-pager">
+          
+            <li class="previous">
+              <a href="https://www.indr.ch/2017/10/semantic-git-commit-messages/" data-toggle="tooltip" data-placement="top" title="Semantic Git commit messages">← Previous Post</a>
+            </li>
+          
+          
+            <li class="next">
+              <a href="https://www.indr.ch/2019/01/creating-production-ready-html-templates-for-casparcg/" data-toggle="tooltip" data-placement="top" title="Creating production-ready HTML templates for CasparCG">Next Post →</a>
+            </li>
+          
+        </ul>
+      
+
+
+      
+
+    </div>
+  </div>
+</div>
+
+      
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 mb-3" style="text-align:center">
+    <div class="mailchimp">
+        <p>I post infrequently. Get an email whenever I do.</p>
+        <form class="validate" action="https://indr.us17.list-manage.com/subscribe/post?u=1cb239227accabb99c131407e&amp;id=4682950f73" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate="">
+
+            
+            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_1cb239227accabb99c131407e_4682950f73" tabindex="-1"></div>
+
+            <div class="row">
+                <div class="col-xs-12 col-sm-8 mt-1">
+                    <label class="sr-only" for="mce-EMAIL">Email address</label>
+                    <input type="email" name="EMAIL" class="form-control email " id="mce-EMAIL" placeholder="email address" required="">
+                </div>
+                <div class="col-xs-12 col-sm-4 mt-1">
+                    <input type="submit" value="Subscribe" name="subscribe" class="btn btn-primary button" style="width: 100%" id="mc-embedded-subscribe">
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+    </div>
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+          
+              <li>
+                <a href="mailto:mail@indr.ch" title="Email me">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/indr" title="GitHub">
+                  <span class="fa-stack fa-lg">
+                    <i class="fas fa-circle fa-stack-2x"></i>
+                    <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+          
+          <li>
+            <a href="" title="RSS">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+        </ul>
+        <p class="credits copyright text-muted">
+          
+            
+              <a href="https://www.indr.ch/">Reto Inderbitzin</a>
+            
+          
+
+          &nbsp;•&nbsp;©
+          
+            2019
+          
+        </p>
+        
+        <p class="credits theme-by text-muted">
+          <a href="https://gohugo.io/">Hugo v0.59.1</a> powered &nbsp;•&nbsp; Theme <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a> adapted from <a href="https://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a>
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</footer><script src="HTMLproducer-Dateien/katex.min.js" integrity="sha384-K3vbOmF2BtaVai+Qk37uypf7VrgBubhQreNQe9aGsz9lB63dIFiQVlJbr92dw2Lx" crossorigin="anonymous"></script>
+<script src="HTMLproducer-Dateien/auto-render.min.js" integrity="sha384-kmZOZB5ObwgQnS/DuDg6TScgOiWWBiVt0plIRkZCmE6rDZGrEOQeHM5PcHi+nyqe" crossorigin="anonymous"></script>
+<script src="HTMLproducer-Dateien/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="HTMLproducer-Dateien/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script src="HTMLproducer-Dateien/main.js"></script>
+<script src="HTMLproducer-Dateien/highlight.min.js"></script>
+<script> hljs.initHighlightingOnLoad(); </script>
+<script> $(document).ready(function() {$("pre.chroma").css("padding","0");}); </script><script> renderMathInElement(document.body); </script><script src="HTMLproducer-Dateien/photoswipe.min.js" integrity="sha384-QELNnmcmU8IR9ZAykt67vGr9/rZJdHbiWi64V88fCPaOohUlHCqUD/unNN0BXSqy" crossorigin="anonymous"></script>
+<script src="HTMLproducer-Dateien/photoswipe-ui-default.min.js" integrity="sha384-m67o7SkQ1ALzKZIFh4CiTA8tmadaujiTa9Vu+nqPSwDOqHrDmxLezTdFln8077+q" crossorigin="anonymous"></script><script src="HTMLproducer-Dateien/load-photoswipe.js"></script>
+
+
+
+
+
+
+
+<script async="" src="HTMLproducer-Dateien/google-analytics_analytics.js"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-104922561-1');
+</script>
+
+
+
+    
+  
+
+
+</body></html>
