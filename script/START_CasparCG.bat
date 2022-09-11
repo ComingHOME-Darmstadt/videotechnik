@@ -19,3 +19,7 @@ timeout /t 1
 
 cd "%mePath%..\casparcg-client"
 start "CasparCG client" "CasparCG Client.exe" -t ..\config\casparcg-client.s3db
+
+timeout /t 1
+
+call %mePath%sendInputLabels.bat

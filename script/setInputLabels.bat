@@ -30,11 +30,4 @@ for /F "tokens=1,2 delims==" %%i in (%cfgFile%) do (
 
 move /Y %cfgFileNew% %cfgFile%
 
-for /F "tokens=1,2 delims==" %%i in (%cfgFile%) do (
-  set varName=%%i
-  set varValue=%%j
-
-  set varValue=!varValue: =%%20!
-
-  curl -s http://127.0.0.1:8888/set/custom-variable/!varName!label?value=!varValue!
-)
+call %mePath%sendInputLabels.bat
