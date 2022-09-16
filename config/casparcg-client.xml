@@ -65,7 +65,7 @@
     <item>
         <type>GROUP</type>
         <label>#12 INPUT 02</label>
-        <expanded>false</expanded>
+        <expanded>true</expanded>
         <channel>1</channel>
         <videolayer>10</videolayer>
         <delay>0</delay>
@@ -111,7 +111,7 @@
     <item>
         <type>GROUP</type>
         <label>#13 INPUT 03</label>
-        <expanded>false</expanded>
+        <expanded>true</expanded>
         <channel>1</channel>
         <videolayer>10</videolayer>
         <delay>0</delay>
@@ -319,7 +319,7 @@
                 <delay>0</delay>
                 <duration>0</duration>
                 <allowgpi>false</allowgpi>
-                <allowremotetriggering>false</allowremotetriggering>
+                <allowremotetriggering>true</allowremotetriggering>
                 <remotetriggerid>prev_aux-01</remotetriggerid>
                 <storyid></storyid>
                 <transition>CUT</transition>
@@ -327,33 +327,6 @@
                 <tween>Linear</tween>
                 <direction>RIGHT</direction>
                 <useauto>false</useauto>
-                <triggeronnext>false</triggeronnext>
-                <color>Transparent</color>
-            </item>
-            <item>
-                <type>CUSTOMCOMMAND</type>
-                <devicename>CasparCG_Main</devicename>
-                <label>Webseite</label>
-                <name>Custom Command</name>
-                <channel>1</channel>
-                <videolayer>10</videolayer>
-                <delay>0</delay>
-                <duration>0</duration>
-                <allowgpi>false</allowgpi>
-                <allowremotetriggering>true</allowremotetriggering>
-                <remotetriggerid>prev_aux-01</remotetriggerid>
-                <storyid></storyid>
-                <stopCommand>STOP 17-10</stopCommand>
-                <playCommand>PLAY 17-10 [HTML] &quot;https://&quot;</playCommand>
-                <loadCommand></loadCommand>
-                <pauseCommand></pauseCommand>
-                <nextCommand></nextCommand>
-                <updateCommand></updateCommand>
-                <invokeCommand></invokeCommand>
-                <previewCommand></previewCommand>
-                <clearCommand></clearCommand>
-                <clearVideolayerCommand></clearVideolayerCommand>
-                <clearChannelCommand></clearChannelCommand>
                 <triggeronnext>false</triggeronnext>
                 <color>Transparent</color>
             </item>
@@ -446,7 +419,7 @@
     <item>
         <type>GROUP</type>
         <label>#18 VIDEO INPUT 08</label>
-        <expanded>false</expanded>
+        <expanded>true</expanded>
         <channel>1</channel>
         <videolayer>10</videolayer>
         <delay>0</delay>
@@ -755,7 +728,7 @@
     <item>
         <type>GROUP</type>
         <label>Beamer Videos</label>
-        <expanded>false</expanded>
+        <expanded>true</expanded>
         <channel>1</channel>
         <videolayer>10</videolayer>
         <delay>0</delay>
