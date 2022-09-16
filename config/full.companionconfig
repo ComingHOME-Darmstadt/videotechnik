@@ -1663,7 +1663,8 @@
 				"color": 16777215,
 				"bgcolor": 0,
 				"latch": false,
-				"relative_delay": false
+				"relative_delay": false,
+				"show_topbar": "default"
 			}
 		},
 		"6": {
@@ -19021,7 +19022,7 @@
 					"instance": "udTEF512G",
 					"action": "COMMAND",
 					"options": {
-						"cmd": "cg 3-99 invoke 0 \"setInput4Label('nichts')\""
+						"cmd": "cg 3-99 invoke 0 \"setInput4Label('TBS')\""
 					},
 					"delay": 2200
 				},

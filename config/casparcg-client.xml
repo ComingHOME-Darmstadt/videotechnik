@@ -185,7 +185,7 @@
                 <remotetriggerid></remotetriggerid>
                 <storyid></storyid>
                 <stopCommand>STOP 14-10</stopCommand>
-                <playCommand>PLAY 14-10 &quot;ndi://&quot;</playCommand>
+                <playCommand>PLAY 14-10 &quot;ndi://192.168.1.21/Prediger&quot;</playCommand>
                 <loadCommand></loadCommand>
                 <pauseCommand></pauseCommand>
                 <nextCommand></nextCommand>
