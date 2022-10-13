@@ -248,52 +248,6 @@
     </item>
     <item>
         <type>GROUP</type>
-        <label>#16 INPUT 06</label>
-        <expanded>true</expanded>
-        <channel>1</channel>
-        <videolayer>10</videolayer>
-        <delay>0</delay>
-        <duration>0</duration>
-        <allowgpi>false</allowgpi>
-        <allowremotetriggering>true</allowremotetriggering>
-        <remotetriggerid>input_06</remotetriggerid>
-        <storyid></storyid>
-        <notes></notes>
-        <autostep>false</autostep>
-        <autoplay>false</autoplay>
-        <color></color>
-        <items>
-            <item>
-                <type>CUSTOMCOMMAND</type>
-                <devicename>CasparCG_Main</devicename>
-                <label>CAM 06 NDI</label>
-                <name>Custom Command</name>
-                <channel>1</channel>
-                <videolayer>10</videolayer>
-                <delay>25</delay>
-                <duration>0</duration>
-                <allowgpi>false</allowgpi>
-                <allowremotetriggering>false</allowremotetriggering>
-                <remotetriggerid></remotetriggerid>
-                <storyid></storyid>
-                <stopCommand>STOP 16-10</stopCommand>
-                <playCommand>PLAY 16-10 &quot;ndi://CHPRESENTATION/Intel Iris Xe Graphics 1&quot;</playCommand>
-                <loadCommand></loadCommand>
-                <pauseCommand></pauseCommand>
-                <nextCommand></nextCommand>
-                <updateCommand></updateCommand>
-                <invokeCommand></invokeCommand>
-                <previewCommand></previewCommand>
-                <clearCommand></clearCommand>
-                <clearVideolayerCommand></clearVideolayerCommand>
-                <clearChannelCommand></clearChannelCommand>
-                <triggeronnext>false</triggeronnext>
-                <color>Transparent</color>
-            </item>
-        </items>
-    </item>
-    <item>
-        <type>GROUP</type>
         <label>#17 AUX INPUT 07</label>
         <expanded>true</expanded>
         <channel>1</channel>
