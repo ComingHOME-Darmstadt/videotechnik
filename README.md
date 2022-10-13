@@ -12,7 +12,7 @@ Im Untervezeichnis `config` werden alle Konfigurations-Dateien gesammelt. Hierbe
 
 Die Programme `OBS Studio 27.2.4`, `Bitfocus Companion 2.3.0` und `NDI 5.5.0.0` werden in den vom Installationsprogramm vorgeschlagenen Ordnern erwartet. `Companion` sollte automatisch starten.
 
-`OBS Studio` benötigt das `obs-websocket` Plugin.
+`OBS Studio` benötigt die `obs-websocket` und `obs-ndi` Plugins (siehe https://obsproject.com/forum/resources/categories/obs-studio-plugins.6/), sowie das Profil `ComingHome` und die SceneCollections `CasparCG_Audio_IN` und `ComingHome_4_Kameras` (zu finden unter `config/obs`.
 
 Zwei `NDI Studio Monitor`e müssen mit Web Control auf Port `80` und `81` laufen. Sie sollten automatisch starten.
 
