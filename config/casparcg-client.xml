@@ -391,7 +391,7 @@
                 <type>MOVIE</type>
                 <devicename>CasparCG_Main</devicename>
                 <label>Video 01</label>
-                <name>TESTS/SYNC_TEST_25P</name>
+                <name>VIDEOS/COMINGHOMEUMBAUPART2(7MIN)</name>
                 <channel>18</channel>
                 <videolayer>10</videolayer>
                 <delay>0</delay>
@@ -443,7 +443,7 @@
                 <type>MOVIE</type>
                 <devicename>CasparCG_Main</devicename>
                 <label>Video 03</label>
-                <name>VIDEOS/AUSTRIAN AUDIO THE CC8 - DEMO</name>
+                <name>VIDEOS/2020-08-22_SCHLOSS-ALSBACH_GOTTESDIENST_HD</name>
                 <channel>18</channel>
                 <videolayer>10</videolayer>
                 <delay>0</delay>
