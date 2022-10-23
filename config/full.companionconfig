@@ -48538,7 +48538,18 @@
 			"9": [],
 			"10": [],
 			"11": [],
-			"12": [],
+			"12": [
+				{
+					"id": "ubg_qPYIJ",
+					"type": "bank_style",
+					"instance_id": "bitfocus-companion",
+					"options": {
+						"page": 99,
+						"bank": 22
+					},
+					"style": {}
+				}
+			],
 			"13": [],
 			"14": [],
 			"15": [],
