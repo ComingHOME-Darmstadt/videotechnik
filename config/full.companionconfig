@@ -2486,7 +2486,7 @@
 				"color": 16777215,
 				"bgcolor": 16737792,
 				"latch": false,
-				"relative_delay": false,
+				"relative_delay": true,
 				"show_topbar": "default"
 			},
 			"10": {
@@ -2498,7 +2498,7 @@
 				"color": 16777215,
 				"bgcolor": 0,
 				"latch": false,
-				"relative_delay": false,
+				"relative_delay": true,
 				"show_topbar": "default"
 			},
 			"11": {
@@ -2510,7 +2510,7 @@
 				"color": 16777215,
 				"bgcolor": "0",
 				"latch": false,
-				"relative_delay": false,
+				"relative_delay": true,
 				"show_topbar": "default"
 			},
 			"12": {
@@ -2522,7 +2522,7 @@
 				"color": 16777215,
 				"bgcolor": "0",
 				"latch": false,
-				"relative_delay": false,
+				"relative_delay": true,
 				"show_topbar": "default"
 			},
 			"13": {
@@ -2534,7 +2534,7 @@
 				"color": 16777215,
 				"bgcolor": "0",
 				"latch": false,
-				"relative_delay": false,
+				"relative_delay": true,
 				"show_topbar": "default"
 			},
 			"14": {
@@ -2546,7 +2546,7 @@
 				"color": 16777215,
 				"bgcolor": "0",
 				"latch": false,
-				"relative_delay": false,
+				"relative_delay": true,
 				"show_topbar": "default"
 			},
 			"15": {
@@ -2634,7 +2634,7 @@
 				"color": 16777215,
 				"bgcolor": 0,
 				"latch": false,
-				"relative_delay": false,
+				"relative_delay": true,
 				"show_topbar": "default"
 			},
 			"26": {
@@ -2646,7 +2646,7 @@
 				"color": 16777215,
 				"bgcolor": 16737792,
 				"latch": false,
-				"relative_delay": false,
+				"relative_delay": true,
 				"show_topbar": "default"
 			},
 			"27": {
@@ -2658,7 +2658,7 @@
 				"color": 16777215,
 				"bgcolor": "0",
 				"latch": false,
-				"relative_delay": false,
+				"relative_delay": true,
 				"show_topbar": "default"
 			},
 			"28": {
@@ -2670,7 +2670,7 @@
 				"color": 16777215,
 				"bgcolor": "0",
 				"latch": false,
-				"relative_delay": false,
+				"relative_delay": true,
 				"show_topbar": "default"
 			},
 			"29": {
@@ -2682,7 +2682,7 @@
 				"color": 16777215,
 				"bgcolor": "0",
 				"latch": false,
-				"relative_delay": false,
+				"relative_delay": true,
 				"show_topbar": "default"
 			},
 			"30": {
@@ -2694,7 +2694,7 @@
 				"color": 16777215,
 				"bgcolor": "0",
 				"latch": false,
-				"relative_delay": false,
+				"relative_delay": true,
 				"show_topbar": "default"
 			},
 			"31": {
@@ -11630,27 +11630,175 @@
 		},
 		"92": {
 			"1": {
-				"style": "pageup"
+				"style": "png",
+				"text": "send setKlein input1",
+				"size": "auto",
+				"alignment": "center:center",
+				"pngalignment": "center:center",
+				"color": 16777215,
+				"bgcolor": 0,
+				"latch": false,
+				"relative_delay": true,
+				"show_topbar": "default"
 			},
 			"2": {
-				"style": "pagenum"
+				"style": "png",
+				"text": "send setKlein input2",
+				"size": "auto",
+				"alignment": "center:center",
+				"pngalignment": "center:center",
+				"color": 16777215,
+				"bgcolor": 0,
+				"latch": false,
+				"relative_delay": true,
+				"show_topbar": "default"
 			},
 			"3": {
-				"style": "pagedown"
+				"style": "png",
+				"text": "send setKlein input3",
+				"size": "auto",
+				"alignment": "center:center",
+				"pngalignment": "center:center",
+				"color": 16777215,
+				"bgcolor": 0,
+				"latch": false,
+				"relative_delay": true,
+				"show_topbar": "default"
 			},
-			"4": {},
-			"5": {},
+			"4": {
+				"style": "png",
+				"text": "send setKlein input4",
+				"size": "auto",
+				"alignment": "center:center",
+				"pngalignment": "center:center",
+				"color": 16777215,
+				"bgcolor": 0,
+				"latch": false,
+				"relative_delay": true,
+				"show_topbar": "default"
+			},
+			"5": {
+				"style": "png",
+				"text": "send setKlein input5",
+				"size": "auto",
+				"alignment": "center:center",
+				"pngalignment": "center:center",
+				"color": 16777215,
+				"bgcolor": 0,
+				"latch": false,
+				"relative_delay": true,
+				"show_topbar": "default"
+			},
 			"6": {},
-			"7": {},
-			"8": {},
-			"9": {},
-			"10": {},
-			"11": {},
-			"12": {},
-			"13": {},
+			"7": {
+				"style": "png",
+				"text": "send setKlein inputAux",
+				"size": "auto",
+				"alignment": "center:center",
+				"pngalignment": "center:center",
+				"color": 16777215,
+				"bgcolor": 0,
+				"latch": false,
+				"relative_delay": true,
+				"show_topbar": "default"
+			},
+			"8": {
+				"style": "png",
+				"text": "send setKlein",
+				"size": "auto",
+				"alignment": "center:center",
+				"pngalignment": "center:center",
+				"color": 16777215,
+				"bgcolor": 0,
+				"latch": false,
+				"relative_delay": true,
+				"show_topbar": "default"
+			},
+			"9": {
+				"style": "png",
+				"text": "send setGross input1",
+				"size": "auto",
+				"alignment": "center:center",
+				"pngalignment": "center:center",
+				"color": 16777215,
+				"bgcolor": 0,
+				"latch": false,
+				"relative_delay": true,
+				"show_topbar": "default"
+			},
+			"10": {
+				"style": "png",
+				"text": "send setGross input2",
+				"size": "auto",
+				"alignment": "center:center",
+				"pngalignment": "center:center",
+				"color": 16777215,
+				"bgcolor": 0,
+				"latch": false,
+				"relative_delay": true,
+				"show_topbar": "default"
+			},
+			"11": {
+				"style": "png",
+				"text": "send setGross input3",
+				"size": "auto",
+				"alignment": "center:center",
+				"pngalignment": "center:center",
+				"color": 16777215,
+				"bgcolor": 0,
+				"latch": false,
+				"relative_delay": true,
+				"show_topbar": "default"
+			},
+			"12": {
+				"style": "png",
+				"text": "send setGross input4",
+				"size": "auto",
+				"alignment": "center:center",
+				"pngalignment": "center:center",
+				"color": 16777215,
+				"bgcolor": 0,
+				"latch": false,
+				"relative_delay": true,
+				"show_topbar": "default"
+			},
+			"13": {
+				"style": "png",
+				"text": "send setGross input5",
+				"size": "auto",
+				"alignment": "center:center",
+				"pngalignment": "center:center",
+				"color": 16777215,
+				"bgcolor": 0,
+				"latch": false,
+				"relative_delay": true,
+				"show_topbar": "default"
+			},
 			"14": {},
-			"15": {},
-			"16": {},
+			"15": {
+				"style": "png",
+				"text": "send setGross inputAux",
+				"size": "auto",
+				"alignment": "center:center",
+				"pngalignment": "center:center",
+				"color": 16777215,
+				"bgcolor": 0,
+				"latch": false,
+				"relative_delay": true,
+				"show_topbar": "default"
+			},
+			"16": {
+				"style": "png",
+				"text": "send setGross",
+				"size": "auto",
+				"alignment": "center:center",
+				"pngalignment": "center:center",
+				"color": 16777215,
+				"bgcolor": 0,
+				"latch": false,
+				"relative_delay": true,
+				"show_topbar": "default"
+			},
 			"17": {
 				"style": "png",
 				"text": "send setPreview input1",
@@ -11821,7 +11969,7 @@
 			},
 			"31": {
 				"style": "png",
-				"text": "send setProgram input1Aux",
+				"text": "send setProgram inputAux",
 				"size": "auto",
 				"alignment": "center:center",
 				"pngalignment": "center:center",
@@ -11833,7 +11981,7 @@
 			},
 			"32": {
 				"style": "png",
-				"text": "send setPreview",
+				"text": "send setProgram",
 				"size": "auto",
 				"alignment": "center:center",
 				"pngalignment": "center:center",
@@ -21722,6 +21870,28 @@
 						"cmd": "PLAY 16-12 route://11"
 					},
 					"delay": 0
+				},
+				{
+					"id": "ItfpiIenh",
+					"label": "bitfocus-companion:custom_variable_set_value",
+					"instance": "bitfocus-companion",
+					"action": "custom_variable_set_value",
+					"options": {
+						"name": "pipSmall",
+						"value": "input1"
+					},
+					"delay": 0
+				},
+				{
+					"id": "IKpEgN85h",
+					"label": "bitfocus-companion:button_pressrelease",
+					"instance": "bitfocus-companion",
+					"action": "button_pressrelease",
+					"options": {
+						"page": 92,
+						"bank": 8
+					},
+					"delay": 0
 				}
 			],
 			"10": [
@@ -21816,6 +21986,28 @@
 					"action": "COMMAND",
 					"options": {
 						"cmd": "PLAY 16-12 route://12"
+					},
+					"delay": 0
+				},
+				{
+					"id": "tl3tAlZfV",
+					"label": "bitfocus-companion:custom_variable_set_value",
+					"instance": "bitfocus-companion",
+					"action": "custom_variable_set_value",
+					"options": {
+						"name": "pipSmall",
+						"value": "input2"
+					},
+					"delay": 0
+				},
+				{
+					"id": "FNb4KvyUh",
+					"label": "bitfocus-companion:button_pressrelease",
+					"instance": "bitfocus-companion",
+					"action": "button_pressrelease",
+					"options": {
+						"page": 92,
+						"bank": 8
 					},
 					"delay": 0
 				}
@@ -21914,6 +22106,28 @@
 						"cmd": "PLAY 16-12 route://13"
 					},
 					"delay": 0
+				},
+				{
+					"id": "S8rC51SPp",
+					"label": "bitfocus-companion:custom_variable_set_value",
+					"instance": "bitfocus-companion",
+					"action": "custom_variable_set_value",
+					"options": {
+						"name": "pipSmall",
+						"value": "input3"
+					},
+					"delay": 0
+				},
+				{
+					"id": "9UjMsPEkM",
+					"label": "bitfocus-companion:button_pressrelease",
+					"instance": "bitfocus-companion",
+					"action": "button_pressrelease",
+					"options": {
+						"page": 92,
+						"bank": 8
+					},
+					"delay": 0
 				}
 			],
 			"12": [
@@ -22008,6 +22222,28 @@
 					"action": "COMMAND",
 					"options": {
 						"cmd": "PLAY 16-12 route://14"
+					},
+					"delay": 0
+				},
+				{
+					"id": "TSHIy723X",
+					"label": "bitfocus-companion:custom_variable_set_value",
+					"instance": "bitfocus-companion",
+					"action": "custom_variable_set_value",
+					"options": {
+						"name": "pipSmall",
+						"value": "input4"
+					},
+					"delay": 0
+				},
+				{
+					"id": "q_Nbd-WJZ",
+					"label": "bitfocus-companion:button_pressrelease",
+					"instance": "bitfocus-companion",
+					"action": "button_pressrelease",
+					"options": {
+						"page": 92,
+						"bank": 8
 					},
 					"delay": 0
 				}
@@ -22106,6 +22342,28 @@
 						"cmd": "PLAY 16-12 route://15"
 					},
 					"delay": 0
+				},
+				{
+					"id": "pjDr6U4bC",
+					"label": "bitfocus-companion:custom_variable_set_value",
+					"instance": "bitfocus-companion",
+					"action": "custom_variable_set_value",
+					"options": {
+						"name": "pipSmall",
+						"value": "input5"
+					},
+					"delay": 0
+				},
+				{
+					"id": "BnmERwKhJ",
+					"label": "bitfocus-companion:button_pressrelease",
+					"instance": "bitfocus-companion",
+					"action": "button_pressrelease",
+					"options": {
+						"page": 92,
+						"bank": 8
+					},
+					"delay": 0
 				}
 			],
 			"14": [
@@ -22188,6 +22446,28 @@
 					"action": "COMMAND",
 					"options": {
 						"cmd": "PLAY 16-12 route://17"
+					},
+					"delay": 0
+				},
+				{
+					"id": "qWfnc0tVW",
+					"label": "bitfocus-companion:custom_variable_set_value",
+					"instance": "bitfocus-companion",
+					"action": "custom_variable_set_value",
+					"options": {
+						"name": "pipSmall",
+						"value": "inputAux"
+					},
+					"delay": 0
+				},
+				{
+					"id": "AK28w-Pyn",
+					"label": "bitfocus-companion:button_pressrelease",
+					"instance": "bitfocus-companion",
+					"action": "button_pressrelease",
+					"options": {
+						"page": 92,
+						"bank": 8
 					},
 					"delay": 0
 				}
@@ -22676,6 +22956,28 @@
 						"cmd": "PLAY 16-11 route://11"
 					},
 					"delay": 0
+				},
+				{
+					"id": "4y9Oq765N",
+					"label": "bitfocus-companion:custom_variable_set_value",
+					"instance": "bitfocus-companion",
+					"action": "custom_variable_set_value",
+					"options": {
+						"name": "pipLarge",
+						"value": "input1"
+					},
+					"delay": 0
+				},
+				{
+					"id": "HSCxBKZ8A",
+					"label": "bitfocus-companion:button_pressrelease",
+					"instance": "bitfocus-companion",
+					"action": "button_pressrelease",
+					"options": {
+						"page": 92,
+						"bank": 16
+					},
+					"delay": 0
 				}
 			],
 			"26": [
@@ -22770,6 +23072,28 @@
 					"action": "COMMAND",
 					"options": {
 						"cmd": "PLAY 16-11 route://12"
+					},
+					"delay": 0
+				},
+				{
+					"id": "Pv035fmd7",
+					"label": "bitfocus-companion:custom_variable_set_value",
+					"instance": "bitfocus-companion",
+					"action": "custom_variable_set_value",
+					"options": {
+						"name": "pipLarge",
+						"value": "input2"
+					},
+					"delay": 0
+				},
+				{
+					"id": "IdTwz0J2e",
+					"label": "bitfocus-companion:button_pressrelease",
+					"instance": "bitfocus-companion",
+					"action": "button_pressrelease",
+					"options": {
+						"page": 92,
+						"bank": 16
 					},
 					"delay": 0
 				}
@@ -22868,6 +23192,28 @@
 						"cmd": "PLAY 16-11 route://13"
 					},
 					"delay": 0
+				},
+				{
+					"id": "ydznxkPDk",
+					"label": "bitfocus-companion:custom_variable_set_value",
+					"instance": "bitfocus-companion",
+					"action": "custom_variable_set_value",
+					"options": {
+						"name": "pipLarge",
+						"value": "input3"
+					},
+					"delay": 0
+				},
+				{
+					"id": "RxMOxefze",
+					"label": "bitfocus-companion:button_pressrelease",
+					"instance": "bitfocus-companion",
+					"action": "button_pressrelease",
+					"options": {
+						"page": 92,
+						"bank": 16
+					},
+					"delay": 0
 				}
 			],
 			"28": [
@@ -22962,6 +23308,28 @@
 					"action": "COMMAND",
 					"options": {
 						"cmd": "PLAY 16-11 route://14"
+					},
+					"delay": 0
+				},
+				{
+					"id": "tD_3rUGn9",
+					"label": "bitfocus-companion:custom_variable_set_value",
+					"instance": "bitfocus-companion",
+					"action": "custom_variable_set_value",
+					"options": {
+						"name": "pipLarge",
+						"value": "input4"
+					},
+					"delay": 0
+				},
+				{
+					"id": "evtnuLv34",
+					"label": "bitfocus-companion:button_pressrelease",
+					"instance": "bitfocus-companion",
+					"action": "button_pressrelease",
+					"options": {
+						"page": 92,
+						"bank": 16
 					},
 					"delay": 0
 				}
@@ -23060,6 +23428,28 @@
 						"cmd": "PLAY 16-11 route://15"
 					},
 					"delay": 0
+				},
+				{
+					"id": "fw_0mWt45",
+					"label": "bitfocus-companion:custom_variable_set_value",
+					"instance": "bitfocus-companion",
+					"action": "custom_variable_set_value",
+					"options": {
+						"name": "pipLarge",
+						"value": "input5"
+					},
+					"delay": 0
+				},
+				{
+					"id": "5deTxTdSI",
+					"label": "bitfocus-companion:button_pressrelease",
+					"instance": "bitfocus-companion",
+					"action": "button_pressrelease",
+					"options": {
+						"page": 92,
+						"bank": 16
+					},
+					"delay": 0
 				}
 			],
 			"30": [
@@ -23142,6 +23532,28 @@
 					"action": "COMMAND",
 					"options": {
 						"cmd": "PLAY 16-11 route://17"
+					},
+					"delay": 0
+				},
+				{
+					"id": "nO0ueDY7B",
+					"label": "bitfocus-companion:custom_variable_set_value",
+					"instance": "bitfocus-companion",
+					"action": "custom_variable_set_value",
+					"options": {
+						"name": "pipLarge",
+						"value": "inputAux"
+					},
+					"delay": 0
+				},
+				{
+					"id": "KKmfdT_s0",
+					"label": "bitfocus-companion:button_pressrelease",
+					"instance": "bitfocus-companion",
+					"action": "button_pressrelease",
+					"options": {
+						"page": 92,
+						"bank": 16
 					},
 					"delay": 0
 				}
@@ -32564,22 +32976,324 @@
 			"32": []
 		},
 		"92": {
-			"1": [],
-			"2": [],
-			"3": [],
-			"4": [],
-			"5": [],
+			"1": [
+				{
+					"id": "2e1_mqhQq",
+					"label": "udTEF512G:COMMAND",
+					"instance": "udTEF512G",
+					"action": "COMMAND",
+					"options": {
+						"cmd": "cg 3-99 invoke 0 \"setPipSmall('input1')\""
+					},
+					"delay": 0
+				}
+			],
+			"2": [
+				{
+					"id": "HlJmSTZYJ",
+					"label": "udTEF512G:COMMAND",
+					"instance": "udTEF512G",
+					"action": "COMMAND",
+					"options": {
+						"cmd": "cg 3-99 invoke 0 \"setPipSmall('input2')\""
+					},
+					"delay": 0
+				}
+			],
+			"3": [
+				{
+					"id": "matQbB91J",
+					"label": "udTEF512G:COMMAND",
+					"instance": "udTEF512G",
+					"action": "COMMAND",
+					"options": {
+						"cmd": "cg 3-99 invoke 0 \"setPipSmall('input3')\""
+					},
+					"delay": 0
+				}
+			],
+			"4": [
+				{
+					"id": "7lcasr9t7",
+					"label": "udTEF512G:COMMAND",
+					"instance": "udTEF512G",
+					"action": "COMMAND",
+					"options": {
+						"cmd": "cg 3-99 invoke 0 \"setPipSmall('input4')\""
+					},
+					"delay": 0
+				}
+			],
+			"5": [
+				{
+					"id": "GTSOaWtNp",
+					"label": "udTEF512G:COMMAND",
+					"instance": "udTEF512G",
+					"action": "COMMAND",
+					"options": {
+						"cmd": "cg 3-99 invoke 0 \"setPipSmall('input5')\""
+					},
+					"delay": 0
+				}
+			],
 			"6": [],
-			"7": [],
-			"8": [],
-			"9": [],
-			"10": [],
-			"11": [],
-			"12": [],
-			"13": [],
+			"7": [
+				{
+					"id": "UK74cFYcS",
+					"label": "udTEF512G:COMMAND",
+					"instance": "udTEF512G",
+					"action": "COMMAND",
+					"options": {
+						"cmd": "cg 3-99 invoke 0 \"setPipSmall('inputAux')\""
+					},
+					"delay": 0
+				}
+			],
+			"8": [
+				{
+					"id": "VPbtlfY97",
+					"label": "bitfocus-companion:button_pressrelease_condition",
+					"instance": "bitfocus-companion",
+					"action": "button_pressrelease_condition",
+					"options": {
+						"variable": "internal:custom_pipSmall",
+						"op": "eq",
+						"value": "input1",
+						"page": 92,
+						"bank": 1
+					},
+					"delay": 0
+				},
+				{
+					"id": "MUCsXiqJ71",
+					"label": "bitfocus-companion:button_pressrelease_condition",
+					"instance": "bitfocus-companion",
+					"action": "button_pressrelease_condition",
+					"options": {
+						"variable": "internal:custom_pipSmall",
+						"op": "eq",
+						"value": "input2",
+						"page": 92,
+						"bank": 2
+					},
+					"delay": 0
+				},
+				{
+					"id": "MYZg1w9W6q",
+					"label": "bitfocus-companion:button_pressrelease_condition",
+					"instance": "bitfocus-companion",
+					"action": "button_pressrelease_condition",
+					"options": {
+						"variable": "internal:custom_pipSmall",
+						"op": "eq",
+						"value": "input3",
+						"page": 92,
+						"bank": 3
+					},
+					"delay": 0
+				},
+				{
+					"id": "PEUrzT4u4v",
+					"label": "bitfocus-companion:button_pressrelease_condition",
+					"instance": "bitfocus-companion",
+					"action": "button_pressrelease_condition",
+					"options": {
+						"variable": "internal:custom_pipSmall",
+						"op": "eq",
+						"value": "input4",
+						"page": 92,
+						"bank": 4
+					},
+					"delay": 0
+				},
+				{
+					"id": "KoaCi6LnOg",
+					"label": "bitfocus-companion:button_pressrelease_condition",
+					"instance": "bitfocus-companion",
+					"action": "button_pressrelease_condition",
+					"options": {
+						"variable": "internal:custom_pipSmall",
+						"op": "eq",
+						"value": "input5",
+						"page": 92,
+						"bank": 5
+					},
+					"delay": 0
+				},
+				{
+					"id": "7mdgVfPBAl",
+					"label": "bitfocus-companion:button_pressrelease_condition",
+					"instance": "bitfocus-companion",
+					"action": "button_pressrelease_condition",
+					"options": {
+						"variable": "internal:custom_pipSmall",
+						"op": "eq",
+						"value": "inputAux",
+						"page": 92,
+						"bank": 7
+					},
+					"delay": 0
+				}
+			],
+			"9": [
+				{
+					"id": "tw7ZTIVxz",
+					"label": "udTEF512G:COMMAND",
+					"instance": "udTEF512G",
+					"action": "COMMAND",
+					"options": {
+						"cmd": "cg 3-99 invoke 0 \"setPipLarge('input1')\""
+					},
+					"delay": 0
+				}
+			],
+			"10": [
+				{
+					"id": "fmSVzVhe9",
+					"label": "udTEF512G:COMMAND",
+					"instance": "udTEF512G",
+					"action": "COMMAND",
+					"options": {
+						"cmd": "cg 3-99 invoke 0 \"setPipLarge('input2')\""
+					},
+					"delay": 0
+				}
+			],
+			"11": [
+				{
+					"id": "xWTGgfeFr",
+					"label": "udTEF512G:COMMAND",
+					"instance": "udTEF512G",
+					"action": "COMMAND",
+					"options": {
+						"cmd": "cg 3-99 invoke 0 \"setPipLarge('input3')\""
+					},
+					"delay": 0
+				}
+			],
+			"12": [
+				{
+					"id": "q9X-1eGIA",
+					"label": "udTEF512G:COMMAND",
+					"instance": "udTEF512G",
+					"action": "COMMAND",
+					"options": {
+						"cmd": "cg 3-99 invoke 0 \"setPipLarge('input4')\""
+					},
+					"delay": 0
+				}
+			],
+			"13": [
+				{
+					"id": "jtOr98Obz",
+					"label": "udTEF512G:COMMAND",
+					"instance": "udTEF512G",
+					"action": "COMMAND",
+					"options": {
+						"cmd": "cg 3-99 invoke 0 \"setPipLarge('input5')\""
+					},
+					"delay": 0
+				}
+			],
 			"14": [],
-			"15": [],
-			"16": [],
+			"15": [
+				{
+					"id": "KaBihIMit",
+					"label": "udTEF512G:COMMAND",
+					"instance": "udTEF512G",
+					"action": "COMMAND",
+					"options": {
+						"cmd": "cg 3-99 invoke 0 \"setPipLarge('inputAux')\""
+					},
+					"delay": 0
+				}
+			],
+			"16": [
+				{
+					"id": "0FvV38RpY",
+					"label": "bitfocus-companion:button_pressrelease_condition",
+					"instance": "bitfocus-companion",
+					"action": "button_pressrelease_condition",
+					"options": {
+						"variable": "internal:custom_pipLarge",
+						"op": "eq",
+						"value": "input1",
+						"page": 92,
+						"bank": 9
+					},
+					"delay": 0
+				},
+				{
+					"id": "GT_bt6BLg6",
+					"label": "bitfocus-companion:button_pressrelease_condition",
+					"instance": "bitfocus-companion",
+					"action": "button_pressrelease_condition",
+					"options": {
+						"variable": "internal:custom_pipLarge",
+						"op": "eq",
+						"value": "input2",
+						"page": 92,
+						"bank": 10
+					},
+					"delay": 0
+				},
+				{
+					"id": "x3Y1koP9N2",
+					"label": "bitfocus-companion:button_pressrelease_condition",
+					"instance": "bitfocus-companion",
+					"action": "button_pressrelease_condition",
+					"options": {
+						"variable": "internal:custom_pipLarge",
+						"op": "eq",
+						"value": "input3",
+						"page": 92,
+						"bank": 11
+					},
+					"delay": 0
+				},
+				{
+					"id": "zNTYLbO1cc",
+					"label": "bitfocus-companion:button_pressrelease_condition",
+					"instance": "bitfocus-companion",
+					"action": "button_pressrelease_condition",
+					"options": {
+						"variable": "internal:custom_pipLarge",
+						"op": "eq",
+						"value": "input4",
+						"page": 92,
+						"bank": 12
+					},
+					"delay": 0
+				},
+				{
+					"id": "NikGANOtM9",
+					"label": "bitfocus-companion:button_pressrelease_condition",
+					"instance": "bitfocus-companion",
+					"action": "button_pressrelease_condition",
+					"options": {
+						"variable": "internal:custom_pipLarge",
+						"op": "eq",
+						"value": "input5",
+						"page": 92,
+						"bank": 13
+					},
+					"delay": 0
+				},
+				{
+					"id": "PmLtRHs1SN",
+					"label": "bitfocus-companion:button_pressrelease_condition",
+					"instance": "bitfocus-companion",
+					"action": "button_pressrelease_condition",
+					"options": {
+						"variable": "internal:custom_pipLarge",
+						"op": "eq",
+						"value": "inputAux",
+						"page": 92,
+						"bank": 15
+					},
+					"delay": 0
+				}
+			],
 			"17": [
 				{
 					"id": "-nXa8mzc4DI",
@@ -41813,6 +42527,14 @@
 			"defaultValue": ""
 		},
 		"videoCurrent": {
+			"description": "A custom variable",
+			"defaultValue": ""
+		},
+		"pipSmall": {
+			"description": "A custom variable",
+			"defaultValue": ""
+		},
+		"pipLarge": {
 			"description": "A custom variable",
 			"defaultValue": ""
 		}
