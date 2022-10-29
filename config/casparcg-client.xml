@@ -139,7 +139,7 @@
                 <remotetriggerid></remotetriggerid>
                 <storyid></storyid>
                 <stopCommand>STOP 13-10</stopCommand>
-                <playCommand>PLAY 13-10 &quot;ndi://RASPBERRYPI/ndi&quot;</playCommand>
+                <playCommand>PLAY 13-10 &quot;ndi://CHPRESENTATION/Intel Iris Xe Graphics 2&quot;</playCommand>
                 <loadCommand></loadCommand>
                 <pauseCommand></pauseCommand>
                 <nextCommand></nextCommand>
