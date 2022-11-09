@@ -32,7 +32,7 @@ start /min %mePath%casparcg_auto_restart.bat
 
 timeout /t 1
 
-start /min %mePath%casparcg-bitc-0.3.0.buddy1.exe --source.channel 18 --source.layer 10 --output.channel 19
+start /min "videoMonitor" "%ProgramFiles%\nodejs\node.exe" "%mePath%videoMonitor\index.js"
 
 timeout /t 1
 

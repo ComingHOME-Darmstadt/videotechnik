@@ -1,0 +1,15 @@
+{
+  "name": "casparcg-videomonitor",
+  "version": "0.1.0",
+  "description": "Gibt Zeitinformationen zu einem geladenen oder laufenden Video in einem CasparCG-Kanal aus.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michael Budnick",
+  "license": "MIT",
+  "dependencies": {
+    "casparcg-connection": "^5.1.0",
+    "tslib": "^2.4.1"
+  }
+}

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>videoMonitor</title>
+	<style type="text/css">
+		@font-face {
+			font-family: "CodeNewRoman";
+			src: url("CodeNewRoman-Bold.otf");
+		}
+
+		html {
+			/* Explicitly set background color */
+			background-color: transparent;
+
+			/* Disable scrollbars by clipping page overflow */
+			overflow: hidden;
+
+			/* Set default box-sizing to border-box for easier sizing of elements */
+			box-sizing: border-box;
+
+			/* Set default font family */
+			font-family: Arial, Helvetica, sans-serif;
+
+			/* Set responsive root font size to 43.2px at 1080p */
+			font-size: 3vh;
+		}
+
+		*, *:before, *:after {
+			/* Make box-sizing property easy to change by components if required */
+			box-sizing: inherit;
+		}
+
+		body {
+			margin: 0;
+			padding: 0;
+		}
+
+		.data {
+			font-size: 8vmin;
+			color: white;
+			font-weight: bold;
+			overflow: hidden;
+			text-shadow: 0 0 20px black;
+			-webkit-text-stroke: 2px black;
+		}
+
+		#topTextTime {
+			padding-top: 3vmin;
+			padding-left: 3vmin;
+		}
+		#topTextName {
+			padding-top: 1vmin;
+			padding-left: 3vmin;
+		}
+	</style>
+</head>
+<body>
+	<div id="topTextTime" class="data"></div>
+	<div id="topTextName" class="data">kein Video geladen</div>
+	<div class="testing">
+		<script>
+			function testSetTopTextTime() {
+				const topTextTime = document.getElementById('setTopTextTime').value
+				setTopTextTime(topTextTime)
+			}
+			function testSetTopTextName() {
+				const topTextName = document.getElementById('setTopTextName').value
+				setTopTextName(topTextName)
+			}
+		</script>
+		<label for="setTopTextTime" style="font-size:0.5rem;">Zeit</label>
+		<input id="setTopTextTime" type="text"/>
+		<input type="button" onclick="testSetTopTextTime()" value="set"/>
+		<br />
+		<label for="setTopTextName" style="font-size:0.5rem;">Dateiname</label>
+		<input id="setTopTextName" type="text"/>
+		<input type="button" onclick="testSetTopTextName()" value="set"/>
+	</div>
+	<div class="testing">
+		<input type="button" onclick="play()" value="play()"/>
+	</div>
+
+	<script>
+		function play() {
+			log('play() called')
+			const list = document.getElementsByClassName('testing')
+			while (list.length > 0) {
+				list[0].parentNode.removeChild(list[0])
+			}
+			log('play() finished')
+		}
+
+		function stop() {
+			log('stop() called, nothing to do')
+		}
+
+		function next() {
+			log('next() called, nothin to do')
+		}
+
+		function update(data) {
+			log('update() called, nothing to do, data: ' + typeof data + "  " + data)
+		}
+
+		function setTopTextTime(text) {
+			document.getElementById('topTextTime').textContent = text
+		}
+
+		function setTopTextName(text) {
+			document.getElementById('topTextName').textContent = text
+		}
+
+		window.onerror = function(msg) {
+			log('error ' + msg)
+		}
+
+		function log(s) {
+			console.log(s)
+		}
+
+		log(window.location.href)
+		log('Chrome: ' + window.navigator.userAgent.match(/Chrome\/([^ ]+)/)[1])
+		log('window.caspar: ' + !!window.caspar)
+		log('html.backgroundColor: ' + window.getComputedStyle(document.getElementsByTagName('html')[0]).backgroundColor)
+		log('body.backgroundColor: ' + window.getComputedStyle(document.getElementsByTagName('body')[0]).backgroundColor)
+	</script>
+</body>
+</html>
