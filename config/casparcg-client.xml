@@ -1007,7 +1007,7 @@
                 <remotetriggerid></remotetriggerid>
                 <storyid></storyid>
                 <stopCommand></stopCommand>
-                <playCommand>PLAY 10-10 &quot;ndi://COMINGHOME-VIDEO/ComingHome_OBS&quot;</playCommand>
+                <playCommand>PLAY 10-10 &quot;ndi://CHAUDIO/OBS&quot;</playCommand>
                 <loadCommand></loadCommand>
                 <pauseCommand></pauseCommand>
                 <nextCommand></nextCommand>
