@@ -1290,7 +1290,8 @@
 				"color": 16777215,
 				"bgcolor": 17664,
 				"latch": true,
-				"relative_delay": false
+				"relative_delay": false,
+				"show_topbar": "default"
 			},
 			"28": {
 				"style": "png",
@@ -1820,7 +1821,8 @@
 				"color": 16777215,
 				"bgcolor": 13056,
 				"latch": true,
-				"relative_delay": false
+				"relative_delay": false,
+				"show_topbar": "default"
 			},
 			"19": {},
 			"20": {},
@@ -7424,7 +7426,8 @@
 				"color": 16777215,
 				"bgcolor": 13056,
 				"latch": false,
-				"relative_delay": false
+				"relative_delay": false,
+				"show_topbar": "default"
 			},
 			"32": {}
 		},
@@ -9636,7 +9639,8 @@
 				"alignment": "center:center",
 				"pngalignment": "center:center",
 				"latch": false,
-				"relative_delay": false
+				"relative_delay": false,
+				"show_topbar": "default"
 			},
 			"18": {
 				"style": "png",
@@ -11687,7 +11691,8 @@
 				"color": 16777215,
 				"bgcolor": 13369548,
 				"latch": true,
-				"relative_delay": false
+				"relative_delay": false,
+				"show_topbar": "default"
 			},
 			"23": {},
 			"24": {},
@@ -11705,7 +11710,8 @@
 				"color": 16777215,
 				"bgcolor": 13369548,
 				"latch": true,
-				"relative_delay": false
+				"relative_delay": false,
+				"show_topbar": "default"
 			},
 			"31": {},
 			"32": {}
@@ -12253,7 +12259,8 @@
 				"color": 16777215,
 				"bgcolor": "0",
 				"latch": false,
-				"relative_delay": false
+				"relative_delay": false,
+				"show_topbar": "default"
 			},
 			"10": {
 				"style": "png",
@@ -12474,7 +12481,8 @@
 				"color": 0,
 				"bgcolor": 13395200,
 				"latch": false,
-				"relative_delay": false
+				"relative_delay": false,
+				"show_topbar": "default"
 			},
 			"14": {
 				"style": "png",
@@ -12563,7 +12571,8 @@
 				"color": 0,
 				"bgcolor": 52224,
 				"latch": false,
-				"relative_delay": false
+				"relative_delay": false,
+				"show_topbar": "default"
 			},
 			"22": {
 				"style": "png",
@@ -12652,7 +12661,8 @@
 				"color": 0,
 				"bgcolor": 13421568,
 				"latch": false,
-				"relative_delay": false
+				"relative_delay": false,
+				"show_topbar": "default"
 			},
 			"30": {
 				"style": "png",
@@ -26751,7 +26761,7 @@
 					"action": "button_press",
 					"options": {
 						"page": "1",
-						"bank": 15
+						"bank": 14
 					},
 					"delay": 0
 				}
@@ -38177,7 +38187,7 @@
 					"action": "button_release",
 					"options": {
 						"page": "1",
-						"bank": 15
+						"bank": 14
 					},
 					"delay": 0
 				}
@@ -45731,7 +45741,7 @@
 					"instance_id": "bitfocus-companion",
 					"options": {
 						"page": "1",
-						"bank": 15
+						"bank": 14
 					},
 					"style": {}
 				}
