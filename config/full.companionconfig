@@ -1862,29 +1862,8 @@
 				"latch": false,
 				"relative_delay": false
 			},
-			"26": {
-				"style": "png",
-				"text": "Audio Inputs",
-				"size": "18",
-				"alignment": "center:center",
-				"pngalignment": "center:center",
-				"color": 16777215,
-				"bgcolor": 102,
-				"latch": false,
-				"relative_delay": false
-			},
-			"27": {
-				"style": "png",
-				"text": "N-1 Config",
-				"size": "18",
-				"alignment": "center:center",
-				"pngalignment": "center:center",
-				"color": 16777215,
-				"bgcolor": 102,
-				"latch": false,
-				"relative_delay": false,
-				"show_topbar": "default"
-			},
+			"26": {},
+			"27": {},
 			"28": {},
 			"29": {},
 			"30": {},
@@ -2779,7 +2758,8 @@
 				"color": 16777215,
 				"bgcolor": 102,
 				"latch": false,
-				"relative_delay": false
+				"relative_delay": false,
+				"show_topbar": "default"
 			},
 			"3": {
 				"style": "png",
@@ -2973,7 +2953,7 @@
 			},
 			"19": {
 				"style": "png",
-				"text": "HOME",
+				"text": "HOME\\nCam 1",
 				"size": "18",
 				"color": "16777215",
 				"bgcolor": 0,
@@ -3046,7 +3026,7 @@
 			},
 			"25": {
 				"style": "png",
-				"text": "Recall",
+				"text": "Recall\\nCam 1",
 				"size": "18",
 				"alignment": "center:center",
 				"pngalignment": "center:center",
@@ -3097,7 +3077,7 @@
 			},
 			"29": {
 				"style": "png",
-				"text": "Store",
+				"text": "Store\\nCam1",
 				"size": "18",
 				"alignment": "center:center",
 				"pngalignment": "center:center",
@@ -4169,7 +4149,8 @@
 				"color": 16777215,
 				"bgcolor": 102,
 				"latch": false,
-				"relative_delay": false
+				"relative_delay": false,
+				"show_topbar": "default"
 			},
 			"3": {
 				"style": "png",
@@ -4180,7 +4161,8 @@
 				"color": 16777215,
 				"bgcolor": 102,
 				"latch": false,
-				"relative_delay": false
+				"relative_delay": false,
+				"show_topbar": "default"
 			},
 			"4": {
 				"style": "png",
@@ -4364,7 +4346,7 @@
 			},
 			"19": {
 				"style": "png",
-				"text": "HOME",
+				"text": "HOME\\nCam 2",
 				"size": "18",
 				"color": "16777215",
 				"bgcolor": 0,
@@ -4437,7 +4419,7 @@
 			},
 			"25": {
 				"style": "png",
-				"text": "Recall",
+				"text": "Recall\\nCam 2",
 				"size": "18",
 				"alignment": "center:center",
 				"pngalignment": "center:center",
@@ -4488,7 +4470,7 @@
 			},
 			"29": {
 				"style": "png",
-				"text": "Store",
+				"text": "Store\\nCam 2",
 				"size": "18",
 				"alignment": "center:center",
 				"pngalignment": "center:center",
@@ -7290,7 +7272,8 @@
 				"color": 16777215,
 				"bgcolor": 102,
 				"latch": false,
-				"relative_delay": false
+				"relative_delay": false,
+				"show_topbar": "default"
 			},
 			"4": {
 				"style": "png",
@@ -7347,94 +7330,14 @@
 				"latch": false,
 				"relative_delay": false
 			},
-			"9": {
-				"style": "png",
-				"text": "A",
-				"size": "auto",
-				"alignment": "center:center",
-				"pngalignment": "center:center",
-				"color": 16777215,
-				"bgcolor": 0,
-				"latch": false,
-				"relative_delay": false
-			},
-			"10": {
-				"style": "png",
-				"text": "U",
-				"size": "auto",
-				"alignment": "center:center",
-				"pngalignment": "center:center",
-				"color": 16777215,
-				"bgcolor": 0,
-				"latch": false,
-				"relative_delay": false
-			},
-			"11": {
-				"style": "png",
-				"text": "D",
-				"size": "auto",
-				"alignment": "center:center",
-				"pngalignment": "center:center",
-				"color": 16777215,
-				"bgcolor": 0,
-				"latch": false,
-				"relative_delay": false
-			},
-			"12": {
-				"style": "png",
-				"text": "I",
-				"size": "auto",
-				"alignment": "center:center",
-				"pngalignment": "center:center",
-				"color": 16777215,
-				"bgcolor": 0,
-				"latch": false,
-				"relative_delay": false
-			},
-			"13": {
-				"style": "png",
-				"text": "O",
-				"size": "auto",
-				"alignment": "center:center",
-				"pngalignment": "center:center",
-				"color": 16777215,
-				"bgcolor": 0,
-				"latch": false,
-				"relative_delay": false
-			},
-			"14": {
-				"style": "png",
-				"text": "",
-				"size": "auto",
-				"alignment": "center:center",
-				"pngalignment": "center:center",
-				"color": 16777215,
-				"bgcolor": 0,
-				"latch": false,
-				"relative_delay": false
-			},
-			"15": {
-				"style": "png",
-				"text": "N",
-				"size": "auto",
-				"alignment": "center:center",
-				"pngalignment": "center:center",
-				"color": 16777215,
-				"bgcolor": 0,
-				"latch": false,
-				"relative_delay": false
-			},
-			"16": {
-				"style": "png",
-				"text": "-1",
-				"size": "auto",
-				"alignment": "center:center",
-				"pngalignment": "center:center",
-				"color": 16777215,
-				"bgcolor": 0,
-				"latch": false,
-				"relative_delay": false
-			},
+			"9": {},
+			"10": {},
+			"11": {},
+			"12": {},
+			"13": {},
+			"14": {},
+			"15": {},
+			"16": {},
 			"17": {},
 			"18": {},
 			"19": {},
@@ -7450,7 +7353,7 @@
 				"alignment": "center:center",
 				"pngalignment": "center:center",
 				"color": 16777215,
-				"bgcolor": 13056,
+				"bgcolor": 10040115,
 				"latch": true,
 				"relative_delay": false,
 				"show_topbar": "default"
@@ -7510,7 +7413,8 @@
 				"color": 16777215,
 				"bgcolor": 10040115,
 				"latch": true,
-				"relative_delay": false
+				"relative_delay": false,
+				"show_topbar": "default"
 			},
 			"31": {
 				"style": "png",
@@ -7547,7 +7451,8 @@
 				"color": 16777215,
 				"bgcolor": 102,
 				"latch": false,
-				"relative_delay": false
+				"relative_delay": false,
+				"show_topbar": "default"
 			},
 			"3": {
 				"style": "png",
@@ -7558,7 +7463,8 @@
 				"color": 16777215,
 				"bgcolor": 102,
 				"latch": false,
-				"relative_delay": false
+				"relative_delay": false,
+				"show_topbar": "default"
 			},
 			"4": {
 				"style": "png",
@@ -8334,8 +8240,30 @@
 				"relative_delay": false,
 				"show_topbar": "default"
 			},
-			"12": {},
-			"13": {},
+			"12": {
+				"style": "png",
+				"text": "CAM 01",
+				"size": "18",
+				"alignment": "center:center",
+				"pngalignment": "center:center",
+				"color": 16777215,
+				"bgcolor": 102,
+				"latch": false,
+				"relative_delay": false,
+				"show_topbar": "default"
+			},
+			"13": {
+				"style": "png",
+				"text": "CAM 02",
+				"size": "18",
+				"alignment": "center:center",
+				"pngalignment": "center:center",
+				"color": 16777215,
+				"bgcolor": 102,
+				"latch": false,
+				"relative_delay": false,
+				"show_topbar": "default"
+			},
 			"14": {
 				"style": "png",
 				"text": "",
@@ -11600,7 +11528,7 @@
 			},
 			"2": {
 				"style": "png",
-				"text": "CAM 01",
+				"text": "Audio\\nPRG",
 				"size": "18",
 				"alignment": "center:center",
 				"pngalignment": "center:center",
@@ -11612,7 +11540,7 @@
 			},
 			"3": {
 				"style": "png",
-				"text": "CAM 02",
+				"text": "Audio\\nN-1",
 				"size": "18",
 				"alignment": "center:center",
 				"pngalignment": "center:center",
@@ -11694,7 +11622,7 @@
 			},
 			"10": {
 				"style": "png",
-				"text": "CAM 01",
+				"text": "Audio\\nPRG",
 				"size": "18",
 				"alignment": "center:center",
 				"pngalignment": "center:center",
@@ -11706,14 +11634,15 @@
 			},
 			"11": {
 				"style": "png",
-				"text": "CAM 02",
+				"text": "Audio\\nN-1",
 				"size": "18",
 				"alignment": "center:center",
 				"pngalignment": "center:center",
 				"color": 16777215,
 				"bgcolor": 39219,
 				"latch": false,
-				"relative_delay": false
+				"relative_delay": false,
+				"show_topbar": "default"
 			},
 			"12": {
 				"style": "png",
@@ -20621,32 +20550,8 @@
 					"delay": 0
 				}
 			],
-			"26": [
-				{
-					"id": "DaBYnMtqEpSZ",
-					"label": "bitfocus-companion:set_page",
-					"instance": "bitfocus-companion",
-					"action": "set_page",
-					"options": {
-						"controller": "self",
-						"page": "51"
-					},
-					"delay": 0
-				}
-			],
-			"27": [
-				{
-					"id": "vdSV_W2MqMui",
-					"label": "bitfocus-companion:set_page",
-					"instance": "bitfocus-companion",
-					"action": "set_page",
-					"options": {
-						"controller": "self",
-						"page": "50"
-					},
-					"delay": 0
-				}
-			],
+			"26": [],
+			"27": [],
 			"28": [],
 			"29": [],
 			"30": [],
@@ -28832,8 +28737,32 @@
 					"delay": 0
 				}
 			],
-			"12": [],
-			"13": [],
+			"12": [
+				{
+					"id": "s9iktQnQS",
+					"label": "bitfocus-companion:set_page",
+					"instance": "bitfocus-companion",
+					"action": "set_page",
+					"options": {
+						"controller": "self",
+						"page": 10
+					},
+					"delay": 0
+				}
+			],
+			"13": [
+				{
+					"id": "VUw6TX3EI",
+					"label": "bitfocus-companion:set_page",
+					"instance": "bitfocus-companion",
+					"action": "set_page",
+					"options": {
+						"controller": "self",
+						"page": 20
+					},
+					"delay": 0
+				}
+			],
 			"14": [
 				{
 					"id": "hbEubwPgY9C",
@@ -32011,7 +31940,7 @@
 					"action": "set_page",
 					"options": {
 						"controller": "CL41K1A03537",
-						"page": "10"
+						"page": 51
 					},
 					"delay": 0
 				}
@@ -32024,7 +31953,7 @@
 					"action": "set_page",
 					"options": {
 						"controller": "CL41K1A03537",
-						"page": "20"
+						"page": 50
 					},
 					"delay": 0
 				}
@@ -41641,7 +41570,7 @@
 			"name": "Audio N-1"
 		},
 		"51": {
-			"name": "Volume"
+			"name": "Audio PRG"
 		},
 		"52": {
 			"name": "PAGE"
@@ -44262,12 +44191,12 @@
 			],
 			"2": [
 				{
-					"id": "4YWnIyI7W4i",
+					"id": "x7z7SNAzJ",
 					"type": "bank_style",
 					"instance_id": "bitfocus-companion",
 					"options": {
-						"page": "91",
-						"bank": 10
+						"page": 91,
+						"bank": 2
 					},
 					"style": {}
 				}
@@ -44750,12 +44679,12 @@
 			],
 			"3": [
 				{
-					"id": "Tpbm8NMEc-",
+					"id": "eyNpbcZed",
 					"type": "bank_style",
 					"instance_id": "bitfocus-companion",
 					"options": {
-						"page": "91",
-						"bank": 11
+						"page": 91,
+						"bank": 3
 					},
 					"style": {}
 				}
@@ -46021,7 +45950,7 @@
 					"instance_id": "bitfocus-companion",
 					"options": {
 						"page": "91",
-						"bank": 3
+						"bank": 11
 					},
 					"style": {}
 				}
@@ -46142,7 +46071,7 @@
 					"instance_id": "bitfocus-companion",
 					"options": {
 						"page": "91",
-						"bank": 2
+						"bank": 10
 					},
 					"style": {}
 				}
