@@ -318,8 +318,8 @@
 			},
 			"29": {
 				"style": "png",
-				"text": "5\\n$(internal:custom_input5label)",
-				"size": "auto",
+				"text": "ZOOM",
+				"size": "18",
 				"alignment": "center:center",
 				"pngalignment": "center:center",
 				"color": 16777215,
@@ -1015,8 +1015,8 @@
 			},
 			"29": {
 				"style": "png",
-				"text": "5\\n$(internal:custom_input5label)",
-				"size": "auto",
+				"text": "ZOOM",
+				"size": "18",
 				"alignment": "center:center",
 				"pngalignment": "center:center",
 				"color": 16777215,
@@ -1515,7 +1515,7 @@
 			},
 			"17": {
 				"style": "png",
-				"text": "Input 5\\n$(internal:custom_input5label)\\ngestoppt",
+				"text": "ZOOM\\ngestoppt",
 				"size": "14",
 				"alignment": "center:center",
 				"pngalignment": "center:center",
@@ -2540,7 +2540,7 @@
 			},
 			"13": {
 				"style": "png",
-				"text": "klein 5\\n$(internal:custom_input5label)",
+				"text": "klein\\nZOOM",
 				"size": "auto",
 				"alignment": "center:center",
 				"pngalignment": "center:center",
@@ -2710,7 +2710,7 @@
 			},
 			"29": {
 				"style": "png",
-				"text": "GROß 5\\n$(internal:custom_input5label)",
+				"text": "GROß\\nZOOM",
 				"size": "auto",
 				"alignment": "center:center",
 				"pngalignment": "center:center",
@@ -18922,16 +18922,6 @@
 						"cmd": "cg 3-99 invoke 0 \"setInput4Label('TBS')\""
 					},
 					"delay": 2200
-				},
-				{
-					"id": "DwxyaThE0809",
-					"label": "udTEF512G:COMMAND",
-					"instance": "udTEF512G",
-					"action": "COMMAND",
-					"options": {
-						"cmd": "cg 3-99 invoke 0 \"setInput5Label('Zoom')\""
-					},
-					"delay": 2300
 				}
 			],
 			"27": [
@@ -21744,7 +21734,7 @@
 					"action": "custom_variable_set_value",
 					"options": {
 						"name": "pipSmall",
-						"value": "input5"
+						"value": "inputZoom"
 					},
 					"delay": 0
 				},
@@ -22354,7 +22344,7 @@
 					"action": "custom_variable_set_value",
 					"options": {
 						"name": "pipLarge",
-						"value": "input5"
+						"value": "inputZoom"
 					},
 					"delay": 0
 				},
@@ -41537,10 +41527,6 @@
 			"description": "A custom variable",
 			"defaultValue": "Input 4"
 		},
-		"input5label": {
-			"description": "A custom variable",
-			"defaultValue": "Input 5"
-		},
 		"beamerCurrentButton": {
 			"description": "A custom variable",
 			"defaultValue": "0"
@@ -42957,7 +42943,7 @@
 					},
 					"style": {
 						"bgcolor": 13056,
-						"text": "Input 5\\n$(internal:custom_input5label)\\nläuft"
+						"text": "ZOOM\\nläuft"
 					}
 				}
 			],
@@ -43648,7 +43634,7 @@
 					"options": {
 						"variable": "internal:custom_pipSmall",
 						"op": "eq",
-						"value": "input5"
+						"value": "inputZoom"
 					},
 					"style": {
 						"bgcolor": 16737792
@@ -43854,7 +43840,7 @@
 					"options": {
 						"variable": "internal:custom_pipLarge",
 						"op": "eq",
-						"value": "input5"
+						"value": "inputZoom"
 					},
 					"style": {
 						"bgcolor": 16737792
