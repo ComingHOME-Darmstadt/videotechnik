@@ -2548,7 +2548,7 @@
 				"alignment": "center:center",
 				"pngalignment": "center:center",
 				"color": 16777215,
-				"bgcolor": 39219,
+				"bgcolor": 13056,
 				"latch": false,
 				"relative_delay": false,
 				"show_topbar": "default"
@@ -2560,7 +2560,7 @@
 				"alignment": "center:center",
 				"pngalignment": "center:center",
 				"color": 16777215,
-				"bgcolor": 39219,
+				"bgcolor": 13056,
 				"latch": false,
 				"relative_delay": false,
 				"show_topbar": "default"
@@ -2572,7 +2572,7 @@
 				"alignment": "center:center",
 				"pngalignment": "center:center",
 				"color": 16777215,
-				"bgcolor": 39219,
+				"bgcolor": 13056,
 				"latch": false,
 				"relative_delay": false,
 				"show_topbar": "default"
@@ -2584,7 +2584,7 @@
 				"alignment": "center:center",
 				"pngalignment": "center:center",
 				"color": 16777215,
-				"bgcolor": 39219,
+				"bgcolor": 13056,
 				"latch": false,
 				"relative_delay": false,
 				"show_topbar": "default"
@@ -2622,7 +2622,7 @@
 				"alignment": "center:center",
 				"pngalignment": "center:center",
 				"color": 16777215,
-				"bgcolor": 39219,
+				"bgcolor": 13056,
 				"latch": false,
 				"relative_delay": false,
 				"show_topbar": "default"
@@ -2634,7 +2634,7 @@
 				"alignment": "center:center",
 				"pngalignment": "center:center",
 				"color": 16777215,
-				"bgcolor": 39219,
+				"bgcolor": 13056,
 				"latch": false,
 				"relative_delay": false,
 				"show_topbar": "default"
@@ -2718,7 +2718,7 @@
 				"alignment": "center:center",
 				"pngalignment": "center:center",
 				"color": 16777215,
-				"bgcolor": 39219,
+				"bgcolor": 13056,
 				"latch": false,
 				"relative_delay": false,
 				"show_topbar": "default"
@@ -2730,7 +2730,7 @@
 				"alignment": "center:center",
 				"pngalignment": "center:center",
 				"color": 16777215,
-				"bgcolor": 39219,
+				"bgcolor": 13056,
 				"latch": false,
 				"relative_delay": false,
 				"show_topbar": "default"
@@ -32278,7 +32278,7 @@
 					"options": {
 						"variable": "internal:custom_pipSmall",
 						"op": "eq",
-						"value": "input5",
+						"value": "inputZoom",
 						"page": 92,
 						"bank": 5
 					},
@@ -32437,7 +32437,7 @@
 					"options": {
 						"variable": "internal:custom_pipLarge",
 						"op": "eq",
-						"value": "input5",
+						"value": "inputZoom",
 						"page": 92,
 						"bank": 13
 					},
@@ -43950,7 +43950,7 @@
 						"value": "kleinLinksGrossRechts"
 					},
 					"style": {
-						"bgcolor": 13056
+						"bgcolor": 39219
 					}
 				}
 			],
@@ -43965,7 +43965,7 @@
 						"value": "kleinRechtsGrossLinks"
 					},
 					"style": {
-						"bgcolor": 13056
+						"bgcolor": 39219
 					}
 				}
 			],
@@ -43980,7 +43980,7 @@
 						"value": "kleinFull"
 					},
 					"style": {
-						"bgcolor": 13056
+						"bgcolor": 39219
 					}
 				}
 			],
@@ -43995,7 +43995,7 @@
 						"value": "grossFull"
 					},
 					"style": {
-						"bgcolor": 13056
+						"bgcolor": 39219
 					}
 				}
 			],
@@ -44036,7 +44036,7 @@
 						"value": "kleinObenLinks"
 					},
 					"style": {
-						"bgcolor": 13056
+						"bgcolor": 39219
 					}
 				}
 			],
@@ -44051,7 +44051,7 @@
 						"value": "kleinObenRechts"
 					},
 					"style": {
-						"bgcolor": 13056
+						"bgcolor": 39219
 					}
 				}
 			],
@@ -44156,7 +44156,7 @@
 						"value": "kleinUntenLinks"
 					},
 					"style": {
-						"bgcolor": 13056
+						"bgcolor": 39219
 					}
 				}
 			],
@@ -44171,7 +44171,7 @@
 						"value": "kleinUntenRechts"
 					},
 					"style": {
-						"bgcolor": 13056
+						"bgcolor": 39219
 					}
 				}
 			]
