@@ -13448,17 +13448,6 @@
 					"delay": 100
 				},
 				{
-					"id": "kBiOt8IHP8h",
-					"label": "bitfocus-companion:button_pressrelease",
-					"instance": "bitfocus-companion",
-					"action": "button_pressrelease",
-					"options": {
-						"page": "3",
-						"bank": 16
-					},
-					"delay": 400
-				},
-				{
 					"id": "IhzNKbIV3rv",
 					"label": "bitfocus-companion:button_pressrelease",
 					"instance": "bitfocus-companion",
@@ -17742,6 +17731,26 @@
 					"action": "COMMAND",
 					"options": {
 						"cmd": "MIXER 4-50 VOLUME 0 0 Linear"
+					},
+					"delay": 100
+				},
+				{
+					"id": "xLSYC8Nqs",
+					"label": "udTEF512G:COMMAND",
+					"instance": "udTEF512G",
+					"action": "COMMAND",
+					"options": {
+						"cmd": "PLAY 4-51 route://1-69"
+					},
+					"delay": 100
+				},
+				{
+					"id": "xO8kyHzGr",
+					"label": "udTEF512G:COMMAND",
+					"instance": "udTEF512G",
+					"action": "COMMAND",
+					"options": {
+						"cmd": "MIXER 4-51 VOLUME 0 0 Linear"
 					},
 					"delay": 100
 				},
@@ -34558,17 +34567,6 @@
 					"options": {
 						"page": 0,
 						"bank": 16
-					},
-					"delay": 0
-				},
-				{
-					"id": "qOlRJlfbvAe",
-					"label": "bitfocus-companion:button_pressrelease",
-					"instance": "bitfocus-companion",
-					"action": "button_pressrelease",
-					"options": {
-						"page": "3",
-						"bank": 9
 					},
 					"delay": 0
 				},

@@ -15,6 +15,8 @@
 | 2 Preview | 10 | <- Inputs |
 | 3 Multiview |  | NDI: ComingHome_Multiview |
 | 4 Beamer |  | NDI: Beamer |
+|  | 50 | <- 1 Program[70] |
+|  | 51 | <- 1 Program[69] |
 | 5 Stage |  |  |
 | 6 Audio N-1 Out|  | NDI: Audio N-1 |
 | | 15 | <- 7 Audio N-1 Mix |
