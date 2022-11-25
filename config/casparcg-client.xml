@@ -266,8 +266,8 @@
             <item>
                 <type>STILL</type>
                 <devicename>CasparCG_Main</devicename>
-                <label>GRAFIKEN/COMINGHOME-HG</label>
-                <name>GRAFIKEN/COMINGHOME-HG</name>
+                <label>GRAFIKEN/COMINGHOME-INTRO</label>
+                <name>GRAFIKEN/COMINGHOME-INTRO</name>
                 <channel>17</channel>
                 <videolayer>10</videolayer>
                 <delay>0</delay>
@@ -287,8 +287,8 @@
             <item>
                 <type>STILL</type>
                 <devicename>CasparCG_Main</devicename>
-                <label>GRAFIKEN/AUX_02</label>
-                <name>GRAFIKEN/AUX_02</name>
+                <label>GRAFIKEN/COMINGHOME-HG</label>
+                <name>GRAFIKEN/COMINGHOME-HG</name>
                 <channel>17</channel>
                 <videolayer>10</videolayer>
                 <delay>0</delay>
@@ -554,8 +554,8 @@
             <item>
                 <type>STILL</type>
                 <devicename>CasparCG_Main</devicename>
-                <label>Grafik 01</label>
-                <name>GRAFIKEN/COMINGHOME-HG</name>
+                <label>GRAFIKEN/COMINGHOME-INTRO</label>
+                <name>GRAFIKEN/COMINGHOME-INTRO</name>
                 <channel>4</channel>
                 <videolayer>20</videolayer>
                 <delay>0</delay>
@@ -575,8 +575,8 @@
             <item>
                 <type>STILL</type>
                 <devicename>CasparCG_Main</devicename>
-                <label>Grafik 02</label>
-                <name>GRAFIKEN/TEST-GRAFIK-02</name>
+                <label>GRAFIKEN/COMINGHOME-HG</label>
+                <name>GRAFIKEN/COMINGHOME-HG</name>
                 <channel>4</channel>
                 <videolayer>20</videolayer>
                 <delay>0</delay>
