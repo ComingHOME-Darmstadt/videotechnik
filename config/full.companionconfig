@@ -18150,6 +18150,24 @@
 			"24": [],
 			"25": [
 				{
+					"id": "EAF8eovHYWwc",
+					"label": "udTEF512G:PLAY",
+					"instance": "udTEF512G",
+					"action": "PLAY",
+					"options": {
+						"channel": 1,
+						"layer": "0",
+						"clip_dd": "GRAFIKEN/BLACK",
+						"clip": "",
+						"loop": "false",
+						"auto": "false",
+						"transition": "CUT",
+						"transition_duration": "",
+						"transition_tween": "linear"
+					},
+					"delay": 0
+				},
+				{
 					"id": "j1ckdm-wBoZ1",
 					"label": "bitfocus-companion:button_release",
 					"instance": "bitfocus-companion",
@@ -18158,7 +18176,7 @@
 						"page": "1",
 						"bank": 17
 					},
-					"delay": 0
+					"delay": 100
 				},
 				{
 					"id": "SyHqHY5_IkvY",
@@ -18828,24 +18846,6 @@
 						"cmd": "MIXER 3-9 CHROMA Green 0.06 0.46 0.43"
 					},
 					"delay": 1400
-				},
-				{
-					"id": "EAF8eovHYWwc",
-					"label": "udTEF512G:PLAY",
-					"instance": "udTEF512G",
-					"action": "PLAY",
-					"options": {
-						"channel": 1,
-						"layer": "0",
-						"clip_dd": "GRAFIKEN/BLACK",
-						"clip": "",
-						"loop": "false",
-						"auto": "false",
-						"transition": "CUT",
-						"transition_duration": "",
-						"transition_tween": "linear"
-					},
-					"delay": 0
 				},
 				{
 					"id": "fcVqRAzMUAw-",

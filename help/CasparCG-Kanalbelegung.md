@@ -14,6 +14,18 @@
 |  | 99 | Logo |
 | 2 Preview | 10 | <- Inputs |
 | 3 Multiview |  | NDI: ComingHome_Multiview |
+|  | 1 | <- 11 Input 1 |
+|  | 2 | <- 12 Input 2 |
+|  | 3 | <- 13 Input 3 |
+|  | 4 | <- 14 Input 4 |
+|  | 5 | <- 15 ZOOM |
+|  | 6 | <- 16 PiP |
+|  | 7 | <- 17 AUX |
+|  | 8 | <- 19 Video Monitor |
+|  | 9 | <- 9 CHROMA Green (positioniert wie 8) |
+|  | 49 | <- 2 Preview |
+|  | 50 | <- 1 Program (mit Ton) |
+|  | 99 | multiview-Template |
 | 4 Beamer |  | NDI: Beamer |
 |  | 50 | <- 1 Program[70] |
 |  | 51 | <- 1 Program[69] |
@@ -45,5 +57,7 @@
 | 16 PiP |  |  |
 | 17 AUX | 10 |  |
 | 18 Video | 10 |  |
-| 19 |  |  |
+| 19 Video Monitor |  |  |
+|  | 90 | <- 18-10 Video |
+|  | 100 | videoMonitor-Template |
 | 20 |  |  |  |
