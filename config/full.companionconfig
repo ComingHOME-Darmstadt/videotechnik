@@ -581,8 +581,8 @@
 			},
 			"21": {
 				"style": "png",
-				"text": "AUX\\n05",
-				"size": "24",
+				"text": "AUX\\nOpenLP full",
+				"size": "auto",
 				"alignment": "center:center",
 				"pngalignment": "center:center",
 				"color": 16777215,
@@ -14704,13 +14704,12 @@
 			],
 			"21": [
 				{
-					"id": "8C7t8nFVGAB",
-					"label": "PY98Cj8Y2:send_int",
-					"instance": "PY98Cj8Y2",
-					"action": "send_int",
+					"id": "Ebe6S5Ezj",
+					"label": "udTEF512G:COMMAND",
+					"instance": "udTEF512G",
+					"action": "COMMAND",
 					"options": {
-						"path": "/control/prev_aux-05/play",
-						"int": 1
+						"cmd": "PLAY 17-10 \"ndi://CHPRESENTATION/Intel Iris Xe Graphics 2\""
 					},
 					"delay": 0
 				},
