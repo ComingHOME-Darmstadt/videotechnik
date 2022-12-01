@@ -3,9 +3,9 @@
 | 1 Program |  | NDI: ComingHome_PGM |
 |  | 15 | <- 10 Audio Program Mix |
 |  | 48 | Black |
-|  | 49 | <- 17 AUX |
 |  | 50 | Program |
 |  | 51 | Preview Überblendung |
+|  | 65 | <- 17 AUX |
 |  | 69 | Jingel |
 |  | 70 | <- 18 Video |
 |  | 96 |  |
@@ -27,6 +27,8 @@
 |  | 50 | <- 1 Program (mit Ton) |
 |  | 99 | multiview-Template |
 | 4 Beamer |  | NDI: Beamer |
+|  | 20 | Play Video/Bild/ |
+|  | 45 | <- 1 Program[65] |
 |  | 50 | <- 1 Program[70] |
 |  | 51 | <- 1 Program[69] |
 | 5 Stage |  |  |

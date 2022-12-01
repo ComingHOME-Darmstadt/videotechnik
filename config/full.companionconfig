@@ -232,7 +232,18 @@
 				"relative_delay": true,
 				"show_topbar": "default"
 			},
-			"22": {},
+			"22": {
+				"style": "png",
+				"text": "AUX Play",
+				"size": "18",
+				"alignment": "center:center",
+				"pngalignment": "center:center",
+				"color": 16777215,
+				"bgcolor": "0",
+				"latch": true,
+				"relative_delay": true,
+				"show_topbar": "default"
+			},
 			"23": {
 				"style": "png",
 				"text": "Video -> Beamer ON",
@@ -11267,7 +11278,18 @@
 				"relative_delay": false,
 				"show_topbar": "default"
 			},
-			"4": {},
+			"4": {
+				"style": "png",
+				"text": "AUX\\nPlay",
+				"size": "18",
+				"alignment": "center:center",
+				"pngalignment": "center:center",
+				"color": 16777215,
+				"bgcolor": 13056,
+				"latch": false,
+				"relative_delay": false,
+				"show_topbar": "default"
+			},
 			"5": {
 				"style": "png",
 				"text": "MIX\\nBeamer",
@@ -11465,7 +11487,18 @@
 				"relative_delay": false,
 				"show_topbar": "default"
 			},
-			"4": {},
+			"4": {
+				"style": "png",
+				"text": "AUX\\nPlay",
+				"size": "18",
+				"alignment": "center:center",
+				"pngalignment": "center:center",
+				"color": 16777215,
+				"bgcolor": 13056,
+				"latch": false,
+				"relative_delay": false,
+				"show_topbar": "default"
+			},
 			"5": {
 				"style": "png",
 				"text": "MIX\\nBeamer",
@@ -13523,7 +13556,7 @@
 					"options": {
 						"cmd": "PLAY 1-70 route://18-10"
 					},
-					"delay": 120
+					"delay": 100
 				},
 				{
 					"id": "spQoo2oCMY1",
@@ -13534,10 +13567,32 @@
 						"page": 0,
 						"bank": 32
 					},
-					"delay": 0
+					"delay": 100
 				}
 			],
-			"22": [],
+			"22": [
+				{
+					"id": "LH0-c1aWP3",
+					"label": "udTEF512G:COMMAND",
+					"instance": "udTEF512G",
+					"action": "COMMAND",
+					"options": {
+						"cmd": "PLAY 1-65 route://17 FULL MIX 16"
+					},
+					"delay": 0
+				},
+				{
+					"id": "kXuJmF0-uL",
+					"label": "bitfocus-companion:button_pressrelease",
+					"instance": "bitfocus-companion",
+					"action": "button_pressrelease",
+					"options": {
+						"page": 0,
+						"bank": 32
+					},
+					"delay": 100
+				}
+			],
 			"23": [
 				{
 					"id": "xjx4K0s7CJp",
@@ -15569,16 +15624,6 @@
 					"delay": 40
 				},
 				{
-					"id": "zF0qtAGiEhc9",
-					"label": "udTEF512G:COMMAND",
-					"instance": "udTEF512G",
-					"action": "COMMAND",
-					"options": {
-						"cmd": "MIXER 4-20 OPACITY 1 16 Linear"
-					},
-					"delay": 80
-				},
-				{
 					"id": "1Bp478tqgqSK",
 					"label": "bitfocus-companion:custom_variable_set_value",
 					"instance": "bitfocus-companion",
@@ -15767,16 +15812,6 @@
 						"cmd": "MIXER 4-20 VOLUME 0 0 Linear"
 					},
 					"delay": 40
-				},
-				{
-					"id": "eh3AWmkygSCA",
-					"label": "udTEF512G:COMMAND",
-					"instance": "udTEF512G",
-					"action": "COMMAND",
-					"options": {
-						"cmd": "MIXER 4-20 OPACITY 1 16 Linear"
-					},
-					"delay": 80
 				},
 				{
 					"id": "f3ehx-B5eRE3",
@@ -17760,6 +17795,26 @@
 					"delay": 0
 				},
 				{
+					"id": "QgTc3XYxi",
+					"label": "udTEF512G:COMMAND",
+					"instance": "udTEF512G",
+					"action": "COMMAND",
+					"options": {
+						"cmd": "PLAY 4-45 route://1-65"
+					},
+					"delay": 100
+				},
+				{
+					"id": "DDC37x6mm",
+					"label": "udTEF512G:COMMAND",
+					"instance": "udTEF512G",
+					"action": "COMMAND",
+					"options": {
+						"cmd": "MIXER 4-45 VOLUME 0 0 Linear"
+					},
+					"delay": 100
+				},
+				{
 					"id": "xv1Lq7ySiJ_d",
 					"label": "udTEF512G:COMMAND",
 					"instance": "udTEF512G",
@@ -18218,16 +18273,6 @@
 					"delay": 100
 				},
 				{
-					"id": "XsGLsRph6sZ3",
-					"label": "udTEF512G:COMMAND",
-					"instance": "udTEF512G",
-					"action": "COMMAND",
-					"options": {
-						"cmd": "PLAY 1-49 route://17-10"
-					},
-					"delay": 100
-				},
-				{
 					"id": "VG3KjwpIBb_h",
 					"label": "udTEF512G:COMMAND",
 					"instance": "udTEF512G",
@@ -18292,6 +18337,16 @@
 					"action": "COMMAND",
 					"options": {
 						"cmd": "MIXER 1-51 VOLUME 0 8 Linear"
+					},
+					"delay": 100
+				},
+				{
+					"id": "rGvkEdzFWCGl",
+					"label": "udTEF512G:COMMAND",
+					"instance": "udTEF512G",
+					"action": "COMMAND",
+					"options": {
+						"cmd": "PLAY 1-65 VOLUME 0 0 Linear"
 					},
 					"delay": 100
 				},
@@ -31621,7 +31676,19 @@
 					"delay": 0
 				}
 			],
-			"4": [],
+			"4": [
+				{
+					"id": "svCUtou_w",
+					"label": "bitfocus-companion:button_press",
+					"instance": "bitfocus-companion",
+					"action": "button_press",
+					"options": {
+						"page": "1",
+						"bank": 22
+					},
+					"delay": 0
+				}
+			],
 			"5": [
 				{
 					"id": "f3t2vMJCOOW",
@@ -31835,7 +31902,19 @@
 					"delay": 0
 				}
 			],
-			"4": [],
+			"4": [
+				{
+					"id": "HCRpuI0Wf",
+					"label": "bitfocus-companion:button_press",
+					"instance": "bitfocus-companion",
+					"action": "button_press",
+					"options": {
+						"page": "1",
+						"bank": 22
+					},
+					"delay": 0
+				}
+			],
 			"5": [
 				{
 					"id": "W2-D44JNU",
@@ -34885,7 +34964,39 @@
 					"delay": 0
 				}
 			],
-			"22": [],
+			"22": [
+				{
+					"id": "k3Ykl7-nNe",
+					"label": "bitfocus-companion:button_pressrelease",
+					"instance": "bitfocus-companion",
+					"action": "button_pressrelease",
+					"options": {
+						"page": 0,
+						"bank": 32
+					},
+					"delay": 0
+				},
+				{
+					"id": "d96BOBeIu",
+					"label": "udTEF512G:COMMAND",
+					"instance": "udTEF512G",
+					"action": "COMMAND",
+					"options": {
+						"cmd": "PLAY 1-65 EMPTY MIX 16"
+					},
+					"delay": 100
+				},
+				{
+					"id": "njsKKpIBJd",
+					"label": "udTEF512G:COMMAND",
+					"instance": "udTEF512G",
+					"action": "COMMAND",
+					"options": {
+						"cmd": "STOP 1-65"
+					},
+					"delay": 1000
+				}
+			],
 			"23": [
 				{
 					"id": "XW9YjJDaVdc",
@@ -41109,7 +41220,19 @@
 					"delay": 0
 				}
 			],
-			"4": [],
+			"4": [
+				{
+					"id": "EDaXXX60Eu",
+					"label": "bitfocus-companion:button_release",
+					"instance": "bitfocus-companion",
+					"action": "button_release",
+					"options": {
+						"page": "1",
+						"bank": 22
+					},
+					"delay": 0
+				}
+			],
 			"5": [],
 			"6": [],
 			"7": [],
@@ -41179,7 +41302,19 @@
 					"delay": 0
 				}
 			],
-			"4": [],
+			"4": [
+				{
+					"id": "cHBBh-0vuv",
+					"label": "bitfocus-companion:button_release",
+					"instance": "bitfocus-companion",
+					"action": "button_release",
+					"options": {
+						"page": "1",
+						"bank": 22
+					},
+					"delay": 0
+				}
+			],
 			"5": [],
 			"6": [],
 			"7": [],
@@ -42240,7 +42375,21 @@
 					}
 				}
 			],
-			"22": [],
+			"22": [
+				{
+					"id": "WzdDAjTjiS",
+					"type": "bank_pushed",
+					"instance_id": "bitfocus-companion",
+					"options": {
+						"page": 0,
+						"bank": 0
+					},
+					"style": {
+						"bgcolor": 16711680,
+						"text": "AUX läuft"
+					}
+				}
+			],
 			"23": [
 				{
 					"id": "iUu81yp5GfK",
@@ -48530,7 +48679,18 @@
 					"style": {}
 				}
 			],
-			"4": [],
+			"4": [
+				{
+					"id": "A8pYT95cUk",
+					"type": "bank_style",
+					"instance_id": "bitfocus-companion",
+					"options": {
+						"page": "1",
+						"bank": 22
+					},
+					"style": {}
+				}
+			],
 			"5": [],
 			"6": [],
 			"7": [],
@@ -48696,7 +48856,18 @@
 					"style": {}
 				}
 			],
-			"4": [],
+			"4": [
+				{
+					"id": "i07TO9npEM",
+					"type": "bank_style",
+					"instance_id": "bitfocus-companion",
+					"options": {
+						"page": "1",
+						"bank": 22
+					},
+					"style": {}
+				}
+			],
 			"5": [],
 			"6": [],
 			"7": [],
