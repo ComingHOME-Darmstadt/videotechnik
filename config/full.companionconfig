@@ -42110,19 +42110,19 @@
 		},
 		"input1label": {
 			"description": "A custom variable",
-			"defaultValue": "Input 1"
+			"defaultValue": "Cam 1"
 		},
 		"input2label": {
 			"description": "A custom variable",
-			"defaultValue": "Input 2"
+			"defaultValue": "Cam 2"
 		},
 		"input3label": {
 			"description": "A custom variable",
-			"defaultValue": "Input 3"
+			"defaultValue": "OpenLP full"
 		},
 		"input4label": {
 			"description": "A custom variable",
-			"defaultValue": "Input 4"
+			"defaultValue": "TBS"
 		},
 		"beamerCurrentButton": {
 			"description": "A custom variable",
