@@ -326,27 +326,6 @@
                 <triggeronnext>false</triggeronnext>
                 <color>Transparent</color>
             </item>
-            <item>
-                <type>STILL</type>
-                <devicename>CasparCG_Main</devicename>
-                <label>GRAFIKEN/AUX_04</label>
-                <name>GRAFIKEN/AUX_04</name>
-                <channel>17</channel>
-                <videolayer>10</videolayer>
-                <delay>0</delay>
-                <duration>0</duration>
-                <allowgpi>false</allowgpi>
-                <allowremotetriggering>true</allowremotetriggering>
-                <remotetriggerid>prev_aux-04</remotetriggerid>
-                <storyid></storyid>
-                <transition>CUT</transition>
-                <transitionDuration>0</transitionDuration>
-                <tween>Linear</tween>
-                <direction>RIGHT</direction>
-                <useauto>false</useauto>
-                <triggeronnext>false</triggeronnext>
-                <color>Transparent</color>
-            </item>
         </items>
     </item>
     <item>

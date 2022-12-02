@@ -569,8 +569,8 @@
 			},
 			"20": {
 				"style": "png",
-				"text": "AUX\\n04",
-				"size": "24",
+				"text": "AUX\\ndDViewer",
+				"size": "auto",
 				"alignment": "center:center",
 				"pngalignment": "center:center",
 				"color": 16777215,
@@ -14609,12 +14609,11 @@
 			"20": [
 				{
 					"id": "jg9k4fzolXF",
-					"label": "PY98Cj8Y2:send_int",
-					"instance": "PY98Cj8Y2",
-					"action": "send_int",
+					"label": "udTEF512G:COMMAND",
+					"instance": "udTEF512G",
+					"action": "COMMAND",
 					"options": {
-						"path": "/control/prev_aux-04/play",
-						"int": 1
+						"cmd": "PLAY 17-10 \"ndi://COMINGHOME-VIDEO/ZEN DDIViewer 1\""
 					},
 					"delay": 0
 				},

@@ -7,6 +7,8 @@
 /config/template/Test_BB
 /config/FRITZ.BoxExportPassword.txt
 /config/FRITZ.Box*.export
+/dDImageViewer/NDIDDImageViewer.exe
+/dDImageViewer/Processing.NDI.Lib.x64.dll
 /help/BirdDog_P100_User-Guide_NDI-5-1.pdf
 /help/PKC3000UserManual-220226zuNeu.pdf
 /help/PKC3000UserManual.pdf
