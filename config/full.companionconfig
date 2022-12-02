@@ -7391,30 +7391,8 @@
 				"relative_delay": false,
 				"show_topbar": "default"
 			},
-			"15": {
-				"style": "png",
-				"text": "",
-				"size": "auto",
-				"alignment": "center:center",
-				"pngalignment": "center:center",
-				"color": 16777215,
-				"bgcolor": "0",
-				"latch": false,
-				"relative_delay": false,
-				"show_topbar": "default"
-			},
-			"16": {
-				"style": "png",
-				"text": "",
-				"size": "auto",
-				"alignment": "center:center",
-				"pngalignment": "center:center",
-				"color": 16777215,
-				"bgcolor": "0",
-				"latch": false,
-				"relative_delay": false,
-				"show_topbar": "default"
-			},
+			"15": {},
+			"16": {},
 			"17": {},
 			"18": {
 				"style": "png",
@@ -7478,7 +7456,7 @@
 			},
 			"23": {
 				"style": "png",
-				"text": "",
+				"text": "AUX Vol\\n$(internal:custom_volN-1Aux)%",
 				"size": "auto",
 				"alignment": "center:center",
 				"pngalignment": "center:center",
@@ -7490,7 +7468,7 @@
 			},
 			"24": {
 				"style": "png",
-				"text": "",
+				"text": "Vid Vol\\n$(internal:custom_volN-1Video)%",
 				"size": "auto",
 				"alignment": "center:center",
 				"pngalignment": "center:center",
@@ -7738,30 +7716,8 @@
 				"show_topbar": "default"
 			},
 			"14": {},
-			"15": {
-				"style": "png",
-				"text": "",
-				"size": "auto",
-				"alignment": "center:center",
-				"pngalignment": "center:center",
-				"color": 16777215,
-				"bgcolor": "0",
-				"latch": false,
-				"relative_delay": false,
-				"show_topbar": "default"
-			},
-			"16": {
-				"style": "png",
-				"text": "",
-				"size": "auto",
-				"alignment": "center:center",
-				"pngalignment": "center:center",
-				"color": 16777215,
-				"bgcolor": "0",
-				"latch": false,
-				"relative_delay": false,
-				"show_topbar": "default"
-			},
+			"15": {},
+			"16": {},
 			"17": {
 				"style": "png",
 				"text": "",
@@ -7825,7 +7781,7 @@
 			"22": {},
 			"23": {
 				"style": "png",
-				"text": "",
+				"text": "AUX Vol\\n$(internal:custom_volPrgAux)%",
 				"size": "auto",
 				"alignment": "center:center",
 				"pngalignment": "center:center",
@@ -7837,7 +7793,7 @@
 			},
 			"24": {
 				"style": "png",
-				"text": "",
+				"text": "Vid Vol\\n$(internal:custom_volPrgVideo)%",
 				"size": "auto",
 				"alignment": "center:center",
 				"pngalignment": "center:center",
@@ -11675,7 +11631,7 @@
 			},
 			"2": {
 				"style": "png",
-				"text": "Audio\\nPRG",
+				"text": "Audio\\nPRG\\n$(internal:custom_volPrgMain)%",
 				"size": "18",
 				"alignment": "center:center",
 				"pngalignment": "center:center",
@@ -11687,7 +11643,7 @@
 			},
 			"3": {
 				"style": "png",
-				"text": "Audio\\nN-1",
+				"text": "Audio\\nN-1\\n$(internal:custom_volN-1Main)%",
 				"size": "18",
 				"alignment": "center:center",
 				"pngalignment": "center:center",
@@ -11769,7 +11725,7 @@
 			},
 			"10": {
 				"style": "png",
-				"text": "Audio\\nPRG",
+				"text": "Audio\\nPRG\\n$(internal:custom_volPrgMain)%",
 				"size": "18",
 				"alignment": "center:center",
 				"pngalignment": "center:center",
@@ -11781,7 +11737,7 @@
 			},
 			"11": {
 				"style": "png",
-				"text": "Audio\\nN-1",
+				"text": "Audio\\nN-1\\n$(internal:custom_volN-1Main)%",
 				"size": "18",
 				"alignment": "center:center",
 				"pngalignment": "center:center",
@@ -12609,7 +12565,7 @@
 				"color": 16777215,
 				"bgcolor": 0,
 				"latch": false,
-				"relative_delay": false,
+				"relative_delay": true,
 				"show_topbar": "default"
 			},
 			"10": {
@@ -12621,7 +12577,7 @@
 				"color": 16777215,
 				"bgcolor": 3348736,
 				"latch": false,
-				"relative_delay": false,
+				"relative_delay": true,
 				"show_topbar": "default"
 			},
 			"11": {
@@ -12633,7 +12589,7 @@
 				"color": 16777215,
 				"bgcolor": 6697728,
 				"latch": false,
-				"relative_delay": false,
+				"relative_delay": true,
 				"show_topbar": "default"
 			},
 			"12": {
@@ -12645,7 +12601,7 @@
 				"color": 16777215,
 				"bgcolor": 10046464,
 				"latch": false,
-				"relative_delay": false,
+				"relative_delay": true,
 				"show_topbar": "default"
 			},
 			"13": {
@@ -12657,7 +12613,7 @@
 				"color": 0,
 				"bgcolor": 13395200,
 				"latch": false,
-				"relative_delay": false,
+				"relative_delay": true,
 				"show_topbar": "default"
 			},
 			"14": {
@@ -12669,7 +12625,7 @@
 				"color": 16777215,
 				"bgcolor": 10046464,
 				"latch": false,
-				"relative_delay": false,
+				"relative_delay": true,
 				"show_topbar": "default"
 			},
 			"15": {
@@ -12681,7 +12637,7 @@
 				"color": 16777215,
 				"bgcolor": 6697728,
 				"latch": false,
-				"relative_delay": false,
+				"relative_delay": true,
 				"show_topbar": "default"
 			},
 			"16": {
@@ -12693,7 +12649,7 @@
 				"color": 16777215,
 				"bgcolor": 3348736,
 				"latch": false,
-				"relative_delay": false,
+				"relative_delay": true,
 				"show_topbar": "default"
 			},
 			"17": {
@@ -12705,7 +12661,7 @@
 				"color": 16777215,
 				"bgcolor": 0,
 				"latch": false,
-				"relative_delay": false,
+				"relative_delay": true,
 				"show_topbar": "default"
 			},
 			"18": {
@@ -12717,7 +12673,7 @@
 				"color": 16777215,
 				"bgcolor": 13056,
 				"latch": false,
-				"relative_delay": false,
+				"relative_delay": true,
 				"show_topbar": "default"
 			},
 			"19": {
@@ -12729,7 +12685,7 @@
 				"color": 16777215,
 				"bgcolor": 26112,
 				"latch": false,
-				"relative_delay": false
+				"relative_delay": true
 			},
 			"20": {
 				"style": "png",
@@ -12740,7 +12696,7 @@
 				"color": 16777215,
 				"bgcolor": 39168,
 				"latch": false,
-				"relative_delay": false
+				"relative_delay": true
 			},
 			"21": {
 				"style": "png",
@@ -12751,7 +12707,7 @@
 				"color": 0,
 				"bgcolor": 52224,
 				"latch": false,
-				"relative_delay": false,
+				"relative_delay": true,
 				"show_topbar": "default"
 			},
 			"22": {
@@ -12763,7 +12719,7 @@
 				"color": 16777215,
 				"bgcolor": 39168,
 				"latch": false,
-				"relative_delay": false
+				"relative_delay": true
 			},
 			"23": {
 				"style": "png",
@@ -12774,7 +12730,7 @@
 				"color": 16777215,
 				"bgcolor": 26112,
 				"latch": false,
-				"relative_delay": false
+				"relative_delay": true
 			},
 			"24": {
 				"style": "png",
@@ -12785,7 +12741,7 @@
 				"color": 16777215,
 				"bgcolor": 13056,
 				"latch": false,
-				"relative_delay": false
+				"relative_delay": true
 			},
 			"25": {
 				"style": "png",
@@ -12796,7 +12752,7 @@
 				"color": 16777215,
 				"bgcolor": 0,
 				"latch": false,
-				"relative_delay": false,
+				"relative_delay": true,
 				"show_topbar": "default"
 			},
 			"26": {
@@ -12808,7 +12764,7 @@
 				"color": 16777215,
 				"bgcolor": 3355392,
 				"latch": false,
-				"relative_delay": false,
+				"relative_delay": true,
 				"show_topbar": "default"
 			},
 			"27": {
@@ -12820,7 +12776,7 @@
 				"color": 16777215,
 				"bgcolor": 6710784,
 				"latch": false,
-				"relative_delay": false
+				"relative_delay": true
 			},
 			"28": {
 				"style": "png",
@@ -12831,7 +12787,7 @@
 				"color": 16777215,
 				"bgcolor": 10066176,
 				"latch": false,
-				"relative_delay": false
+				"relative_delay": true
 			},
 			"29": {
 				"style": "png",
@@ -12842,7 +12798,7 @@
 				"color": 0,
 				"bgcolor": 13421568,
 				"latch": false,
-				"relative_delay": false,
+				"relative_delay": true,
 				"show_topbar": "default"
 			},
 			"30": {
@@ -12854,7 +12810,7 @@
 				"color": 16777215,
 				"bgcolor": 10066176,
 				"latch": false,
-				"relative_delay": false
+				"relative_delay": true
 			},
 			"31": {
 				"style": "png",
@@ -12865,7 +12821,7 @@
 				"color": 16777215,
 				"bgcolor": 6710784,
 				"latch": false,
-				"relative_delay": false
+				"relative_delay": true
 			},
 			"32": {
 				"style": "png",
@@ -12876,7 +12832,7 @@
 				"color": 16777215,
 				"bgcolor": 3355392,
 				"latch": false,
-				"relative_delay": false
+				"relative_delay": true
 			}
 		},
 		"97": {
@@ -13373,6 +13329,17 @@
 						"cmd": "MIXER 1-15 VOLUME 1 25 easeOutQuad"
 					},
 					"delay": 0
+				},
+				{
+					"id": "jQKEjfdKd",
+					"label": "bitfocus-companion:custom_variable_set_value",
+					"instance": "bitfocus-companion",
+					"action": "custom_variable_set_value",
+					"options": {
+						"name": "volPrgMain",
+						"value": "100"
+					},
+					"delay": 0
 				}
 			],
 			"16": [
@@ -13383,6 +13350,17 @@
 					"action": "COMMAND",
 					"options": {
 						"cmd": "MIXER 6-15 VOLUME 1 25 easeOutQuad"
+					},
+					"delay": 0
+				},
+				{
+					"id": "3qmuaw3IP",
+					"label": "bitfocus-companion:custom_variable_set_value",
+					"instance": "bitfocus-companion",
+					"action": "custom_variable_set_value",
+					"options": {
+						"name": "volN-1Main",
+						"value": "100"
 					},
 					"delay": 0
 				}
@@ -26610,78 +26588,8 @@
 					"delay": 0
 				}
 			],
-			"15": [
-				{
-					"id": "Oxw-7j3S2Hc",
-					"label": "udTEF512G:COMMAND",
-					"instance": "udTEF512G",
-					"action": "COMMAND",
-					"options": {
-						"cmd": "MIXER 7-17 VOLUME 1 25 easeOutQuad"
-					},
-					"delay": 0
-				},
-				{
-					"id": "Ye5eDZkGQUU",
-					"label": "bitfocus-companion:bgcolor",
-					"instance": "bitfocus-companion",
-					"action": "bgcolor",
-					"options": {
-						"color": 0,
-						"page": 0,
-						"bank": 23
-					},
-					"delay": 0
-				},
-				{
-					"id": "nP0LDhvwHE3",
-					"label": "bitfocus-companion:bgcolor",
-					"instance": "bitfocus-companion",
-					"action": "bgcolor",
-					"options": {
-						"color": 13056,
-						"page": "0",
-						"bank": 0
-					},
-					"delay": 0
-				}
-			],
-			"16": [
-				{
-					"id": "BmaZjU1Cua3",
-					"label": "udTEF512G:COMMAND",
-					"instance": "udTEF512G",
-					"action": "COMMAND",
-					"options": {
-						"cmd": "MIXER 7-18 VOLUME 1 25 easeOutQuad"
-					},
-					"delay": 0
-				},
-				{
-					"id": "dADFvfDh7wj",
-					"label": "bitfocus-companion:bgcolor",
-					"instance": "bitfocus-companion",
-					"action": "bgcolor",
-					"options": {
-						"color": 0,
-						"page": 0,
-						"bank": 24
-					},
-					"delay": 0
-				},
-				{
-					"id": "OTc2EBk60Bn",
-					"label": "bitfocus-companion:bgcolor",
-					"instance": "bitfocus-companion",
-					"action": "bgcolor",
-					"options": {
-						"color": 13056,
-						"page": "0",
-						"bank": 0
-					},
-					"delay": 0
-				}
-			],
+			"15": [],
+			"16": [],
 			"17": [],
 			"18": [
 				{
@@ -26863,78 +26771,8 @@
 					"delay": 0
 				}
 			],
-			"23": [
-				{
-					"id": "mvrx2ix1i5C",
-					"label": "udTEF512G:COMMAND",
-					"instance": "udTEF512G",
-					"action": "COMMAND",
-					"options": {
-						"cmd": "MIXER 7-17 VOLUME 0.1 25 easeOutQuad"
-					},
-					"delay": 0
-				},
-				{
-					"id": "ykNhNuON1Hh",
-					"label": "bitfocus-companion:bgcolor",
-					"instance": "bitfocus-companion",
-					"action": "bgcolor",
-					"options": {
-						"color": 13056,
-						"page": 0,
-						"bank": 0
-					},
-					"delay": 0
-				},
-				{
-					"id": "dGAkkkWMFBm",
-					"label": "bitfocus-companion:bgcolor",
-					"instance": "bitfocus-companion",
-					"action": "bgcolor",
-					"options": {
-						"color": 0,
-						"page": "0",
-						"bank": 15
-					},
-					"delay": 0
-				}
-			],
-			"24": [
-				{
-					"id": "qT-_ZNreUXG",
-					"label": "udTEF512G:COMMAND",
-					"instance": "udTEF512G",
-					"action": "COMMAND",
-					"options": {
-						"cmd": "MIXER 7-18 VOLUME 0.1 25 easeOutQuad"
-					},
-					"delay": 0
-				},
-				{
-					"id": "1zi_u-jY2Mi",
-					"label": "bitfocus-companion:bgcolor",
-					"instance": "bitfocus-companion",
-					"action": "bgcolor",
-					"options": {
-						"color": 13056,
-						"page": 0,
-						"bank": 0
-					},
-					"delay": 0
-				},
-				{
-					"id": "v4gO8lMdYrw",
-					"label": "bitfocus-companion:bgcolor",
-					"instance": "bitfocus-companion",
-					"action": "bgcolor",
-					"options": {
-						"color": 0,
-						"page": "0",
-						"bank": 16
-					},
-					"delay": 0
-				}
-			],
+			"23": [],
+			"24": [],
 			"25": [],
 			"26": [
 				{
@@ -27303,37 +27141,23 @@
 					"delay": 10
 				},
 				{
-					"id": "-dzl6MEMJWr",
-					"label": "bitfocus-companion:button_pressrelease",
-					"instance": "bitfocus-companion",
-					"action": "button_pressrelease",
+					"id": "j3uEIGaaO",
+					"label": "udTEF512G:COMMAND",
+					"instance": "udTEF512G",
+					"action": "COMMAND",
 					"options": {
-						"page": "0",
-						"bank": 15
+						"cmd": "MIXER 7-17 VOLUME 1 25 easeOutQuad"
 					},
 					"delay": 10
 				},
 				{
-					"id": "6B6XqAFhdIw",
-					"label": "bitfocus-companion:button_text",
+					"id": "fsV3Lesi7",
+					"label": "bitfocus-companion:custom_variable_set_value",
 					"instance": "bitfocus-companion",
-					"action": "button_text",
+					"action": "custom_variable_set_value",
 					"options": {
-						"label": "AUX\\n10%",
-						"page": "0",
-						"bank": 23
-					},
-					"delay": 0
-				},
-				{
-					"id": "zF25RNrENUH",
-					"label": "bitfocus-companion:button_text",
-					"instance": "bitfocus-companion",
-					"action": "button_text",
-					"options": {
-						"label": "AUX\\n100%",
-						"page": "0",
-						"bank": 15
+						"name": "volN-1Aux",
+						"value": "100"
 					},
 					"delay": 0
 				}
@@ -27370,37 +27194,23 @@
 					"delay": 10
 				},
 				{
-					"id": "_7XPtJQrKMp",
-					"label": "bitfocus-companion:button_pressrelease",
-					"instance": "bitfocus-companion",
-					"action": "button_pressrelease",
+					"id": "RDAP6g_ua",
+					"label": "udTEF512G:COMMAND",
+					"instance": "udTEF512G",
+					"action": "COMMAND",
 					"options": {
-						"page": "0",
-						"bank": 16
+						"cmd": "MIXER 7-18 VOLUME 1 25 easeOutQuad"
 					},
 					"delay": 10
 				},
 				{
-					"id": "G3pTbRsWNLD",
-					"label": "bitfocus-companion:button_text",
+					"id": "1_tt1Amtw",
+					"label": "bitfocus-companion:custom_variable_set_value",
 					"instance": "bitfocus-companion",
-					"action": "button_text",
+					"action": "custom_variable_set_value",
 					"options": {
-						"label": "Video\\n10%",
-						"page": "0",
-						"bank": 24
-					},
-					"delay": 0
-				},
-				{
-					"id": "a5lNtRtIuuq",
-					"label": "bitfocus-companion:button_text",
-					"instance": "bitfocus-companion",
-					"action": "button_text",
-					"options": {
-						"label": "Video\\n100%",
-						"page": "0",
-						"bank": 16
+						"name": "volN-1Video",
+						"value": "100"
 					},
 					"delay": 0
 				}
@@ -27692,78 +27502,8 @@
 				}
 			],
 			"14": [],
-			"15": [
-				{
-					"id": "DlQimXP--wp",
-					"label": "udTEF512G:COMMAND",
-					"instance": "udTEF512G",
-					"action": "COMMAND",
-					"options": {
-						"cmd": "MIXER 10-17 VOLUME 1 25 easeOutQuad"
-					},
-					"delay": 0
-				},
-				{
-					"id": "tBSCN_aznKe",
-					"label": "bitfocus-companion:bgcolor",
-					"instance": "bitfocus-companion",
-					"action": "bgcolor",
-					"options": {
-						"color": 0,
-						"page": 0,
-						"bank": 23
-					},
-					"delay": 0
-				},
-				{
-					"id": "hgQTWmIiXQJ",
-					"label": "bitfocus-companion:bgcolor",
-					"instance": "bitfocus-companion",
-					"action": "bgcolor",
-					"options": {
-						"color": 13056,
-						"page": "0",
-						"bank": 0
-					},
-					"delay": 0
-				}
-			],
-			"16": [
-				{
-					"id": "dK-oc7-Rqyk",
-					"label": "udTEF512G:COMMAND",
-					"instance": "udTEF512G",
-					"action": "COMMAND",
-					"options": {
-						"cmd": "MIXER 10-18 VOLUME 1 25 easeOutQuad"
-					},
-					"delay": 0
-				},
-				{
-					"id": "hSMcw-vxY3z",
-					"label": "bitfocus-companion:bgcolor",
-					"instance": "bitfocus-companion",
-					"action": "bgcolor",
-					"options": {
-						"color": 0,
-						"page": 0,
-						"bank": 24
-					},
-					"delay": 0
-				},
-				{
-					"id": "cvfeF7lkkuB",
-					"label": "bitfocus-companion:bgcolor",
-					"instance": "bitfocus-companion",
-					"action": "bgcolor",
-					"options": {
-						"color": 13056,
-						"page": "0",
-						"bank": 0
-					},
-					"delay": 0
-				}
-			],
+			"15": [],
+			"16": [],
 			"17": [
 				{
 					"id": "7i-V9ILrDSA",
@@ -27945,78 +27685,8 @@
 				}
 			],
 			"22": [],
-			"23": [
-				{
-					"id": "u2w8nJCF4ME",
-					"label": "udTEF512G:COMMAND",
-					"instance": "udTEF512G",
-					"action": "COMMAND",
-					"options": {
-						"cmd": "MIXER 10-17 VOLUME 0.1 25 easeOutQuad"
-					},
-					"delay": 0
-				},
-				{
-					"id": "iRF2N16tVV_",
-					"label": "bitfocus-companion:bgcolor",
-					"instance": "bitfocus-companion",
-					"action": "bgcolor",
-					"options": {
-						"color": 13056,
-						"page": 0,
-						"bank": 0
-					},
-					"delay": 0
-				},
-				{
-					"id": "zAvs6jEJlGu",
-					"label": "bitfocus-companion:bgcolor",
-					"instance": "bitfocus-companion",
-					"action": "bgcolor",
-					"options": {
-						"color": 0,
-						"page": "0",
-						"bank": 15
-					},
-					"delay": 0
-				}
-			],
-			"24": [
-				{
-					"id": "FjQZlExfh7c",
-					"label": "udTEF512G:COMMAND",
-					"instance": "udTEF512G",
-					"action": "COMMAND",
-					"options": {
-						"cmd": "MIXER 10-18 VOLUME 0.1 25 easeOutQuad"
-					},
-					"delay": 0
-				},
-				{
-					"id": "m1ksuwPewh2",
-					"label": "bitfocus-companion:bgcolor",
-					"instance": "bitfocus-companion",
-					"action": "bgcolor",
-					"options": {
-						"color": 13056,
-						"page": 0,
-						"bank": 0
-					},
-					"delay": 0
-				},
-				{
-					"id": "x7DTpx7XYpj",
-					"label": "bitfocus-companion:bgcolor",
-					"instance": "bitfocus-companion",
-					"action": "bgcolor",
-					"options": {
-						"color": 0,
-						"page": "0",
-						"bank": 16
-					},
-					"delay": 0
-				}
-			],
+			"23": [],
+			"24": [],
 			"25": [
 				{
 					"id": "qTWD7cKIl_q",
@@ -28386,37 +28056,23 @@
 					"delay": 10
 				},
 				{
-					"id": "SPJCnIQFoFbv",
-					"label": "bitfocus-companion:button_pressrelease",
-					"instance": "bitfocus-companion",
-					"action": "button_pressrelease",
+					"id": "1zMPuL2tV",
+					"label": "udTEF512G:COMMAND",
+					"instance": "udTEF512G",
+					"action": "COMMAND",
 					"options": {
-						"page": "0",
-						"bank": 15
+						"cmd": "MIXER 10-17 VOLUME 1 25 easeOutQuad"
 					},
 					"delay": 10
 				},
 				{
-					"id": "Zo9zKB8b054x",
-					"label": "bitfocus-companion:button_text",
+					"id": "6FFw9hJUL",
+					"label": "bitfocus-companion:custom_variable_set_value",
 					"instance": "bitfocus-companion",
-					"action": "button_text",
+					"action": "custom_variable_set_value",
 					"options": {
-						"label": "AUX\\n10%",
-						"page": "0",
-						"bank": 23
-					},
-					"delay": 0
-				},
-				{
-					"id": "lePRuFJMzm2K",
-					"label": "bitfocus-companion:button_text",
-					"instance": "bitfocus-companion",
-					"action": "button_text",
-					"options": {
-						"label": "AUX\\n100%",
-						"page": "0",
-						"bank": 15
+						"name": "volPrgAux",
+						"value": "100"
 					},
 					"delay": 0
 				}
@@ -28453,37 +28109,23 @@
 					"delay": 10
 				},
 				{
-					"id": "9qcVC2sKE1RQ",
-					"label": "bitfocus-companion:button_pressrelease",
-					"instance": "bitfocus-companion",
-					"action": "button_pressrelease",
+					"id": "S8Rndx8XH",
+					"label": "udTEF512G:COMMAND",
+					"instance": "udTEF512G",
+					"action": "COMMAND",
 					"options": {
-						"page": "0",
-						"bank": 16
+						"cmd": "MIXER 10-18 VOLUME 1 25 easeOutQuad"
 					},
 					"delay": 10
 				},
 				{
-					"id": "A-DvWly-DPNe",
-					"label": "bitfocus-companion:button_text",
+					"id": "bhXHRDcSD",
+					"label": "bitfocus-companion:custom_variable_set_value",
 					"instance": "bitfocus-companion",
-					"action": "button_text",
+					"action": "custom_variable_set_value",
 					"options": {
-						"label": "Video\\n10%",
-						"page": "0",
-						"bank": 24
-					},
-					"delay": 0
-				},
-				{
-					"id": "-aCi5F_mtwu6",
-					"label": "bitfocus-companion:button_text",
-					"instance": "bitfocus-companion",
-					"action": "button_text",
-					"options": {
-						"label": "Video\\n100%",
-						"page": "0",
-						"bank": 16
+						"name": "volPrgVideo",
+						"value": "100"
 					},
 					"delay": 0
 				}
@@ -33941,6 +33583,17 @@
 					"delay": 0
 				},
 				{
+					"id": "fEhW-Hb6y",
+					"label": "bitfocus-companion:custom_variable_set_value",
+					"instance": "bitfocus-companion",
+					"action": "custom_variable_set_value",
+					"options": {
+						"name": "volPrgMain",
+						"value": "0"
+					},
+					"delay": 0
+				},
+				{
 					"id": "oO4sAjt8M",
 					"label": "udTEF512G:COMMAND",
 					"instance": "udTEF512G",
@@ -33948,7 +33601,18 @@
 					"options": {
 						"cmd": "MIXER 6-15 VOLUME 0.0 12 Linear"
 					},
-					"delay": 10
+					"delay": 100
+				},
+				{
+					"id": "Ym4YnHEnb",
+					"label": "bitfocus-companion:custom_variable_set_value",
+					"instance": "bitfocus-companion",
+					"action": "custom_variable_set_value",
+					"options": {
+						"name": "volN-1Main",
+						"value": "0"
+					},
+					"delay": 0
 				}
 			],
 			"10": [
@@ -33963,6 +33627,17 @@
 					"delay": 0
 				},
 				{
+					"id": "U4WtQMzvC",
+					"label": "bitfocus-companion:custom_variable_set_value",
+					"instance": "bitfocus-companion",
+					"action": "custom_variable_set_value",
+					"options": {
+						"name": "volPrgMain",
+						"value": "25"
+					},
+					"delay": 0
+				},
+				{
 					"id": "wuzQ4d2hG",
 					"label": "udTEF512G:COMMAND",
 					"instance": "udTEF512G",
@@ -33970,7 +33645,18 @@
 					"options": {
 						"cmd": "MIXER 6-15 VOLUME 0.25 12 Linear"
 					},
-					"delay": 10
+					"delay": 100
+				},
+				{
+					"id": "mpMXAEQAO",
+					"label": "bitfocus-companion:custom_variable_set_value",
+					"instance": "bitfocus-companion",
+					"action": "custom_variable_set_value",
+					"options": {
+						"name": "volN-1Main",
+						"value": "25"
+					},
+					"delay": 0
 				}
 			],
 			"11": [
@@ -33985,6 +33671,17 @@
 					"delay": 0
 				},
 				{
+					"id": "rfB-ZnPmi",
+					"label": "bitfocus-companion:custom_variable_set_value",
+					"instance": "bitfocus-companion",
+					"action": "custom_variable_set_value",
+					"options": {
+						"name": "volPrgMain",
+						"value": "50"
+					},
+					"delay": 0
+				},
+				{
 					"id": "L6yvL3-qs",
 					"label": "udTEF512G:COMMAND",
 					"instance": "udTEF512G",
@@ -33992,7 +33689,18 @@
 					"options": {
 						"cmd": "MIXER 6-15 VOLUME 0.5 12 Linear"
 					},
-					"delay": 10
+					"delay": 100
+				},
+				{
+					"id": "7gF5J8hcu",
+					"label": "bitfocus-companion:custom_variable_set_value",
+					"instance": "bitfocus-companion",
+					"action": "custom_variable_set_value",
+					"options": {
+						"name": "volN-1Main",
+						"value": "50"
+					},
+					"delay": 0
 				}
 			],
 			"12": [
@@ -34007,6 +33715,17 @@
 					"delay": 0
 				},
 				{
+					"id": "bhzjTdkTf",
+					"label": "bitfocus-companion:custom_variable_set_value",
+					"instance": "bitfocus-companion",
+					"action": "custom_variable_set_value",
+					"options": {
+						"name": "volPrgMain",
+						"value": "75"
+					},
+					"delay": 0
+				},
+				{
 					"id": "23ng9t4QQ",
 					"label": "udTEF512G:COMMAND",
 					"instance": "udTEF512G",
@@ -34014,7 +33733,18 @@
 					"options": {
 						"cmd": "MIXER 6-15 VOLUME 0.75 12 Linear"
 					},
-					"delay": 10
+					"delay": 100
+				},
+				{
+					"id": "pWHz7Brle",
+					"label": "bitfocus-companion:custom_variable_set_value",
+					"instance": "bitfocus-companion",
+					"action": "custom_variable_set_value",
+					"options": {
+						"name": "volN-1Main",
+						"value": "75"
+					},
+					"delay": 0
 				}
 			],
 			"13": [
@@ -34029,6 +33759,17 @@
 					"delay": 0
 				},
 				{
+					"id": "hGEgYGDjq",
+					"label": "bitfocus-companion:custom_variable_set_value",
+					"instance": "bitfocus-companion",
+					"action": "custom_variable_set_value",
+					"options": {
+						"name": "volPrgMain",
+						"value": "100"
+					},
+					"delay": 0
+				},
+				{
 					"id": "yk2GZcj8G",
 					"label": "udTEF512G:COMMAND",
 					"instance": "udTEF512G",
@@ -34036,7 +33777,18 @@
 					"options": {
 						"cmd": "MIXER 6-15 VOLUME 1.0 12 Linear"
 					},
-					"delay": 10
+					"delay": 100
+				},
+				{
+					"id": "PjNTJGfAb",
+					"label": "bitfocus-companion:custom_variable_set_value",
+					"instance": "bitfocus-companion",
+					"action": "custom_variable_set_value",
+					"options": {
+						"name": "volN-1Main",
+						"value": "100"
+					},
+					"delay": 0
 				}
 			],
 			"14": [
@@ -34051,6 +33803,17 @@
 					"delay": 0
 				},
 				{
+					"id": "p2I93lCXA",
+					"label": "bitfocus-companion:custom_variable_set_value",
+					"instance": "bitfocus-companion",
+					"action": "custom_variable_set_value",
+					"options": {
+						"name": "volPrgMain",
+						"value": "125"
+					},
+					"delay": 0
+				},
+				{
 					"id": "3VTl_mrCw",
 					"label": "udTEF512G:COMMAND",
 					"instance": "udTEF512G",
@@ -34058,7 +33821,18 @@
 					"options": {
 						"cmd": "MIXER 6-15 VOLUME 1.25 12 Linear"
 					},
-					"delay": 10
+					"delay": 100
+				},
+				{
+					"id": "bTBhQfs7D",
+					"label": "bitfocus-companion:custom_variable_set_value",
+					"instance": "bitfocus-companion",
+					"action": "custom_variable_set_value",
+					"options": {
+						"name": "volN-1Main",
+						"value": "125"
+					},
+					"delay": 0
 				}
 			],
 			"15": [
@@ -34073,6 +33847,17 @@
 					"delay": 0
 				},
 				{
+					"id": "DA4mW36E3",
+					"label": "bitfocus-companion:custom_variable_set_value",
+					"instance": "bitfocus-companion",
+					"action": "custom_variable_set_value",
+					"options": {
+						"name": "volPrgMain",
+						"value": "150"
+					},
+					"delay": 0
+				},
+				{
 					"id": "yx1ubSATP",
 					"label": "udTEF512G:COMMAND",
 					"instance": "udTEF512G",
@@ -34080,7 +33865,18 @@
 					"options": {
 						"cmd": "MIXER 6-15 VOLUME 1.5 12 Linear"
 					},
-					"delay": 10
+					"delay": 100
+				},
+				{
+					"id": "g91f8ijxA",
+					"label": "bitfocus-companion:custom_variable_set_value",
+					"instance": "bitfocus-companion",
+					"action": "custom_variable_set_value",
+					"options": {
+						"name": "volN-1Main",
+						"value": "150"
+					},
+					"delay": 0
 				}
 			],
 			"16": [
@@ -34095,6 +33891,17 @@
 					"delay": 0
 				},
 				{
+					"id": "4EXVOJL6n",
+					"label": "bitfocus-companion:custom_variable_set_value",
+					"instance": "bitfocus-companion",
+					"action": "custom_variable_set_value",
+					"options": {
+						"name": "volPrgMain",
+						"value": "200"
+					},
+					"delay": 0
+				},
+				{
 					"id": "K9YNZaaMF",
 					"label": "udTEF512G:COMMAND",
 					"instance": "udTEF512G",
@@ -34102,7 +33909,18 @@
 					"options": {
 						"cmd": "MIXER 6-15 VOLUME 2.0 12 Linear"
 					},
-					"delay": 10
+					"delay": 100
+				},
+				{
+					"id": "ZzI6vGNsU",
+					"label": "bitfocus-companion:custom_variable_set_value",
+					"instance": "bitfocus-companion",
+					"action": "custom_variable_set_value",
+					"options": {
+						"name": "volN-1Main",
+						"value": "200"
+					},
+					"delay": 0
 				}
 			],
 			"17": [
@@ -34117,6 +33935,17 @@
 					"delay": 0
 				},
 				{
+					"id": "5apMFmiTG",
+					"label": "bitfocus-companion:custom_variable_set_value",
+					"instance": "bitfocus-companion",
+					"action": "custom_variable_set_value",
+					"options": {
+						"name": "volPrgVideo",
+						"value": "0"
+					},
+					"delay": 0
+				},
+				{
 					"id": "khxRYC-0A1K",
 					"label": "udTEF512G:COMMAND",
 					"instance": "udTEF512G",
@@ -34124,7 +33953,18 @@
 					"options": {
 						"cmd": "MIXER 7-18 VOLUME 0.0 12 Linear"
 					},
-					"delay": 10
+					"delay": 100
+				},
+				{
+					"id": "mG7I0pJjA",
+					"label": "bitfocus-companion:custom_variable_set_value",
+					"instance": "bitfocus-companion",
+					"action": "custom_variable_set_value",
+					"options": {
+						"name": "volN-1Video",
+						"value": "0"
+					},
+					"delay": 0
 				}
 			],
 			"18": [
@@ -34139,6 +33979,17 @@
 					"delay": 0
 				},
 				{
+					"id": "sNKc9nwMS",
+					"label": "bitfocus-companion:custom_variable_set_value",
+					"instance": "bitfocus-companion",
+					"action": "custom_variable_set_value",
+					"options": {
+						"name": "volPrgVideo",
+						"value": "25"
+					},
+					"delay": 0
+				},
+				{
 					"id": "jqTu-yqLy4t",
 					"label": "udTEF512G:COMMAND",
 					"instance": "udTEF512G",
@@ -34146,7 +33997,18 @@
 					"options": {
 						"cmd": "MIXER 7-18 VOLUME 0.25 12 Linear"
 					},
-					"delay": 10
+					"delay": 100
+				},
+				{
+					"id": "KrSoVwrMj",
+					"label": "bitfocus-companion:custom_variable_set_value",
+					"instance": "bitfocus-companion",
+					"action": "custom_variable_set_value",
+					"options": {
+						"name": "volN-1Video",
+						"value": "25"
+					},
+					"delay": 0
 				}
 			],
 			"19": [
@@ -34161,6 +34023,17 @@
 					"delay": 0
 				},
 				{
+					"id": "tbaRWL3cW",
+					"label": "bitfocus-companion:custom_variable_set_value",
+					"instance": "bitfocus-companion",
+					"action": "custom_variable_set_value",
+					"options": {
+						"name": "volPrgVideo",
+						"value": "50"
+					},
+					"delay": 0
+				},
+				{
 					"id": "Hc2wxbevTm_",
 					"label": "udTEF512G:COMMAND",
 					"instance": "udTEF512G",
@@ -34168,7 +34041,18 @@
 					"options": {
 						"cmd": "MIXER 7-18 VOLUME 0.5 12 Linear"
 					},
-					"delay": 10
+					"delay": 100
+				},
+				{
+					"id": "H9BV9CFtT",
+					"label": "bitfocus-companion:custom_variable_set_value",
+					"instance": "bitfocus-companion",
+					"action": "custom_variable_set_value",
+					"options": {
+						"name": "volN-1Video",
+						"value": "50"
+					},
+					"delay": 0
 				}
 			],
 			"20": [
@@ -34183,6 +34067,17 @@
 					"delay": 0
 				},
 				{
+					"id": "TUUZh4EkL",
+					"label": "bitfocus-companion:custom_variable_set_value",
+					"instance": "bitfocus-companion",
+					"action": "custom_variable_set_value",
+					"options": {
+						"name": "volPrgVideo",
+						"value": "75"
+					},
+					"delay": 0
+				},
+				{
 					"id": "0BNWVQ9tji9",
 					"label": "udTEF512G:COMMAND",
 					"instance": "udTEF512G",
@@ -34190,7 +34085,18 @@
 					"options": {
 						"cmd": "MIXER 7-18 VOLUME 0.75 12 Linear"
 					},
-					"delay": 10
+					"delay": 100
+				},
+				{
+					"id": "1dbdTr-rp",
+					"label": "bitfocus-companion:custom_variable_set_value",
+					"instance": "bitfocus-companion",
+					"action": "custom_variable_set_value",
+					"options": {
+						"name": "volN-1Video",
+						"value": "75"
+					},
+					"delay": 0
 				}
 			],
 			"21": [
@@ -34205,6 +34111,17 @@
 					"delay": 0
 				},
 				{
+					"id": "BgwHZ7kq1",
+					"label": "bitfocus-companion:custom_variable_set_value",
+					"instance": "bitfocus-companion",
+					"action": "custom_variable_set_value",
+					"options": {
+						"name": "volPrgVideo",
+						"value": "100"
+					},
+					"delay": 0
+				},
+				{
 					"id": "82KDoYtHAiS",
 					"label": "udTEF512G:COMMAND",
 					"instance": "udTEF512G",
@@ -34212,7 +34129,18 @@
 					"options": {
 						"cmd": "MIXER 7-18 VOLUME 1.0 12 Linear"
 					},
-					"delay": 10
+					"delay": 100
+				},
+				{
+					"id": "Ct-Y8EkXd",
+					"label": "bitfocus-companion:custom_variable_set_value",
+					"instance": "bitfocus-companion",
+					"action": "custom_variable_set_value",
+					"options": {
+						"name": "volN-1Video",
+						"value": "100"
+					},
+					"delay": 0
 				}
 			],
 			"22": [
@@ -34227,6 +34155,17 @@
 					"delay": 0
 				},
 				{
+					"id": "IdajXbCAK",
+					"label": "bitfocus-companion:custom_variable_set_value",
+					"instance": "bitfocus-companion",
+					"action": "custom_variable_set_value",
+					"options": {
+						"name": "volPrgVideo",
+						"value": "125"
+					},
+					"delay": 0
+				},
+				{
 					"id": "FD0MQeX8AJw",
 					"label": "udTEF512G:COMMAND",
 					"instance": "udTEF512G",
@@ -34234,7 +34173,18 @@
 					"options": {
 						"cmd": "MIXER 7-18 VOLUME 1.25 12 Linear"
 					},
-					"delay": 10
+					"delay": 100
+				},
+				{
+					"id": "pzzXDujoN",
+					"label": "bitfocus-companion:custom_variable_set_value",
+					"instance": "bitfocus-companion",
+					"action": "custom_variable_set_value",
+					"options": {
+						"name": "volN-1Video",
+						"value": "125"
+					},
+					"delay": 0
 				}
 			],
 			"23": [
@@ -34249,6 +34199,17 @@
 					"delay": 0
 				},
 				{
+					"id": "AELIFawwd",
+					"label": "bitfocus-companion:custom_variable_set_value",
+					"instance": "bitfocus-companion",
+					"action": "custom_variable_set_value",
+					"options": {
+						"name": "volPrgVideo",
+						"value": "150"
+					},
+					"delay": 0
+				},
+				{
 					"id": "Xijjj7GKhWI",
 					"label": "udTEF512G:COMMAND",
 					"instance": "udTEF512G",
@@ -34256,7 +34217,18 @@
 					"options": {
 						"cmd": "MIXER 7-18 VOLUME 1.5 12 Linear"
 					},
-					"delay": 10
+					"delay": 100
+				},
+				{
+					"id": "CzyZMYltZ",
+					"label": "bitfocus-companion:custom_variable_set_value",
+					"instance": "bitfocus-companion",
+					"action": "custom_variable_set_value",
+					"options": {
+						"name": "volN-1Video",
+						"value": "150"
+					},
+					"delay": 0
 				}
 			],
 			"24": [
@@ -34271,6 +34243,17 @@
 					"delay": 0
 				},
 				{
+					"id": "ik8C98WCX",
+					"label": "bitfocus-companion:custom_variable_set_value",
+					"instance": "bitfocus-companion",
+					"action": "custom_variable_set_value",
+					"options": {
+						"name": "volPrgVideo",
+						"value": "200"
+					},
+					"delay": 0
+				},
+				{
 					"id": "XYlZQVUCQ77",
 					"label": "udTEF512G:COMMAND",
 					"instance": "udTEF512G",
@@ -34278,7 +34261,18 @@
 					"options": {
 						"cmd": "MIXER 7-18 VOLUME 2.0 12 Linear"
 					},
-					"delay": 10
+					"delay": 100
+				},
+				{
+					"id": "8lDLjScEu",
+					"label": "bitfocus-companion:custom_variable_set_value",
+					"instance": "bitfocus-companion",
+					"action": "custom_variable_set_value",
+					"options": {
+						"name": "volN-1Video",
+						"value": "200"
+					},
+					"delay": 0
 				}
 			],
 			"25": [
@@ -34293,6 +34287,17 @@
 					"delay": 0
 				},
 				{
+					"id": "W5-xTQ7E_",
+					"label": "bitfocus-companion:custom_variable_set_value",
+					"instance": "bitfocus-companion",
+					"action": "custom_variable_set_value",
+					"options": {
+						"name": "volPrgAux",
+						"value": "0"
+					},
+					"delay": 0
+				},
+				{
 					"id": "0az3edjLm",
 					"label": "udTEF512G:COMMAND",
 					"instance": "udTEF512G",
@@ -34300,7 +34305,18 @@
 					"options": {
 						"cmd": "MIXER 7-17 VOLUME 0.0 12 Linear"
 					},
-					"delay": 10
+					"delay": 100
+				},
+				{
+					"id": "lXj-ZgDHL",
+					"label": "bitfocus-companion:custom_variable_set_value",
+					"instance": "bitfocus-companion",
+					"action": "custom_variable_set_value",
+					"options": {
+						"name": "volN-1Aux",
+						"value": "0"
+					},
+					"delay": 0
 				}
 			],
 			"26": [
@@ -34315,6 +34331,17 @@
 					"delay": 0
 				},
 				{
+					"id": "fGq2fPYxB",
+					"label": "bitfocus-companion:custom_variable_set_value",
+					"instance": "bitfocus-companion",
+					"action": "custom_variable_set_value",
+					"options": {
+						"name": "volPrgAux",
+						"value": "25"
+					},
+					"delay": 0
+				},
+				{
 					"id": "pR5bQY6Ri",
 					"label": "udTEF512G:COMMAND",
 					"instance": "udTEF512G",
@@ -34322,7 +34349,18 @@
 					"options": {
 						"cmd": "MIXER 7-17 VOLUME 0.25 12 Linear"
 					},
-					"delay": 10
+					"delay": 100
+				},
+				{
+					"id": "rLVGgQVlC",
+					"label": "bitfocus-companion:custom_variable_set_value",
+					"instance": "bitfocus-companion",
+					"action": "custom_variable_set_value",
+					"options": {
+						"name": "volN-1Aux",
+						"value": "25"
+					},
+					"delay": 0
 				}
 			],
 			"27": [
@@ -34337,6 +34375,17 @@
 					"delay": 0
 				},
 				{
+					"id": "IdE3bUXO5",
+					"label": "bitfocus-companion:custom_variable_set_value",
+					"instance": "bitfocus-companion",
+					"action": "custom_variable_set_value",
+					"options": {
+						"name": "volPrgAux",
+						"value": "50"
+					},
+					"delay": 0
+				},
+				{
 					"id": "2iOEn18kh",
 					"label": "udTEF512G:COMMAND",
 					"instance": "udTEF512G",
@@ -34344,7 +34393,18 @@
 					"options": {
 						"cmd": "MIXER 7-17 VOLUME 0.5 12 Linear"
 					},
-					"delay": 10
+					"delay": 100
+				},
+				{
+					"id": "evw1GadFw",
+					"label": "bitfocus-companion:custom_variable_set_value",
+					"instance": "bitfocus-companion",
+					"action": "custom_variable_set_value",
+					"options": {
+						"name": "volN-1Aux",
+						"value": "50"
+					},
+					"delay": 0
 				}
 			],
 			"28": [
@@ -34359,6 +34419,17 @@
 					"delay": 0
 				},
 				{
+					"id": "-_YTRsT9_",
+					"label": "bitfocus-companion:custom_variable_set_value",
+					"instance": "bitfocus-companion",
+					"action": "custom_variable_set_value",
+					"options": {
+						"name": "volPrgAux",
+						"value": "75"
+					},
+					"delay": 0
+				},
+				{
 					"id": "J9enZKiHZ",
 					"label": "udTEF512G:COMMAND",
 					"instance": "udTEF512G",
@@ -34366,7 +34437,18 @@
 					"options": {
 						"cmd": "MIXER 7-17 VOLUME 0.75 12 Linear"
 					},
-					"delay": 10
+					"delay": 100
+				},
+				{
+					"id": "Vq70jISGM",
+					"label": "bitfocus-companion:custom_variable_set_value",
+					"instance": "bitfocus-companion",
+					"action": "custom_variable_set_value",
+					"options": {
+						"name": "volN-1Aux",
+						"value": "75"
+					},
+					"delay": 0
 				}
 			],
 			"29": [
@@ -34381,6 +34463,17 @@
 					"delay": 0
 				},
 				{
+					"id": "RowkDG0Vm",
+					"label": "bitfocus-companion:custom_variable_set_value",
+					"instance": "bitfocus-companion",
+					"action": "custom_variable_set_value",
+					"options": {
+						"name": "volPrgAux",
+						"value": "100"
+					},
+					"delay": 0
+				},
+				{
 					"id": "mjhONZotd",
 					"label": "udTEF512G:COMMAND",
 					"instance": "udTEF512G",
@@ -34388,7 +34481,18 @@
 					"options": {
 						"cmd": "MIXER 7-17 VOLUME 1.0 12 Linear"
 					},
-					"delay": 10
+					"delay": 100
+				},
+				{
+					"id": "vjOwD0r0y",
+					"label": "bitfocus-companion:custom_variable_set_value",
+					"instance": "bitfocus-companion",
+					"action": "custom_variable_set_value",
+					"options": {
+						"name": "volN-1Main",
+						"value": "100"
+					},
+					"delay": 0
 				}
 			],
 			"30": [
@@ -34403,6 +34507,17 @@
 					"delay": 0
 				},
 				{
+					"id": "MklBsIjq2",
+					"label": "bitfocus-companion:custom_variable_set_value",
+					"instance": "bitfocus-companion",
+					"action": "custom_variable_set_value",
+					"options": {
+						"name": "volPrgAux",
+						"value": "125"
+					},
+					"delay": 0
+				},
+				{
 					"id": "EBTt0HJOl",
 					"label": "udTEF512G:COMMAND",
 					"instance": "udTEF512G",
@@ -34410,7 +34525,18 @@
 					"options": {
 						"cmd": "MIXER 7-17 VOLUME 1.25 12 Linear"
 					},
-					"delay": 10
+					"delay": 100
+				},
+				{
+					"id": "fJ340nopy",
+					"label": "bitfocus-companion:custom_variable_set_value",
+					"instance": "bitfocus-companion",
+					"action": "custom_variable_set_value",
+					"options": {
+						"name": "volN-1Aux",
+						"value": "125"
+					},
+					"delay": 0
 				}
 			],
 			"31": [
@@ -34425,6 +34551,17 @@
 					"delay": 0
 				},
 				{
+					"id": "LsayoKktU",
+					"label": "bitfocus-companion:custom_variable_set_value",
+					"instance": "bitfocus-companion",
+					"action": "custom_variable_set_value",
+					"options": {
+						"name": "volPrgAux",
+						"value": "150"
+					},
+					"delay": 0
+				},
+				{
 					"id": "dKRH_Ps4D",
 					"label": "udTEF512G:COMMAND",
 					"instance": "udTEF512G",
@@ -34432,7 +34569,18 @@
 					"options": {
 						"cmd": "MIXER 7-17 VOLUME 1.5 12 Linear"
 					},
-					"delay": 10
+					"delay": 100
+				},
+				{
+					"id": "aRWM4oq3Z",
+					"label": "bitfocus-companion:custom_variable_set_value",
+					"instance": "bitfocus-companion",
+					"action": "custom_variable_set_value",
+					"options": {
+						"name": "volN-1Main",
+						"value": "150"
+					},
+					"delay": 0
 				}
 			],
 			"32": [
@@ -34447,6 +34595,17 @@
 					"delay": 0
 				},
 				{
+					"id": "4bCzTwvQd",
+					"label": "bitfocus-companion:custom_variable_set_value",
+					"instance": "bitfocus-companion",
+					"action": "custom_variable_set_value",
+					"options": {
+						"name": "volPrgAux",
+						"value": "200"
+					},
+					"delay": 0
+				},
+				{
 					"id": "StEOjRoZJ",
 					"label": "udTEF512G:COMMAND",
 					"instance": "udTEF512G",
@@ -34454,7 +34613,18 @@
 					"options": {
 						"cmd": "MIXER 7-17 VOLUME 2.0 12 Linear"
 					},
-					"delay": 10
+					"delay": 100
+				},
+				{
+					"id": "TY6SJBS0T",
+					"label": "bitfocus-companion:custom_variable_set_value",
+					"instance": "bitfocus-companion",
+					"action": "custom_variable_set_value",
+					"options": {
+						"name": "volN-1Aux",
+						"value": "200"
+					},
+					"delay": 0
 				}
 			]
 		},
@@ -34771,6 +34941,17 @@
 						"cmd": "MIXER 1-15 VOLUME 0 25 easeOutQuad"
 					},
 					"delay": 0
+				},
+				{
+					"id": "-3DNRDp6i",
+					"label": "bitfocus-companion:custom_variable_set_expression",
+					"instance": "bitfocus-companion",
+					"action": "custom_variable_set_expression",
+					"options": {
+						"name": "volPrgMain",
+						"expression": "0"
+					},
+					"delay": 0
 				}
 			],
 			"16": [
@@ -34781,6 +34962,17 @@
 					"action": "COMMAND",
 					"options": {
 						"cmd": "MIXER 6-15 VOLUME 0 25 easeOutQuad"
+					},
+					"delay": 0
+				},
+				{
+					"id": "pj6RF43Ny",
+					"label": "bitfocus-companion:custom_variable_set_value",
+					"instance": "bitfocus-companion",
+					"action": "custom_variable_set_value",
+					"options": {
+						"name": "volN-1Main",
+						"value": "0"
 					},
 					"delay": 0
 				}
@@ -38899,50 +39091,23 @@
 					"delay": 0
 				},
 				{
-					"id": "NCFtq3GsPGV",
-					"label": "bitfocus-companion:bgcolor",
-					"instance": "bitfocus-companion",
-					"action": "bgcolor",
+					"id": "SB6RlFHUI",
+					"label": "udTEF512G:COMMAND",
+					"instance": "udTEF512G",
+					"action": "COMMAND",
 					"options": {
-						"color": "0",
-						"page": "0",
-						"bank": 23
+						"cmd": "CLEAR 7-17"
 					},
-					"delay": 0
+					"delay": 1000
 				},
 				{
-					"id": "jChs78hNO9a",
-					"label": "bitfocus-companion:bgcolor",
+					"id": "dkUFrLbzz",
+					"label": "bitfocus-companion:custom_variable_set_value",
 					"instance": "bitfocus-companion",
-					"action": "bgcolor",
+					"action": "custom_variable_set_value",
 					"options": {
-						"color": "0",
-						"page": "0",
-						"bank": 15
-					},
-					"delay": 0
-				},
-				{
-					"id": "0xezLwTlQ7w",
-					"label": "bitfocus-companion:button_text",
-					"instance": "bitfocus-companion",
-					"action": "button_text",
-					"options": {
-						"label": "",
-						"page": "0",
-						"bank": 23
-					},
-					"delay": 0
-				},
-				{
-					"id": "EGz0npwxeLS",
-					"label": "bitfocus-companion:button_text",
-					"instance": "bitfocus-companion",
-					"action": "button_text",
-					"options": {
-						"label": "",
-						"page": "0",
-						"bank": 15
+						"name": "volN-1Aux",
+						"value": "0"
 					},
 					"delay": 0
 				}
@@ -38959,50 +39124,23 @@
 					"delay": 0
 				},
 				{
-					"id": "1yGDyMrLHFd",
-					"label": "bitfocus-companion:bgcolor",
-					"instance": "bitfocus-companion",
-					"action": "bgcolor",
+					"id": "D23RsEi0G",
+					"label": "udTEF512G:COMMAND",
+					"instance": "udTEF512G",
+					"action": "COMMAND",
 					"options": {
-						"color": "0",
-						"page": "0",
-						"bank": 24
+						"cmd": "CLEAR 7-18"
 					},
-					"delay": 0
+					"delay": 1000
 				},
 				{
-					"id": "gr7DT7R0qB6",
-					"label": "bitfocus-companion:bgcolor",
+					"id": "XEkZrRw0K",
+					"label": "bitfocus-companion:custom_variable_set_value",
 					"instance": "bitfocus-companion",
-					"action": "bgcolor",
+					"action": "custom_variable_set_value",
 					"options": {
-						"color": "0",
-						"page": "0",
-						"bank": 16
-					},
-					"delay": 0
-				},
-				{
-					"id": "zGzTp6-_0dR",
-					"label": "bitfocus-companion:button_text",
-					"instance": "bitfocus-companion",
-					"action": "button_text",
-					"options": {
-						"label": "",
-						"page": "0",
-						"bank": 24
-					},
-					"delay": 0
-				},
-				{
-					"id": "2jLnlROjlEV",
-					"label": "bitfocus-companion:button_text",
-					"instance": "bitfocus-companion",
-					"action": "button_text",
-					"options": {
-						"label": "",
-						"page": "0",
-						"bank": 16
+						"name": "volN-1Video",
+						"value": "0"
 					},
 					"delay": 0
 				}
@@ -39346,50 +39484,23 @@
 					"delay": 0
 				},
 				{
-					"id": "7_4aF6D3IDCk",
-					"label": "bitfocus-companion:bgcolor",
-					"instance": "bitfocus-companion",
-					"action": "bgcolor",
+					"id": "iM49TBSCs",
+					"label": "udTEF512G:COMMAND",
+					"instance": "udTEF512G",
+					"action": "COMMAND",
 					"options": {
-						"color": "0",
-						"page": "0",
-						"bank": 23
+						"cmd": "CLEAR 10-17"
 					},
-					"delay": 0
+					"delay": 1000
 				},
 				{
-					"id": "_85AYDA8H2or",
-					"label": "bitfocus-companion:bgcolor",
+					"id": "wF10i7jtX",
+					"label": "bitfocus-companion:custom_variable_set_value",
 					"instance": "bitfocus-companion",
-					"action": "bgcolor",
+					"action": "custom_variable_set_value",
 					"options": {
-						"color": "0",
-						"page": "0",
-						"bank": 15
-					},
-					"delay": 0
-				},
-				{
-					"id": "lepcfD9LWu0U",
-					"label": "bitfocus-companion:button_text",
-					"instance": "bitfocus-companion",
-					"action": "button_text",
-					"options": {
-						"label": "",
-						"page": "0",
-						"bank": 23
-					},
-					"delay": 0
-				},
-				{
-					"id": "wnUl_odegN-e",
-					"label": "bitfocus-companion:button_text",
-					"instance": "bitfocus-companion",
-					"action": "button_text",
-					"options": {
-						"label": "",
-						"page": "0",
-						"bank": 15
+						"name": "volPrgAux",
+						"value": "0"
 					},
 					"delay": 0
 				}
@@ -39406,50 +39517,23 @@
 					"delay": 0
 				},
 				{
-					"id": "XcfbaZ-5yifb",
-					"label": "bitfocus-companion:bgcolor",
-					"instance": "bitfocus-companion",
-					"action": "bgcolor",
+					"id": "nUpdA0O9N",
+					"label": "udTEF512G:COMMAND",
+					"instance": "udTEF512G",
+					"action": "COMMAND",
 					"options": {
-						"color": "0",
-						"page": "0",
-						"bank": 24
+						"cmd": "CLEAR 10-18"
 					},
-					"delay": 0
+					"delay": 1000
 				},
 				{
-					"id": "HyJ6VB4Fsqgs",
-					"label": "bitfocus-companion:bgcolor",
+					"id": "XErTFGtbW",
+					"label": "bitfocus-companion:custom_variable_set_value",
 					"instance": "bitfocus-companion",
-					"action": "bgcolor",
+					"action": "custom_variable_set_value",
 					"options": {
-						"color": "0",
-						"page": "0",
-						"bank": 16
-					},
-					"delay": 0
-				},
-				{
-					"id": "LhDRCSG8HzFi",
-					"label": "bitfocus-companion:button_text",
-					"instance": "bitfocus-companion",
-					"action": "button_text",
-					"options": {
-						"label": "",
-						"page": "0",
-						"bank": 24
-					},
-					"delay": 0
-				},
-				{
-					"id": "W11MxO_G96bG",
-					"label": "bitfocus-companion:button_text",
-					"instance": "bitfocus-companion",
-					"action": "button_text",
-					"options": {
-						"label": "",
-						"page": "0",
-						"bank": 16
+						"name": "volPrgVideo",
+						"value": "0"
 					},
 					"delay": 0
 				}
@@ -42153,6 +42237,30 @@
 		"pipStatus": {
 			"description": "A custom variable",
 			"defaultValue": ""
+		},
+		"volPrgMain": {
+			"description": "A custom variable",
+			"defaultValue": "0"
+		},
+		"volPrgAux": {
+			"description": "A custom variable",
+			"defaultValue": "0"
+		},
+		"volPrgVideo": {
+			"description": "A custom variable",
+			"defaultValue": "0"
+		},
+		"volN-1Main": {
+			"description": "A custom variable",
+			"defaultValue": "0"
+		},
+		"volN-1Aux": {
+			"description": "A custom variable",
+			"defaultValue": "0"
+		},
+		"volN-1Video": {
+			"description": "A custom variable",
+			"defaultValue": "0"
 		}
 	},
 	"feedbacks": {
@@ -42274,12 +42382,13 @@
 			"14": [],
 			"15": [
 				{
-					"id": "BeCxZ9fptwG",
-					"type": "bank_pushed",
+					"id": "N2h0yDVX6",
+					"type": "variable_value",
 					"instance_id": "bitfocus-companion",
 					"options": {
-						"page": 0,
-						"bank": 0
+						"variable": "internal:custom_volPrgMain",
+						"op": "gt",
+						"value": "0"
 					},
 					"style": {
 						"bgcolor": 13056
@@ -42288,12 +42397,13 @@
 			],
 			"16": [
 				{
-					"id": "5auCM_JmTt3",
-					"type": "bank_pushed",
+					"id": "4tihIWE1V",
+					"type": "variable_value",
 					"instance_id": "bitfocus-companion",
 					"options": {
-						"page": 0,
-						"bank": 0
+						"variable": "internal:custom_volN-1Main",
+						"op": "gt",
+						"value": "0"
 					},
 					"style": {
 						"bgcolor": 13056
