@@ -3,6 +3,8 @@
 /casparcg-server
 /temp
 /config/media/Videos
+/config/media/einmalBenutzung
+/config/casparcg-client.s3db
 /config/template/casparcg-templates-examples-master
 /config/template/Test_BB
 /config/FRITZ.BoxExportPassword.txt
