@@ -8545,7 +8545,18 @@
 				"relative_delay": false,
 				"show_topbar": "default"
 			},
-			"29": {},
+			"29": {
+				"style": "png",
+				"text": "",
+				"size": "auto",
+				"alignment": "center:center",
+				"pngalignment": "center:center",
+				"color": 16777215,
+				"bgcolor": 0,
+				"latch": false,
+				"relative_delay": false,
+				"show_topbar": "default"
+			},
 			"30": {
 				"style": "png",
 				"text": "",
@@ -28768,7 +28779,19 @@
 					"delay": 0
 				}
 			],
-			"29": [],
+			"29": [
+				{
+					"id": "266CQahEE",
+					"label": "bitfocus-companion:button_press",
+					"instance": "bitfocus-companion",
+					"action": "button_press",
+					"options": {
+						"page": 1,
+						"bank": 22
+					},
+					"delay": 0
+				}
+			],
 			"30": [
 				{
 					"id": "am4p-RK6yD3",
@@ -39864,7 +39887,19 @@
 			"26": [],
 			"27": [],
 			"28": [],
-			"29": [],
+			"29": [
+				{
+					"id": "uWhpKK3ot",
+					"label": "bitfocus-companion:button_release",
+					"instance": "bitfocus-companion",
+					"action": "button_release",
+					"options": {
+						"page": 1,
+						"bank": 22
+					},
+					"delay": 0
+				}
+			],
 			"30": [],
 			"31": [],
 			"32": []
@@ -47356,7 +47391,18 @@
 				}
 			],
 			"28": [],
-			"29": [],
+			"29": [
+				{
+					"id": "oCjRB17VG",
+					"type": "bank_style",
+					"instance_id": "bitfocus-companion",
+					"options": {
+						"page": 1,
+						"bank": 22
+					},
+					"style": {}
+				}
+			],
 			"30": [
 				{
 					"id": "qsB4bZk7aOp",
