@@ -12528,18 +12528,7 @@
 			"29": {},
 			"30": {},
 			"31": {},
-			"32": {
-				"style": "png",
-				"text": "",
-				"size": "auto",
-				"alignment": "center:center",
-				"pngalignment": "center:center",
-				"color": 16777215,
-				"bgcolor": 0,
-				"latch": false,
-				"relative_delay": false,
-				"show_topbar": "default"
-			}
+			"32": {}
 		},
 		"96": {
 			"1": {
@@ -14618,85 +14607,13 @@
 					"delay": 0
 				},
 				{
-					"id": "YrjZ1Y61ZHQ",
-					"label": "bitfocus-companion:bgcolor",
+					"id": "qKLOcYTCo",
+					"label": "bitfocus-companion:custom_variable_set_value",
 					"instance": "bitfocus-companion",
-					"action": "bgcolor",
+					"action": "custom_variable_set_value",
 					"options": {
-						"color": 16737792,
-						"page": 0,
-						"bank": "17"
-					},
-					"delay": 0
-				},
-				{
-					"id": "3L9Dbu-4NQG",
-					"label": "bitfocus-companion:bgcolor",
-					"instance": "bitfocus-companion",
-					"action": "bgcolor",
-					"options": {
-						"color": "0",
-						"page": 0,
-						"bank": "18"
-					},
-					"delay": 0
-				},
-				{
-					"id": "53V1b87gCZ-",
-					"label": "bitfocus-companion:bgcolor",
-					"instance": "bitfocus-companion",
-					"action": "bgcolor",
-					"options": {
-						"color": "0",
-						"page": 0,
-						"bank": "19"
-					},
-					"delay": 0
-				},
-				{
-					"id": "hsChjpBYaaR",
-					"label": "bitfocus-companion:bgcolor",
-					"instance": "bitfocus-companion",
-					"action": "bgcolor",
-					"options": {
-						"color": "0",
-						"page": 0,
-						"bank": "20"
-					},
-					"delay": 0
-				},
-				{
-					"id": "qeD6_JMt8SG",
-					"label": "bitfocus-companion:bgcolor",
-					"instance": "bitfocus-companion",
-					"action": "bgcolor",
-					"options": {
-						"color": "0",
-						"page": 0,
-						"bank": "21"
-					},
-					"delay": 0
-				},
-				{
-					"id": "crsLR-Q-c-s",
-					"label": "bitfocus-companion:bgcolor",
-					"instance": "bitfocus-companion",
-					"action": "bgcolor",
-					"options": {
-						"color": "0",
-						"page": "0",
-						"bank": 22
-					},
-					"delay": 0
-				},
-				{
-					"id": "MUgCkLcW0VF",
-					"label": "bitfocus-companion:button_pressrelease",
-					"instance": "bitfocus-companion",
-					"action": "button_pressrelease",
-					"options": {
-						"page": "95",
-						"bank": 32
+						"name": "auxCurrent",
+						"value": "1"
 					},
 					"delay": 0
 				}
@@ -14714,85 +14631,13 @@
 					"delay": 0
 				},
 				{
-					"id": "YkXynzyZxSA",
-					"label": "bitfocus-companion:bgcolor",
+					"id": "VYwEU4Gov",
+					"label": "bitfocus-companion:custom_variable_set_value",
 					"instance": "bitfocus-companion",
-					"action": "bgcolor",
+					"action": "custom_variable_set_value",
 					"options": {
-						"color": 0,
-						"page": 0,
-						"bank": "17"
-					},
-					"delay": 0
-				},
-				{
-					"id": "C8hqO5fAKrT",
-					"label": "bitfocus-companion:bgcolor",
-					"instance": "bitfocus-companion",
-					"action": "bgcolor",
-					"options": {
-						"color": 16737792,
-						"page": 0,
-						"bank": "18"
-					},
-					"delay": 0
-				},
-				{
-					"id": "ckqLOqXN-Zx",
-					"label": "bitfocus-companion:bgcolor",
-					"instance": "bitfocus-companion",
-					"action": "bgcolor",
-					"options": {
-						"color": "0",
-						"page": 0,
-						"bank": "19"
-					},
-					"delay": 0
-				},
-				{
-					"id": "NhIB2lkclpr",
-					"label": "bitfocus-companion:bgcolor",
-					"instance": "bitfocus-companion",
-					"action": "bgcolor",
-					"options": {
-						"color": "0",
-						"page": 0,
-						"bank": "20"
-					},
-					"delay": 0
-				},
-				{
-					"id": "6BZYbB3pFjK",
-					"label": "bitfocus-companion:bgcolor",
-					"instance": "bitfocus-companion",
-					"action": "bgcolor",
-					"options": {
-						"color": "0",
-						"page": 0,
-						"bank": "21"
-					},
-					"delay": 0
-				},
-				{
-					"id": "JwHOoJCHFHA",
-					"label": "bitfocus-companion:bgcolor",
-					"instance": "bitfocus-companion",
-					"action": "bgcolor",
-					"options": {
-						"color": "0",
-						"page": "0",
-						"bank": 22
-					},
-					"delay": 0
-				},
-				{
-					"id": "11-k0DfZk1G",
-					"label": "bitfocus-companion:button_pressrelease",
-					"instance": "bitfocus-companion",
-					"action": "button_pressrelease",
-					"options": {
-						"page": "95",
-						"bank": 32
+						"name": "auxCurrent",
+						"value": "2"
 					},
 					"delay": 0
 				}
@@ -14810,85 +14655,13 @@
 					"delay": 0
 				},
 				{
-					"id": "Q0BYKbL78RU",
-					"label": "bitfocus-companion:bgcolor",
+					"id": "FfESccM4a",
+					"label": "bitfocus-companion:custom_variable_set_value",
 					"instance": "bitfocus-companion",
-					"action": "bgcolor",
+					"action": "custom_variable_set_value",
 					"options": {
-						"color": 0,
-						"page": 0,
-						"bank": "17"
-					},
-					"delay": 0
-				},
-				{
-					"id": "-j2xpWoL2GY",
-					"label": "bitfocus-companion:bgcolor",
-					"instance": "bitfocus-companion",
-					"action": "bgcolor",
-					"options": {
-						"color": "0",
-						"page": 0,
-						"bank": "18"
-					},
-					"delay": 0
-				},
-				{
-					"id": "WtDWFrOiU8v",
-					"label": "bitfocus-companion:bgcolor",
-					"instance": "bitfocus-companion",
-					"action": "bgcolor",
-					"options": {
-						"color": 16737792,
-						"page": 0,
-						"bank": "19"
-					},
-					"delay": 0
-				},
-				{
-					"id": "f38O039GF0Z",
-					"label": "bitfocus-companion:bgcolor",
-					"instance": "bitfocus-companion",
-					"action": "bgcolor",
-					"options": {
-						"color": "0",
-						"page": 0,
-						"bank": "20"
-					},
-					"delay": 0
-				},
-				{
-					"id": "tMACJz1DBxs",
-					"label": "bitfocus-companion:bgcolor",
-					"instance": "bitfocus-companion",
-					"action": "bgcolor",
-					"options": {
-						"color": "0",
-						"page": 0,
-						"bank": "21"
-					},
-					"delay": 0
-				},
-				{
-					"id": "Na0Lkqa02fr",
-					"label": "bitfocus-companion:bgcolor",
-					"instance": "bitfocus-companion",
-					"action": "bgcolor",
-					"options": {
-						"color": "0",
-						"page": "0",
-						"bank": 22
-					},
-					"delay": 0
-				},
-				{
-					"id": "PTWKpe1JxTc",
-					"label": "bitfocus-companion:button_pressrelease",
-					"instance": "bitfocus-companion",
-					"action": "button_pressrelease",
-					"options": {
-						"page": "95",
-						"bank": 32
+						"name": "auxCurrent",
+						"value": "3"
 					},
 					"delay": 0
 				}
@@ -14905,85 +14678,13 @@
 					"delay": 0
 				},
 				{
-					"id": "Vl3yP178RjJ",
-					"label": "bitfocus-companion:bgcolor",
+					"id": "xQ0osiiwI",
+					"label": "bitfocus-companion:custom_variable_set_value",
 					"instance": "bitfocus-companion",
-					"action": "bgcolor",
+					"action": "custom_variable_set_value",
 					"options": {
-						"color": 0,
-						"page": 0,
-						"bank": "17"
-					},
-					"delay": 0
-				},
-				{
-					"id": "yfpWzIluqnl",
-					"label": "bitfocus-companion:bgcolor",
-					"instance": "bitfocus-companion",
-					"action": "bgcolor",
-					"options": {
-						"color": "0",
-						"page": 0,
-						"bank": "18"
-					},
-					"delay": 0
-				},
-				{
-					"id": "t4c6A1_2ini",
-					"label": "bitfocus-companion:bgcolor",
-					"instance": "bitfocus-companion",
-					"action": "bgcolor",
-					"options": {
-						"color": "0",
-						"page": 0,
-						"bank": "19"
-					},
-					"delay": 0
-				},
-				{
-					"id": "krgv4JU3Iu6",
-					"label": "bitfocus-companion:bgcolor",
-					"instance": "bitfocus-companion",
-					"action": "bgcolor",
-					"options": {
-						"color": 16737792,
-						"page": 0,
-						"bank": "20"
-					},
-					"delay": 0
-				},
-				{
-					"id": "dgSSh9qjEIf",
-					"label": "bitfocus-companion:bgcolor",
-					"instance": "bitfocus-companion",
-					"action": "bgcolor",
-					"options": {
-						"color": "0",
-						"page": 0,
-						"bank": "21"
-					},
-					"delay": 0
-				},
-				{
-					"id": "v2WZx2hmolo",
-					"label": "bitfocus-companion:bgcolor",
-					"instance": "bitfocus-companion",
-					"action": "bgcolor",
-					"options": {
-						"color": "0",
-						"page": "0",
-						"bank": 22
-					},
-					"delay": 0
-				},
-				{
-					"id": "m88iLopLY6g",
-					"label": "bitfocus-companion:button_pressrelease",
-					"instance": "bitfocus-companion",
-					"action": "button_pressrelease",
-					"options": {
-						"page": "95",
-						"bank": 32
+						"name": "auxCurrent",
+						"value": "4"
 					},
 					"delay": 0
 				}
@@ -15000,85 +14701,13 @@
 					"delay": 0
 				},
 				{
-					"id": "dZTp7TZ2c5C",
-					"label": "bitfocus-companion:bgcolor",
+					"id": "nrfIXfhYF",
+					"label": "bitfocus-companion:custom_variable_set_value",
 					"instance": "bitfocus-companion",
-					"action": "bgcolor",
+					"action": "custom_variable_set_value",
 					"options": {
-						"color": 0,
-						"page": 0,
-						"bank": "17"
-					},
-					"delay": 0
-				},
-				{
-					"id": "5i8WA8VCWSi",
-					"label": "bitfocus-companion:bgcolor",
-					"instance": "bitfocus-companion",
-					"action": "bgcolor",
-					"options": {
-						"color": "0",
-						"page": 0,
-						"bank": "18"
-					},
-					"delay": 0
-				},
-				{
-					"id": "zhTWrxNDjRV",
-					"label": "bitfocus-companion:bgcolor",
-					"instance": "bitfocus-companion",
-					"action": "bgcolor",
-					"options": {
-						"color": "0",
-						"page": 0,
-						"bank": "19"
-					},
-					"delay": 0
-				},
-				{
-					"id": "QH2Q1UKZGYU",
-					"label": "bitfocus-companion:bgcolor",
-					"instance": "bitfocus-companion",
-					"action": "bgcolor",
-					"options": {
-						"color": "0",
-						"page": 0,
-						"bank": "20"
-					},
-					"delay": 0
-				},
-				{
-					"id": "q-oReZVgISY",
-					"label": "bitfocus-companion:bgcolor",
-					"instance": "bitfocus-companion",
-					"action": "bgcolor",
-					"options": {
-						"color": 16737792,
-						"page": 0,
-						"bank": "21"
-					},
-					"delay": 0
-				},
-				{
-					"id": "cq5XFmGFyRj",
-					"label": "bitfocus-companion:bgcolor",
-					"instance": "bitfocus-companion",
-					"action": "bgcolor",
-					"options": {
-						"color": "0",
-						"page": "0",
-						"bank": 22
-					},
-					"delay": 0
-				},
-				{
-					"id": "worMobQ3ylD",
-					"label": "bitfocus-companion:button_pressrelease",
-					"instance": "bitfocus-companion",
-					"action": "button_pressrelease",
-					"options": {
-						"page": "95",
-						"bank": 32
+						"name": "auxCurrent",
+						"value": "5"
 					},
 					"delay": 0
 				}
@@ -18367,22 +17996,26 @@
 			],
 			"19": [
 				{
-					"id": "vwnR5NyUIwHl",
-					"label": "udTEF512G:PLAY",
-					"instance": "udTEF512G",
-					"action": "PLAY",
+					"id": "rYXM83F1p",
+					"label": "bitfocus-companion:button_release",
+					"instance": "bitfocus-companion",
+					"action": "button_release",
 					"options": {
-						"channel": "17",
-						"layer": "10",
-						"clip_dd": "GRAFIKEN/AUX_01",
-						"clip": "",
-						"loop": "false",
-						"auto": "false",
-						"transition": "CUT",
-						"transition_duration": "",
-						"transition_tween": "linear"
+						"page": 2,
+						"bank": 17
 					},
 					"delay": 0
+				},
+				{
+					"id": "IN72Y6wPk",
+					"label": "bitfocus-companion:button_pressrelease",
+					"instance": "bitfocus-companion",
+					"action": "button_pressrelease",
+					"options": {
+						"page": 2,
+						"bank": 17
+					},
+					"delay": 100
 				}
 			],
 			"20": [
@@ -33417,99 +33050,15 @@
 					"delay": 0
 				},
 				{
-					"id": "FF0gFIpkE4p",
-					"label": "bitfocus-companion:bgcolor",
+					"id": "tGlbjMa6Q",
+					"label": "bitfocus-companion:custom_variable_set_value",
 					"instance": "bitfocus-companion",
-					"action": "bgcolor",
+					"action": "custom_variable_set_value",
 					"options": {
-						"color": 16737792,
-						"page": "2",
-						"bank": 22
+						"name": "auxCurrent",
+						"value": "11"
 					},
 					"delay": 0
-				},
-				{
-					"id": "ULLCBXnmxI7",
-					"label": "bitfocus-companion:bgcolor",
-					"instance": "bitfocus-companion",
-					"action": "bgcolor",
-					"options": {
-						"color": "0",
-						"page": "2",
-						"bank": 17
-					},
-					"delay": 0
-				},
-				{
-					"id": "tm0n8kZJDRz",
-					"label": "bitfocus-companion:bgcolor",
-					"instance": "bitfocus-companion",
-					"action": "bgcolor",
-					"options": {
-						"color": "0",
-						"page": "2",
-						"bank": 18
-					},
-					"delay": 0
-				},
-				{
-					"id": "dSbg4NBd46S",
-					"label": "bitfocus-companion:bgcolor",
-					"instance": "bitfocus-companion",
-					"action": "bgcolor",
-					"options": {
-						"color": "0",
-						"page": "2",
-						"bank": 19
-					},
-					"delay": 0
-				},
-				{
-					"id": "zIcHXkFaWb2",
-					"label": "bitfocus-companion:bgcolor",
-					"instance": "bitfocus-companion",
-					"action": "bgcolor",
-					"options": {
-						"color": "0",
-						"page": "2",
-						"bank": 20
-					},
-					"delay": 0
-				},
-				{
-					"id": "I-g2n6UjGA1",
-					"label": "bitfocus-companion:bgcolor",
-					"instance": "bitfocus-companion",
-					"action": "bgcolor",
-					"options": {
-						"color": "0",
-						"page": "2",
-						"bank": 21
-					},
-					"delay": 0
-				},
-				{
-					"id": "G7v4nVvIVYZ",
-					"label": "bitfocus-companion:button_pressrelease",
-					"instance": "bitfocus-companion",
-					"action": "button_pressrelease",
-					"options": {
-						"page": "0",
-						"bank": 32
-					},
-					"delay": 0
-				},
-				{
-					"id": "Ub4BPgWmdXA",
-					"label": "bitfocus-companion:bgcolor",
-					"instance": "bitfocus-companion",
-					"action": "bgcolor",
-					"options": {
-						"color": 16737792,
-						"page": "0",
-						"bank": "0"
-					},
-					"delay": 40
 				}
 			],
 			"10": [
@@ -33532,99 +33081,15 @@
 					"delay": 0
 				},
 				{
-					"id": "DVrS763xXyO",
-					"label": "bitfocus-companion:bgcolor",
+					"id": "GJDQx7TvZ",
+					"label": "bitfocus-companion:custom_variable_set_value",
 					"instance": "bitfocus-companion",
-					"action": "bgcolor",
+					"action": "custom_variable_set_value",
 					"options": {
-						"color": 16737792,
-						"page": "2",
-						"bank": 22
+						"name": "auxCurrent",
+						"value": "12"
 					},
 					"delay": 0
-				},
-				{
-					"id": "MKBZMR6QEW5",
-					"label": "bitfocus-companion:bgcolor",
-					"instance": "bitfocus-companion",
-					"action": "bgcolor",
-					"options": {
-						"color": "0",
-						"page": "2",
-						"bank": 17
-					},
-					"delay": 0
-				},
-				{
-					"id": "Sw2dvpPn5P4",
-					"label": "bitfocus-companion:bgcolor",
-					"instance": "bitfocus-companion",
-					"action": "bgcolor",
-					"options": {
-						"color": "0",
-						"page": "2",
-						"bank": 18
-					},
-					"delay": 0
-				},
-				{
-					"id": "q1x-zgQNd_M",
-					"label": "bitfocus-companion:bgcolor",
-					"instance": "bitfocus-companion",
-					"action": "bgcolor",
-					"options": {
-						"color": "0",
-						"page": "2",
-						"bank": 19
-					},
-					"delay": 0
-				},
-				{
-					"id": "fYrwcFS3gPS",
-					"label": "bitfocus-companion:bgcolor",
-					"instance": "bitfocus-companion",
-					"action": "bgcolor",
-					"options": {
-						"color": "0",
-						"page": "2",
-						"bank": 20
-					},
-					"delay": 0
-				},
-				{
-					"id": "l9XKJu9X2Sq",
-					"label": "bitfocus-companion:bgcolor",
-					"instance": "bitfocus-companion",
-					"action": "bgcolor",
-					"options": {
-						"color": "0",
-						"page": "2",
-						"bank": 21
-					},
-					"delay": 0
-				},
-				{
-					"id": "Kjszym-O5bV",
-					"label": "bitfocus-companion:button_pressrelease",
-					"instance": "bitfocus-companion",
-					"action": "button_pressrelease",
-					"options": {
-						"page": "0",
-						"bank": 32
-					},
-					"delay": 0
-				},
-				{
-					"id": "4uzL4znSfgn",
-					"label": "bitfocus-companion:bgcolor",
-					"instance": "bitfocus-companion",
-					"action": "bgcolor",
-					"options": {
-						"color": 16737792,
-						"page": "0",
-						"bank": "0"
-					},
-					"delay": 40
 				}
 			],
 			"11": [
@@ -33647,99 +33112,15 @@
 					"delay": 0
 				},
 				{
-					"id": "JPXtbIJJ3z8",
-					"label": "bitfocus-companion:bgcolor",
+					"id": "_Nk1YkguU",
+					"label": "bitfocus-companion:custom_variable_set_value",
 					"instance": "bitfocus-companion",
-					"action": "bgcolor",
+					"action": "custom_variable_set_value",
 					"options": {
-						"color": 16737792,
-						"page": "2",
-						"bank": 22
+						"name": "auxCurrent",
+						"value": "13"
 					},
 					"delay": 0
-				},
-				{
-					"id": "IsMHSbmaDCJ",
-					"label": "bitfocus-companion:bgcolor",
-					"instance": "bitfocus-companion",
-					"action": "bgcolor",
-					"options": {
-						"color": "0",
-						"page": "2",
-						"bank": 17
-					},
-					"delay": 0
-				},
-				{
-					"id": "bhsBBuR-Joy",
-					"label": "bitfocus-companion:bgcolor",
-					"instance": "bitfocus-companion",
-					"action": "bgcolor",
-					"options": {
-						"color": "0",
-						"page": "2",
-						"bank": 18
-					},
-					"delay": 0
-				},
-				{
-					"id": "jnQaQA25FV0",
-					"label": "bitfocus-companion:bgcolor",
-					"instance": "bitfocus-companion",
-					"action": "bgcolor",
-					"options": {
-						"color": "0",
-						"page": "2",
-						"bank": 19
-					},
-					"delay": 0
-				},
-				{
-					"id": "U5KJgAmOow8",
-					"label": "bitfocus-companion:bgcolor",
-					"instance": "bitfocus-companion",
-					"action": "bgcolor",
-					"options": {
-						"color": "0",
-						"page": "2",
-						"bank": 20
-					},
-					"delay": 0
-				},
-				{
-					"id": "MLgcXdv0HZf",
-					"label": "bitfocus-companion:bgcolor",
-					"instance": "bitfocus-companion",
-					"action": "bgcolor",
-					"options": {
-						"color": "0",
-						"page": "2",
-						"bank": 21
-					},
-					"delay": 0
-				},
-				{
-					"id": "MqO5llgeaqf",
-					"label": "bitfocus-companion:button_pressrelease",
-					"instance": "bitfocus-companion",
-					"action": "button_pressrelease",
-					"options": {
-						"page": "0",
-						"bank": 32
-					},
-					"delay": 0
-				},
-				{
-					"id": "bSDTejtPHtd",
-					"label": "bitfocus-companion:bgcolor",
-					"instance": "bitfocus-companion",
-					"action": "bgcolor",
-					"options": {
-						"color": 16737792,
-						"page": "0",
-						"bank": "0"
-					},
-					"delay": 40
 				}
 			],
 			"12": [
@@ -33762,99 +33143,15 @@
 					"delay": 0
 				},
 				{
-					"id": "mY-LtmyZGeF",
-					"label": "bitfocus-companion:bgcolor",
+					"id": "zeqRHvhlw",
+					"label": "bitfocus-companion:custom_variable_set_value",
 					"instance": "bitfocus-companion",
-					"action": "bgcolor",
+					"action": "custom_variable_set_value",
 					"options": {
-						"color": 16737792,
-						"page": "2",
-						"bank": 22
+						"name": "auxCurrent",
+						"value": "14"
 					},
 					"delay": 0
-				},
-				{
-					"id": "2S4TkZSF2nB",
-					"label": "bitfocus-companion:bgcolor",
-					"instance": "bitfocus-companion",
-					"action": "bgcolor",
-					"options": {
-						"color": "0",
-						"page": "2",
-						"bank": 17
-					},
-					"delay": 0
-				},
-				{
-					"id": "x470wCO-wlq",
-					"label": "bitfocus-companion:bgcolor",
-					"instance": "bitfocus-companion",
-					"action": "bgcolor",
-					"options": {
-						"color": "0",
-						"page": "2",
-						"bank": 18
-					},
-					"delay": 0
-				},
-				{
-					"id": "HV-0-wsfCc2",
-					"label": "bitfocus-companion:bgcolor",
-					"instance": "bitfocus-companion",
-					"action": "bgcolor",
-					"options": {
-						"color": "0",
-						"page": "2",
-						"bank": 19
-					},
-					"delay": 0
-				},
-				{
-					"id": "cZPp_D27lRk",
-					"label": "bitfocus-companion:bgcolor",
-					"instance": "bitfocus-companion",
-					"action": "bgcolor",
-					"options": {
-						"color": "0",
-						"page": "2",
-						"bank": 20
-					},
-					"delay": 0
-				},
-				{
-					"id": "2wUllhIpFG1",
-					"label": "bitfocus-companion:bgcolor",
-					"instance": "bitfocus-companion",
-					"action": "bgcolor",
-					"options": {
-						"color": "0",
-						"page": "2",
-						"bank": 21
-					},
-					"delay": 0
-				},
-				{
-					"id": "-uYe8o88MGi",
-					"label": "bitfocus-companion:button_pressrelease",
-					"instance": "bitfocus-companion",
-					"action": "button_pressrelease",
-					"options": {
-						"page": "0",
-						"bank": 32
-					},
-					"delay": 0
-				},
-				{
-					"id": "Oa800J2NGwb",
-					"label": "bitfocus-companion:bgcolor",
-					"instance": "bitfocus-companion",
-					"action": "bgcolor",
-					"options": {
-						"color": 16737792,
-						"page": "0",
-						"bank": "0"
-					},
-					"delay": 40
 				}
 			],
 			"13": [
@@ -33877,99 +33174,15 @@
 					"delay": 0
 				},
 				{
-					"id": "HLeiHbqkNGx",
-					"label": "bitfocus-companion:bgcolor",
+					"id": "4JjstCMh5",
+					"label": "bitfocus-companion:custom_variable_set_value",
 					"instance": "bitfocus-companion",
-					"action": "bgcolor",
+					"action": "custom_variable_set_value",
 					"options": {
-						"color": 16737792,
-						"page": "2",
-						"bank": 22
+						"name": "auxCurrent",
+						"value": "15"
 					},
 					"delay": 0
-				},
-				{
-					"id": "dbkg7IWc8xW",
-					"label": "bitfocus-companion:bgcolor",
-					"instance": "bitfocus-companion",
-					"action": "bgcolor",
-					"options": {
-						"color": "0",
-						"page": "2",
-						"bank": 17
-					},
-					"delay": 0
-				},
-				{
-					"id": "DrouiU2AtcN",
-					"label": "bitfocus-companion:bgcolor",
-					"instance": "bitfocus-companion",
-					"action": "bgcolor",
-					"options": {
-						"color": "0",
-						"page": "2",
-						"bank": 18
-					},
-					"delay": 0
-				},
-				{
-					"id": "m54HX0FCio5",
-					"label": "bitfocus-companion:bgcolor",
-					"instance": "bitfocus-companion",
-					"action": "bgcolor",
-					"options": {
-						"color": "0",
-						"page": "2",
-						"bank": 19
-					},
-					"delay": 0
-				},
-				{
-					"id": "8HCq-NUc-rg",
-					"label": "bitfocus-companion:bgcolor",
-					"instance": "bitfocus-companion",
-					"action": "bgcolor",
-					"options": {
-						"color": "0",
-						"page": "2",
-						"bank": 20
-					},
-					"delay": 0
-				},
-				{
-					"id": "CdLtUyRCZr-",
-					"label": "bitfocus-companion:bgcolor",
-					"instance": "bitfocus-companion",
-					"action": "bgcolor",
-					"options": {
-						"color": "0",
-						"page": "2",
-						"bank": 21
-					},
-					"delay": 0
-				},
-				{
-					"id": "8oU90CWwNT4",
-					"label": "bitfocus-companion:button_pressrelease",
-					"instance": "bitfocus-companion",
-					"action": "button_pressrelease",
-					"options": {
-						"page": "0",
-						"bank": 32
-					},
-					"delay": 0
-				},
-				{
-					"id": "TxGrakCuAP6",
-					"label": "bitfocus-companion:bgcolor",
-					"instance": "bitfocus-companion",
-					"action": "bgcolor",
-					"options": {
-						"color": 16737792,
-						"page": "0",
-						"bank": "0"
-					},
-					"delay": 40
 				}
 			],
 			"14": [],
@@ -33990,68 +33203,7 @@
 			"29": [],
 			"30": [],
 			"31": [],
-			"32": [
-				{
-					"id": "wDwCUfkIMnC",
-					"label": "bitfocus-companion:bgcolor",
-					"instance": "bitfocus-companion",
-					"action": "bgcolor",
-					"options": {
-						"color": "0",
-						"page": "0",
-						"bank": 9
-					},
-					"delay": 0
-				},
-				{
-					"id": "60RAnZTxx5T",
-					"label": "bitfocus-companion:bgcolor",
-					"instance": "bitfocus-companion",
-					"action": "bgcolor",
-					"options": {
-						"color": "0",
-						"page": "0",
-						"bank": 10
-					},
-					"delay": 0
-				},
-				{
-					"id": "j17YG41Ykat",
-					"label": "bitfocus-companion:bgcolor",
-					"instance": "bitfocus-companion",
-					"action": "bgcolor",
-					"options": {
-						"color": "0",
-						"page": "0",
-						"bank": 11
-					},
-					"delay": 0
-				},
-				{
-					"id": "xHvupquddxd",
-					"label": "bitfocus-companion:bgcolor",
-					"instance": "bitfocus-companion",
-					"action": "bgcolor",
-					"options": {
-						"color": "0",
-						"page": "0",
-						"bank": 12
-					},
-					"delay": 0
-				},
-				{
-					"id": "gm_7-nsqti9",
-					"label": "bitfocus-companion:bgcolor",
-					"instance": "bitfocus-companion",
-					"action": "bgcolor",
-					"options": {
-						"color": "0",
-						"page": "0",
-						"bank": 13
-					},
-					"delay": 0
-				}
-			]
+			"32": []
 		},
 		"96": {
 			"1": [
@@ -36854,6 +36006,17 @@
 						"cmd": "CLEAR 17"
 					},
 					"delay": 100
+				},
+				{
+					"id": "CCenPUuqI",
+					"label": "bitfocus-companion:custom_variable_set_value",
+					"instance": "bitfocus-companion",
+					"action": "custom_variable_set_value",
+					"options": {
+						"name": "auxCurrent",
+						"value": ""
+					},
+					"delay": 0
 				}
 			],
 			"20": [
@@ -43058,6 +42221,10 @@
 		"volN-1Video": {
 			"description": "A custom variable",
 			"defaultValue": "0"
+		},
+		"auxCurrent": {
+			"description": "A custom variable",
+			"defaultValue": ""
 		}
 	},
 	"feedbacks": {
@@ -43717,12 +42884,96 @@
 					"style": {}
 				}
 			],
-			"17": [],
-			"18": [],
-			"19": [],
-			"20": [],
-			"21": [],
-			"22": [],
+			"17": [
+				{
+					"id": "pkiy_ax5m",
+					"type": "variable_value",
+					"instance_id": "bitfocus-companion",
+					"options": {
+						"variable": "internal:custom_auxCurrent",
+						"op": "eq",
+						"value": "1"
+					},
+					"style": {
+						"bgcolor": 16737792
+					}
+				}
+			],
+			"18": [
+				{
+					"id": "x2D3CpdKT",
+					"type": "variable_value",
+					"instance_id": "bitfocus-companion",
+					"options": {
+						"variable": "internal:custom_auxCurrent",
+						"op": "eq",
+						"value": "2"
+					},
+					"style": {
+						"bgcolor": 16737792
+					}
+				}
+			],
+			"19": [
+				{
+					"id": "dHI_GE3sC",
+					"type": "variable_value",
+					"instance_id": "bitfocus-companion",
+					"options": {
+						"variable": "internal:custom_auxCurrent",
+						"op": "eq",
+						"value": "3"
+					},
+					"style": {
+						"bgcolor": 16737792
+					}
+				}
+			],
+			"20": [
+				{
+					"id": "Rb9EEi_it",
+					"type": "variable_value",
+					"instance_id": "bitfocus-companion",
+					"options": {
+						"variable": "internal:custom_auxCurrent",
+						"op": "eq",
+						"value": "4"
+					},
+					"style": {
+						"bgcolor": 16737792
+					}
+				}
+			],
+			"21": [
+				{
+					"id": "O0g_0vNAA",
+					"type": "variable_value",
+					"instance_id": "bitfocus-companion",
+					"options": {
+						"variable": "internal:custom_auxCurrent",
+						"op": "eq",
+						"value": "5"
+					},
+					"style": {
+						"bgcolor": 16737792
+					}
+				}
+			],
+			"22": [
+				{
+					"id": "SyPHixHX8",
+					"type": "variable_value",
+					"instance_id": "bitfocus-companion",
+					"options": {
+						"variable": "internal:custom_auxCurrent",
+						"op": "gt",
+						"value": "10"
+					},
+					"style": {
+						"bgcolor": 16737792
+					}
+				}
+			],
 			"23": [],
 			"24": [],
 			"25": [],
@@ -50189,11 +49440,81 @@
 					"style": {}
 				}
 			],
-			"9": [],
-			"10": [],
-			"11": [],
-			"12": [],
-			"13": [],
+			"9": [
+				{
+					"id": "iDnlMRSJ_",
+					"type": "variable_value",
+					"instance_id": "bitfocus-companion",
+					"options": {
+						"variable": "internal:custom_auxCurrent",
+						"op": "eq",
+						"value": "11"
+					},
+					"style": {
+						"bgcolor": 16737792
+					}
+				}
+			],
+			"10": [
+				{
+					"id": "YYBhanVs4",
+					"type": "variable_value",
+					"instance_id": "bitfocus-companion",
+					"options": {
+						"variable": "internal:custom_auxCurrent",
+						"op": "eq",
+						"value": "12"
+					},
+					"style": {
+						"bgcolor": 16737792
+					}
+				}
+			],
+			"11": [
+				{
+					"id": "8rzHV0c3D",
+					"type": "variable_value",
+					"instance_id": "bitfocus-companion",
+					"options": {
+						"variable": "internal:custom_auxCurrent",
+						"op": "eq",
+						"value": "13"
+					},
+					"style": {
+						"bgcolor": 16737792
+					}
+				}
+			],
+			"12": [
+				{
+					"id": "QmlBm9fph",
+					"type": "variable_value",
+					"instance_id": "bitfocus-companion",
+					"options": {
+						"variable": "internal:custom_auxCurrent",
+						"op": "eq",
+						"value": "14"
+					},
+					"style": {
+						"bgcolor": 16737792
+					}
+				}
+			],
+			"13": [
+				{
+					"id": "Cduz1pfvB",
+					"type": "variable_value",
+					"instance_id": "bitfocus-companion",
+					"options": {
+						"variable": "internal:custom_auxCurrent",
+						"op": "eq",
+						"value": "15"
+					},
+					"style": {
+						"bgcolor": 16737792
+					}
+				}
+			],
 			"14": [],
 			"15": [],
 			"16": [],
