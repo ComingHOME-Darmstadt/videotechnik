@@ -857,8 +857,8 @@
                 <allowremotetriggering>false</allowremotetriggering>
                 <remotetriggerid></remotetriggerid>
                 <storyid></storyid>
-                <stopCommand>STOP 1-9</stopCommand>
-                <playCommand>PLAY 1-9 &quot;ndi://CHPRESENTATION/Intel Iris Xe Graphics 2&quot;</playCommand>
+                <stopCommand>STOP 8-10</stopCommand>
+                <playCommand>PLAY 8-10 &quot;ndi://CHPRESENTATION/Intel Iris Xe Graphics 2&quot;</playCommand>
                 <loadCommand></loadCommand>
                 <pauseCommand></pauseCommand>
                 <nextCommand></nextCommand>

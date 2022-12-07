@@ -1604,18 +1604,7 @@
 				"show_topbar": "default"
 			},
 			"21": {},
-			"22": {
-				"style": "png",
-				"text": "Beamer OpenLP\\n",
-				"size": "14",
-				"alignment": "center:center",
-				"pngalignment": "center:center",
-				"color": 16777215,
-				"bgcolor": 10040115,
-				"latch": true,
-				"relative_delay": false,
-				"show_topbar": "default"
-			},
+			"22": {},
 			"23": {},
 			"24": {
 				"style": "png",
@@ -1679,14 +1668,14 @@
 			},
 			"29": {
 				"style": "png",
-				"text": "OpenLP\\ngestoppt",
+				"text": "Liedtext\\ngestoppt",
 				"size": "14",
 				"alignment": "center:center",
 				"pngalignment": "center:center",
 				"color": 16777215,
 				"bgcolor": 10040115,
 				"latch": true,
-				"relative_delay": false,
+				"relative_delay": true,
 				"show_topbar": "default"
 			},
 			"30": {
@@ -18050,134 +18039,10 @@
 				}
 			],
 			"21": [],
-			"22": [
-				{
-					"id": "Fi03w8Knb-ay",
-					"label": "udTEF512G:COMMAND",
-					"instance": "udTEF512G",
-					"action": "COMMAND",
-					"options": {
-						"cmd": "PLAY 4-97 route://1-9"
-					},
-					"delay": 0
-				},
-				{
-					"id": "ABOt9UUqFAvY",
-					"label": "udTEF512G:COMMAND",
-					"instance": "udTEF512G",
-					"action": "COMMAND",
-					"options": {
-						"cmd": "MIXER 4-97 CHROMA Green 0.06 0.46 0.43"
-					},
-					"delay": 0
-				},
-				{
-					"id": "5WY0AiuCsHUK",
-					"label": "udTEF512G:COMMAND",
-					"instance": "udTEF512G",
-					"action": "COMMAND",
-					"options": {
-						"cmd": "MIXER 4-97 FILL -0.125 -0.681481 1.25 1.25 0 Linear"
-					},
-					"delay": 0
-				},
-				{
-					"id": "YqXuIC9I70eM",
-					"label": "udTEF512G:COMMAND",
-					"instance": "udTEF512G",
-					"action": "COMMAND",
-					"options": {
-						"cmd": "MIXER 4-97 CROP 0 0.0462963 1 0.953704 0 Linear"
-					},
-					"delay": 0
-				},
-				{
-					"id": "pT7Gm_GsZiiR",
-					"label": "udTEF512G:COMMAND",
-					"instance": "udTEF512G",
-					"action": "COMMAND",
-					"options": {
-						"cmd": "MIXER 4-96 FILL 0 0 1 1 0 Linear"
-					},
-					"delay": 0
-				},
-				{
-					"id": "-LLreAZnObaE",
-					"label": "udTEF512G:COMMAND",
-					"instance": "udTEF512G",
-					"action": "COMMAND",
-					"options": {
-						"cmd": "PLAY 4-96 \"#8c3e8c4c\" CUT 0 Linear RIGHT"
-					},
-					"delay": 0
-				},
-				{
-					"id": "-DUMeBKRfY27",
-					"label": "udTEF512G:COMMAND",
-					"instance": "udTEF512G",
-					"action": "COMMAND",
-					"options": {
-						"cmd": "MIXER 4-96 BRIGHTNESS 0 0 Linear"
-					},
-					"delay": 0
-				},
-				{
-					"id": "7DJ-ADBaMH65",
-					"label": "udTEF512G:COMMAND",
-					"instance": "udTEF512G",
-					"action": "COMMAND",
-					"options": {
-						"cmd": "MIXER 4-96 SATURATION 0 0 Linear"
-					},
-					"delay": 0
-				},
-				{
-					"id": "7uf6wvBV1QV1",
-					"label": "udTEF512G:COMMAND",
-					"instance": "udTEF512G",
-					"action": "COMMAND",
-					"options": {
-						"cmd": "MIXER 4-96 CROP 0 0.135185 1 0.531482 0 Linear"
-					},
-					"delay": 0
-				},
-				{
-					"id": "GKh9zPk6PoiE",
-					"label": "bitfocus-companion:button_pressrelease",
-					"instance": "bitfocus-companion",
-					"action": "button_pressrelease",
-					"options": {
-						"page": "1",
-						"bank": 18
-					},
-					"delay": 0
-				},
-				{
-					"id": "SmbUui5KE8Kc",
-					"label": "bitfocus-companion:button_release",
-					"instance": "bitfocus-companion",
-					"action": "button_release",
-					"options": {
-						"page": "1",
-						"bank": 18
-					},
-					"delay": 10
-				}
-			],
+			"22": [],
 			"23": [],
 			"24": [],
 			"25": [
-				{
-					"id": "a5D3MtfI75LV",
-					"label": "bitfocus-companion:button_release",
-					"instance": "bitfocus-companion",
-					"action": "button_release",
-					"options": {
-						"page": "1",
-						"bank": 17
-					},
-					"delay": 0
-				},
 				{
 					"id": "m2GcQJBi7Ye5",
 					"label": "bitfocus-companion:button_release",
@@ -18673,7 +18538,7 @@
 					"instance": "udTEF512G",
 					"action": "COMMAND",
 					"options": {
-						"cmd": "PLAY 3-9 route://1-9"
+						"cmd": "PLAY 3-9 route://8"
 					},
 					"delay": 2300
 				},
@@ -18806,16 +18671,6 @@
 						"cmd": "MIXER 3-50 FILL 0.5 0.5 0.5 0.5 0 Linear"
 					},
 					"delay": 1300
-				},
-				{
-					"id": "7sDZBYmglF4O",
-					"label": "udTEF512G:COMMAND",
-					"instance": "udTEF512G",
-					"action": "COMMAND",
-					"options": {
-						"cmd": "MIXER 3-9 CHROMA Green 0.06 0.46 0.43"
-					},
-					"delay": 1400
 				},
 				{
 					"id": "cRvWpYNyEEo0",
@@ -19210,34 +19065,15 @@
 			],
 			"29": [
 				{
-					"id": "n65OQDeqyz_Q",
-					"label": "udTEF512G:COMMAND",
-					"instance": "udTEF512G",
-					"action": "COMMAND",
+					"id": "VyZPY8qwS",
+					"label": "bitfocus-companion:button_release",
+					"instance": "bitfocus-companion",
+					"action": "button_release",
 					"options": {
-						"cmd": "STOP 1-9"
+						"page": 1,
+						"bank": 17
 					},
 					"delay": 0
-				},
-				{
-					"id": "iO9Zrelwp7LD",
-					"label": "udTEF512G:COMMAND",
-					"instance": "udTEF512G",
-					"action": "COMMAND",
-					"options": {
-						"cmd": "STOP 1-96"
-					},
-					"delay": 250
-				},
-				{
-					"id": "oaz9jdM9lKqM",
-					"label": "udTEF512G:COMMAND",
-					"instance": "udTEF512G",
-					"action": "COMMAND",
-					"options": {
-						"cmd": "STOP 1-97"
-					},
-					"delay": 500
 				},
 				{
 					"id": "IKnKao6OeM9M",
@@ -19245,20 +19081,19 @@
 					"instance": "udTEF512G",
 					"action": "COMMAND",
 					"options": {
-						"cmd": "MIXER 1-9 VOLUME 0 0 Linear"
+						"cmd": "MIXER 8-10 VOLUME 0 0 Linear"
 					},
-					"delay": 750
+					"delay": 100
 				},
 				{
-					"id": "H9DbuOPCuL4b",
-					"label": "PY98Cj8Y2:send_int",
-					"instance": "PY98Cj8Y2",
-					"action": "send_int",
+					"id": "Mn-GR8uhv9bU",
+					"label": "udTEF512G:COMMAND",
+					"instance": "udTEF512G",
+					"action": "COMMAND",
 					"options": {
-						"path": "/control/openlp_input/stop",
-						"int": 1
+						"cmd": "MIXER 8-10 CHROMA Green 0.06 0.46 0.43"
 					},
-					"delay": 1000
+					"delay": 100
 				},
 				{
 					"id": "bJv5yXSqGiYS",
@@ -19269,7 +19104,7 @@
 						"path": "/control/openlp_input/play",
 						"int": 1
 					},
-					"delay": 1500
+					"delay": 100
 				},
 				{
 					"id": "qEG_IlL3OSKZ",
@@ -19277,9 +19112,9 @@
 					"instance": "udTEF512G",
 					"action": "COMMAND",
 					"options": {
-						"cmd": "MIXER 1-96 OPACITY 0 16 EaseInOutSine"
+						"cmd": "MIXER 1-96 OPACITY 0 0 Linear"
 					},
-					"delay": 1750
+					"delay": 100
 				},
 				{
 					"id": "TUlg6CsNldbr",
@@ -19287,9 +19122,9 @@
 					"instance": "udTEF512G",
 					"action": "COMMAND",
 					"options": {
-						"cmd": "MIXER 1-97 OPACITY 0 16 EaseInOutSine"
+						"cmd": "MIXER 1-97 OPACITY 0 0 Linear"
 					},
-					"delay": 1750
+					"delay": 100
 				},
 				{
 					"id": "DUJsq4xq8B6Q",
@@ -19297,19 +19132,9 @@
 					"instance": "udTEF512G",
 					"action": "COMMAND",
 					"options": {
-						"cmd": "PLAY 1-97 route://1-9"
+						"cmd": "PLAY 1-97 route://8"
 					},
-					"delay": 2000
-				},
-				{
-					"id": "Mn-GR8uhv9bU",
-					"label": "udTEF512G:COMMAND",
-					"instance": "udTEF512G",
-					"action": "COMMAND",
-					"options": {
-						"cmd": "MIXER 1-97 CHROMA Green 0.06 0.46 0.43"
-					},
-					"delay": 2100
+					"delay": 100
 				},
 				{
 					"id": "xsgNtAMNL5tx",
@@ -19319,7 +19144,7 @@
 					"options": {
 						"cmd": "MIXER 1-97 FILL 0 0.0462963 1 1 0 Linear"
 					},
-					"delay": 2200
+					"delay": 100
 				},
 				{
 					"id": "rJQr-kAWTdmd",
@@ -19329,7 +19154,7 @@
 					"options": {
 						"cmd": "MIXER 1-97 CROP 0 0 1 1 0 Linear"
 					},
-					"delay": 2300
+					"delay": 100
 				},
 				{
 					"id": "TAwL3vwR95Ev",
@@ -19339,7 +19164,7 @@
 					"options": {
 						"cmd": "MIXER 1-96 FILL 0 0.699074 1 1 0 Linear"
 					},
-					"delay": 2400
+					"delay": 100
 				},
 				{
 					"id": "9LIbz6e2bb2D",
@@ -19349,7 +19174,7 @@
 					"options": {
 						"cmd": "PLAY 1-96 \"#7d1f4427\" CUT 0 Linear RIGHT"
 					},
-					"delay": 2500
+					"delay": 100
 				},
 				{
 					"id": "oJxdGlybZPE8",
@@ -19359,7 +19184,7 @@
 					"options": {
 						"cmd": "MIXER 1-96 BRIGHTNESS 0 0 Linear"
 					},
-					"delay": 2600
+					"delay": 100
 				},
 				{
 					"id": "GvyWv-CoVKav",
@@ -19369,7 +19194,7 @@
 					"options": {
 						"cmd": "MIXER 1-96 SATURATION 0 0 Linear"
 					},
-					"delay": 2700
+					"delay": 100
 				},
 				{
 					"id": "S_JGpeMMfjQ3",
@@ -19379,7 +19204,118 @@
 					"options": {
 						"cmd": "MIXER 1-96 CROP 0 0 1 0.342593 0 Linear"
 					},
-					"delay": 2800
+					"delay": 100
+				},
+				{
+					"id": "Q90Fae8q2",
+					"label": "bitfocus-companion:button_release",
+					"instance": "bitfocus-companion",
+					"action": "button_release",
+					"options": {
+						"page": 1,
+						"bank": 18
+					},
+					"delay": 100
+				},
+				{
+					"id": "qXPqeuQzh",
+					"label": "udTEF512G:COMMAND",
+					"instance": "udTEF512G",
+					"action": "COMMAND",
+					"options": {
+						"cmd": "MIXER 4-97 OPACITY 0 0 Linear"
+					},
+					"delay": 100
+				},
+				{
+					"id": "KnUy3MNB4",
+					"label": "udTEF512G:COMMAND",
+					"instance": "udTEF512G",
+					"action": "COMMAND",
+					"options": {
+						"cmd": "PLAY 4-97 route://8"
+					},
+					"delay": 100
+				},
+				{
+					"id": "e0gFwYa_3",
+					"label": "udTEF512G:COMMAND",
+					"instance": "udTEF512G",
+					"action": "COMMAND",
+					"options": {
+						"cmd": "MIXER 4-97 FILL -0.125 -0.681481 1.25 1.25 0 Linear"
+					},
+					"delay": 100
+				},
+				{
+					"id": "tMDMg1Vfa",
+					"label": "udTEF512G:COMMAND",
+					"instance": "udTEF512G",
+					"action": "COMMAND",
+					"options": {
+						"cmd": "MIXER 4-97 CROP 0 0.0462963 1 0.953704 0 Linear"
+					},
+					"delay": 100
+				},
+				{
+					"id": "umnQguhTg",
+					"label": "udTEF512G:COMMAND",
+					"instance": "udTEF512G",
+					"action": "COMMAND",
+					"options": {
+						"cmd": "MIXER 4-96 OPACITY 0 0 Linear"
+					},
+					"delay": 0
+				},
+				{
+					"id": "oxW_ko_Xg",
+					"label": "udTEF512G:COMMAND",
+					"instance": "udTEF512G",
+					"action": "COMMAND",
+					"options": {
+						"cmd": "MIXER 4-96 FILL 0 0 1 1 0 Linear"
+					},
+					"delay": 100
+				},
+				{
+					"id": "ThDCmrghU",
+					"label": "udTEF512G:COMMAND",
+					"instance": "udTEF512G",
+					"action": "COMMAND",
+					"options": {
+						"cmd": "PLAY 4-96 \"#8c3e8c4c\" CUT 0 Linear RIGHT"
+					},
+					"delay": 100
+				},
+				{
+					"id": "zOjumi8Hd",
+					"label": "udTEF512G:COMMAND",
+					"instance": "udTEF512G",
+					"action": "COMMAND",
+					"options": {
+						"cmd": "MIXER 4-96 BRIGHTNESS 0 0 Linear"
+					},
+					"delay": 100
+				},
+				{
+					"id": "Mz54_MaFW",
+					"label": "udTEF512G:COMMAND",
+					"instance": "udTEF512G",
+					"action": "COMMAND",
+					"options": {
+						"cmd": "MIXER 4-96 SATURATION 0 0 Linear"
+					},
+					"delay": 100
+				},
+				{
+					"id": "ycT4J_CmF",
+					"label": "udTEF512G:COMMAND",
+					"instance": "udTEF512G",
+					"action": "COMMAND",
+					"options": {
+						"cmd": "MIXER 4-96 CROP 0 0.135185 1 0.531482 0 Linear"
+					},
+					"delay": 100
 				}
 			],
 			"30": [
@@ -35827,16 +35763,6 @@
 					"delay": 0
 				},
 				{
-					"id": "cLzhVEg2NzsH",
-					"label": "udTEF512G:COMMAND",
-					"instance": "udTEF512G",
-					"action": "COMMAND",
-					"options": {
-						"cmd": "MIXER 4 CLEAR"
-					},
-					"delay": 100
-				},
-				{
 					"id": "dmKJ_BSUt",
 					"label": "udTEF512G:COMMAND",
 					"instance": "udTEF512G",
@@ -35875,6 +35801,17 @@
 						"cmd": "CLEAR 4-51"
 					},
 					"delay": 100
+				},
+				{
+					"id": "j-wZJdkX2",
+					"label": "bitfocus-companion:custom_variable_set_value",
+					"instance": "bitfocus-companion",
+					"action": "custom_variable_set_value",
+					"options": {
+						"name": "beamerCurrentButton",
+						"value": ""
+					},
+					"delay": 0
 				}
 			],
 			"15": [],
@@ -36015,59 +35952,7 @@
 				}
 			],
 			"21": [],
-			"22": [
-				{
-					"id": "_-TID2hWplxj",
-					"label": "bitfocus-companion:button_release",
-					"instance": "bitfocus-companion",
-					"action": "button_release",
-					"options": {
-						"page": "1",
-						"bank": 18
-					},
-					"delay": 0
-				},
-				{
-					"id": "-eyUR729h",
-					"label": "udTEF512G:COMMAND",
-					"instance": "udTEF512G",
-					"action": "COMMAND",
-					"options": {
-						"cmd": "CLEAR 4-96"
-					},
-					"delay": 100
-				},
-				{
-					"id": "YyzHAganE",
-					"label": "udTEF512G:COMMAND",
-					"instance": "udTEF512G",
-					"action": "COMMAND",
-					"options": {
-						"cmd": "MIXER 4-96 CLEAR"
-					},
-					"delay": 100
-				},
-				{
-					"id": "Wo3qsS9gs",
-					"label": "udTEF512G:COMMAND",
-					"instance": "udTEF512G",
-					"action": "COMMAND",
-					"options": {
-						"cmd": "CLEAR 4-97"
-					},
-					"delay": 100
-				},
-				{
-					"id": "OtxrouHuW",
-					"label": "udTEF512G:COMMAND",
-					"instance": "udTEF512G",
-					"action": "COMMAND",
-					"options": {
-						"cmd": "MIXER 4-97 CLEAR"
-					},
-					"delay": 100
-				}
-			],
+			"22": [],
 			"23": [],
 			"24": [],
 			"25": [
@@ -36210,14 +36095,46 @@
 			],
 			"29": [
 				{
+					"id": "cNizQ05V-",
+					"label": "bitfocus-companion:button_release",
+					"instance": "bitfocus-companion",
+					"action": "button_release",
+					"options": {
+						"page": 1,
+						"bank": 17
+					},
+					"delay": 100
+				},
+				{
+					"id": "2fjahgXNB",
+					"label": "bitfocus-companion:button_release",
+					"instance": "bitfocus-companion",
+					"action": "button_release",
+					"options": {
+						"page": 1,
+						"bank": 18
+					},
+					"delay": 100
+				},
+				{
 					"id": "LHJA91ikam_E",
 					"label": "udTEF512G:COMMAND",
 					"instance": "udTEF512G",
 					"action": "COMMAND",
 					"options": {
-						"cmd": "STOP 1-9"
+						"cmd": "CLEAR 8"
 					},
-					"delay": 0
+					"delay": 100
+				},
+				{
+					"id": "DO8Sq-i-1",
+					"label": "udTEF512G:COMMAND",
+					"instance": "udTEF512G",
+					"action": "COMMAND",
+					"options": {
+						"cmd": "MIXER 8 CLEAR"
+					},
+					"delay": 100
 				},
 				{
 					"id": "6cRqgESWKySH",
@@ -36225,9 +36142,19 @@
 					"instance": "udTEF512G",
 					"action": "COMMAND",
 					"options": {
-						"cmd": "STOP 1-96"
+						"cmd": "CLEAR 1-96"
 					},
-					"delay": 0
+					"delay": 100
+				},
+				{
+					"id": "FWHtClVDb",
+					"label": "udTEF512G:COMMAND",
+					"instance": "udTEF512G",
+					"action": "COMMAND",
+					"options": {
+						"cmd": "MIXER 1-96 CLEAR"
+					},
+					"delay": 100
 				},
 				{
 					"id": "4m_kESMi6DxL",
@@ -36235,20 +36162,59 @@
 					"instance": "udTEF512G",
 					"action": "COMMAND",
 					"options": {
-						"cmd": "STOP 1-97"
+						"cmd": "CLEAR 1-97"
 					},
-					"delay": 0
+					"delay": 100
 				},
 				{
-					"id": "zEhXlDz-sLzV",
-					"label": "PY98Cj8Y2:send_int",
-					"instance": "PY98Cj8Y2",
-					"action": "send_int",
+					"id": "WQSoV9yIx",
+					"label": "udTEF512G:COMMAND",
+					"instance": "udTEF512G",
+					"action": "COMMAND",
 					"options": {
-						"path": "/control/openlp_input/stop",
-						"int": 1
+						"cmd": "MIXER 1-97 CLEAR"
 					},
-					"delay": 1000
+					"delay": 100
+				},
+				{
+					"id": "QSgjApHpG",
+					"label": "udTEF512G:COMMAND",
+					"instance": "udTEF512G",
+					"action": "COMMAND",
+					"options": {
+						"cmd": "CLEAR 4-96"
+					},
+					"delay": 100
+				},
+				{
+					"id": "JqTftnF40",
+					"label": "udTEF512G:COMMAND",
+					"instance": "udTEF512G",
+					"action": "COMMAND",
+					"options": {
+						"cmd": "MIXER 4-96 CLEAR"
+					},
+					"delay": 100
+				},
+				{
+					"id": "t1R7RmtvS",
+					"label": "udTEF512G:COMMAND",
+					"instance": "udTEF512G",
+					"action": "COMMAND",
+					"options": {
+						"cmd": "CLEAR 4-97"
+					},
+					"delay": 100
+				},
+				{
+					"id": "STDlvzj62",
+					"label": "udTEF512G:COMMAND",
+					"instance": "udTEF512G",
+					"action": "COMMAND",
+					"options": {
+						"cmd": "MIXER 4-97 CLEAR"
+					},
+					"delay": 100
 				}
 			],
 			"30": [
@@ -43759,21 +43725,7 @@
 				}
 			],
 			"21": [],
-			"22": [
-				{
-					"id": "Y4ibwMDsUaWz",
-					"type": "bank_pushed",
-					"instance_id": "bitfocus-companion",
-					"options": {
-						"page": 0,
-						"bank": 0
-					},
-					"style": {
-						"bgcolor": 6684774,
-						"text": "Beamer OpenLP\\nläuft"
-					}
-				}
-			],
+			"22": [],
 			"23": [],
 			"24": [],
 			"25": [
@@ -43847,7 +43799,7 @@
 					},
 					"style": {
 						"bgcolor": 26112,
-						"text": "OpenLP\\nläuft"
+						"text": "Liedtext\\nläuft"
 					}
 				}
 			],

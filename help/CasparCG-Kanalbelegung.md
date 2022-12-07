@@ -8,8 +8,8 @@
 |  | 65 | <- 17 AUX |
 |  | 69 | Jingel |
 |  | 70 | <- 18 Video |
-|  | 96 |  |
-|  | 97 |  |
+|  | 96 | grauer Balken |
+|  | 97 | <- 8 Liedtext |
 |  | 98 | Countdown |
 |  | 99 | Logo |
 | 2 Preview |  |  |
@@ -23,7 +23,7 @@
 |  | 6 | <- 16 PiP |
 |  | 7 | <- 17 AUX |
 |  | 8 | <- 19 Video Monitor |
-|  | 9 | <- 9 CHROMA Green (positioniert wie 8) |
+|  | 9 | <- 8 Liedtext (positioniert wie 8) |
 |  | 49 | <- 2 Preview |
 |  | 50 | <- 1 Program (mit Ton) |
 |  | 99 | multiview-Template |
@@ -32,8 +32,8 @@
 |  | 45 | <- 1 Program[65] AUX |
 |  | 50 | <- 1 Program[70] Video |
 |  | 51 | <- 1 Program[69] Jingel |
-|  | 96 |  |
-|  | 97 |  |
+|  | 96 | grauer Balken |
+|  | 97 | <- 8 Liedtext |
 | 5 Stage |  |  |
 | 6 Audio N-1 Out|  | NDI: Audio N-1 |
 | | 15 | <- 7 Audio N-1 Mix |
@@ -46,7 +46,8 @@
 |  | 15 | <- 15 ZOOM |
 |  | 17 | <- 17 AUX |
 |  | 18 | <- 18 Video |
-| 8 |  |  |
+| 8 Liedtext |  |  |
+|  | 10 | OpenLP Monitor 2 mit CHROMA Green |
 | 9 |  |  |
 | 10 Audio Program Mix |  |  |
 |  | 10 | Audio Live |
