@@ -18857,7 +18857,7 @@
 					"options": {
 						"cmd": "PLAY 1-15 route://10"
 					},
-					"delay": 100
+					"delay": 1100
 				},
 				{
 					"id": "iLfrgeXZLrE0",
@@ -18990,7 +18990,7 @@
 					"options": {
 						"cmd": "PLAY 6-15 route://7"
 					},
-					"delay": 100
+					"delay": 1100
 				},
 				{
 					"id": "eWvj2wzxRh7W",
