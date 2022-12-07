@@ -18168,24 +18168,6 @@
 			"24": [],
 			"25": [
 				{
-					"id": "bGo6_MNegxtH",
-					"label": "udTEF512G:PLAY",
-					"instance": "udTEF512G",
-					"action": "PLAY",
-					"options": {
-						"channel": 1,
-						"layer": "0",
-						"clip_dd": "GRAFIKEN/BLACK",
-						"clip": "",
-						"loop": "false",
-						"auto": "false",
-						"transition": "CUT",
-						"transition_duration": "",
-						"transition_tween": "linear"
-					},
-					"delay": 0
-				},
-				{
 					"id": "a5D3MtfI75LV",
 					"label": "bitfocus-companion:button_release",
 					"instance": "bitfocus-companion",
@@ -18194,7 +18176,7 @@
 						"page": "1",
 						"bank": 17
 					},
-					"delay": 100
+					"delay": 0
 				},
 				{
 					"id": "m2GcQJBi7Ye5",
@@ -18236,32 +18218,12 @@
 					"delay": 100
 				},
 				{
-					"id": "hrloeMXP77NG",
-					"label": "udTEF512G:COMMAND",
-					"instance": "udTEF512G",
-					"action": "COMMAND",
-					"options": {
-						"cmd": "MIXER 1-49 VOLUME 0 0 Linear"
-					},
-					"delay": 100
-				},
-				{
 					"id": "LNI4-F_dZhx3",
 					"label": "udTEF512G:COMMAND",
 					"instance": "udTEF512G",
 					"action": "COMMAND",
 					"options": {
 						"cmd": "MIXER 1-50 VOLUME 0 0 Linear"
-					},
-					"delay": 100
-				},
-				{
-					"id": "TorCom7tcUyL",
-					"label": "udTEF512G:COMMAND",
-					"instance": "udTEF512G",
-					"action": "COMMAND",
-					"options": {
-						"cmd": "MIXER 1-51 VOLUME 0 0 Linear"
 					},
 					"delay": 100
 				},
@@ -18284,22 +18246,12 @@
 					"delay": 100
 				},
 				{
-					"id": "6Pswx8bzih55",
-					"label": "udTEF512G:COMMAND",
-					"instance": "udTEF512G",
-					"action": "COMMAND",
-					"options": {
-						"cmd": "MIXER 1-50 VOLUME 0 8 Linear"
-					},
-					"delay": 100
-				},
-				{
 					"id": "hh6JSQYw52_F",
 					"label": "udTEF512G:COMMAND",
 					"instance": "udTEF512G",
 					"action": "COMMAND",
 					"options": {
-						"cmd": "MIXER 1-51 VOLUME 0 8 Linear"
+						"cmd": "MIXER 1-51 VOLUME 0 0 Linear"
 					},
 					"delay": 100
 				},
@@ -35875,16 +35827,6 @@
 					"delay": 0
 				},
 				{
-					"id": "ywETnEIcAvn5",
-					"label": "udTEF512G:COMMAND",
-					"instance": "udTEF512G",
-					"action": "COMMAND",
-					"options": {
-						"cmd": "STOP 4-50"
-					},
-					"delay": 100
-				},
-				{
 					"id": "cLzhVEg2NzsH",
 					"label": "udTEF512G:COMMAND",
 					"instance": "udTEF512G",
@@ -35895,12 +35837,42 @@
 					"delay": 100
 				},
 				{
-					"id": "UZ0ABo4UnJGj",
+					"id": "dmKJ_BSUt",
 					"label": "udTEF512G:COMMAND",
 					"instance": "udTEF512G",
 					"action": "COMMAND",
 					"options": {
-						"cmd": "MIXER 4-50 VOLUME 1"
+						"cmd": "CLEAR 4-20"
+					},
+					"delay": 100
+				},
+				{
+					"id": "zHbP0WT1r",
+					"label": "udTEF512G:COMMAND",
+					"instance": "udTEF512G",
+					"action": "COMMAND",
+					"options": {
+						"cmd": "CLEAR 4-45"
+					},
+					"delay": 100
+				},
+				{
+					"id": "ywETnEIcAvn5",
+					"label": "udTEF512G:COMMAND",
+					"instance": "udTEF512G",
+					"action": "COMMAND",
+					"options": {
+						"cmd": "CLEAR 4-50"
+					},
+					"delay": 100
+				},
+				{
+					"id": "1rhXu1GpF",
+					"label": "udTEF512G:COMMAND",
+					"instance": "udTEF512G",
+					"action": "COMMAND",
+					"options": {
+						"cmd": "CLEAR 4-51"
 					},
 					"delay": 100
 				}
@@ -35966,16 +35938,6 @@
 			],
 			"18": [
 				{
-					"id": "h3Py8RhZkq2T",
-					"label": "udTEF512G:COMMAND",
-					"instance": "udTEF512G",
-					"action": "COMMAND",
-					"options": {
-						"cmd": "STOP 16-10"
-					},
-					"delay": 0
-				},
-				{
 					"id": "Iqw0IbfSPFV1",
 					"label": "udTEF512G:COMMAND",
 					"instance": "udTEF512G",
@@ -35983,7 +35945,7 @@
 					"options": {
 						"cmd": "CLEAR 16"
 					},
-					"delay": 500
+					"delay": 0
 				}
 			],
 			"19": [
@@ -36055,18 +36017,6 @@
 			"21": [],
 			"22": [
 				{
-					"id": "fqiMk6BVse5m",
-					"label": "bitfocus-companion:button_text",
-					"instance": "bitfocus-companion",
-					"action": "button_text",
-					"options": {
-						"label": "Beamer OpenLP\\n",
-						"page": 0,
-						"bank": 0
-					},
-					"delay": 0
-				},
-				{
 					"id": "_-TID2hWplxj",
 					"label": "bitfocus-companion:button_release",
 					"instance": "bitfocus-companion",
@@ -36076,6 +36026,46 @@
 						"bank": 18
 					},
 					"delay": 0
+				},
+				{
+					"id": "-eyUR729h",
+					"label": "udTEF512G:COMMAND",
+					"instance": "udTEF512G",
+					"action": "COMMAND",
+					"options": {
+						"cmd": "CLEAR 4-96"
+					},
+					"delay": 100
+				},
+				{
+					"id": "YyzHAganE",
+					"label": "udTEF512G:COMMAND",
+					"instance": "udTEF512G",
+					"action": "COMMAND",
+					"options": {
+						"cmd": "MIXER 4-96 CLEAR"
+					},
+					"delay": 100
+				},
+				{
+					"id": "Wo3qsS9gs",
+					"label": "udTEF512G:COMMAND",
+					"instance": "udTEF512G",
+					"action": "COMMAND",
+					"options": {
+						"cmd": "CLEAR 4-97"
+					},
+					"delay": 100
+				},
+				{
+					"id": "OtxrouHuW",
+					"label": "udTEF512G:COMMAND",
+					"instance": "udTEF512G",
+					"action": "COMMAND",
+					"options": {
+						"cmd": "MIXER 4-97 CLEAR"
+					},
+					"delay": 100
 				}
 			],
 			"23": [],
@@ -36098,16 +36088,6 @@
 					"action": "COMMAND",
 					"options": {
 						"cmd": "STOP 1-48"
-					},
-					"delay": 100
-				},
-				{
-					"id": "Z9nNGQdzRtgb",
-					"label": "udTEF512G:COMMAND",
-					"instance": "udTEF512G",
-					"action": "COMMAND",
-					"options": {
-						"cmd": "STOP 1-49"
 					},
 					"delay": 100
 				},
