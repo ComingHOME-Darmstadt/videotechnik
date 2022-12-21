@@ -35,6 +35,7 @@ for /F "tokens=1,2 delims==" %%i in (%cfgFile%) do (
   set varValue=%%j
 
   set varValue=!varValue: =%%20!
+  set varValue=!varValue:+=%%2B!
 
   curl -s http://127.0.0.1:8888/set/custom-variable/cam2!varName!label?value=!varValue!
 )

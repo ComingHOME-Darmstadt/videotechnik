@@ -42026,11 +42026,11 @@
 		},
 		"cam1pos1label": {
 			"description": "A custom variable",
-			"defaultValue": "Pos 1"
+			"defaultValue": "Totale"
 		},
 		"cam1pos2label": {
 			"description": "A custom variable",
-			"defaultValue": "Pos 2"
+			"defaultValue": "Band"
 		},
 		"cam1pos3label": {
 			"description": "A custom variable",
@@ -42054,19 +42054,19 @@
 		},
 		"cam1pos8label": {
 			"description": "A custom variable",
-			"defaultValue": "Pos 8"
+			"defaultValue": "Sprecher++"
 		},
 		"cam1pos9label": {
 			"description": "A custom variable",
-			"defaultValue": "Pos 9"
+			"defaultValue": "Sprecher"
 		},
 		"cam2pos1label": {
 			"description": "A custom variable",
-			"defaultValue": "Pos 1"
+			"defaultValue": "Totale"
 		},
 		"cam2pos2label": {
 			"description": "A custom variable",
-			"defaultValue": "Pos 2"
+			"defaultValue": "Band"
 		},
 		"cam2pos3label": {
 			"description": "A custom variable",
@@ -42086,11 +42086,11 @@
 		},
 		"cam2pos8label": {
 			"description": "A custom variable",
-			"defaultValue": "Pos 8"
+			"defaultValue": "Sprecher++"
 		},
 		"cam2pos9label": {
 			"description": "A custom variable",
-			"defaultValue": "Pos 9"
+			"defaultValue": "Sprecher"
 		},
 		"cam2pos6label": {
 			"description": "A custom variable",
