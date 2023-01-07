@@ -308,8 +308,8 @@
             <item>
                 <type>STILL</type>
                 <devicename>CasparCG_Main</devicename>
-                <label>GRAFIKEN/AUX_03</label>
-                <name>GRAFIKEN/AUX_03</name>
+                <label>GRAFIKEN/STERNENHIMMEL</label>
+                <name>GRAFIKEN/STERNENHIMMEL</name>
                 <channel>17</channel>
                 <videolayer>10</videolayer>
                 <delay>0</delay>
@@ -555,7 +555,7 @@
                 <type>STILL</type>
                 <devicename>CasparCG_Main</devicename>
                 <label>Grafik 03</label>
-                <name>GRAFIKEN/TEST-GRAFIK-03</name>
+                <name>GRAFIKEN/STERNENHIMMEL</name>
                 <channel>4</channel>
                 <videolayer>20</videolayer>
                 <delay>0</delay>
