@@ -13,19 +13,17 @@ if [%defaultPw%] == [] (
 )
 
 if not [%1] == [cominghome-video] (
-	if exist \\cominghome-video\c (
-		if not exist v:\ (
-			if [%comingHomeVideoUser%] == [] (
-				set /p comingHomeVideoUser="Benutzername fr cominghome-video Anmeldung: "
-			)
-			if [%comingHomeVideoPw%] == [] (
-				set /p comingHomeVideoPw="Passwort fr cominghome-video Anmeldung: "
-			)
-			net use /PERSISTENT:NO v: \\cominghome-video\c %comingHomeVideoPw% /USER:%comingHomeVideoUser%
+	if not exist v:\ (
+		if [%comingHomeVideoUser%] == [] (
+			set /p comingHomeVideoUser="Benutzername fr cominghome-video Anmeldung: "
 		)
-		if exist v:\ (
-			echo Laufwerk V: cominghome-video
+		if [%comingHomeVideoPw%] == [] (
+			set /p comingHomeVideoPw="Passwort fr cominghome-video Anmeldung: "
 		)
+		net use /PERSISTENT:NO v: \\cominghome-video\c %comingHomeVideoPw% /USER:%comingHomeVideoUser%
+	)
+	if exist v:\ (
+		echo Laufwerk V: cominghome-video
 	)
 )
 
@@ -37,6 +35,8 @@ if not [%1] == [chaudio] (
 		if exist u:\ (
 			echo Laufwerk U: chaudio
 		)
+	) else (
+		echo chaudio nicht da
 	)
 )
 
@@ -48,6 +48,8 @@ if not [%1] == [chpresentation] (
 		if exist p:\ (
 			echo Laufwerk P: chpresentation
 		)
+	) else (
+		echo chpresentation nicht da
 	)
 )
 
@@ -59,5 +61,7 @@ if not [%1] == [chzoom] (
 		if exist z:\ (
 			echo Laufwerk Z: chzoom
 		)
+	) else (
+		echo chzoom nicht da
 	)
 )
