@@ -1,10 +1,8 @@
-ComingHOME Videotechnik
-=======================
+#ComingHOME Videotechnik
 
 Dies ist eine Sammlung von Konfigurations- und Script-Dateien für die Videotechnik bei ComingHOME Darmstadt.
 
-Verzeichnisstruktur
--------------------
+##Verzeichnisstruktur
 
 Die Skripte und Konfigurationen gehen davon aus, dass im Unterverzeichnis `casparcg-client` das entpackte Client-Programm (siehe `casparcg-client/README.md`) und in `casparcg-server` das Server-Programm (siehe `casparcg-server/README-videotechnik.md`) liegen.
 Außerdem sollte in `dDImageViewer` ein aktueller "NDI Drag&Drop Image Viewer" (siehe http://www.zenvideo.co.uk/ndi.htm#DDImageViewer) liegen. Gestartet wird er mit `script\START_dDImageViewer.bat` oder `dDImageViewer` in den shortcuts.
@@ -19,15 +17,25 @@ Die Programme `OBS Studio 27.2.4`, `Bitfocus Companion 2.3.0`, `NDI 5.5.2.0` und
 
 Im Verzeichnis `script\videoMonitor` müssen die npm-Module installiert sein.
 
-Hilfe
-=====
+#Hilfe
 
-FritzBox mit WLan verbinden
----------------------------
+##FritzBox mit WLan verbinden
 ![Screeenshot Internet->Zugangsdaten](help/fritzBoxMitWLanVerbinden.png)
 
-CasparCG Server
----------------
+##Route Metrik einstellen
+Ausgabe der Routen mit ihren Metriken: `route print` (Option `-4` wenn sowieso nur IPv4 interessiert).
+Geringe Metrik heißt höhere Prio.
+
+### für Windows 11 Pro
+Einstellungen -> `Netzwerk und Internet`
+oder gleich in der Taskleiste bei Netzwerk `Netzwerk- und Inerneteinstellungen`, dann `Erweiterte Netzwerkeinstellungen` -> `Weitere Netzwerkadapteroptionen` -> bei Eigenschaften des Adapters von Interesse:
+
+###Metrik einstellen
+`Internetprotokoll, Version 4` -> Eigenschaften -> Erweitert -> `Automatische Metrik` ausschalten
+![Screenshot Internetprotokoll->Erweitert->keine automatische Metrik](help/routeMetrik.jpg)
+
+
+##CasparCG Server
 
 allgemeine Dokumentation zum Server 2.3.3 LTS: [help\CasparCG-2.3.3LTS_Overview.pdf](help/CasparCG-2.3.3LTS_Overview.pdf)
 
