@@ -19,6 +19,11 @@ Im Verzeichnis `script\videoMonitor` müssen die npm-Module installiert sein.
 
 # Hilfe
 
+## Lautstärke einer Präsentation
+
+Ist der Ton einer Präsentation übersteuert, kann auf dem abspielenden Rechner der `Lautstärkemixer` geöffnet werden und die Ausgangslautstärke des präsentierenden Programms reduziert werden.
+Das Ändern der Gesamtlautstärke (oder auch Ausschalten, weil man über den präsentierenden Rechner nichts hören will) ändert nichts daran, was das NDI-ScreenCapture an Ton bekommt.
+
 ## FritzBox mit WLan verbinden
 ![Screeenshot Internet->Zugangsdaten](help/fritzBoxMitWLanVerbinden.png)
 

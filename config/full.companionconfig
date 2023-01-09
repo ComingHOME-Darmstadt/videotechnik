@@ -18126,7 +18126,7 @@
 					"instance": "udTEF512G",
 					"action": "COMMAND",
 					"options": {
-						"cmd": "PLAY 1-65 VOLUME 0 0 Linear"
+						"cmd": "MIXER 1-65 VOLUME 0 0 Linear"
 					},
 					"delay": 100
 				},
