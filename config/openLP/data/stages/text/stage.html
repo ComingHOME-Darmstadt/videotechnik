@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>nur Text</title>
+	<style type="text/css">
+		html {
+			/* Explicitly set background color */
+			background-color: #00ff00;
+
+			/* Disable scrollbars by clipping page overflow */
+			overflow: hidden;
+
+			/* Set default box-sizing to border-box for easier sizing of elements */
+			box-sizing: border-box;
+
+			/* Set default font family */
+			font-family: Arial, Helvetica, sans-serif;
+
+			/* Set responsive root font size to 43.2px at 1080p */
+			font-size: 4vh;
+		}
+
+		*, *:before, *:after {
+			/* Make box-sizing property easy to change by components if required */
+			box-sizing: inherit;
+		}
+
+		body {
+			margin: 0;
+			padding: 0;
+		}
+
+		#currentslide {
+			position: absolute;
+			top: 66.5vh;
+			width: 85vw;
+			left: 7.5vw;
+			font-size: 1.45em;
+			font-weight: bold;
+			line-height: 1em;
+			color: white;
+			padding-bottom: 0px;
+			text-align: center;
+		}
+	</style>
+	<script type="text/javascript" src="jquery.min.js"></script>
+	<script type="text/javascript" src="stage.js"></script>
+</head>
+<body>
+<input type="hidden" id="next-text" value="next" />
+<div id="currentslide"></div>
+</body>
+</html>

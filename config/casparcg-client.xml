@@ -845,11 +845,11 @@
         <color></color>
         <items>
             <item>
-                <type>CUSTOMCOMMAND</type>
+                <type>HTML</type>
                 <devicename>CasparCG_Main</devicename>
-                <label>OpenLP MASTER  NDI</label>
-                <name>Custom Command</name>
-                <channel>1</channel>
+                <label>HTML Page</label>
+                <name>HTML Page</name>
+                <channel>8</channel>
                 <videolayer>10</videolayer>
                 <delay>0</delay>
                 <duration>0</duration>
@@ -857,18 +857,14 @@
                 <allowremotetriggering>false</allowremotetriggering>
                 <remotetriggerid></remotetriggerid>
                 <storyid></storyid>
-                <stopCommand>STOP 8-10</stopCommand>
-                <playCommand>PLAY 8-10 &quot;ndi://CHPRESENTATION/Intel Iris Xe Graphics 2&quot;</playCommand>
-                <loadCommand></loadCommand>
-                <pauseCommand></pauseCommand>
-                <nextCommand></nextCommand>
-                <updateCommand></updateCommand>
-                <invokeCommand></invokeCommand>
-                <previewCommand></previewCommand>
-                <clearCommand></clearCommand>
-                <clearVideolayerCommand></clearVideolayerCommand>
-                <clearChannelCommand></clearChannelCommand>
+                <url>http://chpresentation:4316/stage/text/</url>
+                <transition>CUT</transition>
+                <transitionDuration>0</transitionDuration>
+                <tween>Linear</tween>
+                <direction>RIGHT</direction>
+                <freezeonload>false</freezeonload>
                 <triggeronnext>false</triggeronnext>
+                <useauto>false</useauto>
                 <color>Transparent</color>
             </item>
         </items>
