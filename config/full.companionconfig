@@ -13126,18 +13126,7 @@
 			},
 			"20": {},
 			"21": {},
-			"22": {
-				"style": "png",
-				"text": "Refresh",
-				"size": "18",
-				"alignment": "center:center",
-				"pngalignment": "center:center",
-				"color": 16777215,
-				"bgcolor": 0,
-				"latch": false,
-				"relative_delay": false,
-				"show_topbar": "default"
-			},
+			"22": {},
 			"23": {},
 			"24": {},
 			"25": {
@@ -13442,10 +13431,10 @@
 			"product": "HTTP API",
 			"label": "OpenLP",
 			"_configIdx": 2,
-			"version": "v2",
+			"version": "v3",
 			"ip": "192.168.77.31",
 			"port": 4316,
-			"serviceItemLimit": 7,
+			"serviceItemLimit": 12,
 			"slideItemLimit": 12,
 			"serviceItemEmptyText": "-",
 			"enabled": true
@@ -34451,16 +34440,7 @@
 			"19": [],
 			"20": [],
 			"21": [],
-			"22": [
-				{
-					"id": "BTvWagXOY",
-					"label": "5W2chVadM:refreshSiList",
-					"instance": "5W2chVadM",
-					"action": "refreshSiList",
-					"options": {},
-					"delay": 0
-				}
-			],
+			"22": [],
 			"23": [],
 			"24": [],
 			"25": [
