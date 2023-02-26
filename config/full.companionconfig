@@ -13340,7 +13340,7 @@
 			"label": "CAM 01",
 			"poolActive": "off",
 			"host": "192.168.77.11",
-			"enabled": false,
+			"enabled": true,
 			"import_to": "2HMZ_jl8k",
 			"_configIdx": 1,
 			"model": "Auto"
@@ -13351,7 +13351,7 @@
 			"label": "CAM 02",
 			"poolActive": "off",
 			"host": "192.168.77.12",
-			"enabled": false,
+			"enabled": true,
 			"import_to": "i_PE2l0w8",
 			"_configIdx": 1,
 			"model": "Auto"
