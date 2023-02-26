@@ -13407,24 +13407,12 @@
 			"product": "NDI Studio Monitor",
 			"label": "chaudio Audio N-1",
 			"host": "chaudio",
-			"port": 81,
+			"port": 80,
 			"useWebPassword": false,
 			"username": "",
 			"password": "",
 			"import_to": "OFdw4ps0h",
 			"enabled": true
-		},
-		"sKVB_2-tT": {
-			"instance_type": "newtek-ndistudiomonitor",
-			"product": "NDI Studio Monitor",
-			"label": "chaudio Beamer",
-			"host": "chaudio",
-			"port": "80",
-			"useWebPassword": false,
-			"username": "",
-			"password": "",
-			"enabled": true,
-			"import_to": "sKVB_2-tT"
 		},
 		"5W2chVadM": {
 			"instance_type": "openlp-http",
@@ -17859,36 +17847,6 @@
 						"customJSON": "{\"version\":1,\"window\":{\"display_device\":\"\",\"showcmd\":1,\"min_posn_x\":-1,\"min_posn_y\":-1,\"max_posn_x\":-1,\"max_posn_y\":-1,\"normal_posn_left\":268,\"normal_posn_right\":1284,\"normal_posn_top\":1,\"normal_posn_bottom\":610}}"
 					},
 					"delay": 100
-				},
-				{
-					"id": "iylAqwKtFaEA",
-					"label": "sKVB_2-tT:source",
-					"instance": "sKVB_2-tT",
-					"action": "source",
-					"options": {
-						"source": "COMINGHOME-VIDEO (Beamer)"
-					},
-					"delay": 0
-				},
-				{
-					"id": "F5gtxD7fiCUe",
-					"label": "sKVB_2-tT:customJSON",
-					"instance": "sKVB_2-tT",
-					"action": "customJSON",
-					"options": {
-						"customJSON": "{\"version\":1,\"NDI_overlay\":\"\",\"PTZ_controller\":\"\",\"audio_output\":\"\",\"window\":{\"display_device\":\"\",\"always_on_top\":true,\"hide_border\":false,\"showcmd\":1,\"min_posn_x\":-32000,\"min_posn_y\":-32000,\"max_posn_x\":-1,\"max_posn_y\":-1,\"normal_posn_left\":109,\"normal_posn_right\":1209,\"normal_posn_top\":47,\"normal_posn_bottom\":836},\"decorations\":{\"vu_meter\":false,\"vu_meter_scale\":false,\"center_cross\":false,\"safe_areas\":false,\"show_4_3\":false,\"best_fit\":true,\"square_aspect\":false,\"hide_ptz_controls\":false,\"do_not_hide_controls\":false,\"show_alpha\":false,\"menu_posn_x\":56.0,\"menu_posn_y\":8.0,\"flip_horizontal\":false,\"flip_vertical\":false,\"lowest_latency\":true,\"enable_ndi_output\":false,\"connection_quality\":false}}"
-					},
-					"delay": 100
-				},
-				{
-					"id": "Er7XAn14JWQc",
-					"label": "sKVB_2-tT:customJSON",
-					"instance": "sKVB_2-tT",
-					"action": "customJSON",
-					"options": {
-						"customJSON": "{\"version\":1,\"NDI_overlay\":\"\",\"PTZ_controller\":\"\",\"audio_output\":\"\",\"window\":{\"display_device\":\"Full Screen\",\"always_on_top\":true,\"hide_border\":false,\"showcmd\":3,\"min_posn_x\":-32000,\"min_posn_y\":-32000,\"max_posn_x\":-1,\"max_posn_y\":-1,\"normal_posn_left\":109,\"normal_posn_right\":1209,\"normal_posn_top\":47,\"normal_posn_bottom\":836},\"decorations\":{\"vu_meter\":false,\"vu_meter_scale\":false,\"center_cross\":false,\"safe_areas\":false,\"show_4_3\":false,\"best_fit\":true,\"square_aspect\":false,\"hide_ptz_controls\":false,\"do_not_hide_controls\":false,\"show_alpha\":false,\"menu_posn_x\":56.0,\"menu_posn_y\":8.0,\"flip_horizontal\":false,\"flip_vertical\":false,\"lowest_latency\":true,\"enable_ndi_output\":false,\"connection_quality\":false}}"
-					},
-					"delay": 100
 				}
 			],
 			"15": [],
@@ -19096,7 +19054,7 @@
 					"instance": "OFdw4ps0h",
 					"action": "customJSON",
 					"options": {
-						"customJSON": "{\"version\":1,\"NDI_overlay\":\"\",\"PTZ_controller\":\"\",\"audio_output\":\"Lautsprecher (Focusrite USB Audio)\",\"window\":{\"display_device\":\"\",\"always_on_top\":false,\"hide_border\":false,\"showcmd\":2,\"min_posn_x\":-32000,\"min_posn_y\":-32000,\"max_posn_x\":-1,\"max_posn_y\":-1,\"normal_posn_left\":336,\"normal_posn_right\":1028,\"normal_posn_top\":577,\"normal_posn_bottom\":972},\"decorations\":{\"mute_audio\":false,\"audio_gain\":0,\"vu_meter\":true,\"vu_meter_scale\":false,\"menu_posn_x\":56.0,\"menu_posn_y\":8.0,\"lowest_latency\":true,\"enable_ndi_output\":false,\"connection_quality\":false}}"
+						"customJSON": "{\"version\":1,\"NDI_overlay\":\"\",\"PTZ_controller\":\"\",\"audio_output\":\"Lautsprecher (Focusrite USB Audio)\",\"window\":{\"display_device\":\"\",\"always_on_top\":false,\"hide_border\":false,\"showcmd\":1,\"min_posn_x\":-32000,\"min_posn_y\":-32000,\"max_posn_x\":-1,\"max_posn_y\":-1,\"normal_posn_left\":336,\"normal_posn_right\":1028,\"normal_posn_top\":577,\"normal_posn_bottom\":972},\"decorations\":{\"mute_audio\":false,\"audio_gain\":0,\"vu_meter\":true,\"vu_meter_scale\":false,\"menu_posn_x\":56.0,\"menu_posn_y\":8.0,\"lowest_latency\":true,\"enable_ndi_output\":false,\"connection_quality\":false}}"
 					},
 					"delay": 100
 				},
