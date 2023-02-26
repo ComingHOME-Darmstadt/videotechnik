@@ -19093,16 +19093,6 @@
 					"delay": 100
 				},
 				{
-					"id": "Mn-GR8uhv9bU",
-					"label": "udTEF512G:COMMAND",
-					"instance": "udTEF512G",
-					"action": "COMMAND",
-					"options": {
-						"cmd": "MIXER 8-10 CHROMA Green 0.06 0.46 0.43"
-					},
-					"delay": 100
-				},
-				{
 					"id": "bJv5yXSqGiYS",
 					"label": "PY98Cj8Y2:send_int",
 					"instance": "PY98Cj8Y2",
