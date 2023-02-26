@@ -349,7 +349,7 @@
                 <type>MOVIE</type>
                 <devicename>CasparCG_Main</devicename>
                 <label>Video 01</label>
-                <name>VIDEOS/COMINGHOMEUMBAUPART2(7MIN)</name>
+                <name>VIDEOS/UMBAUCOMINGHOMEPART4</name>
                 <channel>18</channel>
                 <videolayer>10</videolayer>
                 <delay>0</delay>
@@ -364,7 +364,7 @@
                 <direction>RIGHT</direction>
                 <seek>0</seek>
                 <length>0</length>
-                <loop>true</loop>
+                <loop>false</loop>
                 <freezeonload>false</freezeonload>
                 <triggeronnext>false</triggeronnext>
                 <autoplay>false</autoplay>
