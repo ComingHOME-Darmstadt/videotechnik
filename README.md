@@ -49,3 +49,6 @@ Introduction to CasparCG's HTML producer: [help\HTMLproducer.html](help/HTMLprod
 Creating production-ready HTML templates for CasparCG: [help\production-readyHTMLtemplates.html](help/production-readyHTMLtemplates.html) (Download von [https://www.indr.ch/2019/01/creating-production-ready-html-templates-for-casparcg/](https://www.indr.ch/2019/01/creating-production-ready-html-templates-for-casparcg/))
 
 Kanalbelegung: [help\CasparCG-Kanalbelegung.md](help/CasparCG-Kanalbelegung.md)
+
+## Übersicht Hardware-Komponenten
+![Schematische Zeichung Hardware-Komponenten](help/videotechnikUEberblick.jpg)
