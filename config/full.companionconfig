@@ -11245,30 +11245,165 @@
 		},
 		"87": {
 			"1": {
-				"style": "pageup"
+				"style": "png",
+				"text": "Program\\nText",
+				"size": "18",
+				"alignment": "center:center",
+				"pngalignment": "center:center",
+				"color": 16777215,
+				"bgcolor": 0,
+				"latch": false,
+				"relative_delay": false
 			},
-			"2": {},
-			"3": {},
-			"4": {},
-			"5": {},
+			"2": {
+				"style": "png",
+				"text": "Beamer\\nText",
+				"size": "18",
+				"alignment": "center:center",
+				"pngalignment": "center:center",
+				"color": 16777215,
+				"bgcolor": 0,
+				"latch": false,
+				"relative_delay": false
+			},
+			"3": {
+				"style": "png",
+				"text": "VIDEO\\nPlay",
+				"size": "18",
+				"alignment": "center:center",
+				"pngalignment": "center:center",
+				"color": 16777215,
+				"bgcolor": 13056,
+				"latch": false,
+				"relative_delay": false,
+				"show_topbar": "default"
+			},
+			"4": {
+				"style": "png",
+				"text": "AUX\\nPlay",
+				"size": "18",
+				"alignment": "center:center",
+				"pngalignment": "center:center",
+				"color": 16777215,
+				"bgcolor": 13056,
+				"latch": false,
+				"relative_delay": false,
+				"show_topbar": "default"
+			},
+			"5": {
+				"style": "png",
+				"text": "MIX\\n\\nBeamer\\nGrafiken",
+				"size": "auto",
+				"alignment": "center:center",
+				"pngalignment": "center:center",
+				"color": 16777215,
+				"bgcolor": 13056,
+				"latch": false,
+				"relative_delay": true,
+				"show_topbar": "default",
+				"png64": "iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAYAAABV7bNHAAABPElEQVR4Xu3aMUoDURiF0X9isHA24Q4sFNyPYAoXY2dh78LcxFiI5vkgdpoM5HaPM0W6GXgfZy4EZqratXIdLTAJdFqHQCtvj0ACZQNLEEEEZQUIyvrZIIIIygoQlPWzQQQRlBUgKOtngwgiKCtAUNbPBhFEUFaAoKyfDSKIoKwAQVk/G0QQQVkBgrJ+U20fW2322VNGvXu/qT7ST/0Ls4tRjxie67sHmh9aLVfhgwa9ff7ogZ7vW10vg54wPNb73AO93bSav8InDXr7su2BXu5affYpcv0tcNl6oNfb/utL4H99tOk3ED1HCxwEuQQ61wBBq//FvGInExFE0Lnrc7iPIIIIygoQlPWzQQQRlBUgKOtngwgiKCtAUNbPBhFEUFaAoKyfDSKIoKwAQVk/G0QQQVkBgrJ+Nmil3w9aJYAUYQAvCgAAAABJRU5ErkJggg=="
+			},
 			"6": {},
 			"7": {},
-			"8": {},
-			"9": {
-				"style": "pagenum"
+			"8": {
+				"style": "png",
+				"text": "HOME",
+				"size": "auto",
+				"alignment": "center:center",
+				"pngalignment": "center:center",
+				"color": 16777215,
+				"bgcolor": 0,
+				"latch": false,
+				"relative_delay": false
 			},
-			"10": {},
-			"11": {},
+			"9": {
+				"style": "png",
+				"text": "04",
+				"size": "30",
+				"alignment": "center:center",
+				"pngalignment": "center:center",
+				"color": 16777215,
+				"bgcolor": 0,
+				"latch": false,
+				"relative_delay": false,
+				"show_topbar": "default"
+			},
+			"10": {
+				"style": "png",
+				"text": "05",
+				"size": "30",
+				"alignment": "center:center",
+				"pngalignment": "center:center",
+				"color": 16777215,
+				"bgcolor": 0,
+				"latch": false,
+				"relative_delay": false,
+				"show_topbar": "default"
+			},
+			"11": {
+				"style": "png",
+				"text": "06",
+				"size": "30",
+				"alignment": "center:center",
+				"pngalignment": "center:center",
+				"color": 16777215,
+				"bgcolor": 0,
+				"latch": false,
+				"relative_delay": false,
+				"show_topbar": "default"
+			},
 			"12": {},
-			"13": {},
+			"13": {
+				"style": "png",
+				"text": "VOL",
+				"size": "auto",
+				"alignment": "center:center",
+				"pngalignment": "center:center",
+				"color": 0,
+				"bgcolor": 13421568,
+				"latch": false,
+				"relative_delay": false,
+				"show_topbar": "default"
+			},
 			"14": {},
 			"15": {},
 			"16": {},
 			"17": {
-				"style": "pagedown"
+				"style": "png",
+				"text": "01",
+				"size": "30",
+				"alignment": "center:center",
+				"pngalignment": "center:center",
+				"color": 16777215,
+				"bgcolor": 0,
+				"latch": false,
+				"relative_delay": false,
+				"show_topbar": "default"
 			},
-			"18": {},
-			"19": {},
+			"18": {
+				"style": "png",
+				"text": "02",
+				"size": "30",
+				"alignment": "center:center",
+				"pngalignment": "center:center",
+				"color": 16777215,
+				"bgcolor": 0,
+				"latch": false,
+				"relative_delay": false,
+				"show_topbar": "default"
+			},
+			"19": {
+				"style": "png",
+				"text": "03",
+				"size": "30",
+				"alignment": "center:center",
+				"pngalignment": "center:center",
+				"color": 16777215,
+				"bgcolor": 0,
+				"latch": false,
+				"relative_delay": false,
+				"show_topbar": "default"
+			},
 			"20": {},
 			"21": {},
 			"22": {},
@@ -11285,30 +11420,165 @@
 		},
 		"88": {
 			"1": {
-				"style": "pageup"
+				"style": "png",
+				"text": "Program\\nText",
+				"size": "18",
+				"alignment": "center:center",
+				"pngalignment": "center:center",
+				"color": 16777215,
+				"bgcolor": 0,
+				"latch": false,
+				"relative_delay": false
 			},
-			"2": {},
-			"3": {},
-			"4": {},
-			"5": {},
+			"2": {
+				"style": "png",
+				"text": "Beamer\\nText",
+				"size": "18",
+				"alignment": "center:center",
+				"pngalignment": "center:center",
+				"color": 16777215,
+				"bgcolor": 0,
+				"latch": false,
+				"relative_delay": false
+			},
+			"3": {
+				"style": "png",
+				"text": "VIDEO\\nPlay",
+				"size": "18",
+				"alignment": "center:center",
+				"pngalignment": "center:center",
+				"color": 16777215,
+				"bgcolor": 13056,
+				"latch": false,
+				"relative_delay": false,
+				"show_topbar": "default"
+			},
+			"4": {
+				"style": "png",
+				"text": "AUX\\nPlay",
+				"size": "18",
+				"alignment": "center:center",
+				"pngalignment": "center:center",
+				"color": 16777215,
+				"bgcolor": 13056,
+				"latch": false,
+				"relative_delay": false,
+				"show_topbar": "default"
+			},
+			"5": {
+				"style": "png",
+				"text": "MIX\\n\\nBeamer\\nVideos",
+				"size": "auto",
+				"alignment": "center:center",
+				"pngalignment": "center:center",
+				"color": 16777215,
+				"bgcolor": 13056,
+				"latch": false,
+				"relative_delay": true,
+				"show_topbar": "default",
+				"png64": "iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAYAAABV7bNHAAABPElEQVR4Xu3aMUoDURiF0X9isHA24Q4sFNyPYAoXY2dh78LcxFiI5vkgdpoM5HaPM0W6GXgfZy4EZqratXIdLTAJdFqHQCtvj0ACZQNLEEEEZQUIyvrZIIIIygoQlPWzQQQRlBUgKOtngwgiKCtAUNbPBhFEUFaAoKyfDSKIoKwAQVk/G0QQQVkBgrJ+U20fW2322VNGvXu/qT7ST/0Ls4tRjxie67sHmh9aLVfhgwa9ff7ogZ7vW10vg54wPNb73AO93bSav8InDXr7su2BXu5affYpcv0tcNl6oNfb/utL4H99tOk3ED1HCxwEuQQ61wBBq//FvGInExFE0Lnrc7iPIIIIygoQlPWzQQQRlBUgKOtngwgiKCtAUNbPBhFEUFaAoKyfDSKIoKwAQVk/G0QQQVkBgrJ+Nmil3w9aJYAUYQAvCgAAAABJRU5ErkJggg=="
+			},
 			"6": {},
 			"7": {},
-			"8": {},
-			"9": {
-				"style": "pagenum"
+			"8": {
+				"style": "png",
+				"text": "HOME",
+				"size": "auto",
+				"alignment": "center:center",
+				"pngalignment": "center:center",
+				"color": 16777215,
+				"bgcolor": 0,
+				"latch": false,
+				"relative_delay": false
 			},
-			"10": {},
-			"11": {},
+			"9": {
+				"style": "png",
+				"text": "04",
+				"size": "30",
+				"alignment": "center:center",
+				"pngalignment": "center:center",
+				"color": 16777215,
+				"bgcolor": 0,
+				"latch": false,
+				"relative_delay": false,
+				"show_topbar": "default"
+			},
+			"10": {
+				"style": "png",
+				"text": "05",
+				"size": "30",
+				"alignment": "center:center",
+				"pngalignment": "center:center",
+				"color": 16777215,
+				"bgcolor": 0,
+				"latch": false,
+				"relative_delay": false,
+				"show_topbar": "default"
+			},
+			"11": {
+				"style": "png",
+				"text": "06",
+				"size": "30",
+				"alignment": "center:center",
+				"pngalignment": "center:center",
+				"color": 16777215,
+				"bgcolor": 0,
+				"latch": false,
+				"relative_delay": false,
+				"show_topbar": "default"
+			},
 			"12": {},
-			"13": {},
+			"13": {
+				"style": "png",
+				"text": "VOL",
+				"size": "auto",
+				"alignment": "center:center",
+				"pngalignment": "center:center",
+				"color": 0,
+				"bgcolor": 13421568,
+				"latch": false,
+				"relative_delay": false,
+				"show_topbar": "default"
+			},
 			"14": {},
 			"15": {},
 			"16": {},
 			"17": {
-				"style": "pagedown"
+				"style": "png",
+				"text": "01",
+				"size": "30",
+				"alignment": "center:center",
+				"pngalignment": "center:center",
+				"color": 16777215,
+				"bgcolor": 0,
+				"latch": false,
+				"relative_delay": false,
+				"show_topbar": "default"
 			},
-			"18": {},
-			"19": {},
+			"18": {
+				"style": "png",
+				"text": "02",
+				"size": "30",
+				"alignment": "center:center",
+				"pngalignment": "center:center",
+				"color": 16777215,
+				"bgcolor": 0,
+				"latch": false,
+				"relative_delay": false,
+				"show_topbar": "default"
+			},
+			"19": {
+				"style": "png",
+				"text": "03",
+				"size": "30",
+				"alignment": "center:center",
+				"pngalignment": "center:center",
+				"color": 16777215,
+				"bgcolor": 0,
+				"latch": false,
+				"relative_delay": false,
+				"show_topbar": "default"
+			},
 			"20": {},
 			"21": {},
 			"22": {},
@@ -11497,24 +11767,24 @@
 			},
 			"20": {
 				"style": "png",
-				"text": "",
-				"size": "auto",
+				"text": "Videos",
+				"size": "14",
 				"alignment": "center:center",
 				"pngalignment": "center:center",
 				"color": 16777215,
-				"bgcolor": 0,
+				"bgcolor": 6684774,
 				"latch": false,
 				"relative_delay": false,
 				"show_topbar": "default"
 			},
 			"21": {
 				"style": "png",
-				"text": "",
-				"size": "auto",
+				"text": "Grafiken",
+				"size": "14",
 				"alignment": "center:center",
 				"pngalignment": "center:center",
 				"color": 16777215,
-				"bgcolor": 0,
+				"bgcolor": 6684774,
 				"latch": false,
 				"relative_delay": false,
 				"show_topbar": "default"
@@ -31314,25 +31584,181 @@
 			"32": []
 		},
 		"87": {
-			"1": [],
-			"2": [],
-			"3": [],
-			"4": [],
-			"5": [],
+			"1": [
+				{
+					"id": "FWE5h0532",
+					"label": "bitfocus-companion:button_press",
+					"instance": "bitfocus-companion",
+					"action": "button_press",
+					"options": {
+						"page": "1",
+						"bank": 17
+					},
+					"delay": 0
+				}
+			],
+			"2": [
+				{
+					"id": "3z8mZWOILh",
+					"label": "bitfocus-companion:button_press",
+					"instance": "bitfocus-companion",
+					"action": "button_press",
+					"options": {
+						"page": "1",
+						"bank": 18
+					},
+					"delay": 0
+				}
+			],
+			"3": [
+				{
+					"id": "V_alPzKppC",
+					"label": "bitfocus-companion:button_press",
+					"instance": "bitfocus-companion",
+					"action": "button_press",
+					"options": {
+						"page": "1",
+						"bank": 21
+					},
+					"delay": 0
+				}
+			],
+			"4": [
+				{
+					"id": "EpNKHvyYa5",
+					"label": "bitfocus-companion:button_press",
+					"instance": "bitfocus-companion",
+					"action": "button_press",
+					"options": {
+						"page": "1",
+						"bank": 22
+					},
+					"delay": 0
+				}
+			],
+			"5": [
+				{
+					"id": "KCqsW2R-nt",
+					"label": "bitfocus-companion:set_page",
+					"instance": "bitfocus-companion",
+					"action": "set_page",
+					"options": {
+						"controller": "self",
+						"page": 90
+					},
+					"delay": 0
+				}
+			],
 			"6": [],
 			"7": [],
-			"8": [],
-			"9": [],
-			"10": [],
-			"11": [],
+			"8": [
+				{
+					"id": "_mI_14Vr0s",
+					"label": "bitfocus-companion:set_page",
+					"instance": "bitfocus-companion",
+					"action": "set_page",
+					"options": {
+						"controller": "self",
+						"page": "5"
+					},
+					"delay": 0
+				}
+			],
+			"9": [
+				{
+					"id": "pGVRP3bz5K",
+					"label": "bitfocus-companion:button_pressrelease",
+					"instance": "bitfocus-companion",
+					"action": "button_pressrelease",
+					"options": {
+						"page": 3,
+						"bank": 17
+					},
+					"delay": 0
+				}
+			],
+			"10": [
+				{
+					"id": "FxaJ3FxXNLE",
+					"label": "bitfocus-companion:button_pressrelease",
+					"instance": "bitfocus-companion",
+					"action": "button_pressrelease",
+					"options": {
+						"page": 3,
+						"bank": 18
+					},
+					"delay": 0
+				}
+			],
+			"11": [
+				{
+					"id": "-fFuMXe0MQz",
+					"label": "bitfocus-companion:button_pressrelease",
+					"instance": "bitfocus-companion",
+					"action": "button_pressrelease",
+					"options": {
+						"page": 3,
+						"bank": 19
+					},
+					"delay": 0
+				}
+			],
 			"12": [],
-			"13": [],
+			"13": [
+				{
+					"id": "oQ2SWqNK8V4",
+					"label": "bitfocus-companion:set_page",
+					"instance": "bitfocus-companion",
+					"action": "set_page",
+					"options": {
+						"controller": "CL41K1A03537",
+						"page": 96
+					},
+					"delay": 0
+				}
+			],
 			"14": [],
 			"15": [],
 			"16": [],
-			"17": [],
-			"18": [],
-			"19": [],
+			"17": [
+				{
+					"id": "R5GihAhr4lD",
+					"label": "bitfocus-companion:button_pressrelease",
+					"instance": "bitfocus-companion",
+					"action": "button_pressrelease",
+					"options": {
+						"page": 3,
+						"bank": 20
+					},
+					"delay": 0
+				}
+			],
+			"18": [
+				{
+					"id": "0tr8Q7ocpLS",
+					"label": "bitfocus-companion:button_pressrelease",
+					"instance": "bitfocus-companion",
+					"action": "button_pressrelease",
+					"options": {
+						"page": 3,
+						"bank": 21
+					},
+					"delay": 0
+				}
+			],
+			"19": [
+				{
+					"id": "DVw9e6UgAI8",
+					"label": "bitfocus-companion:button_pressrelease",
+					"instance": "bitfocus-companion",
+					"action": "button_pressrelease",
+					"options": {
+						"page": 3,
+						"bank": 22
+					},
+					"delay": 0
+				}
+			],
 			"20": [],
 			"21": [],
 			"22": [],
@@ -31348,25 +31774,181 @@
 			"32": []
 		},
 		"88": {
-			"1": [],
-			"2": [],
-			"3": [],
-			"4": [],
-			"5": [],
+			"1": [
+				{
+					"id": "BOf6xEj8J",
+					"label": "bitfocus-companion:button_press",
+					"instance": "bitfocus-companion",
+					"action": "button_press",
+					"options": {
+						"page": "1",
+						"bank": 17
+					},
+					"delay": 0
+				}
+			],
+			"2": [
+				{
+					"id": "NJlewwWv_e",
+					"label": "bitfocus-companion:button_press",
+					"instance": "bitfocus-companion",
+					"action": "button_press",
+					"options": {
+						"page": "1",
+						"bank": 18
+					},
+					"delay": 0
+				}
+			],
+			"3": [
+				{
+					"id": "vW9nU1CApg",
+					"label": "bitfocus-companion:button_press",
+					"instance": "bitfocus-companion",
+					"action": "button_press",
+					"options": {
+						"page": "1",
+						"bank": 21
+					},
+					"delay": 0
+				}
+			],
+			"4": [
+				{
+					"id": "N5Dy9AICNr",
+					"label": "bitfocus-companion:button_press",
+					"instance": "bitfocus-companion",
+					"action": "button_press",
+					"options": {
+						"page": "1",
+						"bank": 22
+					},
+					"delay": 0
+				}
+			],
+			"5": [
+				{
+					"id": "rR8krQlKOI",
+					"label": "bitfocus-companion:set_page",
+					"instance": "bitfocus-companion",
+					"action": "set_page",
+					"options": {
+						"controller": "self",
+						"page": 90
+					},
+					"delay": 0
+				}
+			],
 			"6": [],
 			"7": [],
-			"8": [],
-			"9": [],
-			"10": [],
-			"11": [],
+			"8": [
+				{
+					"id": "-DwhzuSdqE",
+					"label": "bitfocus-companion:set_page",
+					"instance": "bitfocus-companion",
+					"action": "set_page",
+					"options": {
+						"controller": "self",
+						"page": "5"
+					},
+					"delay": 0
+				}
+			],
+			"9": [
+				{
+					"id": "dvjJE_qDsV",
+					"label": "bitfocus-companion:button_pressrelease",
+					"instance": "bitfocus-companion",
+					"action": "button_pressrelease",
+					"options": {
+						"page": 3,
+						"bank": 9
+					},
+					"delay": 0
+				}
+			],
+			"10": [
+				{
+					"id": "Ncp3Kynjjuk",
+					"label": "bitfocus-companion:button_pressrelease",
+					"instance": "bitfocus-companion",
+					"action": "button_pressrelease",
+					"options": {
+						"page": 3,
+						"bank": 10
+					},
+					"delay": 0
+				}
+			],
+			"11": [
+				{
+					"id": "nXB-T-cHKr3",
+					"label": "bitfocus-companion:button_pressrelease",
+					"instance": "bitfocus-companion",
+					"action": "button_pressrelease",
+					"options": {
+						"page": 3,
+						"bank": 11
+					},
+					"delay": 0
+				}
+			],
 			"12": [],
-			"13": [],
+			"13": [
+				{
+					"id": "dQD_3VT4ttN",
+					"label": "bitfocus-companion:set_page",
+					"instance": "bitfocus-companion",
+					"action": "set_page",
+					"options": {
+						"controller": "CL41K1A03537",
+						"page": 96
+					},
+					"delay": 0
+				}
+			],
 			"14": [],
 			"15": [],
 			"16": [],
-			"17": [],
-			"18": [],
-			"19": [],
+			"17": [
+				{
+					"id": "39zNAP-KWbP",
+					"label": "bitfocus-companion:button_pressrelease",
+					"instance": "bitfocus-companion",
+					"action": "button_pressrelease",
+					"options": {
+						"page": 3,
+						"bank": 12
+					},
+					"delay": 0
+				}
+			],
+			"18": [
+				{
+					"id": "_u-B45QaTaZ",
+					"label": "bitfocus-companion:button_pressrelease",
+					"instance": "bitfocus-companion",
+					"action": "button_pressrelease",
+					"options": {
+						"page": 3,
+						"bank": 13
+					},
+					"delay": 0
+				}
+			],
+			"19": [
+				{
+					"id": "7r0UuHvviaq",
+					"label": "bitfocus-companion:button_pressrelease",
+					"instance": "bitfocus-companion",
+					"action": "button_pressrelease",
+					"options": {
+						"page": 3,
+						"bank": 14
+					},
+					"delay": 0
+				}
+			],
 			"20": [],
 			"21": [],
 			"22": [],
@@ -31571,26 +32153,26 @@
 			],
 			"20": [
 				{
-					"id": "uZr04AbQsmS",
-					"label": "bitfocus-companion:button_pressrelease",
+					"id": "8ahhs_Wpv",
+					"label": "bitfocus-companion:set_page",
 					"instance": "bitfocus-companion",
-					"action": "button_pressrelease",
+					"action": "set_page",
 					"options": {
-						"page": 3,
-						"bank": 9
+						"controller": "self",
+						"page": 88
 					},
 					"delay": 0
 				}
 			],
 			"21": [
 				{
-					"id": "Fqdo2YYVuH6",
-					"label": "bitfocus-companion:button_pressrelease",
+					"id": "mH4IR9TIE",
+					"label": "bitfocus-companion:set_page",
 					"instance": "bitfocus-companion",
-					"action": "button_pressrelease",
+					"action": "set_page",
 					"options": {
-						"page": 3,
-						"bank": 17
+						"controller": "self",
+						"page": 87
 					},
 					"delay": 0
 				}
@@ -41089,10 +41671,58 @@
 			"32": []
 		},
 		"87": {
-			"1": [],
-			"2": [],
-			"3": [],
-			"4": [],
+			"1": [
+				{
+					"id": "UxTNLJsFyL",
+					"label": "bitfocus-companion:button_release",
+					"instance": "bitfocus-companion",
+					"action": "button_release",
+					"options": {
+						"page": "1",
+						"bank": 17
+					},
+					"delay": 0
+				}
+			],
+			"2": [
+				{
+					"id": "P88AtLSifx",
+					"label": "bitfocus-companion:button_release",
+					"instance": "bitfocus-companion",
+					"action": "button_release",
+					"options": {
+						"page": "1",
+						"bank": 18
+					},
+					"delay": 0
+				}
+			],
+			"3": [
+				{
+					"id": "KvAdIP6eoe",
+					"label": "bitfocus-companion:button_release",
+					"instance": "bitfocus-companion",
+					"action": "button_release",
+					"options": {
+						"page": "1",
+						"bank": 21
+					},
+					"delay": 0
+				}
+			],
+			"4": [
+				{
+					"id": "7FWps0PBva",
+					"label": "bitfocus-companion:button_release",
+					"instance": "bitfocus-companion",
+					"action": "button_release",
+					"options": {
+						"page": "1",
+						"bank": 22
+					},
+					"delay": 0
+				}
+			],
 			"5": [],
 			"6": [],
 			"7": [],
@@ -41123,10 +41753,58 @@
 			"32": []
 		},
 		"88": {
-			"1": [],
-			"2": [],
-			"3": [],
-			"4": [],
+			"1": [
+				{
+					"id": "Eml-J3ubmV",
+					"label": "bitfocus-companion:button_release",
+					"instance": "bitfocus-companion",
+					"action": "button_release",
+					"options": {
+						"page": "1",
+						"bank": 17
+					},
+					"delay": 0
+				}
+			],
+			"2": [
+				{
+					"id": "omvvlRO_RD",
+					"label": "bitfocus-companion:button_release",
+					"instance": "bitfocus-companion",
+					"action": "button_release",
+					"options": {
+						"page": "1",
+						"bank": 18
+					},
+					"delay": 0
+				}
+			],
+			"3": [
+				{
+					"id": "AjjtBk5al8",
+					"label": "bitfocus-companion:button_release",
+					"instance": "bitfocus-companion",
+					"action": "button_release",
+					"options": {
+						"page": "1",
+						"bank": 21
+					},
+					"delay": 0
+				}
+			],
+			"4": [
+				{
+					"id": "36fYpH5ban",
+					"label": "bitfocus-companion:button_release",
+					"instance": "bitfocus-companion",
+					"action": "button_release",
+					"options": {
+						"page": "1",
+						"bank": 22
+					},
+					"delay": 0
+				}
+			],
 			"5": [],
 			"6": [],
 			"7": [],
@@ -41968,10 +42646,10 @@
 			"name": "PAGE"
 		},
 		"87": {
-			"name": "PAGE"
+			"name": "Mini Beamer Grafiken"
 		},
 		"88": {
-			"name": "PAGE"
+			"name": "Mini Beamer Videos"
 		},
 		"89": {
 			"name": "Mini Beamer"
@@ -48706,25 +49384,135 @@
 			"32": []
 		},
 		"87": {
-			"1": [],
-			"2": [],
-			"3": [],
-			"4": [],
+			"1": [
+				{
+					"id": "t4KXAHwIM5",
+					"type": "bank_style",
+					"instance_id": "bitfocus-companion",
+					"options": {
+						"page": "1",
+						"bank": 17
+					},
+					"style": {}
+				}
+			],
+			"2": [
+				{
+					"id": "SAAGSQhil5",
+					"type": "bank_style",
+					"instance_id": "bitfocus-companion",
+					"options": {
+						"page": "1",
+						"bank": 18
+					},
+					"style": {}
+				}
+			],
+			"3": [
+				{
+					"id": "4vcpQ1ohno",
+					"type": "bank_style",
+					"instance_id": "bitfocus-companion",
+					"options": {
+						"page": "1",
+						"bank": 21
+					},
+					"style": {}
+				}
+			],
+			"4": [
+				{
+					"id": "SunvQVLtE4",
+					"type": "bank_style",
+					"instance_id": "bitfocus-companion",
+					"options": {
+						"page": "1",
+						"bank": 22
+					},
+					"style": {}
+				}
+			],
 			"5": [],
 			"6": [],
 			"7": [],
 			"8": [],
-			"9": [],
-			"10": [],
-			"11": [],
+			"9": [
+				{
+					"id": "QVueHWM2RN",
+					"type": "bank_style",
+					"instance_id": "bitfocus-companion",
+					"options": {
+						"page": 3,
+						"bank": 17
+					},
+					"style": {}
+				}
+			],
+			"10": [
+				{
+					"id": "cDg-NMI1CMf",
+					"type": "bank_style",
+					"instance_id": "bitfocus-companion",
+					"options": {
+						"page": 3,
+						"bank": 18
+					},
+					"style": {}
+				}
+			],
+			"11": [
+				{
+					"id": "YSv5uOErY1K",
+					"type": "bank_style",
+					"instance_id": "bitfocus-companion",
+					"options": {
+						"page": 3,
+						"bank": 19
+					},
+					"style": {}
+				}
+			],
 			"12": [],
 			"13": [],
 			"14": [],
 			"15": [],
 			"16": [],
-			"17": [],
-			"18": [],
-			"19": [],
+			"17": [
+				{
+					"id": "Bn8URaRZDXz",
+					"type": "bank_style",
+					"instance_id": "bitfocus-companion",
+					"options": {
+						"page": 3,
+						"bank": 20
+					},
+					"style": {}
+				}
+			],
+			"18": [
+				{
+					"id": "U_VGxsVnl0m",
+					"type": "bank_style",
+					"instance_id": "bitfocus-companion",
+					"options": {
+						"page": 3,
+						"bank": 21
+					},
+					"style": {}
+				}
+			],
+			"19": [
+				{
+					"id": "CiJuDdzO-bC",
+					"type": "bank_style",
+					"instance_id": "bitfocus-companion",
+					"options": {
+						"page": 3,
+						"bank": 22
+					},
+					"style": {}
+				}
+			],
 			"20": [],
 			"21": [],
 			"22": [],
@@ -48740,25 +49528,135 @@
 			"32": []
 		},
 		"88": {
-			"1": [],
-			"2": [],
-			"3": [],
-			"4": [],
+			"1": [
+				{
+					"id": "dlbgunXN1o",
+					"type": "bank_style",
+					"instance_id": "bitfocus-companion",
+					"options": {
+						"page": "1",
+						"bank": 17
+					},
+					"style": {}
+				}
+			],
+			"2": [
+				{
+					"id": "WGUR8fP7Wb",
+					"type": "bank_style",
+					"instance_id": "bitfocus-companion",
+					"options": {
+						"page": "1",
+						"bank": 18
+					},
+					"style": {}
+				}
+			],
+			"3": [
+				{
+					"id": "O6tQtx_5by",
+					"type": "bank_style",
+					"instance_id": "bitfocus-companion",
+					"options": {
+						"page": "1",
+						"bank": 21
+					},
+					"style": {}
+				}
+			],
+			"4": [
+				{
+					"id": "7K0_K7Dga7",
+					"type": "bank_style",
+					"instance_id": "bitfocus-companion",
+					"options": {
+						"page": "1",
+						"bank": 22
+					},
+					"style": {}
+				}
+			],
 			"5": [],
 			"6": [],
 			"7": [],
 			"8": [],
-			"9": [],
-			"10": [],
-			"11": [],
+			"9": [
+				{
+					"id": "EGraq_1V19",
+					"type": "bank_style",
+					"instance_id": "bitfocus-companion",
+					"options": {
+						"page": 3,
+						"bank": 9
+					},
+					"style": {}
+				}
+			],
+			"10": [
+				{
+					"id": "FCnshX8TBwc",
+					"type": "bank_style",
+					"instance_id": "bitfocus-companion",
+					"options": {
+						"page": 3,
+						"bank": 10
+					},
+					"style": {}
+				}
+			],
+			"11": [
+				{
+					"id": "agQqbcaJv94",
+					"type": "bank_style",
+					"instance_id": "bitfocus-companion",
+					"options": {
+						"page": 3,
+						"bank": 11
+					},
+					"style": {}
+				}
+			],
 			"12": [],
 			"13": [],
 			"14": [],
 			"15": [],
 			"16": [],
-			"17": [],
-			"18": [],
-			"19": [],
+			"17": [
+				{
+					"id": "elauIECFjON",
+					"type": "bank_style",
+					"instance_id": "bitfocus-companion",
+					"options": {
+						"page": 3,
+						"bank": 12
+					},
+					"style": {}
+				}
+			],
+			"18": [
+				{
+					"id": "odjfgCa84sw",
+					"type": "bank_style",
+					"instance_id": "bitfocus-companion",
+					"options": {
+						"page": 3,
+						"bank": 13
+					},
+					"style": {}
+				}
+			],
+			"19": [
+				{
+					"id": "_GTvvWA4KC1",
+					"type": "bank_style",
+					"instance_id": "bitfocus-companion",
+					"options": {
+						"page": 3,
+						"bank": 14
+					},
+					"style": {}
+				}
+			],
 			"20": [],
 			"21": [],
 			"22": [],
@@ -48914,30 +49812,8 @@
 					"style": {}
 				}
 			],
-			"20": [
-				{
-					"id": "fUjqCxeRRUL",
-					"type": "bank_style",
-					"instance_id": "bitfocus-companion",
-					"options": {
-						"page": 3,
-						"bank": 9
-					},
-					"style": {}
-				}
-			],
-			"21": [
-				{
-					"id": "-a7jICtk_Mt",
-					"type": "bank_style",
-					"instance_id": "bitfocus-companion",
-					"options": {
-						"page": 3,
-						"bank": 17
-					},
-					"style": {}
-				}
-			],
+			"20": [],
+			"21": [],
 			"22": [],
 			"23": [],
 			"24": [],
