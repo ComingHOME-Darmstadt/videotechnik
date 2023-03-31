@@ -11405,7 +11405,18 @@
 				"show_topbar": "default"
 			},
 			"20": {},
-			"21": {},
+			"21": {
+				"style": "png",
+				"text": "<-- zurück",
+				"size": "auto",
+				"alignment": "center:center",
+				"pngalignment": "center:center",
+				"color": 16777215,
+				"bgcolor": 102,
+				"latch": false,
+				"relative_delay": false,
+				"show_topbar": "default"
+			},
 			"22": {},
 			"23": {},
 			"24": {},
@@ -11580,7 +11591,18 @@
 				"show_topbar": "default"
 			},
 			"20": {},
-			"21": {},
+			"21": {
+				"style": "png",
+				"text": "<-- zurück",
+				"size": "auto",
+				"alignment": "center:center",
+				"pngalignment": "center:center",
+				"color": 16777215,
+				"bgcolor": 102,
+				"latch": false,
+				"relative_delay": false,
+				"show_topbar": "default"
+			},
 			"22": {},
 			"23": {},
 			"24": {},
@@ -31760,7 +31782,19 @@
 				}
 			],
 			"20": [],
-			"21": [],
+			"21": [
+				{
+					"id": "oA7LRHvnd",
+					"label": "bitfocus-companion:set_page",
+					"instance": "bitfocus-companion",
+					"action": "set_page",
+					"options": {
+						"controller": "self",
+						"page": 89
+					},
+					"delay": 0
+				}
+			],
 			"22": [],
 			"23": [],
 			"24": [],
@@ -31950,7 +31984,19 @@
 				}
 			],
 			"20": [],
-			"21": [],
+			"21": [
+				{
+					"id": "-r45HlNL5",
+					"label": "bitfocus-companion:set_page",
+					"instance": "bitfocus-companion",
+					"action": "set_page",
+					"options": {
+						"controller": "self",
+						"page": 89
+					},
+					"delay": 0
+				}
+			],
 			"22": [],
 			"23": [],
 			"24": [],
