@@ -19,6 +19,10 @@ Im Verzeichnis `script\videoMonitor` müssen die npm-Module installiert sein.
 
 # Hilfe
 
+## Video in 16:9-Format bringen
+
+`ShutterEncoder` (Icon auf dem Desktop) öffnen. Links im leeren Bereich das zu wandelnde Video platzieren. Da drunter `Start function` anklicken. Die konvertierte Datei landet am gleichen Ort wie die Originaldatei und hat ein `_h264` hinter dem Dateinamen.
+
 ## Lautstärke einer Präsentation
 
 Ist der Ton einer Präsentation übersteuert, kann auf dem abspielenden Rechner der `Lautstärkemixer` geöffnet werden und die Ausgangslautstärke des präsentierenden Programms reduziert werden.
