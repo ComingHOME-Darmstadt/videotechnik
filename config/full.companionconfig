@@ -1669,18 +1669,7 @@
 				"show_topbar": "default"
 			},
 			"31": {},
-			"32": {
-				"style": "png",
-				"text": "System 1/2",
-				"size": "18",
-				"alignment": "center:center",
-				"pngalignment": "center:center",
-				"color": 16777215,
-				"bgcolor": 0,
-				"latch": false,
-				"relative_delay": false,
-				"show_topbar": "default"
-			}
+			"32": {}
 		},
 		"6": {
 			"1": {
@@ -1888,17 +1877,7 @@
 				"relative_delay": true,
 				"show_topbar": "default"
 			},
-			"32": {
-				"style": "png",
-				"text": "System 2/2",
-				"size": "18",
-				"alignment": "center:center",
-				"pngalignment": "center:center",
-				"color": 16777215,
-				"bgcolor": 0,
-				"latch": false,
-				"relative_delay": false
-			}
+			"32": {}
 		},
 		"7": {
 			"1": {
@@ -12095,7 +12074,7 @@
 			},
 			"8": {
 				"style": "png",
-				"text": "System",
+				"text": "System\\n 1/2",
 				"size": "18",
 				"alignment": "center:center",
 				"pngalignment": "center:center",
@@ -12189,7 +12168,7 @@
 			},
 			"16": {
 				"style": "png",
-				"text": "System",
+				"text": "System\\n1/2",
 				"size": "18",
 				"alignment": "center:center",
 				"pngalignment": "center:center",
@@ -12216,7 +12195,18 @@
 				"show_topbar": "default"
 			},
 			"23": {},
-			"24": {},
+			"24": {
+				"style": "png",
+				"text": "System\\n2/2",
+				"size": "18",
+				"alignment": "center:center",
+				"pngalignment": "center:center",
+				"color": 16777215,
+				"bgcolor": 39219,
+				"latch": false,
+				"relative_delay": false,
+				"show_topbar": "default"
+			},
 			"25": {},
 			"26": {},
 			"27": {},
@@ -17851,7 +17841,7 @@
 					"action": "button_pressrelease",
 					"options": {
 						"page": "91",
-						"bank": 8
+						"bank": 16
 					},
 					"delay": 0
 				}
@@ -19584,19 +19574,7 @@
 				}
 			],
 			"31": [],
-			"32": [
-				{
-					"id": "PlbTTzYceT",
-					"label": "bitfocus-companion:set_page",
-					"instance": "bitfocus-companion",
-					"action": "set_page",
-					"options": {
-						"controller": "self",
-						"page": "6"
-					},
-					"delay": 0
-				}
-			]
+			"32": []
 		},
 		"6": {
 			"1": [
@@ -19698,7 +19676,7 @@
 					"action": "button_pressrelease",
 					"options": {
 						"page": "91",
-						"bank": 8
+						"bank": 24
 					},
 					"delay": 0
 				}
@@ -20552,19 +20530,7 @@
 					"delay": 0
 				}
 			],
-			"32": [
-				{
-					"id": "C6cXdV2x-ee",
-					"label": "bitfocus-companion:set_page",
-					"instance": "bitfocus-companion",
-					"action": "set_page",
-					"options": {
-						"controller": "self",
-						"page": "5"
-					},
-					"delay": 0
-				}
-			]
+			"32": []
 		},
 		"7": {
 			"1": [
@@ -32527,7 +32493,19 @@
 			"13": [],
 			"14": [],
 			"15": [],
-			"16": [],
+			"16": [
+				{
+					"id": "PlbTTzYceT",
+					"label": "bitfocus-companion:set_page",
+					"instance": "bitfocus-companion",
+					"action": "set_page",
+					"options": {
+						"controller": "CL41K1A03537",
+						"page": 6
+					},
+					"delay": 0
+				}
+			],
 			"17": [],
 			"18": [],
 			"19": [],
@@ -32590,7 +32568,19 @@
 				}
 			],
 			"23": [],
-			"24": [],
+			"24": [
+				{
+					"id": "C6cXdV2x-ee",
+					"label": "bitfocus-companion:set_page",
+					"instance": "bitfocus-companion",
+					"action": "set_page",
+					"options": {
+						"controller": "CL41K1A03537",
+						"page": 5
+					},
+					"delay": 0
+				}
+			],
 			"25": [],
 			"26": [],
 			"27": [],
@@ -44557,7 +44547,7 @@
 					"instance_id": "bitfocus-companion",
 					"options": {
 						"page": "91",
-						"bank": 16
+						"bank": 24
 					},
 					"style": {}
 				}
