@@ -254,7 +254,18 @@
 				"relative_delay": true,
 				"show_topbar": "default"
 			},
-			"22": {},
+			"22": {
+				"style": "png",
+				"text": "ZOOM zeigen",
+				"size": "auto",
+				"alignment": "center:center",
+				"pngalignment": "center:center",
+				"color": 0,
+				"bgcolor": 16156294,
+				"latch": false,
+				"relative_delay": true,
+				"show_topbar": "default"
+			},
 			"23": {
 				"style": "png",
 				"text": "Video -> Beamer ON",
@@ -14135,7 +14146,58 @@
 					"delay": 100
 				}
 			],
-			"22": [],
+			"22": [
+				{
+					"id": "1qJlal__o",
+					"label": "bitfocus-companion:button_press",
+					"instance": "bitfocus-companion",
+					"action": "button_press",
+					"options": {
+						"page": 3,
+						"bank": 29
+					},
+					"delay": 0
+				},
+				{
+					"id": "BZTgn_toR",
+					"label": "bitfocus-companion:button_press",
+					"instance": "bitfocus-companion",
+					"action": "button_press",
+					"options": {
+						"page": 22,
+						"bank": 10
+					},
+					"delay": 0
+				},
+				{
+					"id": "6MKM94mgy",
+					"label": "bitfocus-companion:button_pressrelease_condition",
+					"instance": "bitfocus-companion",
+					"action": "button_pressrelease_condition",
+					"options": {
+						"variable": "internal:custom_programCurrentId",
+						"op": "ne",
+						"value": "input2",
+						"page": 1,
+						"bank": 26
+					},
+					"delay": 100
+				},
+				{
+					"id": "-4WEpGiUx",
+					"label": "bitfocus-companion:button_pressrelease_condition",
+					"instance": "bitfocus-companion",
+					"action": "button_pressrelease_condition",
+					"options": {
+						"variable": "internal:custom_programCurrentId",
+						"op": "ne",
+						"value": "input2",
+						"page": 1,
+						"bank": 24
+					},
+					"delay": 200
+				}
+			],
 			"23": [
 				{
 					"id": "bnb5pGFS7ct",
