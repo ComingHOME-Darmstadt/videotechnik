@@ -528,18 +528,7 @@
 				"relative_delay": true,
 				"show_topbar": "default"
 			},
-			"14": {
-				"style": "png",
-				"text": "",
-				"size": "auto",
-				"alignment": "center:center",
-				"pngalignment": "center:center",
-				"color": 16777215,
-				"bgcolor": 0,
-				"latch": false,
-				"relative_delay": false,
-				"show_topbar": "default"
-			},
+			"14": {},
 			"15": {
 				"style": "png",
 				"text": "",
@@ -887,18 +876,7 @@
 				"relative_delay": false,
 				"show_topbar": "default"
 			},
-			"15": {
-				"style": "png",
-				"text": "",
-				"size": "auto",
-				"alignment": "center:center",
-				"pngalignment": "center:center",
-				"color": 16777215,
-				"bgcolor": 0,
-				"latch": false,
-				"relative_delay": false,
-				"show_topbar": "default"
-			},
+			"15": {},
 			"16": {
 				"style": "png",
 				"text": "PRG",
@@ -14873,19 +14851,7 @@
 					"delay": 0
 				}
 			],
-			"14": [
-				{
-					"id": "HmgcA2Ol8",
-					"label": "bitfocus-companion:button_press",
-					"instance": "bitfocus-companion",
-					"action": "button_press",
-					"options": {
-						"page": 1,
-						"bank": 0
-					},
-					"delay": 0
-				}
-			],
+			"14": [],
 			"15": [
 				{
 					"id": "CB1TwVWGZ",
@@ -15833,19 +15799,7 @@
 					"delay": 0
 				}
 			],
-			"15": [
-				{
-					"id": "CYuKoBxX-",
-					"label": "bitfocus-companion:button_press",
-					"instance": "bitfocus-companion",
-					"action": "button_press",
-					"options": {
-						"page": 1,
-						"bank": 14
-					},
-					"delay": 0
-				}
-			],
+			"15": [],
 			"16": [
 				{
 					"id": "zlLbrbLT_Fa",
@@ -43506,18 +43460,7 @@
 					}
 				}
 			],
-			"14": [
-				{
-					"id": "gB0XgbRXs",
-					"type": "bank_style",
-					"instance_id": "bitfocus-companion",
-					"options": {
-						"page": 1,
-						"bank": 0
-					},
-					"style": {}
-				}
-			],
+			"14": [],
 			"15": [
 				{
 					"id": "QfLE8OE94",
@@ -43830,18 +43773,7 @@
 					}
 				}
 			],
-			"15": [
-				{
-					"id": "F9vOsG7yV",
-					"type": "bank_style",
-					"instance_id": "bitfocus-companion",
-					"options": {
-						"page": 1,
-						"bank": 14
-					},
-					"style": {}
-				}
-			],
+			"15": [],
 			"16": [
 				{
 					"id": "MZKiOuyYTnb",
