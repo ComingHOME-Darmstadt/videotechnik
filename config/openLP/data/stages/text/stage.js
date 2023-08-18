@@ -22,6 +22,16 @@ window.OpenLP = { // Connect to the OpenLP Remote WebSocket to get pushed update
       };
 			reader.readAsText(event.data);
     };
+		ws.onclose = (event) => {
+			console.log('Socket is closed. Reconnect will be attempted in 1 second.', event.reason);
+			setTimeout(() => {
+				OpenLP.myWebSocket();
+			}, 1000);
+		};
+		ws.onerror = (err) => {
+			console.error('Socket encountered error: ', err.message, 'Closing socket');
+			ws.close();
+		};
   },
   
   loadService: function (event) {
