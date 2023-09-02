@@ -34,7 +34,10 @@
 |  | 51 | <- 1 Program[69] Jingel |
 |  | 96 | grauer Balken |
 |  | 97 | <- 8 Liedtext |
-| 5 Stage |  |  |
+| 5 Stage |  | NDI: Stage |
+|  | 10 | <- verschiedene Quellen |
+|  | 20 | Uhrzeit klein |
+|  | 25 | Template Countdown |
 | 6 Audio N-1 Out|  | NDI: Audio N-1 |
 | | 15 | <- 7 Audio N-1 Mix |
 | | 69 | <- Jingel |

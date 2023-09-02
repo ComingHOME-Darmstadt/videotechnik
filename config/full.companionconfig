@@ -1532,7 +1532,18 @@
 				"relative_delay": true,
 				"show_topbar": "default"
 			},
-			"15": {},
+			"15": {
+				"style": "png",
+				"text": "STAGE Output\\ngestoppt",
+				"size": "14",
+				"alignment": "center:center",
+				"pngalignment": "center:center",
+				"color": 16777215,
+				"bgcolor": 10040115,
+				"latch": true,
+				"relative_delay": true,
+				"show_topbar": "default"
+			},
 			"16": {
 				"style": "png",
 				"text": "FTB",
@@ -18473,7 +18484,18 @@
 					"delay": 100
 				}
 			],
-			"15": [],
+			"15": [
+				{
+					"id": "Q-LBlb4vy",
+					"label": "udTEF512G:COMMAND",
+					"instance": "udTEF512G",
+					"action": "COMMAND",
+					"options": {
+						"cmd": "ADD 5 NDI NAME \"Stage\""
+					},
+					"delay": 0
+				}
+			],
 			"16": [
 				{
 					"id": "FaEjQUZAcTE3",
@@ -37123,7 +37145,58 @@
 					"delay": 0
 				}
 			],
-			"15": [],
+			"15": [
+				{
+					"id": "hsgO0i3_GC",
+					"label": "udTEF512G:COMMAND",
+					"instance": "udTEF512G",
+					"action": "COMMAND",
+					"options": {
+						"cmd": "REMOVE 5 NDI"
+					},
+					"delay": 0
+				},
+				{
+					"id": "25l0_nLvdK",
+					"label": "udTEF512G:COMMAND",
+					"instance": "udTEF512G",
+					"action": "COMMAND",
+					"options": {
+						"cmd": "CLEAR 5-10"
+					},
+					"delay": 100
+				},
+				{
+					"id": "cNmN4G7v7R",
+					"label": "udTEF512G:COMMAND",
+					"instance": "udTEF512G",
+					"action": "COMMAND",
+					"options": {
+						"cmd": "CLEAR 5-20"
+					},
+					"delay": 100
+				},
+				{
+					"id": "gpkL-kD2_Y",
+					"label": "udTEF512G:COMMAND",
+					"instance": "udTEF512G",
+					"action": "COMMAND",
+					"options": {
+						"cmd": "CLEAR 5-25"
+					},
+					"delay": 100
+				},
+				{
+					"id": "po7BggO-un",
+					"label": "udTEF512G:COMMAND",
+					"instance": "udTEF512G",
+					"action": "COMMAND",
+					"options": {
+						"cmd": "CLEAR 4-51"
+					},
+					"delay": 100
+				}
+			],
 			"16": [
 				{
 					"id": "xwOVmwWYMCi3",
@@ -45046,7 +45119,21 @@
 					}
 				}
 			],
-			"15": [],
+			"15": [
+				{
+					"id": "SsQUdVTGpK",
+					"type": "bank_pushed",
+					"instance_id": "bitfocus-companion",
+					"options": {
+						"page": 0,
+						"bank": 0
+					},
+					"style": {
+						"bgcolor": 6684774,
+						"text": "STAGE Output\\nläuft"
+					}
+				}
+			],
 			"16": [],
 			"17": [
 				{
