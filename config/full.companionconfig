@@ -17865,16 +17865,6 @@
 						"cmd": "MIXER 5-10 OPACITY 1 0 Linear"
 					},
 					"delay": 0
-				},
-				{
-					"id": "QoKDMWupUYFg",
-					"label": "udTEF512G:COMMAND",
-					"instance": "udTEF512G",
-					"action": "COMMAND",
-					"options": {
-						"cmd": "MIXER 5-10 FILL 0.0520833 0.062963 1.5 1.5 0 Linear"
-					},
-					"delay": 0
 				}
 			],
 			"30": [

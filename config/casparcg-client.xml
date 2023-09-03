@@ -887,11 +887,11 @@
         <color>Transparent</color>
         <items>
             <item>
-                <type>CUSTOMCOMMAND</type>
+                <type>HTML</type>
                 <devicename>CasparCG_Main</devicename>
-                <label>OpenLP STAGE</label>
-                <name>Custom Command</name>
-                <channel>1</channel>
+                <label>HTML Page</label>
+                <name>HTML Page</name>
+                <channel>5</channel>
                 <videolayer>10</videolayer>
                 <delay>0</delay>
                 <duration>0</duration>
@@ -899,18 +899,14 @@
                 <allowremotetriggering>false</allowremotetriggering>
                 <remotetriggerid></remotetriggerid>
                 <storyid></storyid>
-                <stopCommand>STOP 5-10</stopCommand>
-                <playCommand>PLAY 5-10 [HTML] &quot;http://CHPresentation:4316/stage&quot;</playCommand>
-                <loadCommand></loadCommand>
-                <pauseCommand></pauseCommand>
-                <nextCommand></nextCommand>
-                <updateCommand></updateCommand>
-                <invokeCommand></invokeCommand>
-                <previewCommand></previewCommand>
-                <clearCommand></clearCommand>
-                <clearVideolayerCommand></clearVideolayerCommand>
-                <clearChannelCommand></clearChannelCommand>
+                <url>http://chpresentation:4316/stage/chstage/</url>
+                <transition>CUT</transition>
+                <transitionDuration>0</transitionDuration>
+                <tween>Linear</tween>
+                <direction>RIGHT</direction>
+                <freezeonload>false</freezeonload>
                 <triggeronnext>false</triggeronnext>
+                <useauto>false</useauto>
                 <color>Transparent</color>
             </item>
         </items>
