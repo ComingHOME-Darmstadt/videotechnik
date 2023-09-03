@@ -12014,7 +12014,7 @@
 		"91": {
 			"1": {
 				"style": "png",
-				"text": "MIX\\n1/2",
+				"text": "MIX\\n2/2",
 				"size": "18",
 				"alignment": "center:center",
 				"pngalignment": "center:center",
@@ -14094,7 +14094,7 @@
 					"instance": "bitfocus-companion",
 					"action": "set_page",
 					"options": {
-						"controller": "self",
+						"controller": "CL41K1A03537",
 						"page": 96
 					},
 					"delay": 0
@@ -14107,7 +14107,7 @@
 					"instance": "bitfocus-companion",
 					"action": "set_page",
 					"options": {
-						"controller": "self",
+						"controller": "CL41K1A03537",
 						"page": "12"
 					},
 					"delay": 0
@@ -14120,7 +14120,7 @@
 					"instance": "bitfocus-companion",
 					"action": "set_page",
 					"options": {
-						"controller": "self",
+						"controller": "CL41K1A03537",
 						"page": "22"
 					},
 					"delay": 0
@@ -32800,7 +32800,7 @@
 					"action": "set_page",
 					"options": {
 						"controller": "CL41K1A03537",
-						"page": "1"
+						"page": 94
 					},
 					"delay": 0
 				}
@@ -32903,7 +32903,7 @@
 					"instance": "bitfocus-companion",
 					"action": "set_page",
 					"options": {
-						"controller": "self",
+						"controller": "CL41K1A03537",
 						"page": 94
 					},
 					"delay": 0
@@ -32935,7 +32935,7 @@
 					"instance": "bitfocus-companion",
 					"action": "set_page",
 					"options": {
-						"controller": "self",
+						"controller": "CL41K1A03537",
 						"page": 1
 					},
 					"delay": 0
