@@ -18457,6 +18457,17 @@
 						"customJSON": "{\"version\":1,\"window\":{\"display_device\":\"\",\"showcmd\":1,\"min_posn_x\":-1,\"min_posn_y\":-1,\"max_posn_x\":-1,\"max_posn_y\":-1,\"normal_posn_left\":268,\"normal_posn_right\":1284,\"normal_posn_top\":1,\"normal_posn_bottom\":610}}"
 					},
 					"delay": 100
+				},
+				{
+					"id": "Mr-LGNB0Z",
+					"label": "bitfocus-companion:button_pressrelease",
+					"instance": "bitfocus-companion",
+					"action": "button_pressrelease",
+					"options": {
+						"page": 4,
+						"bank": 32
+					},
+					"delay": 0
 				}
 			],
 			"16": [
@@ -37050,7 +37061,7 @@
 					"instance": "udTEF512G",
 					"action": "COMMAND",
 					"options": {
-						"cmd": "REMOVE 5 NDI"
+						"cmd": "CLEAR 5-10"
 					},
 					"delay": 0
 				},
@@ -37060,7 +37071,7 @@
 					"instance": "udTEF512G",
 					"action": "COMMAND",
 					"options": {
-						"cmd": "CLEAR 5-10"
+						"cmd": "CLEAR 5-20"
 					},
 					"delay": 100
 				},
@@ -37070,7 +37081,7 @@
 					"instance": "udTEF512G",
 					"action": "COMMAND",
 					"options": {
-						"cmd": "CLEAR 5-20"
+						"cmd": "CLEAR 5-25"
 					},
 					"delay": 100
 				},
@@ -37080,7 +37091,7 @@
 					"instance": "udTEF512G",
 					"action": "COMMAND",
 					"options": {
-						"cmd": "CLEAR 5-25"
+						"cmd": "CLEAR 5"
 					},
 					"delay": 100
 				},
@@ -37090,7 +37101,7 @@
 					"instance": "udTEF512G",
 					"action": "COMMAND",
 					"options": {
-						"cmd": "CLEAR 4-51"
+						"cmd": "REMOVE 5 NDI"
 					},
 					"delay": 100
 				}
