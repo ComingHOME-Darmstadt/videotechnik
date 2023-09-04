@@ -1227,9 +1227,19 @@
 				"relative_delay": false
 			},
 			"13": {},
-			"14": {},
-			"15": {},
-			"16": {
+			"14": {
+				"style": "png",
+				"text": "OpenLP\\n\\nSTAGE",
+				"size": "18",
+				"alignment": "center:center",
+				"pngalignment": "center:center",
+				"color": 16777215,
+				"bgcolor": 17664,
+				"latch": false,
+				"relative_delay": false,
+				"show_topbar": "default"
+			},
+			"15": {
 				"style": "png",
 				"text": "Uhrzeit Oben",
 				"size": "18",
@@ -1238,6 +1248,17 @@
 				"color": 16777215,
 				"bgcolor": "0",
 				"latch": true,
+				"relative_delay": false
+			},
+			"16": {
+				"style": "png",
+				"text": "PRG\\n\\nSTAGE",
+				"size": "18",
+				"alignment": "center:center",
+				"pngalignment": "center:center",
+				"color": 16777215,
+				"bgcolor": 17664,
+				"latch": false,
 				"relative_delay": false
 			},
 			"17": {
@@ -1286,8 +1307,7 @@
 			},
 			"21": {},
 			"22": {},
-			"23": {},
-			"24": {
+			"23": {
 				"style": "png",
 				"text": "Uhrzeit Mitte",
 				"size": "18",
@@ -1297,6 +1317,18 @@
 				"bgcolor": "0",
 				"latch": true,
 				"relative_delay": false
+			},
+			"24": {
+				"style": "png",
+				"text": "AUX\\n\\nSTAGE",
+				"size": "18",
+				"alignment": "center:center",
+				"pngalignment": "center:center",
+				"color": 16777215,
+				"bgcolor": 17664,
+				"latch": false,
+				"relative_delay": false,
+				"show_topbar": "default"
 			},
 			"25": {
 				"style": "png",
@@ -1314,61 +1346,50 @@
 			},
 			"27": {
 				"style": "png",
-				"text": "BLACK STAGE",
+				"text": "OpenLP\\nfull\\nSTAGE",
 				"size": "18",
 				"alignment": "center:center",
 				"pngalignment": "center:center",
 				"color": 16777215,
 				"bgcolor": 17664,
-				"latch": true,
+				"latch": false,
 				"relative_delay": false,
 				"show_topbar": "default"
 			},
 			"28": {
 				"style": "png",
-				"text": "AUX STAGE",
+				"text": "TBS\\n\\nSTAGE",
 				"size": "18",
 				"alignment": "center:center",
 				"pngalignment": "center:center",
 				"color": 16777215,
 				"bgcolor": 17664,
-				"latch": true,
+				"latch": false,
 				"relative_delay": false
 			},
 			"29": {
 				"style": "png",
-				"text": "OpenLP STAGE",
+				"text": "ZOOM\\n\\nSTAGE",
 				"size": "18",
 				"alignment": "center:center",
 				"pngalignment": "center:center",
 				"color": 16777215,
 				"bgcolor": 17664,
-				"latch": true,
+				"latch": false,
 				"relative_delay": false
 			},
 			"30": {
-				"style": "png",
-				"text": "PRG STAGE",
-				"size": "18",
-				"alignment": "center:center",
-				"pngalignment": "center:center",
-				"color": 16777215,
-				"bgcolor": 17664,
-				"latch": true,
-				"relative_delay": false
-			},
-			"31": {
 				"style": "png",
 				"text": "Uhrzeit STAGE",
 				"size": "18",
 				"alignment": "center:center",
 				"pngalignment": "center:center",
 				"color": 16777215,
-				"bgcolor": 10040115,
-				"latch": true,
+				"bgcolor": 17664,
+				"latch": false,
 				"relative_delay": false
 			},
-			"32": {
+			"31": {
 				"style": "png",
 				"text": "Uhrzeit Unten",
 				"size": "18",
@@ -1377,6 +1398,17 @@
 				"color": 16777215,
 				"bgcolor": "0",
 				"latch": true,
+				"relative_delay": false
+			},
+			"32": {
+				"style": "png",
+				"text": "BLACK STAGE",
+				"size": "18",
+				"alignment": "center:center",
+				"pngalignment": "center:center",
+				"color": 16777215,
+				"bgcolor": 17664,
+				"latch": false,
 				"relative_delay": false
 			}
 		},
@@ -13979,6 +14011,16 @@
 			"slideItemLimit": 12,
 			"serviceItemEmptyText": "-",
 			"enabled": true
+		},
+		"wxv8gkkdt": {
+			"instance_type": "newtek-ndistudiomonitor",
+			"product": "NDI Studio Monitor",
+			"label": "localhost STAGE",
+			"host": "127.0.0.1",
+			"port": 82,
+			"useWebPassword": true,
+			"username": "admin",
+			"password": "admin"
 		}
 	},
 	"actions": {
@@ -17063,9 +17105,51 @@
 				}
 			],
 			"13": [],
-			"14": [],
-			"15": [],
-			"16": [
+			"14": [
+				{
+					"id": "LXvM3BtBz",
+					"label": "PY98Cj8Y2:send_int",
+					"instance": "PY98Cj8Y2",
+					"action": "send_int",
+					"options": {
+						"path": "/control/stage_openlp/play",
+						"int": 1
+					},
+					"delay": 0
+				},
+				{
+					"id": "QsM14J_7kx",
+					"label": "udTEF512G:COMMAND",
+					"instance": "udTEF512G",
+					"action": "COMMAND",
+					"options": {
+						"cmd": "MIXER 5-10 VOLUME 0 0 Linear"
+					},
+					"delay": 0
+				},
+				{
+					"id": "m5lk1L-ls7",
+					"label": "udTEF512G:COMMAND",
+					"instance": "udTEF512G",
+					"action": "COMMAND",
+					"options": {
+						"cmd": " MIXER 5-10 FILL 0 0 1 1 0 Linear"
+					},
+					"delay": 0
+				},
+				{
+					"id": "Sg_45DbNYk",
+					"label": "bitfocus-companion:custom_variable_set_value",
+					"instance": "bitfocus-companion",
+					"action": "custom_variable_set_value",
+					"options": {
+						"name": "stageCurrentButton",
+						"value": "14"
+					},
+					"delay": 0
+				}
+			],
+			"15": [
 				{
 					"id": "kEgRHrNSWIjd",
 					"label": "bitfocus-companion:bgcolor",
@@ -17085,7 +17169,7 @@
 					"action": "button_release",
 					"options": {
 						"page": "0",
-						"bank": 24
+						"bank": 23
 					},
 					"delay": 0
 				},
@@ -17096,7 +17180,7 @@
 					"action": "button_release",
 					"options": {
 						"page": "0",
-						"bank": 32
+						"bank": 31
 					},
 					"delay": 0
 				},
@@ -17137,6 +17221,49 @@
 					"action": "COMMAND",
 					"options": {
 						"cmd": "MIXER 5-20 FILL 0.255208 -0.138889 0.5 0.5 0 Linear"
+					},
+					"delay": 0
+				}
+			],
+			"16": [
+				{
+					"id": "adWceyDkq",
+					"label": "udTEF512G:COMMAND",
+					"instance": "udTEF512G",
+					"action": "COMMAND",
+					"options": {
+						"cmd": "PLAY 5-10 route://1"
+					},
+					"delay": 0
+				},
+				{
+					"id": "8N7KjYH6yp",
+					"label": "udTEF512G:COMMAND",
+					"instance": "udTEF512G",
+					"action": "COMMAND",
+					"options": {
+						"cmd": "MIXER 5-10 VOLUME 0 0 Linear"
+					},
+					"delay": 0
+				},
+				{
+					"id": "c-JyHoo8wB",
+					"label": "udTEF512G:COMMAND",
+					"instance": "udTEF512G",
+					"action": "COMMAND",
+					"options": {
+						"cmd": " MIXER 5-10 FILL 0 0 1 1 0 Linear"
+					},
+					"delay": 0
+				},
+				{
+					"id": "OB_Z0os7fS",
+					"label": "bitfocus-companion:custom_variable_set_value",
+					"instance": "bitfocus-companion",
+					"action": "custom_variable_set_value",
+					"options": {
+						"name": "stageCurrentButton",
+						"value": "16"
 					},
 					"delay": 0
 				}
@@ -17480,8 +17607,7 @@
 			],
 			"21": [],
 			"22": [],
-			"23": [],
-			"24": [
+			"23": [
 				{
 					"id": "aoLu6aG7rdrt",
 					"label": "bitfocus-companion:bgcolor",
@@ -17501,7 +17627,7 @@
 					"action": "button_release",
 					"options": {
 						"page": "0",
-						"bank": 16
+						"bank": 15
 					},
 					"delay": 0
 				},
@@ -17512,7 +17638,7 @@
 					"action": "button_release",
 					"options": {
 						"page": "0",
-						"bank": 32
+						"bank": 31
 					},
 					"delay": 0
 				},
@@ -17557,9 +17683,52 @@
 					"delay": 0
 				}
 			],
+			"24": [
+				{
+					"id": "9_ghOxyzy",
+					"label": "udTEF512G:COMMAND",
+					"instance": "udTEF512G",
+					"action": "COMMAND",
+					"options": {
+						"cmd": "PLAY 5-10 route://17"
+					},
+					"delay": 0
+				},
+				{
+					"id": "u_rYoYRYSv",
+					"label": "udTEF512G:COMMAND",
+					"instance": "udTEF512G",
+					"action": "COMMAND",
+					"options": {
+						"cmd": "MIXER 5-10 VOLUME 0 0 Linear"
+					},
+					"delay": 0
+				},
+				{
+					"id": "rLNYGI-QzO",
+					"label": "udTEF512G:COMMAND",
+					"instance": "udTEF512G",
+					"action": "COMMAND",
+					"options": {
+						"cmd": " MIXER 5-10 FILL 0 0 1 1 0 Linear"
+					},
+					"delay": 0
+				},
+				{
+					"id": "H3AZNyb91J",
+					"label": "bitfocus-companion:custom_variable_set_value",
+					"instance": "bitfocus-companion",
+					"action": "custom_variable_set_value",
+					"options": {
+						"name": "stageCurrentButton",
+						"value": "24"
+					},
+					"delay": 0
+				}
+			],
 			"25": [
 				{
-					"id": "bCTrBttOBCcf",
+					"id": "nT9BDTLcEv09",
 					"label": "bitfocus-companion:bgcolor",
 					"instance": "bitfocus-companion",
 					"action": "bgcolor",
@@ -17571,7 +17740,7 @@
 					"delay": 0
 				},
 				{
-					"id": "7BuZMC9gVnfb",
+					"id": "OaIDZC-8pAJZ",
 					"label": "bitfocus-companion:button_release",
 					"instance": "bitfocus-companion",
 					"action": "button_release",
@@ -17582,7 +17751,7 @@
 					"delay": 0
 				},
 				{
-					"id": "usD_UDrrvXiQ",
+					"id": "d0ghOsAiT4PH",
 					"label": "bitfocus-companion:button_release",
 					"instance": "bitfocus-companion",
 					"action": "button_release",
@@ -17593,7 +17762,7 @@
 					"delay": 0
 				},
 				{
-					"id": "4IUKZViyNDd5",
+					"id": "cDr-5HIkH-JA",
 					"label": "udTEF512G:COMMAND",
 					"instance": "udTEF512G",
 					"action": "COMMAND",
@@ -17606,81 +17775,17 @@
 			"26": [],
 			"27": [
 				{
-					"id": "oL1pgrZfr4ie",
-					"label": "bitfocus-companion:bgcolor",
-					"instance": "bitfocus-companion",
-					"action": "bgcolor",
-					"options": {
-						"color": 10040115,
-						"page": 0,
-						"bank": 0
-					},
-					"delay": 0
-				},
-				{
-					"id": "21QHWjfVVaVu",
-					"label": "bitfocus-companion:button_release",
-					"instance": "bitfocus-companion",
-					"action": "button_release",
-					"options": {
-						"page": "0",
-						"bank": 28
-					},
-					"delay": 0
-				},
-				{
-					"id": "AAhuGJ4tltJJ",
-					"label": "bitfocus-companion:button_release",
-					"instance": "bitfocus-companion",
-					"action": "button_release",
-					"options": {
-						"page": "0",
-						"bank": 29
-					},
-					"delay": 0
-				},
-				{
-					"id": "TUNv5d76ugd6",
-					"label": "bitfocus-companion:button_release",
-					"instance": "bitfocus-companion",
-					"action": "button_release",
-					"options": {
-						"page": "0",
-						"bank": 30
-					},
-					"delay": 0
-				},
-				{
-					"id": "RSND8vO5dlYy",
-					"label": "bitfocus-companion:button_release",
-					"instance": "bitfocus-companion",
-					"action": "button_release",
-					"options": {
-						"page": "0",
-						"bank": 31
-					},
-					"delay": 0
-				},
-				{
-					"id": "3pbz9YGwQ0DJ",
-					"label": "udTEF512G:PLAY",
+					"id": "zT4vJ9maUO",
+					"label": "udTEF512G:COMMAND",
 					"instance": "udTEF512G",
-					"action": "PLAY",
+					"action": "COMMAND",
 					"options": {
-						"channel": "5",
-						"layer": "10",
-						"clip_dd": "GRAFIKEN/BLACK",
-						"clip": "",
-						"loop": "false",
-						"auto": "false",
-						"transition": "CUT",
-						"transition_duration": "",
-						"transition_tween": "linear"
+						"cmd": "PLAY 5-10 route://13"
 					},
 					"delay": 0
 				},
 				{
-					"id": "JGydOH4Q4SfX",
+					"id": "mvVwo5ftP5",
 					"label": "udTEF512G:COMMAND",
 					"instance": "udTEF512G",
 					"action": "COMMAND",
@@ -17690,80 +17795,35 @@
 					"delay": 0
 				},
 				{
-					"id": "ZuCXAm8yPyPi",
+					"id": "muO8b9n3s-",
 					"label": "udTEF512G:COMMAND",
 					"instance": "udTEF512G",
 					"action": "COMMAND",
 					"options": {
-						"cmd": "MIXER 5-10 FILL 0 0 1 1 0 Linear"
+						"cmd": " MIXER 5-10 FILL 0 0 1 1 0 Linear"
+					},
+					"delay": 0
+				},
+				{
+					"id": "h_ABDRR_V",
+					"label": "bitfocus-companion:custom_variable_set_value",
+					"instance": "bitfocus-companion",
+					"action": "custom_variable_set_value",
+					"options": {
+						"name": "stageCurrentButton",
+						"value": "27"
 					},
 					"delay": 0
 				}
 			],
 			"28": [
 				{
-					"id": "efKWIcvccv5b",
-					"label": "bitfocus-companion:bgcolor",
-					"instance": "bitfocus-companion",
-					"action": "bgcolor",
-					"options": {
-						"color": 10040115,
-						"page": 0,
-						"bank": 0
-					},
-					"delay": 0
-				},
-				{
-					"id": "iihqo3q2wqtn",
-					"label": "bitfocus-companion:button_release",
-					"instance": "bitfocus-companion",
-					"action": "button_release",
-					"options": {
-						"page": "0",
-						"bank": 27
-					},
-					"delay": 0
-				},
-				{
-					"id": "wxKC2A0jlLIr",
-					"label": "bitfocus-companion:button_release",
-					"instance": "bitfocus-companion",
-					"action": "button_release",
-					"options": {
-						"page": "0",
-						"bank": 29
-					},
-					"delay": 0
-				},
-				{
-					"id": "4GAuN1JlXYSe",
-					"label": "bitfocus-companion:button_release",
-					"instance": "bitfocus-companion",
-					"action": "button_release",
-					"options": {
-						"page": "0",
-						"bank": 30
-					},
-					"delay": 0
-				},
-				{
-					"id": "XhI1YZytirnw",
-					"label": "bitfocus-companion:button_release",
-					"instance": "bitfocus-companion",
-					"action": "button_release",
-					"options": {
-						"page": "0",
-						"bank": 31
-					},
-					"delay": 0
-				},
-				{
 					"id": "vtIf-Ghgu4wE",
 					"label": "udTEF512G:COMMAND",
 					"instance": "udTEF512G",
 					"action": "COMMAND",
 					"options": {
-						"cmd": "PLAY 5-10 route://17"
+						"cmd": "PLAY 5-10 route://14"
 					},
 					"delay": 0
 				},
@@ -17786,151 +17846,27 @@
 						"cmd": "MIXER 5-10 FILL 0 0 1 1 0 Linear"
 					},
 					"delay": 0
-				}
-			],
-			"29": [
+				},
 				{
-					"id": "q23pA41XFXWN",
-					"label": "bitfocus-companion:bgcolor",
+					"id": "qiBkef4CN",
+					"label": "bitfocus-companion:custom_variable_set_value",
 					"instance": "bitfocus-companion",
-					"action": "bgcolor",
+					"action": "custom_variable_set_value",
 					"options": {
-						"color": 10040115,
-						"page": 0,
-						"bank": 0
-					},
-					"delay": 0
-				},
-				{
-					"id": "uwpxjHYb7s6D",
-					"label": "bitfocus-companion:button_release",
-					"instance": "bitfocus-companion",
-					"action": "button_release",
-					"options": {
-						"page": "0",
-						"bank": 27
-					},
-					"delay": 0
-				},
-				{
-					"id": "Z9uMVDFF_SNI",
-					"label": "bitfocus-companion:button_release",
-					"instance": "bitfocus-companion",
-					"action": "button_release",
-					"options": {
-						"page": "0",
-						"bank": 28
-					},
-					"delay": 0
-				},
-				{
-					"id": "q3e4uqzgTm8N",
-					"label": "bitfocus-companion:button_release",
-					"instance": "bitfocus-companion",
-					"action": "button_release",
-					"options": {
-						"page": "0",
-						"bank": 30
-					},
-					"delay": 0
-				},
-				{
-					"id": "5de5W1HJ-UYV",
-					"label": "bitfocus-companion:button_release",
-					"instance": "bitfocus-companion",
-					"action": "button_release",
-					"options": {
-						"page": "0",
-						"bank": 31
-					},
-					"delay": 0
-				},
-				{
-					"id": "jVfPPV8RiMcx",
-					"label": "PY98Cj8Y2:send_int",
-					"instance": "PY98Cj8Y2",
-					"action": "send_int",
-					"options": {
-						"path": "/control/stage_openlp/play",
-						"int": 1
-					},
-					"delay": 0
-				},
-				{
-					"id": "nPlVLCrB8LlN",
-					"label": "udTEF512G:COMMAND",
-					"instance": "udTEF512G",
-					"action": "COMMAND",
-					"options": {
-						"cmd": "MIXER 5-10 OPACITY 1 0 Linear"
+						"name": "stageCurrentButton",
+						"value": "28"
 					},
 					"delay": 0
 				}
 			],
-			"30": [
-				{
-					"id": "SctZY0l5JtIa",
-					"label": "bitfocus-companion:bgcolor",
-					"instance": "bitfocus-companion",
-					"action": "bgcolor",
-					"options": {
-						"color": 10040115,
-						"page": 0,
-						"bank": 0
-					},
-					"delay": 0
-				},
-				{
-					"id": "6Yd84g5rB3Ga",
-					"label": "bitfocus-companion:button_release",
-					"instance": "bitfocus-companion",
-					"action": "button_release",
-					"options": {
-						"page": "0",
-						"bank": 27
-					},
-					"delay": 0
-				},
-				{
-					"id": "SeLfAwUPUv6e",
-					"label": "bitfocus-companion:button_release",
-					"instance": "bitfocus-companion",
-					"action": "button_release",
-					"options": {
-						"page": "0",
-						"bank": 28
-					},
-					"delay": 0
-				},
-				{
-					"id": "dYLHKKTWOI7w",
-					"label": "bitfocus-companion:button_release",
-					"instance": "bitfocus-companion",
-					"action": "button_release",
-					"options": {
-						"page": "0",
-						"bank": 29
-					},
-					"delay": 0
-				},
-				{
-					"id": "1p-mKKgDJsAK",
-					"label": "bitfocus-companion:button_release",
-					"instance": "bitfocus-companion",
-					"action": "button_release",
-					"options": {
-						"page": "0",
-						"bank": 31
-					},
-					"delay": 0
-				},
+			"29": [
 				{
 					"id": "mAPVzRZ9Rftn",
 					"label": "udTEF512G:COMMAND",
 					"instance": "udTEF512G",
 					"action": "COMMAND",
 					"options": {
-						"cmd": "PLAY 5-10 route://1"
+						"cmd": "PLAY 5-10 route://15"
 					},
 					"delay": 0
 				},
@@ -17953,65 +17889,20 @@
 						"cmd": " MIXER 5-10 FILL 0 0 1 1 0 Linear"
 					},
 					"delay": 0
+				},
+				{
+					"id": "HxjJAPCa04",
+					"label": "bitfocus-companion:custom_variable_set_value",
+					"instance": "bitfocus-companion",
+					"action": "custom_variable_set_value",
+					"options": {
+						"name": "stageCurrentButton",
+						"value": "29"
+					},
+					"delay": 0
 				}
 			],
-			"31": [
-				{
-					"id": "zII5uBt5ywSt",
-					"label": "bitfocus-companion:bgcolor",
-					"instance": "bitfocus-companion",
-					"action": "bgcolor",
-					"options": {
-						"color": 10040115,
-						"page": 0,
-						"bank": 0
-					},
-					"delay": 0
-				},
-				{
-					"id": "ubZsCgFI78fa",
-					"label": "bitfocus-companion:button_release",
-					"instance": "bitfocus-companion",
-					"action": "button_release",
-					"options": {
-						"page": "0",
-						"bank": 27
-					},
-					"delay": 0
-				},
-				{
-					"id": "BN9QtAd1Cyx_",
-					"label": "bitfocus-companion:button_release",
-					"instance": "bitfocus-companion",
-					"action": "button_release",
-					"options": {
-						"page": "0",
-						"bank": 28
-					},
-					"delay": 0
-				},
-				{
-					"id": "gf6bdwanryJC",
-					"label": "bitfocus-companion:button_release",
-					"instance": "bitfocus-companion",
-					"action": "button_release",
-					"options": {
-						"page": "0",
-						"bank": 29
-					},
-					"delay": 0
-				},
-				{
-					"id": "eRSR7tMLozRc",
-					"label": "bitfocus-companion:button_release",
-					"instance": "bitfocus-companion",
-					"action": "button_release",
-					"options": {
-						"page": "0",
-						"bank": 30
-					},
-					"delay": 0
-				},
+			"30": [
 				{
 					"id": "cW5GwXvlj1Ab",
 					"label": "udTEF512G:COMMAND",
@@ -18051,9 +17942,20 @@
 						"cmd": "CLEAR 5-20"
 					},
 					"delay": 0
+				},
+				{
+					"id": "47_nXUhlI",
+					"label": "bitfocus-companion:custom_variable_set_value",
+					"instance": "bitfocus-companion",
+					"action": "custom_variable_set_value",
+					"options": {
+						"name": "stageCurrentButton",
+						"value": "30"
+					},
+					"delay": 0
 				}
 			],
-			"32": [
+			"31": [
 				{
 					"id": "K4bwStpcOhNT",
 					"label": "bitfocus-companion:bgcolor",
@@ -18073,7 +17975,7 @@
 					"action": "button_release",
 					"options": {
 						"page": "0",
-						"bank": 16
+						"bank": 15
 					},
 					"delay": 0
 				},
@@ -18084,7 +17986,7 @@
 					"action": "button_release",
 					"options": {
 						"page": "0",
-						"bank": 24
+						"bank": 23
 					},
 					"delay": 0
 				},
@@ -18125,6 +18027,57 @@
 					"action": "COMMAND",
 					"options": {
 						"cmd": "MIXER 5-20 FILL 0.255208 0.638889 0.5 0.5 0 Linear"
+					},
+					"delay": 0
+				}
+			],
+			"32": [
+				{
+					"id": "r7iHcE3QZ9",
+					"label": "udTEF512G:PLAY",
+					"instance": "udTEF512G",
+					"action": "PLAY",
+					"options": {
+						"channel": "5",
+						"layer": "10",
+						"clip_dd": "GRAFIKEN/BLACK",
+						"clip": "",
+						"loop": "false",
+						"auto": "false",
+						"transition": "CUT",
+						"transition_duration": "",
+						"transition_tween": "linear"
+					},
+					"delay": 0
+				},
+				{
+					"id": "f3C0KJezv6",
+					"label": "udTEF512G:COMMAND",
+					"instance": "udTEF512G",
+					"action": "COMMAND",
+					"options": {
+						"cmd": "MIXER 5-10 VOLUME 0 0 Linear"
+					},
+					"delay": 0
+				},
+				{
+					"id": "S284yFU_T4",
+					"label": "udTEF512G:COMMAND",
+					"instance": "udTEF512G",
+					"action": "COMMAND",
+					"options": {
+						"cmd": "MIXER 5-10 FILL 0 0 1 1 0 Linear"
+					},
+					"delay": 0
+				},
+				{
+					"id": "Kxw0Z_oGr",
+					"label": "bitfocus-companion:custom_variable_set_value",
+					"instance": "bitfocus-companion",
+					"action": "custom_variable_set_value",
+					"options": {
+						"name": "stageCurrentButton",
+						"value": "32"
 					},
 					"delay": 0
 				}
@@ -18484,6 +18437,26 @@
 						"cmd": "ADD 5 NDI NAME \"Stage\""
 					},
 					"delay": 0
+				},
+				{
+					"id": "bHkP0slD8",
+					"label": "wxv8gkkdt:source",
+					"instance": "wxv8gkkdt",
+					"action": "source",
+					"options": {
+						"source": "COMINGHOME-VIDEO (Stage)"
+					},
+					"delay": 100
+				},
+				{
+					"id": "utXtlEKmQ",
+					"label": "wxv8gkkdt:customJSON",
+					"instance": "wxv8gkkdt",
+					"action": "customJSON",
+					"options": {
+						"customJSON": "{\"version\":1,\"window\":{\"display_device\":\"\",\"showcmd\":1,\"min_posn_x\":-1,\"min_posn_y\":-1,\"max_posn_x\":-1,\"max_posn_y\":-1,\"normal_posn_left\":268,\"normal_posn_right\":1284,\"normal_posn_top\":1,\"normal_posn_bottom\":610}}"
+					},
+					"delay": 100
 				}
 			],
 			"16": [
@@ -36698,8 +36671,7 @@
 			],
 			"13": [],
 			"14": [],
-			"15": [],
-			"16": [
+			"15": [
 				{
 					"id": "bQ0dEA-Re4x8",
 					"label": "bitfocus-companion:bgcolor",
@@ -36723,6 +36695,7 @@
 					"delay": 0
 				}
 			],
+			"16": [],
 			"17": [
 				{
 					"id": "kD__QA2quSTy",
@@ -36817,8 +36790,7 @@
 			],
 			"21": [],
 			"22": [],
-			"23": [],
-			"24": [
+			"23": [
 				{
 					"id": "RJtB-tURl0vx",
 					"label": "bitfocus-companion:bgcolor",
@@ -36842,6 +36814,7 @@
 					"delay": 0
 				}
 			],
+			"24": [],
 			"25": [
 				{
 					"id": "qtaXqCrNHO6w",
@@ -36857,79 +36830,13 @@
 				}
 			],
 			"26": [],
-			"27": [
-				{
-					"id": "KPoQlnADcm9-",
-					"label": "bitfocus-companion:bgcolor",
-					"instance": "bitfocus-companion",
-					"action": "bgcolor",
-					"options": {
-						"color": 17664,
-						"page": "0",
-						"bank": "0"
-					},
-					"delay": 0
-				}
-			],
-			"28": [
-				{
-					"id": "cek0crd8scSd",
-					"label": "bitfocus-companion:bgcolor",
-					"instance": "bitfocus-companion",
-					"action": "bgcolor",
-					"options": {
-						"color": 17664,
-						"page": "0",
-						"bank": "0"
-					},
-					"delay": 0
-				}
-			],
-			"29": [
-				{
-					"id": "MUb3c34dk7ZK",
-					"label": "bitfocus-companion:bgcolor",
-					"instance": "bitfocus-companion",
-					"action": "bgcolor",
-					"options": {
-						"color": 17664,
-						"page": "0",
-						"bank": "0"
-					},
-					"delay": 0
-				}
-			],
-			"30": [
-				{
-					"id": "wUIqESIekHo2",
-					"label": "bitfocus-companion:bgcolor",
-					"instance": "bitfocus-companion",
-					"action": "bgcolor",
-					"options": {
-						"color": 17664,
-						"page": "0",
-						"bank": "0"
-					},
-					"delay": 0
-				}
-			],
+			"27": [],
+			"28": [],
+			"29": [],
+			"30": [],
 			"31": [
 				{
-					"id": "DqHkB7hvbN6q",
-					"label": "bitfocus-companion:bgcolor",
-					"instance": "bitfocus-companion",
-					"action": "bgcolor",
-					"options": {
-						"color": 17664,
-						"page": "0",
-						"bank": "0"
-					},
-					"delay": 0
-				}
-			],
-			"32": [
-				{
-					"id": "IHjj2Hgi2cXc",
+					"id": "l6XZdIalYl",
 					"label": "bitfocus-companion:bgcolor",
 					"instance": "bitfocus-companion",
 					"action": "bgcolor",
@@ -36941,7 +36848,7 @@
 					"delay": 0
 				},
 				{
-					"id": "2YS2hHcuA5B6",
+					"id": "cusKATNG-1",
 					"label": "udTEF512G:COMMAND",
 					"instance": "udTEF512G",
 					"action": "COMMAND",
@@ -36950,7 +36857,8 @@
 					},
 					"delay": 0
 				}
-			]
+			],
+			"32": []
 		},
 		"5": {
 			"1": [],
@@ -43639,6 +43547,10 @@
 		"auxCurrent": {
 			"description": "A custom variable",
 			"defaultValue": ""
+		},
+		"stageCurrentButton": {
+			"description": "A custom variable",
+			"defaultValue": "0"
 		}
 	},
 	"feedbacks": {
@@ -44916,9 +44828,37 @@
 			"11": [],
 			"12": [],
 			"13": [],
-			"14": [],
+			"14": [
+				{
+					"id": "L-0ZWjXyzI",
+					"type": "variable_value",
+					"instance_id": "bitfocus-companion",
+					"options": {
+						"variable": "internal:custom_stageCurrentButton",
+						"op": "eq",
+						"value": "14"
+					},
+					"style": {
+						"bgcolor": 10040115
+					}
+				}
+			],
 			"15": [],
-			"16": [],
+			"16": [
+				{
+					"id": "0WQz2WwMEb",
+					"type": "variable_value",
+					"instance_id": "bitfocus-companion",
+					"options": {
+						"variable": "internal:custom_stageCurrentButton",
+						"op": "eq",
+						"value": "16"
+					},
+					"style": {
+						"bgcolor": 10040115
+					}
+				}
+			],
 			"17": [],
 			"18": [],
 			"19": [],
@@ -44926,15 +44866,99 @@
 			"21": [],
 			"22": [],
 			"23": [],
-			"24": [],
+			"24": [
+				{
+					"id": "R6E5Qf-ry4",
+					"type": "variable_value",
+					"instance_id": "bitfocus-companion",
+					"options": {
+						"variable": "internal:custom_stageCurrentButton",
+						"op": "eq",
+						"value": "24"
+					},
+					"style": {
+						"bgcolor": 10040115
+					}
+				}
+			],
 			"25": [],
 			"26": [],
-			"27": [],
-			"28": [],
-			"29": [],
-			"30": [],
+			"27": [
+				{
+					"id": "A4GRvJaO3",
+					"type": "variable_value",
+					"instance_id": "bitfocus-companion",
+					"options": {
+						"variable": "internal:custom_stageCurrentButton",
+						"op": "eq",
+						"value": "27"
+					},
+					"style": {
+						"bgcolor": 10040115
+					}
+				}
+			],
+			"28": [
+				{
+					"id": "MiYnotj-h",
+					"type": "variable_value",
+					"instance_id": "bitfocus-companion",
+					"options": {
+						"variable": "internal:custom_stageCurrentButton",
+						"op": "eq",
+						"value": "28"
+					},
+					"style": {
+						"bgcolor": 10040115
+					}
+				}
+			],
+			"29": [
+				{
+					"id": "7cnngPKrKr",
+					"type": "variable_value",
+					"instance_id": "bitfocus-companion",
+					"options": {
+						"variable": "internal:custom_stageCurrentButton",
+						"op": "eq",
+						"value": "29"
+					},
+					"style": {
+						"bgcolor": 10040115
+					}
+				}
+			],
+			"30": [
+				{
+					"id": "e9UADX0CT",
+					"type": "variable_value",
+					"instance_id": "bitfocus-companion",
+					"options": {
+						"variable": "internal:custom_stageCurrentButton",
+						"op": "eq",
+						"value": "30"
+					},
+					"style": {
+						"bgcolor": 10040115
+					}
+				}
+			],
 			"31": [],
-			"32": []
+			"32": [
+				{
+					"id": "-JzVqxd0A",
+					"type": "variable_value",
+					"instance_id": "bitfocus-companion",
+					"options": {
+						"variable": "internal:custom_stageCurrentButton",
+						"op": "eq",
+						"value": "32"
+					},
+					"style": {
+						"bgcolor": 10040115
+					}
+				}
+			]
 		},
 		"5": {
 			"1": [
