@@ -14472,7 +14472,7 @@
 					"instance": "bitfocus-companion",
 					"action": "button_press",
 					"options": {
-						"page": 3,
+						"page": 4,
 						"bank": 29
 					},
 					"delay": 0
@@ -14487,6 +14487,17 @@
 						"bank": 10
 					},
 					"delay": 0
+				},
+				{
+					"id": "oK7o2gVxO",
+					"label": "bitfocus-companion:button_press",
+					"instance": "bitfocus-companion",
+					"action": "button_press",
+					"options": {
+						"page": 3,
+						"bank": 29
+					},
+					"delay": 100
 				},
 				{
 					"id": "6MKM94mgy",
