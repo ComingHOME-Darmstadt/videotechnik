@@ -18433,7 +18433,7 @@
 					"instance": "4YIpLwJwP",
 					"action": "customJSON",
 					"options": {
-						"customJSON": "{\"version\":1,\"window\":{\"display_device\":\"\",\"showcmd\":1,\"min_posn_x\":-1,\"min_posn_y\":-1,\"max_posn_x\":-1,\"max_posn_y\":-1,\"normal_posn_left\":268,\"normal_posn_right\":1284,\"normal_posn_top\":1,\"normal_posn_bottom\":610}}"
+						"customJSON": "{\"version\":1,\"window\":{\"display_device\":\"\",\"showcmd\":1,\"min_posn_x\":-1,\"min_posn_y\":-1,\"max_posn_x\":-1,\"max_posn_y\":-1,\"normal_posn_left\":1010,\"normal_posn_right\":1688,\"normal_posn_top\":0,\"normal_posn_bottom\":412}}"
 					},
 					"delay": 100
 				}
@@ -18465,7 +18465,7 @@
 					"instance": "wxv8gkkdt",
 					"action": "customJSON",
 					"options": {
-						"customJSON": "{\"version\":1,\"window\":{\"display_device\":\"\",\"showcmd\":1,\"min_posn_x\":-1,\"min_posn_y\":-1,\"max_posn_x\":-1,\"max_posn_y\":-1,\"normal_posn_left\":268,\"normal_posn_right\":1284,\"normal_posn_top\":1,\"normal_posn_bottom\":610}}"
+						"customJSON": "{\"version\":1,\"window\":{\"display_device\":\"\",\"showcmd\":1,\"min_posn_x\":-1,\"min_posn_y\":-1,\"max_posn_x\":-1,\"max_posn_y\":-1,\"normal_posn_left\":1010,\"normal_posn_right\":1688,\"normal_posn_top\":406,\"normal_posn_bottom\":819}}"
 					},
 					"delay": 100
 				},
@@ -19326,7 +19326,7 @@
 					"instance": "tjIpotNie",
 					"action": "customJSON",
 					"options": {
-						"customJSON": "{\"version\":1,\"window\":{\"display_device\":\"Monitor 2\",\"showcmd\":1,\"min_posn_x\":-1,\"min_posn_y\":-1,\"max_posn_x\":-1,\"max_posn_y\":-1,\"normal_posn_left\":1353,\"normal_posn_right\":2485,\"normal_posn_top\":32,\"normal_posn_bottom\":882},\"decorations\":{\"lowest_latency\":true}}"
+						"customJSON": "{\"version\":1,\"window\":{\"display_device\":\"Monitor 1\",\"showcmd\":1,\"min_posn_x\":-1,\"min_posn_y\":-1,\"max_posn_x\":-1,\"max_posn_y\":-1,\"normal_posn_left\":1353,\"normal_posn_right\":2485,\"normal_posn_top\":32,\"normal_posn_bottom\":882},\"decorations\":{\"lowest_latency\":true}}"
 					},
 					"delay": 1666
 				},
@@ -19336,7 +19336,7 @@
 					"instance": "tjIpotNie",
 					"action": "customJSON",
 					"options": {
-						"customJSON": "{\"version\":1,\"NDI_overlay\":\"\",\"PTZ_controller\":\"\",\"audio_output\":\"Digital Audio (S/PDIF) (High Definition Audio Device)\",\"window\":{\"display_device\":\"Monitor 2\",\"always_on_top\":false,\"hide_border\":false,\"showcmd\":3,\"min_posn_x\":-1,\"min_posn_y\":-1,\"max_posn_x\":-1,\"max_posn_y\":-1,\"normal_posn_left\":1353,\"normal_posn_right\":2485,\"normal_posn_top\":32,\"normal_posn_bottom\":882},\"decorations\":{\"vu_meter\":true,\"vu_meter_scale\":false,\"center_cross\":false,\"safe_areas\":false,\"show_4_3\":false,\"best_fit\":true,\"square_aspect\":false,\"hide_ptz_controls\":false,\"do_not_hide_controls\":false,\"show_alpha\":false,\"menu_posn_x\":56.0,\"menu_posn_y\":8.0,\"flip_horizontal\":false,\"flip_vertical\":false,\"lowest_latency\":true,\"enable_ndi_output\":false,\"connection_quality\":false}}"
+						"customJSON": "{\"version\":1,\"NDI_overlay\":\"\",\"PTZ_controller\":\"\",\"audio_output\":\"Digital Audio (S/PDIF) (High Definition Audio Device)\",\"window\":{\"display_device\":\"Monitor 1\",\"always_on_top\":false,\"hide_border\":false,\"showcmd\":3,\"min_posn_x\":-1,\"min_posn_y\":-1,\"max_posn_x\":-1,\"max_posn_y\":-1,\"normal_posn_left\":1353,\"normal_posn_right\":2485,\"normal_posn_top\":32,\"normal_posn_bottom\":882},\"decorations\":{\"vu_meter\":true,\"vu_meter_scale\":false,\"center_cross\":false,\"safe_areas\":false,\"show_4_3\":false,\"best_fit\":true,\"square_aspect\":false,\"hide_ptz_controls\":false,\"do_not_hide_controls\":false,\"show_alpha\":false,\"menu_posn_x\":56.0,\"menu_posn_y\":8.0,\"flip_horizontal\":false,\"flip_vertical\":false,\"lowest_latency\":true,\"enable_ndi_output\":false,\"connection_quality\":false}}"
 					},
 					"delay": 1733
 				},
