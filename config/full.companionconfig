@@ -13846,18 +13846,7 @@
 			"7": {},
 			"8": {},
 			"9": {},
-			"10": {
-				"style": "png",
-				"text": "OBS\\n",
-				"size": "18",
-				"alignment": "center:center",
-				"pngalignment": "center:center",
-				"color": 16777215,
-				"bgcolor": 26367,
-				"latch": false,
-				"relative_delay": false,
-				"show_topbar": "default"
-			},
+			"10": {},
 			"11": {},
 			"12": {
 				"style": "png",
@@ -35789,60 +35778,7 @@
 			"7": [],
 			"8": [],
 			"9": [],
-			"10": [
-				{
-					"id": "4fLzRHjqC_6",
-					"label": "bitfocus-companion:set_page",
-					"instance": "bitfocus-companion",
-					"action": "set_page",
-					"options": {
-						"controller": "CL41K1A03537",
-						"page": "80"
-					},
-					"delay": 0
-				},
-				{
-					"id": "EHLAaHidjeo",
-					"label": "bitfocus-companion:set_page",
-					"instance": "bitfocus-companion",
-					"action": "set_page",
-					"options": {
-						"controller": "DL46K1A08634",
-						"page": "79"
-					},
-					"delay": 0
-				},
-				{
-					"id": "KLO-40c0TYC",
-					"label": "dm8wQZTZY:set_scene_collection",
-					"instance": "dm8wQZTZY",
-					"action": "set_scene_collection",
-					"options": {
-						"scene_collection": "ComingHome 4 Kameras"
-					},
-					"delay": 5000
-				},
-				{
-					"id": "NOQUUzLU5kW",
-					"label": "dm8wQZTZY:enable_studio_mode",
-					"instance": "dm8wQZTZY",
-					"action": "enable_studio_mode",
-					"options": {},
-					"delay": 6000
-				},
-				{
-					"id": "YPIGkOYe91t",
-					"label": "bitfocus-companion:exec",
-					"instance": "bitfocus-companion",
-					"action": "exec",
-					"options": {
-						"path": "$(internal:custom_scriptPath)START_OBS.bat",
-						"timeout": 5000,
-						"targetVariable": ""
-					},
-					"delay": 0
-				}
-			],
+			"10": [],
 			"11": [],
 			"12": [
 				{
