@@ -14201,6 +14201,28 @@
 					"delay": 0
 				},
 				{
+					"id": "aEeg_kOYN",
+					"label": "bitfocus-companion:button_press",
+					"instance": "bitfocus-companion",
+					"action": "button_press",
+					"options": {
+						"page": 51,
+						"bank": 31
+					},
+					"delay": 100
+				},
+				{
+					"id": "jsQGVPGwE",
+					"label": "bitfocus-companion:button_press",
+					"instance": "bitfocus-companion",
+					"action": "button_press",
+					"options": {
+						"page": 50,
+						"bank": 31
+					},
+					"delay": 100
+				},
+				{
 					"id": "M40zYNLryTN",
 					"label": "bitfocus-companion:button_pressrelease",
 					"instance": "bitfocus-companion",
@@ -35944,6 +35966,28 @@
 					"action": "COMMAND",
 					"options": {
 						"cmd": "PLAY 1-65 EMPTY MIX 16"
+					},
+					"delay": 100
+				},
+				{
+					"id": "OJ5KHUud8",
+					"label": "bitfocus-companion:button_pressrelease",
+					"instance": "bitfocus-companion",
+					"action": "button_pressrelease",
+					"options": {
+						"page": 51,
+						"bank": 31
+					},
+					"delay": 100
+				},
+				{
+					"id": "CRttyNwew",
+					"label": "bitfocus-companion:button_pressrelease",
+					"instance": "bitfocus-companion",
+					"action": "button_pressrelease",
+					"options": {
+						"page": 50,
+						"bank": 31
 					},
 					"delay": 100
 				},
