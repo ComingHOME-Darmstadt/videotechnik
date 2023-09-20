@@ -146,10 +146,12 @@ window.OpenLP = { // Connect to the OpenLP Remote WebSocket to get pushed update
 					text = OpenLP.emptyTextMarker;
 				}
 			}
-			// use thumbnail if available
-			//if (slide["img"]) {
-			//    text += "<br /><img src='" + slide["img"].replace("//thumbnails//", "//thumbnails//") + "'><br />";
-			//}
+			else {
+				// use thumbnail if available
+				if (slide["img"]) {
+			    text += "<br /><img src='" + slide["img"].replace("//thumbnails//", "//thumbnails//") + "'><br />";
+				}
+			}
 			// use notes if available
 			if (slide["slide_notes"]) {
 					text += '<br />' + slide["footer"];
