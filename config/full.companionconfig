@@ -18487,7 +18487,7 @@
 					"action": "button_pressrelease",
 					"options": {
 						"page": 4,
-						"bank": 32
+						"bank": 14
 					},
 					"delay": 0
 				}
