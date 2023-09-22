@@ -9,7 +9,7 @@ Außerdem sollte in `dDImageViewer` ein aktueller "NDI Drag&Drop Image Viewer" (
 
 Im Untervezeichnis `config` werden alle Konfigurations-Dateien gesammelt. Hierbei ist jedoch `config/media/Videos` von der Überwachung durch die Versionierung ausgenommen.
 
-Die Programme `OBS Studio 27.2.4`, `Bitfocus Companion 2.3.0`, `NDI 5.5.2.0` und `Node.js runtime 18.12.1` werden in den vom Installationsprogramm vorgeschlagenen Ordnern erwartet. `Companion` sollte automatisch starten.
+Die Programme `OBS Studio 27.2.4`, `Bitfocus Companion 3.0.1`, `NDI 5.5.2.0` und `Node.js runtime 18.12.1` werden in den vom Installationsprogramm vorgeschlagenen Ordnern erwartet. `Companion` sollte automatisch starten.
 
 `OBS Studio` benötigt die `obs-websocket` und `obs-ndi` Plugins (siehe https://obsproject.com/forum/resources/categories/obs-studio-plugins.6/), sowie das Profil `ComingHome` und die SceneCollections `CasparCG_Audio_IN` und `ComingHome_4_Kameras` (zu finden unter `config/obs`.
 
