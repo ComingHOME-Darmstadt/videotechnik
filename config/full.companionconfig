@@ -903,7 +903,8 @@
 					"instance_id": "internal",
 					"options": {
 						"page": 0,
-						"bank": 0
+						"bank": 0,
+						"latch_compatability": true
 					},
 					"style": {
 						"bgcolor": 13056
@@ -1018,7 +1019,8 @@
 					"instance_id": "internal",
 					"options": {
 						"page": 0,
-						"bank": 0
+						"bank": 0,
+						"latch_compatability": true
 					},
 					"style": {
 						"bgcolor": 16711680,
@@ -1041,30 +1043,64 @@
 								"delay": 0
 							},
 							{
-								"id": "NHkJVTKU09G",
-								"label": "bitfocus-companion:button_press",
+								"id": "NHq_9_vPTOBJ0imkW_wax",
+								"action": "bank_current_step",
 								"instance": "internal",
-								"action": "button_press",
 								"options": {
+									"page_from_variable": false,
 									"page": 51,
+									"page_variable": "1",
+									"bank_from_variable": false,
 									"bank": 31,
-									"force": true
+									"bank_variable": "1",
+									"step": 1
 								},
-								"delay": 100,
-								"actionId": "button_press"
+								"delay": 100
 							},
 							{
-								"id": "T6rWNmexhXn",
-								"label": "bitfocus-companion:button_press",
+								"id": "5EhS0oPv78Y-S_wtwW8G7",
+								"action": "button_pressrelease",
 								"instance": "internal",
-								"action": "button_press",
 								"options": {
-									"page": 50,
+									"page_from_variable": false,
+									"page": 51,
+									"page_variable": "1",
+									"bank_from_variable": false,
 									"bank": 31,
-									"force": true
+									"bank_variable": "1",
+									"force": false
 								},
-								"delay": 100,
-								"actionId": "button_press"
+								"delay": 0
+							},
+							{
+								"id": "AiP-pZd-zsW0tdIQufu6B",
+								"action": "bank_current_step",
+								"instance": "internal",
+								"options": {
+									"page_from_variable": false,
+									"page": 50,
+									"page_variable": "1",
+									"bank_from_variable": false,
+									"bank": 31,
+									"bank_variable": "1",
+									"step": 1
+								},
+								"delay": 100
+							},
+							{
+								"id": "mQISGtqrjcwrOYZ2XoMbh",
+								"action": "button_pressrelease",
+								"instance": "internal",
+								"options": {
+									"page_from_variable": false,
+									"page": 50,
+									"page_variable": "1",
+									"bank_from_variable": false,
+									"bank": 31,
+									"bank_variable": "1",
+									"force": false
+								},
+								"delay": 0
 							},
 							{
 								"id": "Qq3DPodXscE",
@@ -1113,17 +1149,49 @@
 								"delay": 100
 							},
 							{
-								"id": "ofid-hQDCQt",
-								"label": "bitfocus-companion:button_pressrelease",
+								"id": "8krmF09c34Nwruelbrz4S",
+								"action": "bank_current_step",
 								"instance": "internal",
-								"action": "button_pressrelease",
 								"options": {
+									"page_from_variable": false,
 									"page": 51,
+									"page_variable": "1",
+									"bank_from_variable": false,
 									"bank": 31,
-									"force": true
+									"bank_variable": "1",
+									"step": 2
 								},
-								"delay": 100,
-								"actionId": "button_pressrelease"
+								"delay": 100
+							},
+							{
+								"id": "aD-TmQb4QiSF2bYV1cKs4",
+								"action": "button_pressrelease",
+								"instance": "internal",
+								"options": {
+									"page_from_variable": false,
+									"page": 51,
+									"page_variable": "1",
+									"bank_from_variable": false,
+									"bank": 31,
+									"bank_variable": "1",
+									"force": false
+								},
+								"delay": 0
+							},
+							{
+								"id": "BlQjxDk_xwpimg4X3hmFz",
+								"action": "bank_current_step",
+								"instance": "internal",
+								"options": {
+									"page_from_variable": false,
+									"page": 50,
+									"page_variable": "1",
+									"bank_from_variable": false,
+									"bank": 31,
+									"bank_variable": "1",
+									"step": 2
+								},
+								"delay": 100
 							},
 							{
 								"id": "3xdrOXtgDQO",
@@ -1135,7 +1203,7 @@
 									"bank": 31,
 									"force": true
 								},
-								"delay": 100,
+								"delay": 0,
 								"actionId": "button_pressrelease"
 							},
 							{
@@ -1421,7 +1489,8 @@
 					"instance_id": "internal",
 					"options": {
 						"page": 0,
-						"bank": 0
+						"bank": 0,
+						"latch_compatability": true
 					},
 					"style": {
 						"bgcolor": 13056
@@ -1516,7 +1585,8 @@
 					"instance_id": "internal",
 					"options": {
 						"page": 0,
-						"bank": 0
+						"bank": 0,
+						"latch_compatability": true
 					},
 					"style": {
 						"bgcolor": 13056
@@ -1611,7 +1681,8 @@
 					"instance_id": "internal",
 					"options": {
 						"page": 0,
-						"bank": 0
+						"bank": 0,
+						"latch_compatability": true
 					},
 					"style": {
 						"bgcolor": 13056
@@ -1705,7 +1776,8 @@
 					"instance_id": "internal",
 					"options": {
 						"page": 0,
-						"bank": 0
+						"bank": 0,
+						"latch_compatability": true
 					},
 					"style": {
 						"color": 16777215,
@@ -1719,44 +1791,94 @@
 					"action_sets": {
 						"down": [
 							{
-								"id": "oJtx_yWpOrN",
-								"label": "bitfocus-companion:button_press",
+								"id": "MtvGH-zf7HduAiR9TuTzx",
+								"action": "bank_current_step",
 								"instance": "internal",
-								"action": "button_press",
 								"options": {
-									"controller": "self",
+									"page_from_variable": false,
 									"page": 0,
+									"page_variable": "1",
+									"bank_from_variable": false,
 									"bank": 12,
-									"force": true
+									"bank_variable": "1",
+									"step": 1
 								},
-								"delay": 0,
-								"actionId": "button_press"
+								"delay": 0
 							},
 							{
-								"id": "R0TXvNswhbb",
-								"label": "bitfocus-companion:button_release",
+								"id": "2maWBGdN_AtvJtzhYPC-B",
+								"action": "button_pressrelease",
 								"instance": "internal",
-								"action": "button_release",
 								"options": {
-									"page": "0",
+									"page_from_variable": false,
+									"page": 0,
+									"page_variable": "1",
+									"bank_from_variable": false,
+									"bank": 12,
+									"bank_variable": "1",
+									"force": false
+								},
+								"delay": 0
+							},
+							{
+								"id": "z1itBISigbCCEUMNyfRFd",
+								"action": "bank_current_step",
+								"instance": "internal",
+								"options": {
+									"page_from_variable": false,
+									"page": 0,
+									"page_variable": "1",
+									"bank_from_variable": false,
 									"bank": 15,
-									"force": true
+									"bank_variable": "1",
+									"step": 2
 								},
-								"delay": 100,
-								"actionId": "button_release"
+								"delay": 100
 							},
 							{
-								"id": "RbfH088S7eE",
-								"label": "bitfocus-companion:button_release",
+								"id": "SmK9vb8HGqyuxip8Q_Q1q",
+								"action": "button_pressrelease",
 								"instance": "internal",
-								"action": "button_release",
 								"options": {
-									"page": 1,
-									"bank": 16,
-									"force": true
+									"page_from_variable": false,
+									"page": 0,
+									"page_variable": "1",
+									"bank_from_variable": false,
+									"bank": 15,
+									"bank_variable": "1",
+									"force": false
 								},
-								"delay": 100,
-								"actionId": "button_release"
+								"delay": 0
+							},
+							{
+								"id": "3Y-OlMp4HtzUEkUOIKeeO",
+								"action": "bank_current_step",
+								"instance": "internal",
+								"options": {
+									"page_from_variable": false,
+									"page": 0,
+									"page_variable": "1",
+									"bank_from_variable": false,
+									"bank": 16,
+									"bank_variable": "1",
+									"step": 2
+								},
+								"delay": 100
+							},
+							{
+								"id": "B50fibW5FOU4ayOC1v7IP",
+								"action": "button_pressrelease",
+								"instance": "internal",
+								"options": {
+									"page_from_variable": false,
+									"page": 0,
+									"page_variable": "1",
+									"bank_from_variable": false,
+									"bank": 16,
+									"bank_variable": "1",
+									"force": false
+								},
+								"delay": 0
 							},
 							{
 								"id": "Lba9BqDs0Q-",
@@ -1777,17 +1899,34 @@
 								"delay": 100
 							},
 							{
-								"id": "CtElPCEtu6D",
-								"label": "bitfocus-companion:button_release",
+								"id": "3NpHwYeoKd8YrP4fBdy3L",
+								"action": "bank_current_step",
 								"instance": "internal",
-								"action": "button_release",
 								"options": {
-									"page": "0",
+									"page_from_variable": false,
+									"page": 0,
+									"page_variable": "1",
+									"bank_from_variable": false,
 									"bank": 21,
-									"force": true
+									"bank_variable": "1",
+									"step": 2
 								},
-								"delay": 100,
-								"actionId": "button_release"
+								"delay": 100
+							},
+							{
+								"id": "DzKpAz7RJVNQqEs6c1Bcu",
+								"action": "button_pressrelease",
+								"instance": "internal",
+								"options": {
+									"page_from_variable": false,
+									"page": 0,
+									"page_variable": "1",
+									"bank_from_variable": false,
+									"bank": 21,
+									"bank_variable": "1",
+									"force": false
+								},
+								"delay": 0
 							},
 							{
 								"id": "QrBMr8MLTkm",
@@ -1919,7 +2058,8 @@
 					"instance_id": "internal",
 					"options": {
 						"page": 0,
-						"bank": 0
+						"bank": 0,
+						"latch_compatability": true
 					},
 					"style": {
 						"bgcolor": 16711680,
@@ -2307,16 +2447,11 @@
 								"delay": 0
 							},
 							{
-								"id": "_e7YkJ5FU8o",
-								"label": "udTEF512G:SWAP",
+								"id": "muMVRtZgFkyQVQrEMVmC-",
+								"action": "COMMAND",
 								"instance": "udTEF512G",
-								"action": "SWAP",
 								"options": {
-									"channel1": "2",
-									"layer1": "10",
-									"channel2": 1,
-									"layer2": "51",
-									"transforms": "false"
+									"cmd": "swap 2-10 1-51"
 								},
 								"delay": 20
 							},
@@ -2331,30 +2466,20 @@
 								"delay": 20
 							},
 							{
-								"id": "XV4DXetPOFl",
-								"label": "udTEF512G:SWAP",
+								"id": "0kQDP_G7-0jrFbQ2zXoNb",
+								"action": "COMMAND",
 								"instance": "udTEF512G",
-								"action": "SWAP",
 								"options": {
-									"channel1": "2",
-									"layer1": "10",
-									"channel2": 1,
-									"layer2": "50",
-									"transforms": "false"
+									"cmd": "swap 2-10 1-50"
 								},
 								"delay": 1060
 							},
 							{
-								"id": "BEYsjUiSG4g",
-								"label": "udTEF512G:SWAP",
+								"id": "3SWQ884Y9gy186_jaMsey",
+								"action": "COMMAND",
 								"instance": "udTEF512G",
-								"action": "SWAP",
 								"options": {
-									"channel1": 1,
-									"layer1": "51",
-									"channel2": 1,
-									"layer2": "50",
-									"transforms": "false"
+									"cmd": "swap 1-51 1-50"
 								},
 								"delay": 40
 							},
@@ -3123,16 +3248,11 @@
 					"action_sets": {
 						"down": [
 							{
-								"id": "FougM6hmufR",
-								"label": "udTEF512G:SWAP",
+								"id": "hwDFpRuWvJRMbZgbBFMYO",
+								"action": "COMMAND",
 								"instance": "udTEF512G",
-								"action": "SWAP",
 								"options": {
-									"channel1": "2",
-									"layer1": "10",
-									"channel2": 1,
-									"layer2": "50",
-									"transforms": "false"
+									"cmd": "swap 2-10 1-50"
 								},
 								"delay": 0
 							},
@@ -11075,7 +11195,8 @@
 					"instance_id": "internal",
 					"options": {
 						"page": 0,
-						"bank": 0
+						"bank": 0,
+						"latch_compatability": true
 					},
 					"style": {
 						"bgcolor": 13056,
@@ -11202,7 +11323,8 @@
 					"instance_id": "internal",
 					"options": {
 						"page": 0,
-						"bank": 0
+						"bank": 0,
+						"latch_compatability": true
 					},
 					"style": {
 						"bgcolor": 13056,
@@ -11329,7 +11451,8 @@
 					"instance_id": "internal",
 					"options": {
 						"page": 0,
-						"bank": 0
+						"bank": 0,
+						"latch_compatability": true
 					},
 					"style": {
 						"bgcolor": 13056,
@@ -11434,7 +11557,8 @@
 					"instance_id": "internal",
 					"options": {
 						"page": 0,
-						"bank": 0
+						"bank": 0,
+						"latch_compatability": true
 					},
 					"style": {
 						"bgcolor": 13056,
@@ -11539,7 +11663,8 @@
 					"instance_id": "internal",
 					"options": {
 						"page": 0,
-						"bank": 0
+						"bank": 0,
+						"latch_compatability": true
 					},
 					"style": {
 						"bgcolor": 6684774,
@@ -11746,7 +11871,8 @@
 					"instance_id": "internal",
 					"options": {
 						"page": 0,
-						"bank": 0
+						"bank": 0,
+						"latch_compatability": true
 					},
 					"style": {
 						"bgcolor": 6684774,
@@ -12025,7 +12151,8 @@
 					"instance_id": "internal",
 					"options": {
 						"page": 0,
-						"bank": 0
+						"bank": 0,
+						"latch_compatability": true
 					},
 					"style": {
 						"bgcolor": 13056,
@@ -12130,7 +12257,8 @@
 					"instance_id": "internal",
 					"options": {
 						"page": 0,
-						"bank": 0
+						"bank": 0,
+						"latch_compatability": true
 					},
 					"style": {
 						"bgcolor": 13056,
@@ -12253,7 +12381,8 @@
 					"instance_id": "internal",
 					"options": {
 						"page": 0,
-						"bank": 0
+						"bank": 0,
+						"latch_compatability": true
 					},
 					"style": {
 						"bgcolor": 13056,
@@ -12266,17 +12395,19 @@
 					"action_sets": {
 						"down": [
 							{
-								"id": "dM9Uc0fjm2P3",
-								"label": "bitfocus-companion:button_release",
+								"id": "yrzmOvN7aS1ZH4SM_TQaz",
+								"action": "bank_current_step",
 								"instance": "internal",
-								"action": "button_release",
 								"options": {
+									"page_from_variable": false,
 									"page": 2,
+									"page_variable": "1",
+									"bank_from_variable": false,
 									"bank": 17,
-									"force": true
+									"bank_variable": "1",
+									"step": 2
 								},
-								"delay": 0,
-								"actionId": "button_release"
+								"delay": 0
 							},
 							{
 								"id": "JiUgGp2rOlOg",
@@ -12366,7 +12497,8 @@
 					"instance_id": "internal",
 					"options": {
 						"page": 0,
-						"bank": 0
+						"bank": 0,
+						"latch_compatability": true
 					},
 					"style": {
 						"bgcolor": 13056,
@@ -12513,7 +12645,8 @@
 					"instance_id": "internal",
 					"options": {
 						"page": 0,
-						"bank": 0
+						"bank": 0,
+						"latch_compatability": true
 					},
 					"style": {
 						"bgcolor": 26112,
@@ -12738,7 +12871,8 @@
 					"instance_id": "internal",
 					"options": {
 						"page": 0,
-						"bank": 0
+						"bank": 0,
+						"latch_compatability": true
 					},
 					"style": {
 						"bgcolor": 26112,
@@ -13421,7 +13555,8 @@
 					"instance_id": "internal",
 					"options": {
 						"page": 0,
-						"bank": 0
+						"bank": 0,
+						"latch_compatability": true
 					},
 					"style": {
 						"bgcolor": 26112,
@@ -13434,108 +13569,214 @@
 					"action_sets": {
 						"down": [
 							{
-								"id": "UBG_xbfMT3nV",
-								"label": "bitfocus-companion:button_release",
+								"id": "1sP0nt43QlMQerGVfYo9N",
+								"action": "bank_current_step",
 								"instance": "internal",
-								"action": "button_release",
 								"options": {
-									"page": 1,
-									"bank": 15,
-									"force": true
-								},
-								"delay": 0,
-								"actionId": "button_release"
-							},
-							{
-								"id": "L8n-AS4-oK42",
-								"label": "bitfocus-companion:button_release",
-								"instance": "internal",
-								"action": "button_release",
-								"options": {
-									"page": "51",
-									"bank": 25,
-									"force": true
-								},
-								"delay": 100,
-								"actionId": "button_release"
-							},
-							{
-								"id": "32D-fschPb4j",
-								"label": "bitfocus-companion:button_release",
-								"instance": "internal",
-								"action": "button_release",
-								"options": {
-									"page": "51",
-									"bank": 26,
-									"force": true
-								},
-								"delay": 100,
-								"actionId": "button_release"
-							},
-							{
-								"id": "-1pNNEiCO3S6",
-								"label": "bitfocus-companion:button_release",
-								"instance": "internal",
-								"action": "button_release",
-								"options": {
-									"page": "51",
-									"bank": 27,
-									"force": true
-								},
-								"delay": 100,
-								"actionId": "button_release"
-							},
-							{
-								"id": "EmgVjgjFupeU",
-								"label": "bitfocus-companion:button_release",
-								"instance": "internal",
-								"action": "button_release",
-								"options": {
-									"page": "51",
-									"bank": 28,
-									"force": true
-								},
-								"delay": 100,
-								"actionId": "button_release"
-							},
-							{
-								"id": "tQnTxvOvdJ7o",
-								"label": "bitfocus-companion:button_release",
-								"instance": "internal",
-								"action": "button_release",
-								"options": {
-									"page": "51",
-									"bank": 29,
-									"force": true
-								},
-								"delay": 100,
-								"actionId": "button_release"
-							},
-							{
-								"id": "ERWkVi7F-HZ6",
-								"label": "bitfocus-companion:button_release",
-								"instance": "internal",
-								"action": "button_release",
-								"options": {
-									"page": "51",
-									"bank": 31,
-									"force": true
-								},
-								"delay": 100,
-								"actionId": "button_release"
-							},
-							{
-								"id": "X5O327spE75c",
-								"label": "bitfocus-companion:button_release",
-								"instance": "internal",
-								"action": "button_release",
-								"options": {
+									"page_from_variable": false,
 									"page": 51,
-									"bank": 32,
-									"force": true
+									"page_variable": "1",
+									"bank_from_variable": false,
+									"bank": 25,
+									"bank_variable": "1",
+									"step": 1
 								},
-								"delay": 100,
-								"actionId": "button_release"
+								"delay": 0
+							},
+							{
+								"id": "YHaxjHwDOwk1rAlnXE8w5",
+								"action": "button_pressrelease",
+								"instance": "internal",
+								"options": {
+									"page_from_variable": false,
+									"page": 51,
+									"page_variable": "1",
+									"bank_from_variable": false,
+									"bank": 25,
+									"bank_variable": "1",
+									"force": false
+								},
+								"delay": 0
+							},
+							{
+								"id": "fjhE21kUQuUT77AgG3oh_",
+								"action": "bank_current_step",
+								"instance": "internal",
+								"options": {
+									"page_from_variable": false,
+									"page": 51,
+									"page_variable": "1",
+									"bank_from_variable": false,
+									"bank": 26,
+									"bank_variable": "1",
+									"step": 2
+								},
+								"delay": 100
+							},
+							{
+								"id": "-OIUX9ykxZP6BItAb6Lnr",
+								"action": "button_pressrelease",
+								"instance": "internal",
+								"options": {
+									"page_from_variable": false,
+									"page": 51,
+									"page_variable": "1",
+									"bank_from_variable": false,
+									"bank": 26,
+									"bank_variable": "1",
+									"force": false
+								},
+								"delay": 0
+							},
+							{
+								"id": "SlE8fCnRw0SKENohOUELy",
+								"action": "bank_current_step",
+								"instance": "internal",
+								"options": {
+									"page_from_variable": false,
+									"page": 51,
+									"page_variable": "1",
+									"bank_from_variable": false,
+									"bank": 27,
+									"bank_variable": "1",
+									"step": 2
+								},
+								"delay": 100
+							},
+							{
+								"id": "3Na71SmJmysieSmQOyfe8",
+								"action": "button_pressrelease",
+								"instance": "internal",
+								"options": {
+									"page_from_variable": false,
+									"page": 51,
+									"page_variable": "1",
+									"bank_from_variable": false,
+									"bank": 27,
+									"bank_variable": "1",
+									"force": false
+								},
+								"delay": 0
+							},
+							{
+								"id": "0ipRoU3MdKb68TIGyLi0D",
+								"action": "bank_current_step",
+								"instance": "internal",
+								"options": {
+									"page_from_variable": false,
+									"page": 51,
+									"page_variable": "1",
+									"bank_from_variable": false,
+									"bank": 28,
+									"bank_variable": "1",
+									"step": 2
+								},
+								"delay": 90
+							},
+							{
+								"id": "NZSZzmzmYhuedeEMEf9w9",
+								"action": "button_pressrelease",
+								"instance": "internal",
+								"options": {
+									"page_from_variable": false,
+									"page": 51,
+									"page_variable": "1",
+									"bank_from_variable": false,
+									"bank": 28,
+									"bank_variable": "1",
+									"force": false
+								},
+								"delay": 0
+							},
+							{
+								"id": "VIlXYUQ64LWx2bwE42NLQ",
+								"action": "bank_current_step",
+								"instance": "internal",
+								"options": {
+									"page_from_variable": false,
+									"page": 51,
+									"page_variable": "1",
+									"bank_from_variable": false,
+									"bank": 29,
+									"bank_variable": "1",
+									"step": 2
+								},
+								"delay": 100
+							},
+							{
+								"id": "N6ypOOQpj5HzE8o_QqgrW",
+								"action": "button_pressrelease",
+								"instance": "internal",
+								"options": {
+									"page_from_variable": false,
+									"page": 51,
+									"page_variable": "1",
+									"bank_from_variable": false,
+									"bank": 29,
+									"bank_variable": "1",
+									"force": false
+								},
+								"delay": 0
+							},
+							{
+								"id": "hc71KYD29tQYP6HyD6mFs",
+								"action": "bank_current_step",
+								"instance": "internal",
+								"options": {
+									"page_from_variable": false,
+									"page": 51,
+									"page_variable": "1",
+									"bank_from_variable": false,
+									"bank": 31,
+									"bank_variable": "1",
+									"step": 2
+								},
+								"delay": 100
+							},
+							{
+								"id": "ag-DM8SnjGB_A1g7fkoGn",
+								"action": "button_pressrelease",
+								"instance": "internal",
+								"options": {
+									"page_from_variable": false,
+									"page": 51,
+									"page_variable": "1",
+									"bank_from_variable": false,
+									"bank": 31,
+									"bank_variable": "1",
+									"force": false
+								},
+								"delay": 0
+							},
+							{
+								"id": "nGbuiW_ewME-lLfLEXOWS",
+								"action": "bank_current_step",
+								"instance": "internal",
+								"options": {
+									"page_from_variable": false,
+									"page": 51,
+									"page_variable": "1",
+									"bank_from_variable": false,
+									"bank": 32,
+									"bank_variable": "1",
+									"step": 1
+								},
+								"delay": 100
+							},
+							{
+								"id": "ZPUymeHMy5hZ95BouKdSb",
+								"action": "button_pressrelease",
+								"instance": "internal",
+								"options": {
+									"page_from_variable": false,
+									"page": 51,
+									"page_variable": "1",
+									"bank_from_variable": false,
+									"bank": 32,
+									"bank_variable": "1",
+									"force": false
+								},
+								"delay": 0
 							},
 							{
 								"id": "kdtmJN9g-eLl",
@@ -13545,46 +13786,37 @@
 								"options": {
 									"cmd": "PLAY 1-15 route://10"
 								},
-								"delay": 1100
+								"delay": 100
 							},
 							{
-								"id": "sBfGy0d12tQL",
-								"label": "bitfocus-companion:button_pressrelease",
+								"id": "1LNC7CWvqVy9UkfKSKrgn",
+								"action": "bank_current_step",
 								"instance": "internal",
-								"action": "button_pressrelease",
 								"options": {
-									"page": 51,
-									"bank": 25,
-									"force": true
-								},
-								"delay": 100,
-								"actionId": "button_pressrelease"
-							},
-							{
-								"id": "TN0OjUihRgfd",
-								"label": "bitfocus-companion:button_pressrelease",
-								"instance": "internal",
-								"action": "button_pressrelease",
-								"options": {
-									"page": 51,
-									"bank": 32,
-									"force": true
-								},
-								"delay": 100,
-								"actionId": "button_pressrelease"
-							},
-							{
-								"id": "SyUhDdAfz-h4",
-								"label": "bitfocus-companion:button_pressrelease",
-								"instance": "internal",
-								"action": "button_pressrelease",
-								"options": {
+									"page_from_variable": false,
 									"page": 1,
+									"page_variable": "1",
+									"bank_from_variable": false,
 									"bank": 15,
-									"force": true
+									"bank_variable": "1",
+									"step": 1
 								},
-								"delay": 100,
-								"actionId": "button_pressrelease"
+								"delay": 100
+							},
+							{
+								"id": "ptXyxvO0ZofXxeC3px_kX",
+								"action": "button_pressrelease",
+								"instance": "internal",
+								"options": {
+									"page_from_variable": false,
+									"page": 1,
+									"page_variable": "1",
+									"bank_from_variable": false,
+									"bank": 15,
+									"bank_variable": "1",
+									"force": false
+								},
+								"delay": 0
 							}
 						],
 						"up": []
@@ -13650,7 +13882,8 @@
 					"instance_id": "internal",
 					"options": {
 						"page": 0,
-						"bank": 0
+						"bank": 0,
+						"latch_compatability": true
 					},
 					"style": {
 						"bgcolor": 26112,
@@ -13663,110 +13896,6 @@
 					"action_sets": {
 						"down": [
 							{
-								"id": "CYYoA7SWVWwi",
-								"label": "bitfocus-companion:button_release",
-								"instance": "internal",
-								"action": "button_release",
-								"options": {
-									"page": 1,
-									"bank": 16,
-									"force": true
-								},
-								"delay": 0,
-								"actionId": "button_release"
-							},
-							{
-								"id": "09wktxxgqVMQ",
-								"label": "bitfocus-companion:button_release",
-								"instance": "internal",
-								"action": "button_release",
-								"options": {
-									"page": 50,
-									"bank": 26,
-									"force": true
-								},
-								"delay": 100,
-								"actionId": "button_release"
-							},
-							{
-								"id": "5kVeiXbpB2u3",
-								"label": "bitfocus-companion:button_release",
-								"instance": "internal",
-								"action": "button_release",
-								"options": {
-									"page": 50,
-									"bank": 27,
-									"force": true
-								},
-								"delay": 100,
-								"actionId": "button_release"
-							},
-							{
-								"id": "bq8WTgFLtzR-",
-								"label": "bitfocus-companion:button_release",
-								"instance": "internal",
-								"action": "button_release",
-								"options": {
-									"page": 50,
-									"bank": 28,
-									"force": true
-								},
-								"delay": 100,
-								"actionId": "button_release"
-							},
-							{
-								"id": "SxpNNxJTAru6",
-								"label": "bitfocus-companion:button_release",
-								"instance": "internal",
-								"action": "button_release",
-								"options": {
-									"page": 50,
-									"bank": 29,
-									"force": true
-								},
-								"delay": 100,
-								"actionId": "button_release"
-							},
-							{
-								"id": "ACbhIjTPM-tq",
-								"label": "bitfocus-companion:button_release",
-								"instance": "internal",
-								"action": "button_release",
-								"options": {
-									"page": 50,
-									"bank": 30,
-									"force": true
-								},
-								"delay": 100,
-								"actionId": "button_release"
-							},
-							{
-								"id": "qW0mq0_5igvN",
-								"label": "bitfocus-companion:button_release",
-								"instance": "internal",
-								"action": "button_release",
-								"options": {
-									"page": 50,
-									"bank": 31,
-									"force": true
-								},
-								"delay": 100,
-								"actionId": "button_release"
-							},
-							{
-								"id": "67mwz6IszJOf",
-								"label": "bitfocus-companion:button_release",
-								"instance": "internal",
-								"action": "button_release",
-								"options": {
-									"page": 50,
-									"bank": 32,
-									"force": true
-								},
-								"delay": 100,
-								"actionId": "button_release"
-							},
-							{
 								"id": "DZgqxN22-qbV",
 								"label": "udTEF512G:COMMAND",
 								"instance": "udTEF512G",
@@ -13775,19 +13904,6 @@
 									"cmd": "PLAY 6-15 route://7"
 								},
 								"delay": 1100
-							},
-							{
-								"id": "CACMRx5Kprjd",
-								"label": "bitfocus-companion:button_pressrelease",
-								"instance": "internal",
-								"action": "button_pressrelease",
-								"options": {
-									"page": 50,
-									"bank": 32,
-									"force": true
-								},
-								"delay": 100,
-								"actionId": "button_pressrelease"
 							},
 							{
 								"id": "jeE_2j6un_49",
@@ -13838,17 +13954,244 @@
 								"delay": 100
 							},
 							{
-								"id": "T168-Ig8Qy89",
-								"label": "bitfocus-companion:button_pressrelease",
+								"id": "zxvTAlbqiosEAyMO9H2jz",
+								"action": "bank_current_step",
 								"instance": "internal",
-								"action": "button_pressrelease",
 								"options": {
-									"page": 1,
-									"bank": 16,
-									"force": true
+									"page_from_variable": false,
+									"page": 50,
+									"page_variable": "1",
+									"bank_from_variable": false,
+									"bank": 26,
+									"bank_variable": "1",
+									"step": 2
 								},
-								"delay": 0,
-								"actionId": "button_pressrelease"
+								"delay": 100
+							},
+							{
+								"id": "KDTt29E6fUQE_-LtTos1X",
+								"action": "button_pressrelease",
+								"instance": "internal",
+								"options": {
+									"page_from_variable": false,
+									"page": 50,
+									"page_variable": "1",
+									"bank_from_variable": false,
+									"bank": 26,
+									"bank_variable": "1",
+									"force": false
+								},
+								"delay": 0
+							},
+							{
+								"id": "zsptTHfIWMMMfFgU2qr5T",
+								"action": "bank_current_step",
+								"instance": "internal",
+								"options": {
+									"page_from_variable": false,
+									"page": 50,
+									"page_variable": "1",
+									"bank_from_variable": false,
+									"bank": 27,
+									"bank_variable": "1",
+									"step": 2
+								},
+								"delay": 100
+							},
+							{
+								"id": "4ZEywspLpIDHJ9-z7tRlv",
+								"action": "button_pressrelease",
+								"instance": "internal",
+								"options": {
+									"page_from_variable": false,
+									"page": 50,
+									"page_variable": "1",
+									"bank_from_variable": false,
+									"bank": 27,
+									"bank_variable": "1",
+									"force": false
+								},
+								"delay": 0
+							},
+							{
+								"id": "XyaxwQOAAIYdDgHqUusIf",
+								"action": "bank_current_step",
+								"instance": "internal",
+								"options": {
+									"page_from_variable": false,
+									"page": 50,
+									"page_variable": "1",
+									"bank_from_variable": false,
+									"bank": 28,
+									"bank_variable": "1",
+									"step": 2
+								},
+								"delay": 100
+							},
+							{
+								"id": "xmbL8y0C15KoBrsGMgYQO",
+								"action": "button_pressrelease",
+								"instance": "internal",
+								"options": {
+									"page_from_variable": false,
+									"page": 50,
+									"page_variable": "1",
+									"bank_from_variable": false,
+									"bank": 28,
+									"bank_variable": "1",
+									"force": false
+								},
+								"delay": 0
+							},
+							{
+								"id": "qroDCpsE01dadFDO_wTZX",
+								"action": "bank_current_step",
+								"instance": "internal",
+								"options": {
+									"page_from_variable": false,
+									"page": 50,
+									"page_variable": "1",
+									"bank_from_variable": false,
+									"bank": 29,
+									"bank_variable": "1",
+									"step": 2
+								},
+								"delay": 100
+							},
+							{
+								"id": "35_04uzpRqXMwutIKLGU4",
+								"action": "button_pressrelease",
+								"instance": "internal",
+								"options": {
+									"page_from_variable": false,
+									"page": 50,
+									"page_variable": "1",
+									"bank_from_variable": false,
+									"bank": 29,
+									"bank_variable": "1",
+									"force": false
+								},
+								"delay": 0
+							},
+							{
+								"id": "4t5C-YqPWXDK9Fs0m4Hvg",
+								"action": "bank_current_step",
+								"instance": "internal",
+								"options": {
+									"page_from_variable": false,
+									"page": 50,
+									"page_variable": "1",
+									"bank_from_variable": false,
+									"bank": 30,
+									"bank_variable": "1",
+									"step": 2
+								},
+								"delay": 100
+							},
+							{
+								"id": "LdM0fdF1aGggdcVn3Yxf2",
+								"action": "button_pressrelease",
+								"instance": "internal",
+								"options": {
+									"page_from_variable": false,
+									"page": 50,
+									"page_variable": "1",
+									"bank_from_variable": false,
+									"bank": 30,
+									"bank_variable": "1",
+									"force": false
+								},
+								"delay": 0
+							},
+							{
+								"id": "1Jq7BRYIxCqrReqdLoyiN",
+								"action": "bank_current_step",
+								"instance": "internal",
+								"options": {
+									"page_from_variable": false,
+									"page": 50,
+									"page_variable": "1",
+									"bank_from_variable": false,
+									"bank": 31,
+									"bank_variable": "1",
+									"step": 2
+								},
+								"delay": 100
+							},
+							{
+								"id": "XSaFONqFFXC4vsNgqHZk3",
+								"action": "button_pressrelease",
+								"instance": "internal",
+								"options": {
+									"page_from_variable": false,
+									"page": 50,
+									"page_variable": "1",
+									"bank_from_variable": false,
+									"bank": 31,
+									"bank_variable": "1",
+									"force": false
+								},
+								"delay": 0
+							},
+							{
+								"id": "R9O9bQOzyzY1x-HIhKJEV",
+								"action": "bank_current_step",
+								"instance": "internal",
+								"options": {
+									"page_from_variable": false,
+									"page": 50,
+									"page_variable": "1",
+									"bank_from_variable": false,
+									"bank": 32,
+									"bank_variable": "1",
+									"step": 1
+								},
+								"delay": 100
+							},
+							{
+								"id": "BTarXeqxlAiWvWZbGz2Ku",
+								"action": "button_pressrelease",
+								"instance": "internal",
+								"options": {
+									"page_from_variable": false,
+									"page": 50,
+									"page_variable": "1",
+									"bank_from_variable": false,
+									"bank": 32,
+									"bank_variable": "1",
+									"force": false
+								},
+								"delay": 0
+							},
+							{
+								"id": "dG9qQ2mBZpmm9o6_EoqVM",
+								"action": "bank_current_step",
+								"instance": "internal",
+								"options": {
+									"page_from_variable": false,
+									"page": 1,
+									"page_variable": "1",
+									"bank_from_variable": false,
+									"bank": 16,
+									"bank_variable": "1",
+									"step": 1
+								},
+								"delay": 100
+							},
+							{
+								"id": "J1EaBfFQxc9goAV9lsFwi",
+								"action": "button_pressrelease",
+								"instance": "internal",
+								"options": {
+									"page_from_variable": false,
+									"page": 1,
+									"page_variable": "1",
+									"bank_from_variable": false,
+									"bank": 16,
+									"bank_variable": "1",
+									"force": false
+								},
+								"delay": 0
 							}
 						],
 						"up": []
@@ -13924,7 +14267,8 @@
 					"instance_id": "internal",
 					"options": {
 						"page": 0,
-						"bank": 0
+						"bank": 0,
+						"latch_compatability": true
 					},
 					"style": {
 						"bgcolor": 26112,
@@ -13937,17 +14281,34 @@
 					"action_sets": {
 						"down": [
 							{
-								"id": "vyqUleXI0Rm5",
-								"label": "bitfocus-companion:button_release",
+								"id": "kV9HPKw_uC974q1iRttoq",
+								"action": "bank_current_step",
 								"instance": "internal",
-								"action": "button_release",
 								"options": {
+									"page_from_variable": false,
 									"page": 1,
+									"page_variable": "1",
+									"bank_from_variable": false,
 									"bank": 17,
-									"force": true
+									"bank_variable": "1",
+									"step": 2
 								},
-								"delay": 0,
-								"actionId": "button_release"
+								"delay": 0
+							},
+							{
+								"id": "ucwNlhrxtM8fFVH3xAI7v",
+								"action": "button_pressrelease",
+								"instance": "internal",
+								"options": {
+									"page_from_variable": false,
+									"page": 1,
+									"page_variable": "1",
+									"bank_from_variable": false,
+									"bank": 17,
+									"bank_variable": "1",
+									"force": false
+								},
+								"delay": 0
 							},
 							{
 								"id": "VnP_KiXVLm0U",
@@ -14071,17 +14432,34 @@
 								"delay": 100
 							},
 							{
-								"id": "4oenTSwVKgSj",
-								"label": "bitfocus-companion:button_release",
+								"id": "riRoyBUcrUfy1Ai50MLr7",
+								"action": "bank_current_step",
 								"instance": "internal",
-								"action": "button_release",
 								"options": {
+									"page_from_variable": false,
 									"page": 1,
+									"page_variable": "1",
+									"bank_from_variable": false,
 									"bank": 18,
-									"force": true
+									"bank_variable": "1",
+									"step": 2
 								},
-								"delay": 100,
-								"actionId": "button_release"
+								"delay": 100
+							},
+							{
+								"id": "J3CeyrkrpjADFmA7eYNQ9",
+								"action": "button_pressrelease",
+								"instance": "internal",
+								"options": {
+									"page_from_variable": false,
+									"page": 1,
+									"page_variable": "1",
+									"bank_from_variable": false,
+									"bank": 18,
+									"bank_variable": "1",
+									"force": false
+								},
+								"delay": 0
 							},
 							{
 								"id": "eWbYQz7XMmta",
@@ -14353,7 +14731,8 @@
 					"instance_id": "internal",
 					"options": {
 						"page": 0,
-						"bank": 0
+						"bank": 0,
+						"latch_compatability": true
 					},
 					"style": {
 						"bgcolor": 6684774,
@@ -35420,7 +35799,8 @@
 					"instance_id": "internal",
 					"options": {
 						"page": 0,
-						"bank": 0
+						"bank": 0,
+						"latch_compatability": true
 					},
 					"style": {
 						"bgcolor": 13056,
@@ -35601,7 +35981,8 @@
 					"instance_id": "internal",
 					"options": {
 						"page": 0,
-						"bank": 0
+						"bank": 0,
+						"latch_compatability": true
 					},
 					"style": {
 						"bgcolor": 13056,
@@ -35782,7 +36163,8 @@
 					"instance_id": "internal",
 					"options": {
 						"page": 0,
-						"bank": 0
+						"bank": 0,
+						"latch_compatability": true
 					},
 					"style": {
 						"bgcolor": 13056,
@@ -35963,7 +36345,8 @@
 					"instance_id": "internal",
 					"options": {
 						"page": 0,
-						"bank": 0
+						"bank": 0,
+						"latch_compatability": true
 					},
 					"style": {
 						"bgcolor": 13056,
@@ -36144,7 +36527,8 @@
 					"instance_id": "internal",
 					"options": {
 						"page": 0,
-						"bank": 0
+						"bank": 0,
+						"latch_compatability": true
 					},
 					"style": {
 						"bgcolor": 13056,
@@ -36325,7 +36709,8 @@
 					"instance_id": "internal",
 					"options": {
 						"page": 0,
-						"bank": 0
+						"bank": 0,
+						"latch_compatability": true
 					},
 					"style": {
 						"bgcolor": 13056,
@@ -36463,7 +36848,8 @@
 					"instance_id": "internal",
 					"options": {
 						"page": 0,
-						"bank": 0
+						"bank": 0,
+						"latch_compatability": true
 					},
 					"style": {
 						"bgcolor": 13056,
@@ -37771,7 +38157,8 @@
 					"instance_id": "internal",
 					"options": {
 						"page": 0,
-						"bank": 0
+						"bank": 0,
+						"latch_compatability": true
 					},
 					"style": {
 						"bgcolor": 13056,
@@ -37953,7 +38340,8 @@
 					"instance_id": "internal",
 					"options": {
 						"page": 0,
-						"bank": 0
+						"bank": 0,
+						"latch_compatability": true
 					},
 					"style": {
 						"bgcolor": 13056,
@@ -38134,7 +38522,8 @@
 					"instance_id": "internal",
 					"options": {
 						"page": 0,
-						"bank": 0
+						"bank": 0,
+						"latch_compatability": true
 					},
 					"style": {
 						"bgcolor": 13056,
@@ -38315,7 +38704,8 @@
 					"instance_id": "internal",
 					"options": {
 						"page": 0,
-						"bank": 0
+						"bank": 0,
+						"latch_compatability": true
 					},
 					"style": {
 						"bgcolor": 13056,
@@ -38496,7 +38886,8 @@
 					"instance_id": "internal",
 					"options": {
 						"page": 0,
-						"bank": 0
+						"bank": 0,
+						"latch_compatability": true
 					},
 					"style": {
 						"bgcolor": 13056,
@@ -38677,7 +39068,8 @@
 					"instance_id": "internal",
 					"options": {
 						"page": 0,
-						"bank": 0
+						"bank": 0,
+						"latch_compatability": true
 					},
 					"style": {
 						"bgcolor": 13056,
@@ -38815,7 +39207,8 @@
 					"instance_id": "internal",
 					"options": {
 						"page": 0,
-						"bank": 0
+						"bank": 0,
+						"latch_compatability": true
 					},
 					"style": {
 						"bgcolor": 13056,
@@ -59846,7 +60239,7 @@
 				"xOffset": 0,
 				"yOffset": 0
 			},
-			"page": 99,
+			"page": 60,
 			"name": "Elgato Streamdeck XL 32",
 			"type": "Elgato Streamdeck XL",
 			"integrationType": "elgato-streamdeck"
@@ -59860,7 +60253,7 @@
 				"xOffset": 0,
 				"yOffset": 0
 			},
-			"page": 99,
+			"page": 90,
 			"name": "Elgato Streamdeck 15",
 			"type": "Elgato Streamdeck MK2",
 			"integrationType": "elgato-streamdeck"
