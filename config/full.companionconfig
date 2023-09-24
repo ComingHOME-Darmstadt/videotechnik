@@ -1026,6 +1026,20 @@
 						"bgcolor": 16711680,
 						"text": "AUX läuft"
 					}
+				},
+				{
+					"id": "mxp5p3WLs-K1COMHTZ5Xf",
+					"type": "bank_current_step",
+					"instance_id": "internal",
+					"options": {
+						"page": 5,
+						"bank": 19,
+						"step": 1
+					},
+					"style": {
+						"color": 0,
+						"bgcolor": 0
+					}
 				}
 			],
 			"steps": {
@@ -1299,6 +1313,19 @@
 					"style": {
 						"bgcolor": 13056
 					}
+				},
+				{
+					"id": "gBqsgRrkQrlJzruAXhzwp",
+					"type": "bank_current_step",
+					"instance_id": "internal",
+					"options": {
+						"page": 5,
+						"bank": 27,
+						"step": 1
+					},
+					"style": {
+						"bgcolor": 10040115
+					}
 				}
 			],
 			"steps": {
@@ -1396,6 +1423,19 @@
 					},
 					"style": {
 						"bgcolor": 13056
+					}
+				},
+				{
+					"id": "Jp1RWXXjvx4j8Lb5hfDYF",
+					"type": "bank_current_step",
+					"instance_id": "internal",
+					"options": {
+						"page": 5,
+						"bank": 28,
+						"step": 1
+					},
+					"style": {
+						"bgcolor": 10040115
 					}
 				}
 			],
@@ -1495,6 +1535,20 @@
 					"style": {
 						"bgcolor": 13056
 					}
+				},
+				{
+					"id": "sv4z0kCfHPYe-8-Xp1f_n",
+					"type": "bank_current_step",
+					"instance_id": "internal",
+					"options": {
+						"page": 5,
+						"bank": 29,
+						"step": 1
+					},
+					"style": {
+						"bgcolor": 10040115,
+						"text": "Text\\nOFF"
+					}
 				}
 			],
 			"steps": {
@@ -1590,6 +1644,20 @@
 					},
 					"style": {
 						"bgcolor": 13056
+					}
+				},
+				{
+					"id": "TmaDTCCNPFskgN6-5ATFm",
+					"type": "bank_current_step",
+					"instance_id": "internal",
+					"options": {
+						"page": 5,
+						"bank": 29,
+						"step": 1
+					},
+					"style": {
+						"bgcolor": 10040115,
+						"text": "Text\\nOFF"
 					}
 				}
 			],
@@ -2066,6 +2134,20 @@
 						"text": "VIDEO läuft",
 						"color": 16777215
 					}
+				},
+				{
+					"id": "68bL9pmcvctSDXBkGZyup",
+					"type": "bank_current_step",
+					"instance_id": "internal",
+					"options": {
+						"page": 5,
+						"bank": 20,
+						"step": 1
+					},
+					"style": {
+						"color": 0,
+						"bgcolor": 0
+					}
 				}
 			],
 			"steps": {
@@ -2330,11 +2412,26 @@
 					"instance_id": "internal",
 					"options": {
 						"page": 0,
-						"bank": 0
+						"bank": 0,
+						"latch_compatability": true
 					},
 					"style": {
 						"bgcolor": 16711680,
 						"text": "Video -> Beamer OFF"
+					}
+				},
+				{
+					"id": "BhlMWcqY43hby5Lx0oEVr",
+					"type": "bank_current_step",
+					"instance_id": "internal",
+					"options": {
+						"page": 5,
+						"bank": 14,
+						"step": 1
+					},
+					"style": {
+						"color": 0,
+						"bgcolor": 0
 					}
 				}
 			],
@@ -2617,6 +2714,20 @@
 					"style": {
 						"bgcolor": 16711680
 					}
+				},
+				{
+					"id": "dh_WzcXXUZYiaYwM-QLBh",
+					"type": "bank_current_step",
+					"instance_id": "internal",
+					"options": {
+						"page": 5,
+						"bank": 9,
+						"step": 1
+					},
+					"style": {
+						"color": 0,
+						"bgcolor": 0
+					}
 				}
 			],
 			"steps": {
@@ -2709,6 +2820,20 @@
 					},
 					"style": {
 						"bgcolor": 16711680
+					}
+				},
+				{
+					"id": "AtqSN3D0VJCLXolrdUVXE",
+					"type": "bank_current_step",
+					"instance_id": "internal",
+					"options": {
+						"page": 5,
+						"bank": 10,
+						"step": 1
+					},
+					"style": {
+						"color": 0,
+						"bgcolor": 0
 					}
 				}
 			],
@@ -2803,6 +2928,20 @@
 					"style": {
 						"bgcolor": 16711680
 					}
+				},
+				{
+					"id": "6pw0O8ekFVxqS7OTgBKE_",
+					"type": "bank_current_step",
+					"instance_id": "internal",
+					"options": {
+						"page": 5,
+						"bank": 11,
+						"step": 1
+					},
+					"style": {
+						"color": 0,
+						"bgcolor": 0
+					}
 				}
 			],
 			"steps": {
@@ -2895,6 +3034,20 @@
 					},
 					"style": {
 						"bgcolor": 16711680
+					}
+				},
+				{
+					"id": "NLUJXR4EJhx8rP-XBu6xp",
+					"type": "bank_current_step",
+					"instance_id": "internal",
+					"options": {
+						"page": 5,
+						"bank": 12,
+						"step": 1
+					},
+					"style": {
+						"color": 0,
+						"bgcolor": 0
 					}
 				}
 			],
@@ -2989,6 +3142,20 @@
 					"style": {
 						"bgcolor": 16711680
 					}
+				},
+				{
+					"id": "r-4KwSH5Fav2SXFXZhFzu",
+					"type": "bank_current_step",
+					"instance_id": "internal",
+					"options": {
+						"page": 5,
+						"bank": 17,
+						"step": 1
+					},
+					"style": {
+						"color": 0,
+						"bgcolor": 0
+					}
 				}
 			],
 			"steps": {
@@ -3082,6 +3249,20 @@
 					"style": {
 						"bgcolor": 16711680
 					}
+				},
+				{
+					"id": "BH84eRHvyjDhURTyIcN83",
+					"type": "bank_current_step",
+					"instance_id": "internal",
+					"options": {
+						"page": 5,
+						"bank": 18,
+						"step": 1
+					},
+					"style": {
+						"color": 0,
+						"bgcolor": 0
+					}
 				}
 			],
 			"steps": {
@@ -3174,6 +3355,20 @@
 					},
 					"style": {
 						"bgcolor": 16711680
+					}
+				},
+				{
+					"id": "OWFX7ZPoftdxd6AbGMdjg",
+					"type": "bank_current_step",
+					"instance_id": "internal",
+					"options": {
+						"page": 5,
+						"bank": 19,
+						"step": 1
+					},
+					"style": {
+						"color": 0,
+						"bgcolor": 0
 					}
 				}
 			],
@@ -3803,6 +3998,20 @@
 					"style": {
 						"bgcolor": 16737792
 					}
+				},
+				{
+					"id": "TA2iykTlUsqGf958FgwT-",
+					"type": "bank_current_step",
+					"instance_id": "internal",
+					"options": {
+						"page": 5,
+						"bank": 20,
+						"step": 1
+					},
+					"style": {
+						"color": 0,
+						"bgcolor": 0
+					}
 				}
 			],
 			"steps": {
@@ -3883,6 +4092,20 @@
 					},
 					"style": {
 						"bgcolor": 16737792
+					}
+				},
+				{
+					"id": "GrpWqbDIdi4SvUPDgViWp",
+					"type": "bank_current_step",
+					"instance_id": "internal",
+					"options": {
+						"page": 5,
+						"bank": 20,
+						"step": 1
+					},
+					"style": {
+						"color": 0,
+						"bgcolor": 0
 					}
 				}
 			],
@@ -3965,6 +4188,20 @@
 					"style": {
 						"bgcolor": 16737792
 					}
+				},
+				{
+					"id": "OiMRp8H6Uo-KNJiEzoHCi",
+					"type": "bank_current_step",
+					"instance_id": "internal",
+					"options": {
+						"page": 5,
+						"bank": 20,
+						"step": 1
+					},
+					"style": {
+						"color": 0,
+						"bgcolor": 0
+					}
 				}
 			],
 			"steps": {
@@ -4046,6 +4283,20 @@
 					"style": {
 						"bgcolor": 16737792
 					}
+				},
+				{
+					"id": "Fp-GI3CnydSuB1nwP-I2j",
+					"type": "bank_current_step",
+					"instance_id": "internal",
+					"options": {
+						"page": 5,
+						"bank": 20,
+						"step": 1
+					},
+					"style": {
+						"color": 0,
+						"bgcolor": 0
+					}
 				}
 			],
 			"steps": {
@@ -4126,6 +4377,20 @@
 					},
 					"style": {
 						"bgcolor": 16737792
+					}
+				},
+				{
+					"id": "PJPtgnqxvEEPFxGTrW8RA",
+					"type": "bank_current_step",
+					"instance_id": "internal",
+					"options": {
+						"page": 5,
+						"bank": 20,
+						"step": 1
+					},
+					"style": {
+						"color": 0,
+						"bgcolor": 0
 					}
 				}
 			],
@@ -4334,6 +4599,20 @@
 					"style": {
 						"bgcolor": 16737792
 					}
+				},
+				{
+					"id": "eujHJaUhO627eFo1a8V44",
+					"type": "bank_current_step",
+					"instance_id": "internal",
+					"options": {
+						"page": 5,
+						"bank": 19,
+						"step": 1
+					},
+					"style": {
+						"color": 0,
+						"bgcolor": 0
+					}
 				}
 			],
 			"steps": {
@@ -4402,6 +4681,20 @@
 					"style": {
 						"bgcolor": 16737792
 					}
+				},
+				{
+					"id": "SCuASUpJKIKAfONYUfvT2",
+					"type": "bank_current_step",
+					"instance_id": "internal",
+					"options": {
+						"page": 5,
+						"bank": 19,
+						"step": 1
+					},
+					"style": {
+						"color": 0,
+						"bgcolor": 0
+					}
 				}
 			],
 			"steps": {
@@ -4469,6 +4762,20 @@
 					},
 					"style": {
 						"bgcolor": 16737792
+					}
+				},
+				{
+					"id": "EgKTP6reCYFJ6m86UoGJE",
+					"type": "bank_current_step",
+					"instance_id": "internal",
+					"options": {
+						"page": 5,
+						"bank": 19,
+						"step": 1
+					},
+					"style": {
+						"color": 0,
+						"bgcolor": 0
 					}
 				}
 			],
@@ -4605,6 +4912,21 @@
 					"style": {
 						"bgcolor": 16737792
 					}
+				},
+				{
+					"id": "07a85QZE6JEb2YtHic4W6",
+					"type": "bank_current_step",
+					"instance_id": "internal",
+					"options": {
+						"page": 5,
+						"bank": 11,
+						"step": 1
+					},
+					"style": {
+						"color": 4737096,
+						"bgcolor": 0,
+						"text": "AUX\\nOpenLP full OFF"
+					}
 				}
 			],
 			"steps": {
@@ -4671,6 +4993,21 @@
 					},
 					"style": {
 						"bgcolor": 16737792
+					}
+				},
+				{
+					"id": "0jWn_at2PDoWkdJqaHRkD",
+					"type": "bank_current_step",
+					"instance_id": "internal",
+					"options": {
+						"page": 5,
+						"bank": 19,
+						"step": 1
+					},
+					"style": {
+						"color": 4737096,
+						"bgcolor": 0,
+						"text": "AUX\\nLoops\\nOFF"
 					}
 				}
 			],
@@ -7143,6 +7480,20 @@
 					"style": {
 						"bgcolor": 13056
 					}
+				},
+				{
+					"id": "wFs6-4G1I3zh80Dk9feCm",
+					"type": "bank_current_step",
+					"instance_id": "internal",
+					"options": {
+						"page": 5,
+						"bank": 19,
+						"step": 1
+					},
+					"style": {
+						"color": 0,
+						"bgcolor": 0
+					}
 				}
 			],
 			"steps": {
@@ -7220,6 +7571,20 @@
 					"style": {
 						"bgcolor": 13056
 					}
+				},
+				{
+					"id": "n0_v0j9V8Dqf76Brogtkd",
+					"type": "bank_current_step",
+					"instance_id": "internal",
+					"options": {
+						"page": 5,
+						"bank": 9,
+						"step": 1
+					},
+					"style": {
+						"color": 0,
+						"bgcolor": 0
+					}
 				}
 			],
 			"steps": {
@@ -7286,6 +7651,20 @@
 					},
 					"style": {
 						"bgcolor": 13056
+					}
+				},
+				{
+					"id": "KXc4jhEZdTYJ7eRb7LrIi",
+					"type": "bank_current_step",
+					"instance_id": "internal",
+					"options": {
+						"page": 5,
+						"bank": 10,
+						"step": 1
+					},
+					"style": {
+						"color": 0,
+						"bgcolor": 0
 					}
 				}
 			],
@@ -7354,6 +7733,20 @@
 					"style": {
 						"bgcolor": 13056
 					}
+				},
+				{
+					"id": "8f0HB4p0liD98e6UPNDXb",
+					"type": "bank_current_step",
+					"instance_id": "internal",
+					"options": {
+						"page": 5,
+						"bank": 11,
+						"step": 1
+					},
+					"style": {
+						"color": 0,
+						"bgcolor": 0
+					}
 				}
 			],
 			"steps": {
@@ -7420,6 +7813,20 @@
 					},
 					"style": {
 						"bgcolor": 13056
+					}
+				},
+				{
+					"id": "GFjeFE3hVBPfF4NA5zoln",
+					"type": "bank_current_step",
+					"instance_id": "internal",
+					"options": {
+						"page": 5,
+						"bank": 12,
+						"step": 1
+					},
+					"style": {
+						"color": 0,
+						"bgcolor": 0
 					}
 				}
 			],
@@ -7488,6 +7895,20 @@
 					"style": {
 						"bgcolor": 13056
 					}
+				},
+				{
+					"id": "wsVx_3FvgFo_0txsTtu_G",
+					"type": "bank_current_step",
+					"instance_id": "internal",
+					"options": {
+						"page": 5,
+						"bank": 17,
+						"step": 1
+					},
+					"style": {
+						"color": 0,
+						"bgcolor": 0
+					}
 				}
 			],
 			"steps": {
@@ -7554,6 +7975,20 @@
 					},
 					"style": {
 						"bgcolor": 13056
+					}
+				},
+				{
+					"id": "WOeN60M1P7SpR7SxVdvBN",
+					"type": "bank_current_step",
+					"instance_id": "internal",
+					"options": {
+						"page": 5,
+						"bank": 18,
+						"step": 1
+					},
+					"style": {
+						"color": 0,
+						"bgcolor": 0
 					}
 				}
 			],
@@ -9969,6 +10404,20 @@
 					"style": {
 						"bgcolor": 10040115
 					}
+				},
+				{
+					"id": "FpY6VF2RPJo7BbEZK9vmI",
+					"type": "bank_current_step",
+					"instance_id": "internal",
+					"options": {
+						"page": 5,
+						"bank": 19,
+						"step": 1
+					},
+					"style": {
+						"color": 0,
+						"bgcolor": 0
+					}
 				}
 			],
 			"steps": {
@@ -10158,6 +10607,20 @@
 					"style": {
 						"bgcolor": 10040115
 					}
+				},
+				{
+					"id": "EGfELzunRWAY_WSKmmKyt",
+					"type": "bank_current_step",
+					"instance_id": "internal",
+					"options": {
+						"page": 5,
+						"bank": 11,
+						"step": 1
+					},
+					"style": {
+						"color": 0,
+						"bgcolor": 0
+					}
 				}
 			],
 			"steps": {
@@ -10245,6 +10708,20 @@
 					"style": {
 						"bgcolor": 10040115
 					}
+				},
+				{
+					"id": "HSiRlHruNenUtxmq3fXgY",
+					"type": "bank_current_step",
+					"instance_id": "internal",
+					"options": {
+						"page": 5,
+						"bank": 12,
+						"step": 1
+					},
+					"style": {
+						"color": 0,
+						"bgcolor": 0
+					}
 				}
 			],
 			"steps": {
@@ -10331,6 +10808,20 @@
 					},
 					"style": {
 						"bgcolor": 10040115
+					}
+				},
+				{
+					"id": "io1azJaI0ljO1r-44R0Tw",
+					"type": "bank_current_step",
+					"instance_id": "internal",
+					"options": {
+						"page": 5,
+						"bank": 17,
+						"step": 1
+					},
+					"style": {
+						"color": 0,
+						"bgcolor": 0
 					}
 				}
 			],
@@ -51897,7 +52388,23 @@
 				"stepAutoProgress": true,
 				"rotaryActions": false
 			},
-			"feedbacks": [],
+			"feedbacks": [
+				{
+					"id": "WHYACoQYSi0-pGZQByDFR",
+					"type": "bank_current_step",
+					"instance_id": "internal",
+					"options": {
+						"page": 5,
+						"bank": 27,
+						"step": 1
+					},
+					"style": {
+						"bgcolor": 0,
+						"text": "Audio\\nPRG\\nOFF",
+						"color": 4737096
+					}
+				}
+			],
 			"steps": {
 				"0": {
 					"action_sets": {
@@ -51940,7 +52447,23 @@
 				"stepAutoProgress": true,
 				"rotaryActions": false
 			},
-			"feedbacks": [],
+			"feedbacks": [
+				{
+					"id": "05-0Yp9TTmB9wWsnL_Rxk",
+					"type": "bank_current_step",
+					"instance_id": "internal",
+					"options": {
+						"page": 5,
+						"bank": 28,
+						"step": 1
+					},
+					"style": {
+						"bgcolor": 0,
+						"text": "Audio\\nN-1\\nOFF",
+						"color": 4737096
+					}
+				}
+			],
 			"steps": {
 				"0": {
 					"action_sets": {
@@ -52069,7 +52592,23 @@
 				"stepAutoProgress": true,
 				"rotaryActions": false
 			},
-			"feedbacks": [],
+			"feedbacks": [
+				{
+					"id": "2M9jaWaCHFbjY2SbTq6w1",
+					"type": "bank_current_step",
+					"instance_id": "internal",
+					"options": {
+						"page": 5,
+						"bank": 14,
+						"step": 1
+					},
+					"style": {
+						"bgcolor": 0,
+						"text": "Beamer\\nOFF",
+						"color": 4737096
+					}
+				}
+			],
 			"steps": {
 				"0": {
 					"action_sets": {
@@ -52112,7 +52651,23 @@
 				"stepAutoProgress": true,
 				"rotaryActions": false
 			},
-			"feedbacks": [],
+			"feedbacks": [
+				{
+					"id": "O1UCVwQL2CNuUO5Ku5WyG",
+					"type": "bank_current_step",
+					"instance_id": "internal",
+					"options": {
+						"page": 5,
+						"bank": 18,
+						"step": 1
+					},
+					"style": {
+						"color": 4737096,
+						"bgcolor": 0,
+						"text": "PiP\\nOFF"
+					}
+				}
+			],
 			"steps": {
 				"0": {
 					"action_sets": {
@@ -52241,7 +52796,23 @@
 				"stepAutoProgress": true,
 				"rotaryActions": false
 			},
-			"feedbacks": [],
+			"feedbacks": [
+				{
+					"id": "OV3cGNJMmF0ja0jMq4pov",
+					"type": "bank_current_step",
+					"instance_id": "internal",
+					"options": {
+						"page": 5,
+						"bank": 27,
+						"step": 1
+					},
+					"style": {
+						"color": 16777215,
+						"bgcolor": 10040115,
+						"text": "Audio\\nPRG\\nOFF"
+					}
+				}
+			],
 			"steps": {
 				"0": {
 					"action_sets": {
@@ -52272,7 +52843,23 @@
 				"stepAutoProgress": true,
 				"rotaryActions": false
 			},
-			"feedbacks": [],
+			"feedbacks": [
+				{
+					"id": "JItwUYg9zls0hVHzVWRRK",
+					"type": "bank_current_step",
+					"instance_id": "internal",
+					"options": {
+						"page": 5,
+						"bank": 28,
+						"step": 1
+					},
+					"style": {
+						"color": 16777215,
+						"bgcolor": 10040115,
+						"text": "Audio\\nN-1\\nOFF"
+					}
+				}
+			],
 			"steps": {
 				"0": {
 					"action_sets": {
@@ -52365,7 +52952,23 @@
 				"stepAutoProgress": true,
 				"rotaryActions": false
 			},
-			"feedbacks": [],
+			"feedbacks": [
+				{
+					"id": "P24_S4hvM5JlXujNSBuP1",
+					"type": "bank_current_step",
+					"instance_id": "internal",
+					"options": {
+						"page": 5,
+						"bank": 14,
+						"step": 1
+					},
+					"style": {
+						"color": 16777215,
+						"bgcolor": 10040115,
+						"text": "Beamer\\nOFF"
+					}
+				}
+			],
 			"steps": {
 				"0": {
 					"action_sets": {
@@ -52396,7 +52999,23 @@
 				"stepAutoProgress": true,
 				"rotaryActions": false
 			},
-			"feedbacks": [],
+			"feedbacks": [
+				{
+					"id": "5Yb8bg2d1UYdKt2_dRbqA",
+					"type": "bank_current_step",
+					"instance_id": "internal",
+					"options": {
+						"page": 5,
+						"bank": 18,
+						"step": 1
+					},
+					"style": {
+						"color": 16777215,
+						"bgcolor": 10040115,
+						"text": "PiP\\nOFF"
+					}
+				}
+			],
 			"steps": {
 				"0": {
 					"action_sets": {
@@ -55788,7 +56407,22 @@
 				"stepAutoProgress": true,
 				"rotaryActions": false
 			},
-			"feedbacks": [],
+			"feedbacks": [
+				{
+					"id": "pJlYLh6Hktnd0XZiFIXOW",
+					"type": "bank_current_step",
+					"instance_id": "internal",
+					"options": {
+						"page": 5,
+						"bank": 15,
+						"step": 1
+					},
+					"style": {
+						"bgcolor": 10040115,
+						"text": "STAGE\\nOFF"
+					}
+				}
+			],
 			"steps": {
 				"0": {
 					"action_sets": {
