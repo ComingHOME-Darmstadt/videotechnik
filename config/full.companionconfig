@@ -12238,6 +12238,21 @@
 								"delay": 100
 							},
 							{
+								"id": "fZB7ntQUu4Y2-Ds9ZBKtC",
+								"action": "button_pressrelease",
+								"instance": "internal",
+								"options": {
+									"page_from_variable": false,
+									"page": 3,
+									"page_variable": "1",
+									"bank_from_variable": false,
+									"bank": 22,
+									"bank_variable": "1",
+									"force": false
+								},
+								"delay": 100
+							},
+							{
 								"id": "Yc0scxruwnCK",
 								"label": "4YIpLwJwP:source",
 								"instance": "4YIpLwJwP",
