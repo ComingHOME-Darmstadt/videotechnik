@@ -54856,75 +54856,93 @@
 		},
 		"cam1pos1label": {
 			"description": "A custom variable",
-			"defaultValue": "Totale"
+			"defaultValue": "Totale",
+			"persistCurrentValue": true
 		},
 		"cam1pos2label": {
 			"description": "A custom variable",
-			"defaultValue": "Band"
+			"defaultValue": "Band",
+			"persistCurrentValue": true
 		},
 		"cam1pos3label": {
 			"description": "A custom variable",
-			"defaultValue": "Pos 3"
+			"defaultValue": "Pos 3",
+			"persistCurrentValue": true
 		},
 		"cam1pos4label": {
 			"description": "A custom variable",
-			"defaultValue": "Pos 4"
+			"defaultValue": "Pos 4",
+			"persistCurrentValue": true
 		},
 		"cam1pos5label": {
 			"description": "A custom variable",
-			"defaultValue": "Pos 5"
+			"defaultValue": "Pos 5",
+			"persistCurrentValue": true
 		},
 		"cam1pos6label": {
 			"description": "A custom variable",
-			"defaultValue": "Pos 6"
+			"defaultValue": "Pos 6",
+			"persistCurrentValue": true
 		},
 		"cam1pos7label": {
 			"description": "A custom variable",
-			"defaultValue": "Pos 7"
+			"defaultValue": "Pos 7",
+			"persistCurrentValue": true
 		},
 		"cam1pos8label": {
 			"description": "A custom variable",
-			"defaultValue": "Sprecher++"
+			"defaultValue": "Sprecher++",
+			"persistCurrentValue": true
 		},
 		"cam1pos9label": {
 			"description": "A custom variable",
-			"defaultValue": "Sprecher"
+			"defaultValue": "Sprecher",
+			"persistCurrentValue": true
 		},
 		"cam2pos1label": {
 			"description": "A custom variable",
-			"defaultValue": "Totale"
+			"defaultValue": "Totale",
+			"persistCurrentValue": true
 		},
 		"cam2pos2label": {
 			"description": "A custom variable",
-			"defaultValue": "Band"
+			"defaultValue": "Band",
+			"persistCurrentValue": true
 		},
 		"cam2pos3label": {
 			"description": "A custom variable",
-			"defaultValue": "Pos 3"
+			"defaultValue": "Pos 3",
+			"persistCurrentValue": true
 		},
 		"cam2pos4label": {
 			"description": "A custom variable",
-			"defaultValue": "Pos 4"
+			"defaultValue": "Pos 4",
+			"persistCurrentValue": true
 		},
 		"cam2pos5label": {
 			"description": "A custom variable",
-			"defaultValue": "Pos 5"
-		},
-		"cam2pos7label": {
-			"description": "A custom variable",
-			"defaultValue": "Pos 7"
-		},
-		"cam2pos8label": {
-			"description": "A custom variable",
-			"defaultValue": "Sprecher++"
-		},
-		"cam2pos9label": {
-			"description": "A custom variable",
-			"defaultValue": "Sprecher"
+			"defaultValue": "Pos 5",
+			"persistCurrentValue": true
 		},
 		"cam2pos6label": {
 			"description": "A custom variable",
-			"defaultValue": "Pos 6"
+			"defaultValue": "Pos 6",
+			"persistCurrentValue": true
+		},
+		"cam2pos7label": {
+			"description": "A custom variable",
+			"defaultValue": "Pos 7",
+			"persistCurrentValue": true
+		},
+		"cam2pos8label": {
+			"description": "A custom variable",
+			"defaultValue": "Sprecher++",
+			"persistCurrentValue": true
+		},
+		"cam2pos9label": {
+			"description": "A custom variable",
+			"defaultValue": "Sprecher",
+			"persistCurrentValue": true
 		},
 		"input1label": {
 			"description": "A custom variable",

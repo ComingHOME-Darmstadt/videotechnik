@@ -36,6 +36,13 @@ for /F "tokens=1,2 delims==" %%i in (%cfgFile%) do (
 
   set varValue=!varValue: =%%20!
   set varValue=!varValue:+=%%2B!
+  set varValue=!varValue:Ñ=%%C3%%A4!
+  set varValue=!varValue:î=%%C3%%B6!
+  set varValue=!varValue:Å=%%C3%%BC!
+  set varValue=!varValue:é=%%C3%%84!
+  set varValue=!varValue:ô=%%C3%%96!
+  set varValue=!varValue:ö=%%C3%%9C!
+  set varValue=!varValue:·=%%C3%%9F!
 
   curl -s http://127.0.0.1:8888/set/custom-variable/cam1!varName!label?value=!varValue!
 )
