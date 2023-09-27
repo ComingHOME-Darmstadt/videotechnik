@@ -279,7 +279,7 @@
 			"name": "sendInputLogik"
 		},
 		"93": {
-			"name": "allgemeine Logik"
+			"name": "PAGE"
 		},
 		"94": {
 			"name": "Mix2"
@@ -2120,6 +2120,20 @@
 				"rotaryActions": false
 			},
 			"feedbacks": [
+				{
+					"id": "rQjBOcf46FmC5lbO0HM0M",
+					"type": "variable_value",
+					"instance_id": "internal",
+					"options": {
+						"variable": "internal:custom_videoCurrent",
+						"op": "ne",
+						"value": ""
+					},
+					"style": {
+						"color": 16777215,
+						"text": "VIDEO\\nPLAY"
+					}
+				},
 				{
 					"id": "E5tS9AL-UOG",
 					"type": "bank_pushed",
@@ -4039,19 +4053,6 @@
 									"value": "video-01"
 								},
 								"delay": 0
-							},
-							{
-								"id": "k4VDJ5dIq9K",
-								"label": "bitfocus-companion:button_press",
-								"instance": "internal",
-								"action": "button_press",
-								"options": {
-									"page": 93,
-									"bank": 21,
-									"force": true
-								},
-								"delay": 0,
-								"actionId": "button_press"
 							}
 						],
 						"up": []
@@ -4134,19 +4135,6 @@
 									"value": "video-02"
 								},
 								"delay": 0
-							},
-							{
-								"id": "K8pWSmL5i8V",
-								"label": "bitfocus-companion:button_press",
-								"instance": "internal",
-								"action": "button_press",
-								"options": {
-									"page": 93,
-									"bank": 21,
-									"force": true
-								},
-								"delay": 0,
-								"actionId": "button_press"
 							}
 						],
 						"up": []
@@ -4229,19 +4217,6 @@
 									"value": "video-03"
 								},
 								"delay": 0
-							},
-							{
-								"id": "GWIgIyCLWwN",
-								"label": "bitfocus-companion:button_press",
-								"instance": "internal",
-								"action": "button_press",
-								"options": {
-									"page": 93,
-									"bank": 21,
-									"force": true
-								},
-								"delay": 0,
-								"actionId": "button_press"
 							}
 						],
 						"up": []
@@ -4324,19 +4299,6 @@
 									"value": "video-04"
 								},
 								"delay": 0
-							},
-							{
-								"id": "sbS2JO5XHf3",
-								"label": "bitfocus-companion:button_press",
-								"instance": "internal",
-								"action": "button_press",
-								"options": {
-									"page": 93,
-									"bank": 21,
-									"force": true
-								},
-								"delay": 0,
-								"actionId": "button_press"
 							}
 						],
 						"up": []
@@ -4419,19 +4381,6 @@
 									"value": "video-05"
 								},
 								"delay": 0
-							},
-							{
-								"id": "_iRzB1af7bF",
-								"label": "bitfocus-companion:button_press",
-								"instance": "internal",
-								"action": "button_press",
-								"options": {
-									"page": 93,
-									"bank": 21,
-									"force": true
-								},
-								"delay": 0,
-								"actionId": "button_press"
 							}
 						],
 						"up": []
@@ -49330,62 +49279,6 @@
 								},
 								"delay": 0,
 								"actionId": "button_pressrelease_condition"
-							}
-						],
-						"up": []
-					},
-					"options": {
-						"runWhileHeld": []
-					}
-				}
-			}
-		},
-		"bank:93-21": {
-			"type": "button",
-			"style": {
-				"text": "set VIDEO Play",
-				"size": "auto",
-				"png": null,
-				"alignment": "center:center",
-				"pngalignment": "center:center",
-				"color": 16777215,
-				"bgcolor": 0,
-				"show_topbar": "default",
-				"latch": false
-			},
-			"options": {
-				"relativeDelay": false,
-				"stepAutoProgress": true,
-				"rotaryActions": false
-			},
-			"feedbacks": [],
-			"steps": {
-				"0": {
-					"action_sets": {
-						"down": [
-							{
-								"id": "gbqe2D4XWtp",
-								"label": "bitfocus-companion:button_text",
-								"instance": "internal",
-								"action": "button_text",
-								"options": {
-									"label": "VIDEO\\nPLAY",
-									"page": 1,
-									"bank": 21
-								},
-								"delay": 0
-							},
-							{
-								"id": "f3ETt7zXjO1",
-								"label": "bitfocus-companion:textcolor",
-								"instance": "internal",
-								"action": "textcolor",
-								"options": {
-									"color": 16777215,
-									"page": 1,
-									"bank": 21
-								},
-								"delay": 0
 							}
 						],
 						"up": []
