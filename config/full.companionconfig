@@ -55208,7 +55208,7 @@
 				"xOffset": 0,
 				"yOffset": 0
 			},
-			"page": 60,
+			"page": 99,
 			"name": "Elgato Streamdeck XL 32",
 			"type": "Elgato Streamdeck XL",
 			"integrationType": "elgato-streamdeck"
@@ -55222,7 +55222,7 @@
 				"xOffset": 0,
 				"yOffset": 0
 			},
-			"page": 90,
+			"page": 99,
 			"name": "Elgato Streamdeck 15",
 			"type": "Elgato Streamdeck MK2",
 			"integrationType": "elgato-streamdeck"
