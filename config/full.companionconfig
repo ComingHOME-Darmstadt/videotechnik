@@ -3,7 +3,7 @@
 	"type": "full",
 	"pages": {
 		"1": {
-			"name": "PAGE"
+			"name": "Config"
 		},
 		"2": {
 			"name": "VideoAux"
@@ -801,13 +801,17 @@
 					"action_sets": {
 						"down": [
 							{
-								"id": "uWBLMe7QkZbuOhCAzPyo4",
-								"label": "PY98Cj8Y2:send_int",
-								"instance": "MyUTAdVml73UUtirYNSX4",
-								"action": "send_int",
+								"id": "bR1WHGJ3KvBG1Sgf1kJUE",
+								"action": "button_pressrelease",
+								"instance": "internal",
 								"options": {
-									"path": "/control/prev_video-01/preview",
-									"int": "1"
+									"page_from_variable": false,
+									"page": 1,
+									"page_variable": "1",
+									"bank_from_variable": false,
+									"bank": 1,
+									"bank_variable": "1",
+									"force": false
 								},
 								"delay": 0
 							},
@@ -883,13 +887,17 @@
 					"action_sets": {
 						"down": [
 							{
-								"id": "vMtwuLBqazCzBk-OE1e08",
-								"label": "PY98Cj8Y2:send_int",
-								"instance": "MyUTAdVml73UUtirYNSX4",
-								"action": "send_int",
+								"id": "ii-1FCBrAqh0sjVRWmQDv",
+								"action": "button_pressrelease",
+								"instance": "internal",
 								"options": {
-									"path": "/control/prev_video-02/preview",
-									"int": 1
+									"page_from_variable": false,
+									"page": 1,
+									"page_variable": "1",
+									"bank_from_variable": false,
+									"bank": 2,
+									"bank_variable": "1",
+									"force": false
 								},
 								"delay": 0
 							},
@@ -965,13 +973,17 @@
 					"action_sets": {
 						"down": [
 							{
-								"id": "23rCUdS1C78yRgdF7VI30",
-								"label": "PY98Cj8Y2:send_int",
-								"instance": "MyUTAdVml73UUtirYNSX4",
-								"action": "send_int",
+								"id": "zoH2JwfO-fCexJHIzxiww",
+								"action": "button_pressrelease",
+								"instance": "internal",
 								"options": {
-									"path": "/control/prev_video-03/preview",
-									"int": 1
+									"page_from_variable": false,
+									"page": 1,
+									"page_variable": "1",
+									"bank_from_variable": false,
+									"bank": 3,
+									"bank_variable": "1",
+									"force": false
 								},
 								"delay": 0
 							},
@@ -1047,13 +1059,17 @@
 					"action_sets": {
 						"down": [
 							{
-								"id": "3yBO8Pko7DKIUa3Jw6koh",
-								"label": "PY98Cj8Y2:send_int",
-								"instance": "MyUTAdVml73UUtirYNSX4",
-								"action": "send_int",
+								"id": "e8lmODNixkWQGV7WOd8M2",
+								"action": "button_pressrelease",
+								"instance": "internal",
 								"options": {
-									"path": "/control/prev_video-04/preview",
-									"int": 1
+									"page_from_variable": false,
+									"page": 1,
+									"page_variable": "1",
+									"bank_from_variable": false,
+									"bank": 4,
+									"bank_variable": "1",
+									"force": false
 								},
 								"delay": 0
 							},
@@ -1129,13 +1145,17 @@
 					"action_sets": {
 						"down": [
 							{
-								"id": "sEMhBXcx5ekAzRxjaUM2M",
-								"label": "PY98Cj8Y2:send_int",
-								"instance": "MyUTAdVml73UUtirYNSX4",
-								"action": "send_int",
+								"id": "Q1UYyLfff2NkDV7fnFYN5",
+								"action": "button_pressrelease",
+								"instance": "internal",
 								"options": {
-									"path": "/control/prev_video-05/preview",
-									"int": 1
+									"page_from_variable": false,
+									"page": 1,
+									"page_variable": "1",
+									"bank_from_variable": false,
+									"bank": 5,
+									"bank_variable": "1",
+									"force": false
 								},
 								"delay": 0
 							},
@@ -54808,6 +54828,291 @@
 								},
 								"delay": 100,
 								"actionId": "button_pressrelease"
+							}
+						],
+						"up": []
+					},
+					"options": {
+						"runWhileHeld": []
+					}
+				}
+			}
+		},
+		"bank:1-1": {
+			"type": "button",
+			"style": {
+				"text": "load\\nVideo 01",
+				"size": "14",
+				"png": null,
+				"alignment": "center:center",
+				"pngalignment": "center:center",
+				"color": 16777215,
+				"bgcolor": 16724889,
+				"show_topbar": "default"
+			},
+			"options": {
+				"relativeDelay": false,
+				"stepAutoProgress": true
+			},
+			"feedbacks": [],
+			"steps": {
+				"0": {
+					"action_sets": {
+						"down": [
+							{
+								"id": "zUXFYA70OVWc8HpW5BJhC",
+								"action": "LOAD",
+								"instance": "Mva1cDZGrqAQwJtvKKl2I",
+								"options": {
+									"channel": "18",
+									"layer": "10",
+									"clip_dd": "VIDEOS/UMBAUCOMINGHOMEPART4",
+									"clip": "",
+									"loop": "false",
+									"auto": "false",
+									"transition": "CUT",
+									"transition_duration": "",
+									"transition_tween": "linear"
+								},
+								"delay": 0
+							}
+						],
+						"up": []
+					},
+					"options": {
+						"runWhileHeld": []
+					}
+				}
+			}
+		},
+		"bank:1-32": {
+			"type": "button",
+			"style": {
+				"text": "reload Video-Auswahl",
+				"size": "auto",
+				"png": null,
+				"alignment": "center:center",
+				"pngalignment": "center:center",
+				"color": 16777215,
+				"bgcolor": 17664,
+				"show_topbar": "default"
+			},
+			"options": {
+				"relativeDelay": false,
+				"stepAutoProgress": true
+			},
+			"feedbacks": [],
+			"steps": {
+				"0": {
+					"action_sets": {
+						"down": [
+							{
+								"id": "TAsGKxpJvJSlAR9fL46y2",
+								"action": "instance_control",
+								"instance": "internal",
+								"options": {
+									"instance_id": "Mva1cDZGrqAQwJtvKKl2I",
+									"enable": "false"
+								},
+								"delay": 0
+							},
+							{
+								"id": "abpmfl6OK9uv3_K-qitcb",
+								"action": "instance_control",
+								"instance": "internal",
+								"options": {
+									"instance_id": "Mva1cDZGrqAQwJtvKKl2I",
+									"enable": "true"
+								},
+								"delay": 100
+							}
+						],
+						"up": []
+					},
+					"options": {
+						"runWhileHeld": []
+					}
+				}
+			}
+		},
+		"bank:1-2": {
+			"type": "button",
+			"style": {
+				"text": "load\\nVideo 02",
+				"size": "14",
+				"png": null,
+				"alignment": "center:center",
+				"pngalignment": "center:center",
+				"color": 16777215,
+				"bgcolor": 16724889,
+				"show_topbar": "default"
+			},
+			"options": {
+				"relativeDelay": false,
+				"stepAutoProgress": true
+			},
+			"feedbacks": [],
+			"steps": {
+				"0": {
+					"action_sets": {
+						"down": [
+							{
+								"id": "NK3Xc3n3Bjcc4h9mPZoWc",
+								"action": "LOAD",
+								"instance": "Mva1cDZGrqAQwJtvKKl2I",
+								"options": {
+									"channel": "18",
+									"layer": "10",
+									"clip_dd": "VIDEOS/UNIVERSE SIZE COMPARISON 3D",
+									"clip": "",
+									"loop": "false",
+									"auto": "false",
+									"transition": "CUT",
+									"transition_duration": "",
+									"transition_tween": "linear"
+								},
+								"delay": 0
+							}
+						],
+						"up": []
+					},
+					"options": {
+						"runWhileHeld": []
+					}
+				}
+			}
+		},
+		"bank:1-3": {
+			"type": "button",
+			"style": {
+				"text": "load\\nVideo 03",
+				"size": "14",
+				"png": null,
+				"alignment": "center:center",
+				"pngalignment": "center:center",
+				"color": 16777215,
+				"bgcolor": 16724889,
+				"show_topbar": "default"
+			},
+			"options": {
+				"relativeDelay": false,
+				"stepAutoProgress": true
+			},
+			"feedbacks": [],
+			"steps": {
+				"0": {
+					"action_sets": {
+						"down": [
+							{
+								"id": "gfoPBuk9i1b3mVXZZ8JKo",
+								"action": "LOAD",
+								"instance": "Mva1cDZGrqAQwJtvKKl2I",
+								"options": {
+									"channel": "18",
+									"layer": "10",
+									"clip_dd": "VIDEOS/2020-08-22_SCHLOSS-ALSBACH_GOTTESDIENST_HD",
+									"clip": "",
+									"loop": "false",
+									"auto": "false",
+									"transition": "CUT",
+									"transition_duration": "",
+									"transition_tween": "linear"
+								},
+								"delay": 0
+							}
+						],
+						"up": []
+					},
+					"options": {
+						"runWhileHeld": []
+					}
+				}
+			}
+		},
+		"bank:1-4": {
+			"type": "button",
+			"style": {
+				"text": "load\\nVideo 04",
+				"size": "14",
+				"png": null,
+				"alignment": "center:center",
+				"pngalignment": "center:center",
+				"color": 16777215,
+				"bgcolor": 16724889,
+				"show_topbar": "default"
+			},
+			"options": {
+				"relativeDelay": false,
+				"stepAutoProgress": true
+			},
+			"feedbacks": [],
+			"steps": {
+				"0": {
+					"action_sets": {
+						"down": [
+							{
+								"id": "qPtaDg8RRJixDvufs3vMf",
+								"action": "LOAD",
+								"instance": "Mva1cDZGrqAQwJtvKKl2I",
+								"options": {
+									"channel": "18",
+									"layer": "10",
+									"clip_dd": "VIDEOS/AUSTRIAN AUDIO JAM SESSION _ FOLKSHILFE - WIR HEBEN HEID O",
+									"clip": "",
+									"loop": "false",
+									"auto": "false",
+									"transition": "CUT",
+									"transition_duration": "",
+									"transition_tween": "linear"
+								},
+								"delay": 0
+							}
+						],
+						"up": []
+					},
+					"options": {
+						"runWhileHeld": []
+					}
+				}
+			}
+		},
+		"bank:1-5": {
+			"type": "button",
+			"style": {
+				"text": "load\\nVideo 05",
+				"size": "14",
+				"png": null,
+				"alignment": "center:center",
+				"pngalignment": "center:center",
+				"color": 16777215,
+				"bgcolor": 16724889,
+				"show_topbar": "default"
+			},
+			"options": {
+				"relativeDelay": false,
+				"stepAutoProgress": true
+			},
+			"feedbacks": [],
+			"steps": {
+				"0": {
+					"action_sets": {
+						"down": [
+							{
+								"id": "kkWIR-2bRX8VnXFDL4Ir3",
+								"action": "LOAD",
+								"instance": "Mva1cDZGrqAQwJtvKKl2I",
+								"options": {
+									"channel": "18",
+									"layer": "10",
+									"clip_dd": "VIDEOS/FUNK NIGHT WITH CANDY DULFER",
+									"clip": "",
+									"loop": "false",
+									"auto": "false",
+									"transition": "CUT",
+									"transition_duration": "",
+									"transition_tween": "linear"
+								},
+								"delay": 0
 							}
 						],
 						"up": []
