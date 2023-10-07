@@ -3260,13 +3260,17 @@
 					"action_sets": {
 						"down": [
 							{
-								"id": "g2STNAvP_p6zZ7336GcZU",
-								"label": "PY98Cj8Y2:send_int",
-								"instance": "MyUTAdVml73UUtirYNSX4",
-								"action": "send_int",
+								"id": "A0w5-AiFWA3oTfU5Kw5Zd",
+								"action": "button_pressrelease",
+								"instance": "internal",
 								"options": {
-									"path": "/control/beamer_video-01/play",
-									"int": 1
+									"page_from_variable": false,
+									"page": 1,
+									"page_variable": "1",
+									"bank_from_variable": false,
+									"bank": 9,
+									"bank_variable": "1",
+									"force": false
 								},
 								"delay": 0
 							},
@@ -3328,13 +3332,17 @@
 					"action_sets": {
 						"down": [
 							{
-								"id": "DCCXTjjxZoWsUuQWe95NW",
-								"label": "PY98Cj8Y2:send_int",
-								"instance": "MyUTAdVml73UUtirYNSX4",
-								"action": "send_int",
+								"id": "K7gCgCfW66mcy7AnZE62W",
+								"action": "button_pressrelease",
+								"instance": "internal",
 								"options": {
-									"path": "/control/beamer_video-02/play",
-									"int": 1
+									"page_from_variable": false,
+									"page": 1,
+									"page_variable": "1",
+									"bank_from_variable": false,
+									"bank": 10,
+									"bank_variable": "1",
+									"force": false
 								},
 								"delay": 0
 							},
@@ -3396,13 +3404,17 @@
 					"action_sets": {
 						"down": [
 							{
-								"id": "_WXMRxweGrYGM3KcsforF",
-								"label": "PY98Cj8Y2:send_int",
-								"instance": "MyUTAdVml73UUtirYNSX4",
-								"action": "send_int",
+								"id": "ec7GxRvxnzpvyazZYAck6",
+								"action": "button_pressrelease",
+								"instance": "internal",
 								"options": {
-									"path": "/control/beamer_video-03/play",
-									"int": 1
+									"page_from_variable": false,
+									"page": 1,
+									"page_variable": "1",
+									"bank_from_variable": false,
+									"bank": 11,
+									"bank_variable": "1",
+									"force": false
 								},
 								"delay": 0
 							},
@@ -3464,13 +3476,17 @@
 					"action_sets": {
 						"down": [
 							{
-								"id": "wdwIKO3_hf4koW1grWhAQ",
-								"label": "PY98Cj8Y2:send_int",
-								"instance": "MyUTAdVml73UUtirYNSX4",
-								"action": "send_int",
+								"id": "ZbDy0dC7ocuOc7McR6TAx",
+								"action": "button_pressrelease",
+								"instance": "internal",
 								"options": {
-									"path": "/control/beamer_video-04/play",
-									"int": 1
+									"page_from_variable": false,
+									"page": 1,
+									"page_variable": "1",
+									"bank_from_variable": false,
+									"bank": 12,
+									"bank_variable": "1",
+									"force": false
 								},
 								"delay": 0
 							},
@@ -3532,13 +3548,17 @@
 					"action_sets": {
 						"down": [
 							{
-								"id": "jAk5btp_Sd4L_aW6gtvta",
-								"label": "PY98Cj8Y2:send_int",
-								"instance": "MyUTAdVml73UUtirYNSX4",
-								"action": "send_int",
+								"id": "7u8gscSd2kt1NzFtYxSmk",
+								"action": "button_pressrelease",
+								"instance": "internal",
 								"options": {
-									"path": "/control/beamer_video-05/play",
-									"int": 1
+									"page_from_variable": false,
+									"page": 1,
+									"page_variable": "1",
+									"bank_from_variable": false,
+									"bank": 13,
+									"bank_variable": "1",
+									"force": false
 								},
 								"delay": 0
 							},
@@ -3600,13 +3620,17 @@
 					"action_sets": {
 						"down": [
 							{
-								"id": "56qYsHHvQnZEjVcHBfKVb",
-								"label": "PY98Cj8Y2:send_int",
-								"instance": "MyUTAdVml73UUtirYNSX4",
-								"action": "send_int",
+								"id": "e9VlMQ4nmqI3yV5hMi5qu",
+								"action": "button_pressrelease",
+								"instance": "internal",
 								"options": {
-									"path": "/control/beamer_video-06/play",
-									"int": 1
+									"page_from_variable": false,
+									"page": 1,
+									"page_variable": "1",
+									"bank_from_variable": false,
+									"bank": 14,
+									"bank_variable": "1",
+									"force": false
 								},
 								"delay": 0
 							},
@@ -55110,6 +55134,288 @@
 									"auto": "false",
 									"transition": "CUT",
 									"transition_duration": "",
+									"transition_tween": "linear"
+								},
+								"delay": 0
+							}
+						],
+						"up": []
+					},
+					"options": {
+						"runWhileHeld": []
+					}
+				}
+			}
+		},
+		"bank:1-9": {
+			"type": "button",
+			"style": {
+				"text": "play\\nBEAMER\\nVideo 01",
+				"size": "14",
+				"png": null,
+				"alignment": "center:center",
+				"pngalignment": "center:center",
+				"color": 16777215,
+				"bgcolor": 16724889,
+				"show_topbar": "default"
+			},
+			"options": {
+				"relativeDelay": false,
+				"stepAutoProgress": true
+			},
+			"feedbacks": [],
+			"steps": {
+				"0": {
+					"action_sets": {
+						"down": [
+							{
+								"id": "Y22t-e4al5lNzcXmgXeR6",
+								"action": "PLAY",
+								"instance": "Mva1cDZGrqAQwJtvKKl2I",
+								"options": {
+									"channel": "4",
+									"layer": "20",
+									"clip_dd": "VIDEOS/NATUR FILLER/FILLER-06",
+									"clip": "",
+									"loop": "true",
+									"auto": "false",
+									"transition": "MIX",
+									"transition_duration": "18",
+									"transition_tween": "linear"
+								},
+								"delay": 0
+							}
+						],
+						"up": []
+					},
+					"options": {
+						"runWhileHeld": []
+					}
+				}
+			}
+		},
+		"bank:1-10": {
+			"type": "button",
+			"style": {
+				"text": "play\\nBEAMER\\nVideo 02",
+				"size": "14",
+				"png": null,
+				"alignment": "center:center",
+				"pngalignment": "center:center",
+				"color": 16777215,
+				"bgcolor": 16724889,
+				"show_topbar": "default"
+			},
+			"options": {
+				"relativeDelay": false,
+				"stepAutoProgress": true
+			},
+			"feedbacks": [],
+			"steps": {
+				"0": {
+					"action_sets": {
+						"down": [
+							{
+								"id": "iGRT2pzd5KGQAdm9Vb80q",
+								"action": "PLAY",
+								"instance": "Mva1cDZGrqAQwJtvKKl2I",
+								"options": {
+									"channel": "4",
+									"layer": "20",
+									"clip_dd": "VIDEOS/NATUR FILLER/FILLER-10",
+									"clip": "",
+									"loop": "true",
+									"auto": "false",
+									"transition": "MIX",
+									"transition_duration": "18",
+									"transition_tween": "linear"
+								},
+								"delay": 0
+							}
+						],
+						"up": []
+					},
+					"options": {
+						"runWhileHeld": []
+					}
+				}
+			}
+		},
+		"bank:1-11": {
+			"type": "button",
+			"style": {
+				"text": "play\\nBEAMER\\nVideo 03",
+				"size": "14",
+				"png": null,
+				"alignment": "center:center",
+				"pngalignment": "center:center",
+				"color": 16777215,
+				"bgcolor": 16724889,
+				"show_topbar": "default"
+			},
+			"options": {
+				"relativeDelay": false,
+				"stepAutoProgress": true
+			},
+			"feedbacks": [],
+			"steps": {
+				"0": {
+					"action_sets": {
+						"down": [
+							{
+								"id": "qmKSImgzVxAVLf4X32zEu",
+								"action": "PLAY",
+								"instance": "Mva1cDZGrqAQwJtvKKl2I",
+								"options": {
+									"channel": "4",
+									"layer": "20",
+									"clip_dd": "VIDEOS/NATUR FILLER/FILLER-12",
+									"clip": "",
+									"loop": "true",
+									"auto": "false",
+									"transition": "MIX",
+									"transition_duration": "18",
+									"transition_tween": "linear"
+								},
+								"delay": 0
+							}
+						],
+						"up": []
+					},
+					"options": {
+						"runWhileHeld": []
+					}
+				}
+			}
+		},
+		"bank:1-12": {
+			"type": "button",
+			"style": {
+				"text": "play\\nBEAMER\\nVideo 04",
+				"size": "14",
+				"png": null,
+				"alignment": "center:center",
+				"pngalignment": "center:center",
+				"color": 16777215,
+				"bgcolor": 16724889,
+				"show_topbar": "default"
+			},
+			"options": {
+				"relativeDelay": false,
+				"stepAutoProgress": true
+			},
+			"feedbacks": [],
+			"steps": {
+				"0": {
+					"action_sets": {
+						"down": [
+							{
+								"id": "lf3QWoR-26fXdA0Pp0GQO",
+								"action": "PLAY",
+								"instance": "Mva1cDZGrqAQwJtvKKl2I",
+								"options": {
+									"channel": "4",
+									"layer": "20",
+									"clip_dd": "VIDEOS/NATUR FILLER/FILLER-02",
+									"clip": "",
+									"loop": "true",
+									"auto": "false",
+									"transition": "MIX",
+									"transition_duration": "18",
+									"transition_tween": "linear"
+								},
+								"delay": 0
+							}
+						],
+						"up": []
+					},
+					"options": {
+						"runWhileHeld": []
+					}
+				}
+			}
+		},
+		"bank:1-13": {
+			"type": "button",
+			"style": {
+				"text": "play\\nBEAMER\\nVideo 05",
+				"size": "14",
+				"png": null,
+				"alignment": "center:center",
+				"pngalignment": "center:center",
+				"color": 16777215,
+				"bgcolor": 16724889,
+				"show_topbar": "default"
+			},
+			"options": {
+				"relativeDelay": false,
+				"stepAutoProgress": true
+			},
+			"feedbacks": [],
+			"steps": {
+				"0": {
+					"action_sets": {
+						"down": [
+							{
+								"id": "Wlp2KYR9X_G1_r9KH6FqM",
+								"action": "PLAY",
+								"instance": "Mva1cDZGrqAQwJtvKKl2I",
+								"options": {
+									"channel": "4",
+									"layer": "20",
+									"clip_dd": "VIDEOS/NATUR FILLER/FILLER-04-1",
+									"clip": "",
+									"loop": "true",
+									"auto": "false",
+									"transition": "MIX",
+									"transition_duration": "18",
+									"transition_tween": "linear"
+								},
+								"delay": 0
+							}
+						],
+						"up": []
+					},
+					"options": {
+						"runWhileHeld": []
+					}
+				}
+			}
+		},
+		"bank:1-14": {
+			"type": "button",
+			"style": {
+				"text": "play\\nBEAMER\\nVideo 06",
+				"size": "14",
+				"png": null,
+				"alignment": "center:center",
+				"pngalignment": "center:center",
+				"color": 16777215,
+				"bgcolor": 16724889,
+				"show_topbar": "default"
+			},
+			"options": {
+				"relativeDelay": false,
+				"stepAutoProgress": true
+			},
+			"feedbacks": [],
+			"steps": {
+				"0": {
+					"action_sets": {
+						"down": [
+							{
+								"id": "TESGozv2TEMvD4QiBOBaR",
+								"action": "PLAY",
+								"instance": "Mva1cDZGrqAQwJtvKKl2I",
+								"options": {
+									"channel": "4",
+									"layer": "20",
+									"clip_dd": "VIDEOS/NATUR FILLER/FILLER-01",
+									"clip": "",
+									"loop": "true",
+									"auto": "false",
+									"transition": "MIX",
+									"transition_duration": "18",
 									"transition_tween": "linear"
 								},
 								"delay": 0
