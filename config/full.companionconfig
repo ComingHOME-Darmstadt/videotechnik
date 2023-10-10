@@ -8497,33 +8497,13 @@
 					"action_sets": {
 						"down": [
 							{
-								"id": "E2quka2uk-Nt2nNWcMkDF",
-								"label": "udTEF512G:PLAY",
+								"id": "0cdEAxD9DkKYjqqO0VXse",
+								"action": "COMMAND",
 								"instance": "Mva1cDZGrqAQwJtvKKl2I",
-								"action": "PLAY",
 								"options": {
-									"channel": "11",
-									"layer": "10",
-									"clip_dd": "GRAFIKEN/BLACK",
-									"clip": "",
-									"loop": "false",
-									"auto": "false",
-									"transition": "CUT",
-									"transition_duration": "",
-									"transition_tween": "linear"
+									"cmd": "PLAY 11-10 \"ndi://PTZ-CAM-01/CAM\""
 								},
 								"delay": 0
-							},
-							{
-								"id": "tEZHE6HoXJul9LJoDgoZ0",
-								"label": "PY98Cj8Y2:send_int",
-								"instance": "MyUTAdVml73UUtirYNSX4",
-								"action": "send_int",
-								"options": {
-									"path": "/control/input_01/play",
-									"int": 1
-								},
-								"delay": 100
 							},
 							{
 								"id": "2UkulYiZxE2PIE8OT-yV3",
@@ -8625,33 +8605,13 @@
 					"action_sets": {
 						"down": [
 							{
-								"id": "IWTfZT36isTGu3Xdoc__C",
-								"label": "udTEF512G:PLAY",
+								"id": "aB0lUW9Ucotw1xAiOXoZq",
+								"action": "COMMAND",
 								"instance": "Mva1cDZGrqAQwJtvKKl2I",
-								"action": "PLAY",
 								"options": {
-									"channel": "12",
-									"layer": "10",
-									"clip_dd": "GRAFIKEN/BLACK",
-									"clip": "",
-									"loop": "false",
-									"auto": "false",
-									"transition": "CUT",
-									"transition_duration": "",
-									"transition_tween": "linear"
+									"cmd": "PLAY 12-10 \"ndi://PTZ-CAM-02/CAM\""
 								},
 								"delay": 0
-							},
-							{
-								"id": "BfvF7Jqd9GQHNalvU5Lwg",
-								"label": "PY98Cj8Y2:send_int",
-								"instance": "MyUTAdVml73UUtirYNSX4",
-								"action": "send_int",
-								"options": {
-									"path": "/control/input_02/play",
-									"int": 1
-								},
-								"delay": 100
 							},
 							{
 								"id": "nYzOM2YP3fXnIFda8mlJs",
@@ -8753,33 +8713,13 @@
 					"action_sets": {
 						"down": [
 							{
-								"id": "hxa0JTlCPpQzMW9vB0a-d",
-								"label": "udTEF512G:PLAY",
+								"id": "bC9HM4vTP-V-njDcB5yZm",
+								"action": "COMMAND",
 								"instance": "Mva1cDZGrqAQwJtvKKl2I",
-								"action": "PLAY",
 								"options": {
-									"channel": "13",
-									"layer": "10",
-									"clip_dd": "GRAFIKEN/BLACK",
-									"clip": "",
-									"loop": "false",
-									"auto": "false",
-									"transition": "CUT",
-									"transition_duration": "",
-									"transition_tween": "linear"
+									"cmd": "PLAY 13-10 \"ndi://CHPRESENTATION/Intel Iris Xe Graphics 2\""
 								},
 								"delay": 0
-							},
-							{
-								"id": "8XJX4bnWkFEyFOCv563Lv",
-								"label": "PY98Cj8Y2:send_int",
-								"instance": "MyUTAdVml73UUtirYNSX4",
-								"action": "send_int",
-								"options": {
-									"path": "/control/input_03/play",
-									"int": 1
-								},
-								"delay": 100
 							}
 						],
 						"up": []
@@ -8859,33 +8799,13 @@
 					"action_sets": {
 						"down": [
 							{
-								"id": "_c3N7rA93A8_sOqjAoqL6",
-								"label": "udTEF512G:PLAY",
+								"id": "GwKS6OwJBIXgUvsZr7G5G",
+								"action": "COMMAND",
 								"instance": "Mva1cDZGrqAQwJtvKKl2I",
-								"action": "PLAY",
 								"options": {
-									"channel": "14",
-									"layer": "10",
-									"clip_dd": "GRAFIKEN/BLACK",
-									"clip": "",
-									"loop": "false",
-									"auto": "false",
-									"transition": "CUT",
-									"transition_duration": "",
-									"transition_tween": "linear"
+									"cmd": "PLAY 14-10 \"ndi://192.168.77.21/Prediger\""
 								},
 								"delay": 0
-							},
-							{
-								"id": "IxRh4y8Ro5M-QY0KEtgHe",
-								"label": "PY98Cj8Y2:send_int",
-								"instance": "MyUTAdVml73UUtirYNSX4",
-								"action": "send_int",
-								"options": {
-									"path": "/control/input_04/play",
-									"int": 1
-								},
-								"delay": 100
 							}
 						],
 						"up": []
@@ -9468,33 +9388,13 @@
 					"action_sets": {
 						"down": [
 							{
-								"id": "4VHDnNMjaBb5imfrAfZCK",
-								"label": "udTEF512G:PLAY",
+								"id": "C-oN83UWXMOe3bfoaSxvy",
+								"action": "COMMAND",
 								"instance": "Mva1cDZGrqAQwJtvKKl2I",
-								"action": "PLAY",
 								"options": {
-									"channel": "15",
-									"layer": "10",
-									"clip_dd": "GRAFIKEN/BLACK",
-									"clip": "",
-									"loop": "false",
-									"auto": "false",
-									"transition": "CUT",
-									"transition_duration": "",
-									"transition_tween": "linear"
+									"cmd": "PLAY 15-10 \"ndi://CHZOOM/Intel Iris Xe Graphics 1\""
 								},
 								"delay": 0
-							},
-							{
-								"id": "fNzgVIBtvhOTcUIqiQ0L_",
-								"label": "PY98Cj8Y2:send_int",
-								"instance": "MyUTAdVml73UUtirYNSX4",
-								"action": "send_int",
-								"options": {
-									"path": "/control/input_05/play",
-									"int": 1
-								},
-								"delay": 100
 							}
 						],
 						"up": []
