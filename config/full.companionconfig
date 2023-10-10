@@ -1357,13 +1357,17 @@
 					"action_sets": {
 						"down": [
 							{
-								"id": "zoiPkd1xywVvRfz7e6Rbq",
-								"label": "PY98Cj8Y2:send_int",
-								"instance": "MyUTAdVml73UUtirYNSX4",
-								"action": "send_int",
+								"id": "kDhusPN3A-S8fm_08WQ0x",
+								"action": "button_pressrelease",
+								"instance": "internal",
 								"options": {
-									"path": "/control/prev_aux-01/play",
-									"int": 1
+									"page_from_variable": false,
+									"page": 1,
+									"page_variable": "1",
+									"bank_from_variable": false,
+									"bank": 25,
+									"bank_variable": "1",
+									"force": false
 								},
 								"delay": 0
 							},
@@ -1439,13 +1443,17 @@
 					"action_sets": {
 						"down": [
 							{
-								"id": "Bxi1LQ_TGrFO-lVceIqKB",
-								"label": "PY98Cj8Y2:send_int",
-								"instance": "MyUTAdVml73UUtirYNSX4",
-								"action": "send_int",
+								"id": "ayTUisRNeQH6ZcxIyF97P",
+								"action": "button_pressrelease",
+								"instance": "internal",
 								"options": {
-									"path": "/control/prev_aux-02/play",
-									"int": 1
+									"page_from_variable": false,
+									"page": 1,
+									"page_variable": "1",
+									"bank_from_variable": false,
+									"bank": 26,
+									"bank_variable": "1",
+									"force": false
 								},
 								"delay": 0
 							},
@@ -1521,13 +1529,17 @@
 					"action_sets": {
 						"down": [
 							{
-								"id": "do3AymyLTWKZerKWNmZ9Y",
-								"label": "PY98Cj8Y2:send_int",
-								"instance": "MyUTAdVml73UUtirYNSX4",
-								"action": "send_int",
+								"id": "RltZZpJ1QQ1V1P7iKO1-s",
+								"action": "button_pressrelease",
+								"instance": "internal",
 								"options": {
-									"path": "/control/prev_aux-03/play",
-									"int": 1
+									"page_from_variable": false,
+									"page": 1,
+									"page_variable": "1",
+									"bank_from_variable": false,
+									"bank": 27,
+									"bank_variable": "1",
+									"force": false
 								},
 								"delay": 0
 							},
@@ -55722,6 +55734,147 @@
 									"auto": "false",
 									"transition": "MIX",
 									"transition_duration": "18",
+									"transition_tween": "linear"
+								},
+								"delay": 0
+							}
+						],
+						"up": []
+					},
+					"options": {
+						"runWhileHeld": []
+					}
+				}
+			}
+		},
+		"bank:1-25": {
+			"type": "button",
+			"style": {
+				"text": "play\\nAUX\\n01",
+				"size": "14",
+				"png": null,
+				"alignment": "center:center",
+				"pngalignment": "center:center",
+				"color": 16777215,
+				"bgcolor": 16724889,
+				"show_topbar": "default"
+			},
+			"options": {
+				"relativeDelay": false,
+				"stepAutoProgress": true
+			},
+			"feedbacks": [],
+			"steps": {
+				"0": {
+					"action_sets": {
+						"down": [
+							{
+								"id": "p4qsel_ucYKmWuYR0zyi6",
+								"action": "PLAY",
+								"instance": "Mva1cDZGrqAQwJtvKKl2I",
+								"options": {
+									"channel": "17",
+									"layer": "10",
+									"clip_dd": "GRAFIKEN/COMINGHOME-INTRO",
+									"clip": "",
+									"loop": "false",
+									"auto": "false",
+									"transition": "CUT",
+									"transition_duration": "",
+									"transition_tween": "linear"
+								},
+								"delay": 0
+							}
+						],
+						"up": []
+					},
+					"options": {
+						"runWhileHeld": []
+					}
+				}
+			}
+		},
+		"bank:1-26": {
+			"type": "button",
+			"style": {
+				"text": "play\\nAUX\\n02",
+				"size": "14",
+				"png": null,
+				"alignment": "center:center",
+				"pngalignment": "center:center",
+				"color": 16777215,
+				"bgcolor": 16724889,
+				"show_topbar": "default"
+			},
+			"options": {
+				"relativeDelay": false,
+				"stepAutoProgress": true
+			},
+			"feedbacks": [],
+			"steps": {
+				"0": {
+					"action_sets": {
+						"down": [
+							{
+								"id": "ycrHaUe1q32BSZhx-8UCG",
+								"action": "PLAY",
+								"instance": "Mva1cDZGrqAQwJtvKKl2I",
+								"options": {
+									"channel": "17",
+									"layer": "10",
+									"clip_dd": "GRAFIKEN/COMINGHOME-HG",
+									"clip": "",
+									"loop": "false",
+									"auto": "false",
+									"transition": "CUT",
+									"transition_duration": "",
+									"transition_tween": "linear"
+								},
+								"delay": 0
+							}
+						],
+						"up": []
+					},
+					"options": {
+						"runWhileHeld": []
+					}
+				}
+			}
+		},
+		"bank:1-27": {
+			"type": "button",
+			"style": {
+				"text": "play\\nAUX\\n03",
+				"size": "14",
+				"png": null,
+				"alignment": "center:center",
+				"pngalignment": "center:center",
+				"color": 16777215,
+				"bgcolor": 16724889,
+				"show_topbar": "default"
+			},
+			"options": {
+				"relativeDelay": false,
+				"stepAutoProgress": true
+			},
+			"feedbacks": [],
+			"steps": {
+				"0": {
+					"action_sets": {
+						"down": [
+							{
+								"id": "nIBw-o742hRhXrr7DSA6j",
+								"action": "PLAY",
+								"instance": "Mva1cDZGrqAQwJtvKKl2I",
+								"options": {
+									"channel": "17",
+									"layer": "10",
+									"clip_dd": "GRAFIKEN/STERNENHIMMEL",
+									"clip": "",
+									"loop": "false",
+									"auto": "false",
+									"transition": "CUT",
+									"transition_duration": "",
 									"transition_tween": "linear"
 								},
 								"delay": 0
