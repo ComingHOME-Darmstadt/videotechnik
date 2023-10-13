@@ -6104,7 +6104,7 @@
 				"latch": false
 			},
 			"options": {
-				"relativeDelay": false,
+				"relativeDelay": true,
 				"stepAutoProgress": true,
 				"rotaryActions": false
 			},
@@ -6128,13 +6128,11 @@
 					"action_sets": {
 						"down": [
 							{
-								"id": "e-IQJLQWn7AdLUencfNHF",
-								"label": "PY98Cj8Y2:send_int",
-								"instance": "LqkC7MeeSETaxF6xEpd80",
-								"action": "send_int",
+								"id": "HcBO7qXDdaZFYXsMAZUah",
+								"action": "COMMAND",
+								"instance": "Us9UirOsXPy6_qEEsdZmR",
 								"options": {
-									"path": "/control/stage_openlp/play",
-									"int": 1
+									"cmd": "PLAY 5-10 [HTML] \"http://chpresentation:4316/stage/chstage/\""
 								},
 								"delay": 0
 							},
@@ -6146,7 +6144,7 @@
 								"options": {
 									"cmd": "MIXER 5-10 VOLUME 0 0 Linear"
 								},
-								"delay": 0
+								"delay": 100
 							},
 							{
 								"id": "0YuK8Y6OYVOUnvJEKoHhQ",
@@ -6156,7 +6154,7 @@
 								"options": {
 									"cmd": " MIXER 5-10 FILL 0 0 1 1 0 Linear"
 								},
-								"delay": 0
+								"delay": 100
 							},
 							{
 								"id": "ZfWvUx9NBfF3gjZoEWaEH",
@@ -11493,13 +11491,11 @@
 								"delay": 100
 							},
 							{
-								"id": "GUIH-4hF0LOTAcAIL_-iP",
-								"label": "PY98Cj8Y2:send_int",
-								"instance": "LqkC7MeeSETaxF6xEpd80",
-								"action": "send_int",
+								"id": "RPep8tZguPATGeAlbe10z",
+								"action": "COMMAND",
+								"instance": "Us9UirOsXPy6_qEEsdZmR",
 								"options": {
-									"path": "/control/openlp_input/play",
-									"int": 1
+									"cmd": "PLAY 8-10 [HTML] \"http://chpresentation:4316/stage/text/\""
 								},
 								"delay": 100
 							},
