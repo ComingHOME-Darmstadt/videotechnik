@@ -294,7 +294,7 @@
 			"name": "OpenLP"
 		},
 		"98": {
-			"name": "Rundown?"
+			"name": "PAGE"
 		},
 		"99": {
 			"name": "Start"
@@ -46236,6 +46236,203 @@
 				}
 			}
 		},
+		"bank:93-21": {
+			"type": "button",
+			"style": {
+				"text": "kein Video geladen",
+				"size": "18",
+				"png": null,
+				"alignment": "center:center",
+				"pngalignment": "center:center",
+				"color": 4737096,
+				"bgcolor": "0",
+				"show_topbar": "default",
+				"latch": true
+			},
+			"options": {
+				"relativeDelay": true,
+				"stepAutoProgress": true,
+				"rotaryActions": false
+			},
+			"feedbacks": [
+				{
+					"id": "46kfNgrEiu11ZqFnX2sGE",
+					"type": "variable_value",
+					"instance_id": "internal",
+					"options": {
+						"variable": "internal:custom_videoCurrent",
+						"op": "ne",
+						"value": ""
+					},
+					"style": {
+						"color": 16777215,
+						"text": "VIDEO\\nPLAY"
+					}
+				},
+				{
+					"id": "YWEQSkEnb7mMwpc3QRMg6",
+					"type": "bank_pushed",
+					"instance_id": "internal",
+					"options": {
+						"page": 0,
+						"bank": 0,
+						"latch_compatability": true
+					},
+					"style": {
+						"bgcolor": 16711680,
+						"text": "VIDEO läuft",
+						"color": 16777215
+					}
+				},
+				{
+					"id": "4k1a9tp0ntAud09k52-HQ",
+					"type": "bank_current_step",
+					"instance_id": "internal",
+					"options": {
+						"page": 5,
+						"bank": 20,
+						"step": 1
+					},
+					"style": {
+						"color": 0,
+						"bgcolor": 0
+					}
+				}
+			],
+			"steps": {
+				"0": {
+					"action_sets": {
+						"down": [
+							{
+								"id": "fADn-DpV8Tnp6UbZlM6qT",
+								"label": "udTEF512G:COMMAND",
+								"instance": "Us9UirOsXPy6_qEEsdZmR",
+								"action": "COMMAND",
+								"options": {
+									"cmd": "PLAY 18-10"
+								},
+								"delay": 0
+							},
+							{
+								"id": "R5bdaHRqkeUliBM5Z7CsW",
+								"label": "udTEF512G:COMMAND",
+								"instance": "Us9UirOsXPy6_qEEsdZmR",
+								"action": "COMMAND",
+								"options": {
+									"cmd": "PLAY 1-70 route://18-10"
+								},
+								"delay": 100
+							},
+							{
+								"id": "t28OeQh5BJBitHgVjkj9r",
+								"label": "bitfocus-companion:button_pressrelease",
+								"instance": "internal",
+								"action": "button_pressrelease",
+								"options": {
+									"page": 0,
+									"bank": 32,
+									"force": true
+								},
+								"delay": 100,
+								"actionId": "button_pressrelease"
+							}
+						],
+						"up": []
+					},
+					"options": {
+						"runWhileHeld": []
+					}
+				},
+				"1": {
+					"action_sets": {
+						"down": [
+							{
+								"id": "V7vNjbhoOxZ456P803B8z",
+								"label": "udTEF512G:COMMAND",
+								"instance": "Us9UirOsXPy6_qEEsdZmR",
+								"action": "COMMAND",
+								"options": {
+									"cmd": "PLAY 18-10 EMPTY MIX 16"
+								},
+								"delay": 80
+							},
+							{
+								"id": "V0CMXWopJb-DsJBWTF_40",
+								"label": "bitfocus-companion:button_pressrelease",
+								"instance": "internal",
+								"action": "button_pressrelease",
+								"options": {
+									"page": 0,
+									"bank": 32,
+									"force": true
+								},
+								"delay": 100,
+								"actionId": "button_pressrelease"
+							},
+							{
+								"id": "f9IxP8VSDYLitbYpf-bhn",
+								"label": "udTEF512G:COMMAND",
+								"instance": "Us9UirOsXPy6_qEEsdZmR",
+								"action": "COMMAND",
+								"options": {
+									"cmd": "STOP 18-10"
+								},
+								"delay": 1000
+							},
+							{
+								"id": "wJhdw4lQZrVWJsOSvjj7u",
+								"label": "udTEF512G:COMMAND",
+								"instance": "Us9UirOsXPy6_qEEsdZmR",
+								"action": "COMMAND",
+								"options": {
+									"cmd": "STOP 1-70"
+								},
+								"delay": 500
+							},
+							{
+								"id": "FuIn9suzx2U2ixQFlbDXT",
+								"label": "bitfocus-companion:custom_variable_set_value",
+								"instance": "internal",
+								"action": "custom_variable_set_value",
+								"options": {
+									"name": "videoCurrent",
+									"value": ""
+								},
+								"delay": 0
+							},
+							{
+								"id": "PzOOKIbi6o0pNQEv_Qo0D",
+								"label": "bitfocus-companion:button_text",
+								"instance": "internal",
+								"action": "button_text",
+								"options": {
+									"label": "kein Video geladen",
+									"page": 0,
+									"bank": 0
+								},
+								"delay": 0
+							},
+							{
+								"id": "Q0F39l5oXGSQC1vJEnzG1",
+								"label": "bitfocus-companion:textcolor",
+								"instance": "internal",
+								"action": "textcolor",
+								"options": {
+									"color": 4737096,
+									"page": 0,
+									"bank": 0
+								},
+								"delay": 0
+							}
+						],
+						"up": []
+					},
+					"options": {
+						"runWhileHeld": []
+					}
+				}
+			}
+		},
 		"bank:94-1": {
 			"type": "button",
 			"style": {
@@ -51365,184 +51562,6 @@
 				}
 			}
 		},
-		"bank:98-1": {
-			"type": "button",
-			"style": {
-				"text": "CasparCG",
-				"size": "14",
-				"png": null,
-				"alignment": "center:center",
-				"pngalignment": "center:center",
-				"color": 16777215,
-				"bgcolor": 0,
-				"show_topbar": "default",
-				"latch": false
-			},
-			"options": {
-				"relativeDelay": false,
-				"stepAutoProgress": true,
-				"rotaryActions": false
-			},
-			"feedbacks": [],
-			"steps": {
-				"0": {
-					"action_sets": {
-						"down": [],
-						"up": []
-					},
-					"options": {
-						"runWhileHeld": []
-					}
-				}
-			}
-		},
-		"bank:98-2": {
-			"type": "button",
-			"style": {
-				"text": "Client",
-				"size": "14",
-				"png": null,
-				"alignment": "center:center",
-				"pngalignment": "center:center",
-				"color": 16777215,
-				"bgcolor": 0,
-				"show_topbar": "default",
-				"latch": false
-			},
-			"options": {
-				"relativeDelay": false,
-				"stepAutoProgress": true,
-				"rotaryActions": false
-			},
-			"feedbacks": [],
-			"steps": {
-				"0": {
-					"action_sets": {
-						"down": [],
-						"up": []
-					},
-					"options": {
-						"runWhileHeld": []
-					}
-				}
-			}
-		},
-		"bank:98-3": {
-			"type": "button",
-			"style": {
-				"text": "Rundown",
-				"size": "14",
-				"png": null,
-				"alignment": "center:center",
-				"pngalignment": "center:center",
-				"color": 16777215,
-				"bgcolor": 0,
-				"show_topbar": "default",
-				"latch": false
-			},
-			"options": {
-				"relativeDelay": false,
-				"stepAutoProgress": true,
-				"rotaryActions": false
-			},
-			"feedbacks": [],
-			"steps": {
-				"0": {
-					"action_sets": {
-						"down": [],
-						"up": []
-					},
-					"options": {
-						"runWhileHeld": []
-					}
-				}
-			}
-		},
-		"bank:98-4": {
-			"type": "button",
-			"style": {
-				"text": "geladen?",
-				"size": "14",
-				"png": null,
-				"alignment": "center:center",
-				"pngalignment": "center:center",
-				"color": 16777215,
-				"bgcolor": 0,
-				"show_topbar": "default",
-				"latch": false
-			},
-			"options": {
-				"relativeDelay": false,
-				"stepAutoProgress": true,
-				"rotaryActions": false
-			},
-			"feedbacks": [],
-			"steps": {
-				"0": {
-					"action_sets": {
-						"down": [],
-						"up": []
-					},
-					"options": {
-						"runWhileHeld": []
-					}
-				}
-			}
-		},
-		"bank:98-12": {
-			"type": "button",
-			"style": {
-				"text": "Ja",
-				"size": "14",
-				"png": null,
-				"alignment": "center:center",
-				"pngalignment": "center:center",
-				"color": 16777215,
-				"bgcolor": 10040115,
-				"show_topbar": "default",
-				"latch": false
-			},
-			"options": {
-				"relativeDelay": false,
-				"stepAutoProgress": true,
-				"rotaryActions": false
-			},
-			"feedbacks": [],
-			"steps": {
-				"0": {
-					"action_sets": {
-						"down": [
-							{
-								"id": "eLpPdmKZDm0_haJ8MYWvF",
-								"label": "bitfocus-companion:set_page",
-								"instance": "internal",
-								"action": "set_page",
-								"options": {
-									"controller": "streamdeck:DL46K1A08634",
-									"page": 90
-								},
-								"delay": 0
-							},
-							{
-								"id": "QnMHe3-APGH34LLVkgcOT",
-								"label": "bitfocus-companion:set_page",
-								"instance": "internal",
-								"action": "set_page",
-								"options": {
-									"controller": "streamdeck:CL41K1A03537",
-									"page": 5
-								},
-								"delay": 0
-							}
-						],
-						"up": []
-					},
-					"options": {
-						"runWhileHeld": []
-					}
-				}
-			}
-		},
 		"bank:99-12": {
 			"type": "button",
 			"style": {
@@ -51597,9 +51616,9 @@
 								"action": "set_page",
 								"options": {
 									"controller": "streamdeck:DL46K1A08634",
-									"page": 98
+									"page": 90
 								},
-								"delay": 0
+								"delay": 1000
 							},
 							{
 								"id": "HIVsuiGgC5DEV6eo9OBUo",
@@ -51608,7 +51627,7 @@
 								"action": "set_page",
 								"options": {
 									"controller": "streamdeck:CL41K1A03537",
-									"page": 98
+									"page": 5
 								},
 								"delay": 0
 							},
@@ -53426,203 +53445,6 @@
 									"cmd": "STOP 1-69"
 								},
 								"delay": 500
-							}
-						],
-						"up": []
-					},
-					"options": {
-						"runWhileHeld": []
-					}
-				}
-			}
-		},
-		"bank:93-21": {
-			"type": "button",
-			"style": {
-				"text": "kein Video geladen",
-				"size": "18",
-				"png": null,
-				"alignment": "center:center",
-				"pngalignment": "center:center",
-				"color": 4737096,
-				"bgcolor": "0",
-				"show_topbar": "default",
-				"latch": true
-			},
-			"options": {
-				"relativeDelay": true,
-				"stepAutoProgress": true,
-				"rotaryActions": false
-			},
-			"feedbacks": [
-				{
-					"id": "46kfNgrEiu11ZqFnX2sGE",
-					"type": "variable_value",
-					"instance_id": "internal",
-					"options": {
-						"variable": "internal:custom_videoCurrent",
-						"op": "ne",
-						"value": ""
-					},
-					"style": {
-						"color": 16777215,
-						"text": "VIDEO\\nPLAY"
-					}
-				},
-				{
-					"id": "YWEQSkEnb7mMwpc3QRMg6",
-					"type": "bank_pushed",
-					"instance_id": "internal",
-					"options": {
-						"page": 0,
-						"bank": 0,
-						"latch_compatability": true
-					},
-					"style": {
-						"bgcolor": 16711680,
-						"text": "VIDEO läuft",
-						"color": 16777215
-					}
-				},
-				{
-					"id": "4k1a9tp0ntAud09k52-HQ",
-					"type": "bank_current_step",
-					"instance_id": "internal",
-					"options": {
-						"page": 5,
-						"bank": 20,
-						"step": 1
-					},
-					"style": {
-						"color": 0,
-						"bgcolor": 0
-					}
-				}
-			],
-			"steps": {
-				"0": {
-					"action_sets": {
-						"down": [
-							{
-								"id": "fADn-DpV8Tnp6UbZlM6qT",
-								"label": "udTEF512G:COMMAND",
-								"instance": "Us9UirOsXPy6_qEEsdZmR",
-								"action": "COMMAND",
-								"options": {
-									"cmd": "PLAY 18-10"
-								},
-								"delay": 0
-							},
-							{
-								"id": "R5bdaHRqkeUliBM5Z7CsW",
-								"label": "udTEF512G:COMMAND",
-								"instance": "Us9UirOsXPy6_qEEsdZmR",
-								"action": "COMMAND",
-								"options": {
-									"cmd": "PLAY 1-70 route://18-10"
-								},
-								"delay": 100
-							},
-							{
-								"id": "t28OeQh5BJBitHgVjkj9r",
-								"label": "bitfocus-companion:button_pressrelease",
-								"instance": "internal",
-								"action": "button_pressrelease",
-								"options": {
-									"page": 0,
-									"bank": 32,
-									"force": true
-								},
-								"delay": 100,
-								"actionId": "button_pressrelease"
-							}
-						],
-						"up": []
-					},
-					"options": {
-						"runWhileHeld": []
-					}
-				},
-				"1": {
-					"action_sets": {
-						"down": [
-							{
-								"id": "V7vNjbhoOxZ456P803B8z",
-								"label": "udTEF512G:COMMAND",
-								"instance": "Us9UirOsXPy6_qEEsdZmR",
-								"action": "COMMAND",
-								"options": {
-									"cmd": "PLAY 18-10 EMPTY MIX 16"
-								},
-								"delay": 80
-							},
-							{
-								"id": "V0CMXWopJb-DsJBWTF_40",
-								"label": "bitfocus-companion:button_pressrelease",
-								"instance": "internal",
-								"action": "button_pressrelease",
-								"options": {
-									"page": 0,
-									"bank": 32,
-									"force": true
-								},
-								"delay": 100,
-								"actionId": "button_pressrelease"
-							},
-							{
-								"id": "f9IxP8VSDYLitbYpf-bhn",
-								"label": "udTEF512G:COMMAND",
-								"instance": "Us9UirOsXPy6_qEEsdZmR",
-								"action": "COMMAND",
-								"options": {
-									"cmd": "STOP 18-10"
-								},
-								"delay": 1000
-							},
-							{
-								"id": "wJhdw4lQZrVWJsOSvjj7u",
-								"label": "udTEF512G:COMMAND",
-								"instance": "Us9UirOsXPy6_qEEsdZmR",
-								"action": "COMMAND",
-								"options": {
-									"cmd": "STOP 1-70"
-								},
-								"delay": 500
-							},
-							{
-								"id": "FuIn9suzx2U2ixQFlbDXT",
-								"label": "bitfocus-companion:custom_variable_set_value",
-								"instance": "internal",
-								"action": "custom_variable_set_value",
-								"options": {
-									"name": "videoCurrent",
-									"value": ""
-								},
-								"delay": 0
-							},
-							{
-								"id": "PzOOKIbi6o0pNQEv_Qo0D",
-								"label": "bitfocus-companion:button_text",
-								"instance": "internal",
-								"action": "button_text",
-								"options": {
-									"label": "kein Video geladen",
-									"page": 0,
-									"bank": 0
-								},
-								"delay": 0
-							},
-							{
-								"id": "Q0F39l5oXGSQC1vJEnzG1",
-								"label": "bitfocus-companion:textcolor",
-								"instance": "internal",
-								"action": "textcolor",
-								"options": {
-									"color": 4737096,
-									"page": 0,
-									"bank": 0
-								},
-								"delay": 0
 							}
 						],
 						"up": []
