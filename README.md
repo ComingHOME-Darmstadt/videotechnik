@@ -4,7 +4,7 @@ Dies ist eine Sammlung von Konfigurations- und Script-Dateien für die Videotech
 
 ## Verzeichnisstruktur
 
-Die Skripte und Konfigurationen gehen davon aus, dass im Unterverzeichnis `casparcg-client` das entpackte Client-Programm (siehe `casparcg-client/README.md`) und in `casparcg-server` das Server-Programm (siehe `casparcg-server/README-videotechnik.md`) liegen.
+Die Skripte und Konfigurationen gehen davon aus, dass im Unterverzeichnis `casparcg-server` das Server-Programm (siehe `casparcg-server/README-videotechnik.md`) liegen.
 Außerdem sollte in `dDImageViewer` ein aktueller "NDI Drag&Drop Image Viewer" (siehe http://www.zenvideo.co.uk/ndi.htm#DDImageViewer) liegen. Gestartet wird er mit `script\START_dDImageViewer.bat` oder `dDImageViewer` in den shortcuts.
 
 Im Untervezeichnis `config` werden alle Konfigurations-Dateien gesammelt. Hierbei ist jedoch `config/media/Videos` von der Überwachung durch die Versionierung ausgenommen.
@@ -12,8 +12,6 @@ Im Untervezeichnis `config` werden alle Konfigurations-Dateien gesammelt. Hierbe
 Die Programme `Bitfocus Companion 3.0.1`, `NDI 5.5.2.0` und `Node.js runtime 18.12.1` werden in den vom Installationsprogramm vorgeschlagenen Ordnern erwartet. `Companion` sollte automatisch starten.
 
 Der CHAudio-Rechner verwendet `OBS Studio 27.2.4` und benötigt die `obs-websocket` und `obs-ndi` Plugins (siehe https://obsproject.com/forum/resources/categories/obs-studio-plugins.6/), sowie das Profil `ComingHome` und die SceneCollection `CasparCG_Audio_IN` (zu finden unter `config/obs`.
-
-`casparcg-client` kann z.Z. beim Starten nicht gleichzeitig das Rundown laden, da dann die AMCP-Befehle vom `Bitfocus Companion` nicht an den `casparcg-server` weitergegeben werden. Dies bedeutet, das zum Benutzen manuell das Rundown `config/casparcg-client.xml` geladen werden muss.
 
 Im Verzeichnis `script\videoMonitor` müssen die npm-Module installiert sein.
 

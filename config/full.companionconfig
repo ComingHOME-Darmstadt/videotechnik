@@ -55859,20 +55859,6 @@
 		}
 	},
 	"instances": {
-		"LqkC7MeeSETaxF6xEpd80": {
-			"instance_type": "generic-osc",
-			"sortOrder": 1,
-			"label": "CasparCG_Client",
-			"isFirstInit": false,
-			"config": {
-				"product": "OSC",
-				"host": "127.0.0.1",
-				"port": "3250",
-				"import_to": "PY98Cj8Y2"
-			},
-			"enabled": true,
-			"lastUpgradeIndex": 0
-		},
 		"Us9UirOsXPy6_qEEsdZmR": {
 			"instance_type": "casparcg-server",
 			"sortOrder": 2,
