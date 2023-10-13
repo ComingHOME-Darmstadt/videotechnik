@@ -12472,7 +12472,7 @@
 								"instance": "internal",
 								"action": "set_page",
 								"options": {
-									"controller": "CL41K1A03537",
+									"controller": "streamdeck:CL41K1A03537",
 									"page": "99"
 								},
 								"delay": 0
@@ -12483,7 +12483,7 @@
 								"instance": "internal",
 								"action": "set_page",
 								"options": {
-									"controller": "DL46K1A08634",
+									"controller": "streamdeck:DL46K1A08634",
 									"page": 99
 								},
 								"delay": 0
@@ -40904,7 +40904,7 @@
 								"instance": "internal",
 								"action": "set_page",
 								"options": {
-									"controller": "CL41K1A03537",
+									"controller": "streamdeck:CL41K1A03537",
 									"page": 96
 								},
 								"delay": 0
@@ -41693,7 +41693,7 @@
 								"instance": "internal",
 								"action": "set_page",
 								"options": {
-									"controller": "CL41K1A03537",
+									"controller": "streamdeck:CL41K1A03537",
 									"page": 96
 								},
 								"delay": 0
@@ -42538,7 +42538,7 @@
 								"instance": "internal",
 								"action": "set_page",
 								"options": {
-									"controller": "CL41K1A03537",
+									"controller": "streamdeck:CL41K1A03537",
 									"page": 96
 								},
 								"delay": 0
@@ -43426,7 +43426,7 @@
 								"instance": "internal",
 								"action": "set_page",
 								"options": {
-									"controller": "CL41K1A03537",
+									"controller": "streamdeck:CL41K1A03537",
 									"page": 96
 								},
 								"delay": 0
@@ -43749,7 +43749,7 @@
 								"instance": "internal",
 								"action": "set_page",
 								"options": {
-									"controller": "CL41K1A03537",
+									"controller": "streamdeck:CL41K1A03537",
 									"page": 94
 								},
 								"delay": 0
@@ -43808,7 +43808,7 @@
 								"instance": "internal",
 								"action": "set_page",
 								"options": {
-									"controller": "CL41K1A03537",
+									"controller": "streamdeck:CL41K1A03537",
 									"page": 51
 								},
 								"delay": 0
@@ -43867,7 +43867,7 @@
 								"instance": "internal",
 								"action": "set_page",
 								"options": {
-									"controller": "CL41K1A03537",
+									"controller": "streamdeck:CL41K1A03537",
 									"page": 50
 								},
 								"delay": 0
@@ -43910,7 +43910,7 @@
 								"instance": "internal",
 								"action": "set_page",
 								"options": {
-									"controller": "CL41K1A03537",
+									"controller": "streamdeck:CL41K1A03537",
 									"page": "60"
 								},
 								"delay": 0
@@ -43953,7 +43953,7 @@
 								"instance": "internal",
 								"action": "set_page",
 								"options": {
-									"controller": "CL41K1A03537",
+									"controller": "streamdeck:CL41K1A03537",
 									"page": "2"
 								},
 								"delay": 0
@@ -44012,7 +44012,7 @@
 								"instance": "internal",
 								"action": "set_page",
 								"options": {
-									"controller": "CL41K1A03537",
+									"controller": "streamdeck:CL41K1A03537",
 									"page": "3"
 								},
 								"delay": 0
@@ -44071,7 +44071,7 @@
 								"instance": "internal",
 								"action": "set_page",
 								"options": {
-									"controller": "CL41K1A03537",
+									"controller": "streamdeck:CL41K1A03537",
 									"page": 9
 								},
 								"delay": 0
@@ -44114,7 +44114,7 @@
 								"instance": "internal",
 								"action": "set_page",
 								"options": {
-									"controller": "CL41K1A03537",
+									"controller": "streamdeck:CL41K1A03537",
 									"page": "5"
 								},
 								"delay": 0
@@ -44157,7 +44157,7 @@
 								"instance": "internal",
 								"action": "set_page",
 								"options": {
-									"controller": "CL41K1A03537",
+									"controller": "streamdeck:CL41K1A03537",
 									"page": 94
 								},
 								"delay": 0
@@ -44450,7 +44450,7 @@
 								"instance": "internal",
 								"action": "set_page",
 								"options": {
-									"controller": "CL41K1A03537",
+									"controller": "streamdeck:CL41K1A03537",
 									"page": 6
 								},
 								"delay": 0
@@ -44493,7 +44493,7 @@
 								"instance": "internal",
 								"action": "set_page",
 								"options": {
-									"controller": "CL41K1A03537",
+									"controller": "streamdeck:CL41K1A03537",
 									"page": 93
 								},
 								"delay": 0
@@ -44536,7 +44536,7 @@
 								"instance": "internal",
 								"action": "set_page",
 								"options": {
-									"controller": "CL41K1A03537",
+									"controller": "streamdeck:CL41K1A03537",
 									"page": 5
 								},
 								"delay": 0
@@ -51468,7 +51468,7 @@
 								"instance": "internal",
 								"action": "set_page",
 								"options": {
-									"controller": "DL46K1A08634",
+									"controller": "streamdeck:DL46K1A08634",
 									"page": 90
 								},
 								"delay": 0
@@ -51479,7 +51479,7 @@
 								"instance": "internal",
 								"action": "set_page",
 								"options": {
-									"controller": "CL41K1A03537",
+									"controller": "streamdeck:CL41K1A03537",
 									"page": 5
 								},
 								"delay": 0
@@ -51546,7 +51546,7 @@
 								"instance": "internal",
 								"action": "set_page",
 								"options": {
-									"controller": "DL46K1A08634",
+									"controller": "streamdeck:DL46K1A08634",
 									"page": 98
 								},
 								"delay": 0
@@ -51557,7 +51557,7 @@
 								"instance": "internal",
 								"action": "set_page",
 								"options": {
-									"controller": "CL41K1A03537",
+									"controller": "streamdeck:CL41K1A03537",
 									"page": 98
 								},
 								"delay": 0
@@ -52063,7 +52063,7 @@
 								"instance": "internal",
 								"action": "set_page",
 								"options": {
-									"controller": "CL41K1A03537",
+									"controller": "streamdeck:CL41K1A03537",
 									"page": 96
 								},
 								"delay": 0
@@ -52106,7 +52106,7 @@
 								"instance": "internal",
 								"action": "set_page",
 								"options": {
-									"controller": "CL41K1A03537",
+									"controller": "streamdeck:CL41K1A03537",
 									"page": "12"
 								},
 								"delay": 0
@@ -52149,7 +52149,7 @@
 								"instance": "internal",
 								"action": "set_page",
 								"options": {
-									"controller": "CL41K1A03537",
+									"controller": "streamdeck:CL41K1A03537",
 									"page": "22"
 								},
 								"delay": 0
@@ -52553,7 +52553,7 @@
 								"instance": "internal",
 								"action": "set_page",
 								"options": {
-									"controller": "CL41K1A03537",
+									"controller": "streamdeck:CL41K1A03537",
 									"page": 97
 								},
 								"delay": 0
