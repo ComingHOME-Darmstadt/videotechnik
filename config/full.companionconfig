@@ -35510,18 +35510,16 @@
 								"options": {
 									"cmd": "MIXER 10-10 VOLUME 0 0 Linear"
 								},
-								"delay": 10
+								"delay": 100
 							},
 							{
-								"id": "EOE6QDaw7a8Zevf3EBqza",
-								"label": "PY98Cj8Y2:send_int",
-								"instance": "LqkC7MeeSETaxF6xEpd80",
-								"action": "send_int",
+								"id": "3MzPbCO3uXz99WnrbHXOc",
+								"action": "COMMAND",
+								"instance": "Us9UirOsXPy6_qEEsdZmR",
 								"options": {
-									"path": "/control/input_audio/play",
-									"int": 1
+									"cmd": "PLAY 10-10 \"ndi://CHAUDIO/OBS\""
 								},
-								"delay": 10
+								"delay": 100
 							},
 							{
 								"id": "0-SRl_NA474lbhAz_yTte",
@@ -35533,7 +35531,7 @@
 									"bank": 9,
 									"force": true
 								},
-								"delay": 10,
+								"delay": 100,
 								"actionId": "button_pressrelease"
 							},
 							{
