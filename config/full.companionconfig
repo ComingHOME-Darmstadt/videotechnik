@@ -55525,9 +55525,346 @@
 					}
 				}
 			}
+		},
+		"bank:99-1": {
+			"type": "button",
+			"style": {
+				"text": "Erst OpneLP starten!",
+				"size": "auto",
+				"png": null,
+				"alignment": "center:center",
+				"pngalignment": "center:center",
+				"color": 16777215,
+				"bgcolor": 0,
+				"show_topbar": "default"
+			},
+			"options": {
+				"relativeDelay": false,
+				"stepAutoProgress": true
+			},
+			"feedbacks": [
+				{
+					"id": "F8jrIiSt7-GdKIEcvOC2k",
+					"type": "instance_status",
+					"instance_id": "internal",
+					"options": {
+						"instance_id": "D0NW3hpYm7DGmEmP0-arO",
+						"ok_fg": 0,
+						"ok_bg": 0,
+						"warning_fg": 16777215,
+						"warning_bg": 13107200,
+						"error_fg": 16777215,
+						"error_bg": 13107200,
+						"disabled_fg": 16777215,
+						"disabled_bg": 13107200
+					},
+					"style": {}
+				}
+			],
+			"steps": {
+				"0": {
+					"action_sets": {
+						"down": [],
+						"up": []
+					},
+					"options": {
+						"runWhileHeld": []
+					}
+				}
+			}
+		},
+		"bank:99-9": {
+			"type": "button",
+			"style": {
+				"text": "Stage starten",
+				"size": "auto",
+				"png": null,
+				"alignment": "center:center",
+				"pngalignment": "center:center",
+				"color": 16777215,
+				"bgcolor": 26112,
+				"show_topbar": "default"
+			},
+			"options": {
+				"relativeDelay": false,
+				"stepAutoProgress": true,
+				"rotaryActions": false
+			},
+			"feedbacks": [
+				{
+					"id": "C33g-1s6VXmv1ZVUPSxlT",
+					"type": "instance_status",
+					"instance_id": "internal",
+					"options": {
+						"instance_id": "D0NW3hpYm7DGmEmP0-arO",
+						"ok_fg": 16777215,
+						"ok_bg": 39168,
+						"warning_fg": 26112,
+						"warning_bg": 13056,
+						"error_fg": 26112,
+						"error_bg": 13056,
+						"disabled_fg": 26112,
+						"disabled_bg": 13056
+					},
+					"style": {}
+				}
+			],
+			"steps": {
+				"0": {
+					"action_sets": {
+						"down": [
+							{
+								"id": "XYBn_MQq3KPR2YLC-nmDm",
+								"action": "button_pressrelease_if_expression",
+								"instance": "internal",
+								"options": {
+									"expression": "$(internal:custom_connectionStateOpenlp) == 'ok'",
+									"page_from_variable": false,
+									"page": 0,
+									"page_variable": "1",
+									"bank_from_variable": false,
+									"bank": 17,
+									"bank_variable": "1",
+									"force": false
+								},
+								"delay": 0
+							}
+						],
+						"up": []
+					},
+					"options": {
+						"runWhileHeld": []
+					}
+				}
+			}
+		},
+		"bank:99-17": {
+			"type": "button",
+			"style": {
+				"text": "Skript zum Stage starten",
+				"size": "auto",
+				"png": null,
+				"alignment": "center:center",
+				"pngalignment": "center:center",
+				"color": 4737096,
+				"bgcolor": 0,
+				"show_topbar": "default"
+			},
+			"options": {
+				"relativeDelay": true,
+				"stepAutoProgress": true
+			},
+			"feedbacks": [],
+			"steps": {
+				"0": {
+					"action_sets": {
+						"down": [
+							{
+								"id": "2zwnmLaIMdxh-AxHHQ7oT",
+								"action": "button_pressrelease",
+								"instance": "internal",
+								"options": {
+									"page_from_variable": false,
+									"page": 0,
+									"page_variable": "1",
+									"bank_from_variable": false,
+									"bank": 12,
+									"bank_variable": "1",
+									"force": false
+								},
+								"delay": 0
+							},
+							{
+								"id": "ntMasLXJbcnwCKwWxaFia",
+								"action": "button_pressrelease",
+								"instance": "internal",
+								"options": {
+									"page_from_variable": false,
+									"page": 5,
+									"page_variable": "1",
+									"bank_from_variable": false,
+									"bank": 15,
+									"bank_variable": "1",
+									"force": false
+								},
+								"delay": 10000
+							}
+						],
+						"up": []
+					},
+					"options": {
+						"runWhileHeld": []
+					}
+				}
+			}
 		}
 	},
-	"triggers": {},
+	"triggers": {
+		"NaFppESLrOJym6MPDT5uH": {
+			"type": "trigger",
+			"options": {
+				"name": "check OpenLP Connection",
+				"enabled": false,
+				"sortOrder": 0,
+				"relativeDelay": false
+			},
+			"action_sets": {
+				"0": [
+					{
+						"id": "qil9-TrJL9UmFMXUkkIzC",
+						"action": "custom_variable_set_value",
+						"instance": "internal",
+						"options": {
+							"name": "connectionStateOpenlp",
+							"value": "ok"
+						},
+						"delay": 0
+					},
+					{
+						"id": "33vv7KVNRPWdN7V6UFHwM",
+						"action": "trigger_enabled",
+						"instance": "internal",
+						"options": {
+							"trigger_id": "trigger:NaFppESLrOJym6MPDT5uH",
+							"enable": "false"
+						},
+						"delay": 0
+					},
+					{
+						"id": "p0fq07ekMClZIzHR0GSnW",
+						"action": "trigger_enabled",
+						"instance": "internal",
+						"options": {
+							"trigger_id": "trigger:6xS1wpWLPbLQyOHhKi7qx",
+							"enable": "false"
+						},
+						"delay": 0
+					}
+				]
+			},
+			"condition": [
+				{
+					"id": "D3G4O45mm0DsQ2IJqUTwS",
+					"type": "instance_custom_state",
+					"instance_id": "internal",
+					"options": {
+						"instance_id": "D0NW3hpYm7DGmEmP0-arO",
+						"state": "good"
+					},
+					"style": {}
+				}
+			],
+			"events": [
+				{
+					"id": "PK7FnsOd9qG4X7-C4_DkK",
+					"type": "interval",
+					"enabled": true,
+					"options": {
+						"seconds": 5
+					}
+				}
+			]
+		},
+		"EDivQVdobTOCNZeJJMPJm": {
+			"type": "trigger",
+			"options": {
+				"name": "onStartup",
+				"enabled": true,
+				"sortOrder": 0,
+				"relativeDelay": false
+			},
+			"action_sets": {
+				"0": [
+					{
+						"id": "K_aHXWzWCQNNA-WrX_hhm",
+						"action": "trigger_enabled",
+						"instance": "internal",
+						"options": {
+							"trigger_id": "trigger:NaFppESLrOJym6MPDT5uH",
+							"enable": "true"
+						},
+						"delay": 0
+					},
+					{
+						"id": "k-DzFd_esmH_L7XzGcqsg",
+						"action": "trigger_enabled",
+						"instance": "internal",
+						"options": {
+							"trigger_id": "trigger:6xS1wpWLPbLQyOHhKi7qx",
+							"enable": "true"
+						},
+						"delay": 0
+					}
+				]
+			},
+			"condition": [],
+			"events": [
+				{
+					"id": "rvRoFQMJL3bcr0E3ZSwkn",
+					"type": "startup",
+					"enabled": true,
+					"options": {
+						"delay": 10000
+					}
+				}
+			]
+		},
+		"6xS1wpWLPbLQyOHhKi7qx": {
+			"type": "trigger",
+			"options": {
+				"name": "reinit OpenLP Connection",
+				"enabled": false,
+				"sortOrder": 0,
+				"relativeDelay": true
+			},
+			"action_sets": {
+				"0": [
+					{
+						"id": "YktVSUBtsCmAYjcYhW7Hy",
+						"action": "instance_control",
+						"instance": "internal",
+						"options": {
+							"instance_id": "D0NW3hpYm7DGmEmP0-arO",
+							"enable": "false"
+						},
+						"delay": 0
+					},
+					{
+						"id": "_TdXmwNGbB-4ICYcae68t",
+						"action": "instance_control",
+						"instance": "internal",
+						"options": {
+							"instance_id": "D0NW3hpYm7DGmEmP0-arO",
+							"enable": "true"
+						},
+						"delay": 2000
+					}
+				]
+			},
+			"condition": [
+				{
+					"id": "kL6nRqQNGZaRRb2dX2tst",
+					"type": "instance_custom_state",
+					"instance_id": "internal",
+					"options": {
+						"instance_id": "D0NW3hpYm7DGmEmP0-arO",
+						"state": "error"
+					},
+					"style": {}
+				}
+			],
+			"events": [
+				{
+					"id": "2OPYar3HMgOQLlT3Y_sG4",
+					"type": "interval",
+					"enabled": true,
+					"options": {
+						"seconds": 5
+					}
+				}
+			]
+		}
+	},
 	"custom_variables": {
 		"scriptPath": {
 			"description": "A custom variable",
@@ -55702,6 +56039,12 @@
 		"stageCurrentButton": {
 			"description": "A custom variable",
 			"defaultValue": "0"
+		},
+		"connectionStateOpenlp": {
+			"description": "A custom variable",
+			"defaultValue": "error",
+			"persistCurrentValue": false,
+			"sortOrder": null
 		}
 	},
 	"instances": {
