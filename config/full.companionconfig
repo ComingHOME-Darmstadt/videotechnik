@@ -8513,6 +8513,45 @@
 									"enable": "true"
 								},
 								"delay": 0
+							},
+							{
+								"id": "gl_02Z0z2tyX9iHFHg0i4",
+								"action": "shut",
+								"instance": "hCaPsZtF_49-pqMz8l44v",
+								"options": {
+									"val": "value",
+									"value": 6
+								},
+								"delay": 100
+							},
+							{
+								"id": "vdxwLrjtii1iYFNQzc0uP",
+								"action": "picFlip",
+								"instance": "hCaPsZtF_49-pqMz8l44v",
+								"options": {
+									"val": "On"
+								},
+								"delay": 100
+							},
+							{
+								"id": "isCQrfnB_h0GYxrf7c6FK",
+								"action": "sharpness",
+								"instance": "hCaPsZtF_49-pqMz8l44v",
+								"options": {
+									"val": "value",
+									"value": 8
+								},
+								"delay": 100
+							},
+							{
+								"id": "dLYjeA3AfIZ0Fmbe1waBE",
+								"action": "contrast",
+								"instance": "hCaPsZtF_49-pqMz8l44v",
+								"options": {
+									"val": "value",
+									"value": 10
+								},
+								"delay": 100
 							}
 						],
 						"up": []
@@ -8621,6 +8660,45 @@
 									"enable": "true"
 								},
 								"delay": 0
+							},
+							{
+								"id": "yd0yk4V2_9dO6gO-gjuOn",
+								"action": "shut",
+								"instance": "_KgFlpU8iDjUwQ9rTkCHM",
+								"options": {
+									"val": "value",
+									"value": 6
+								},
+								"delay": 100
+							},
+							{
+								"id": "Apezru6lXeMgD4PuiaCtE",
+								"action": "picFlip",
+								"instance": "_KgFlpU8iDjUwQ9rTkCHM",
+								"options": {
+									"val": "On"
+								},
+								"delay": 100
+							},
+							{
+								"id": "OFijFDuft9JUjGryu6Pdf",
+								"action": "sharpness",
+								"instance": "_KgFlpU8iDjUwQ9rTkCHM",
+								"options": {
+									"val": "value",
+									"value": 8
+								},
+								"delay": 100
+							},
+							{
+								"id": "WSGzjfp2IpZSE1-EaLGYm",
+								"action": "contrast",
+								"instance": "_KgFlpU8iDjUwQ9rTkCHM",
+								"options": {
+									"val": "value",
+									"value": 10
+								},
+								"delay": 100
 							}
 						],
 						"up": []
