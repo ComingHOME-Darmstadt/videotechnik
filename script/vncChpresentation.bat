@@ -4,4 +4,4 @@ set mePath=%~dp0
 
 call %mePath%setVars4Connection.bat
 
-start /min "uvnc chpresentation" "C:\Program Files\uvnc bvba\UltraVNC\vncviewer.exe" /autoscaling /password %vncPw% -connect chpresentation:5900
+start /min "uvnc chpresentation" "C:\Program Files\uvnc bvba\UltraVNC\vncviewer.exe" /autoscaling /password %vncPw% -connect 192.168.77.31:5900
