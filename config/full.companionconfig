@@ -8495,6 +8495,16 @@
 					"action_sets": {
 						"down": [
 							{
+								"id": "i5H1UsAuWX_QjJs0Ci2Ul",
+								"action": "instance_control",
+								"instance": "internal",
+								"options": {
+									"instance_id": "hCaPsZtF_49-pqMz8l44v",
+									"enable": "false"
+								},
+								"delay": 0
+							},
+							{
 								"id": "O23_DSXocs_7GDPEQNiSr",
 								"action": "COMMAND",
 								"instance": "WqByb_xbfCDtPWSp60myw",
@@ -8512,7 +8522,7 @@
 									"instance_id": "hCaPsZtF_49-pqMz8l44v",
 									"enable": "true"
 								},
-								"delay": 0
+								"delay": 2000
 							},
 							{
 								"id": "gl_02Z0z2tyX9iHFHg0i4",
@@ -8582,17 +8592,6 @@
 									"cmd": "CLEAR 11"
 								},
 								"delay": 100
-							},
-							{
-								"id": "FJl7sfaw4PQqzYIt_FyeH",
-								"label": "bitfocus-companion:instance_control",
-								"instance": "internal",
-								"action": "instance_control",
-								"options": {
-									"instance_id": "hCaPsZtF_49-pqMz8l44v",
-									"enable": "false"
-								},
-								"delay": 0
 							}
 						],
 						"up": []
@@ -8642,6 +8641,16 @@
 					"action_sets": {
 						"down": [
 							{
+								"id": "4fbM4Ebqwn8gzfe6oQsz0",
+								"action": "instance_control",
+								"instance": "internal",
+								"options": {
+									"instance_id": "_KgFlpU8iDjUwQ9rTkCHM",
+									"enable": "false"
+								},
+								"delay": 0
+							},
+							{
 								"id": "4LFML-SvL3E-jyEomT6Ed",
 								"action": "COMMAND",
 								"instance": "WqByb_xbfCDtPWSp60myw",
@@ -8659,7 +8668,7 @@
 									"instance_id": "_KgFlpU8iDjUwQ9rTkCHM",
 									"enable": "true"
 								},
-								"delay": 0
+								"delay": 2000
 							},
 							{
 								"id": "yd0yk4V2_9dO6gO-gjuOn",
@@ -8729,17 +8738,6 @@
 									"cmd": "CLEAR 12"
 								},
 								"delay": 100
-							},
-							{
-								"id": "Rv7Hw_r0l4c3rR1uyv_kW",
-								"label": "bitfocus-companion:instance_control",
-								"instance": "internal",
-								"action": "instance_control",
-								"options": {
-									"instance_id": "_KgFlpU8iDjUwQ9rTkCHM",
-									"enable": "false"
-								},
-								"delay": 0
 							}
 						],
 						"up": []
