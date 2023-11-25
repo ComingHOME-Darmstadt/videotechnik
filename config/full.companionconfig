@@ -1480,7 +1480,7 @@
 		"bank:2-19": {
 			"type": "button",
 			"style": {
-				"text": "AUX\\n03",
+				"text": "AUX\\nTBS 2",
 				"size": "24",
 				"png": null,
 				"alignment": "center:center",
@@ -1540,6 +1540,15 @@
 									"bank": 27,
 									"bank_variable": "1",
 									"force": false
+								},
+								"delay": 0
+							},
+							{
+								"id": "uYjhN0JejbNDJ6xlCCdj3",
+								"action": "COMMAND",
+								"instance": "WqByb_xbfCDtPWSp60myw",
+								"options": {
+									"cmd": "PLAY 17-10 \"ndi://192.168.77.28/stream1\""
 								},
 								"delay": 0
 							},
@@ -55558,7 +55567,7 @@
 		"bank:1-27": {
 			"type": "button",
 			"style": {
-				"text": "play\\nAUX\\n03",
+				"text": "play\\nAUX\\nTBS 2",
 				"size": "14",
 				"png": null,
 				"alignment": "center:center",
