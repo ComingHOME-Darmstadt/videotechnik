@@ -49058,7 +49058,7 @@
 		"bank:96-10": {
 			"type": "button",
 			"style": {
-				"text": "Mix Vol 25%",
+				"text": "Mix Vol 15%",
 				"size": "18",
 				"png": null,
 				"alignment": "center:center",
@@ -49084,7 +49084,7 @@
 								"instance": "WqByb_xbfCDtPWSp60myw",
 								"action": "COMMAND",
 								"options": {
-									"cmd": "MIXER 1-15 VOLUME 0.25 12 Linear"
+									"cmd": "MIXER 1-15 VOLUME 0.15 12 Linear"
 								},
 								"delay": 0
 							},
@@ -49095,7 +49095,7 @@
 								"action": "custom_variable_set_value",
 								"options": {
 									"name": "volPrgMain",
-									"value": "25"
+									"value": "15"
 								},
 								"delay": 0
 							},
@@ -49105,7 +49105,7 @@
 								"instance": "WqByb_xbfCDtPWSp60myw",
 								"action": "COMMAND",
 								"options": {
-									"cmd": "MIXER 6-15 VOLUME 0.25 12 Linear"
+									"cmd": "MIXER 6-15 VOLUME 0.15 12 Linear"
 								},
 								"delay": 100
 							},
@@ -49116,7 +49116,7 @@
 								"action": "custom_variable_set_value",
 								"options": {
 									"name": "volN-1Main",
-									"value": "25"
+									"value": "15"
 								},
 								"delay": 0
 							}
