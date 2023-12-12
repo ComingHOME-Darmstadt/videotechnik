@@ -55782,6 +55782,268 @@
 					}
 				}
 			}
+		},
+		"bank:99-2": {
+			"type": "button",
+			"style": {
+				"text": "Erst AudioPC starten!",
+				"size": "auto",
+				"png": null,
+				"alignment": "center:center",
+				"pngalignment": "center:center",
+				"color": 16777215,
+				"bgcolor": 0,
+				"show_topbar": "default"
+			},
+			"options": {
+				"relativeDelay": false,
+				"stepAutoProgress": true
+			},
+			"feedbacks": [
+				{
+					"id": "QXZkEv_meN61DmaZ0MvYX",
+					"type": "instance_status",
+					"instance_id": "internal",
+					"options": {
+						"instance_id": "Roi5FbvsvKRL9uZ2QgrzK",
+						"ok_fg": 0,
+						"ok_bg": 0,
+						"warning_fg": 16777215,
+						"warning_bg": 13107200,
+						"error_fg": 16777215,
+						"error_bg": 13107200,
+						"disabled_fg": 16777215,
+						"disabled_bg": 13107200
+					},
+					"style": {}
+				}
+			],
+			"steps": {
+				"0": {
+					"action_sets": {
+						"down": [],
+						"up": []
+					},
+					"options": {
+						"runWhileHeld": []
+					}
+				}
+			}
+		},
+		"bank:99-10": {
+			"type": "button",
+			"style": {
+				"text": "TBS u.\\nBeamer starten",
+				"size": "auto",
+				"png": null,
+				"alignment": "center:center",
+				"pngalignment": "center:center",
+				"color": 16777215,
+				"bgcolor": 26112,
+				"show_topbar": "default"
+			},
+			"options": {
+				"relativeDelay": false,
+				"stepAutoProgress": true,
+				"rotaryActions": false
+			},
+			"feedbacks": [
+				{
+					"id": "NqW80JfGpvkgJAe7TytOV",
+					"type": "instance_status",
+					"instance_id": "internal",
+					"options": {
+						"instance_id": "Roi5FbvsvKRL9uZ2QgrzK",
+						"ok_fg": 16777215,
+						"ok_bg": 39168,
+						"warning_fg": 26112,
+						"warning_bg": 13056,
+						"error_fg": 26112,
+						"error_bg": 13056,
+						"disabled_fg": 26112,
+						"disabled_bg": 13056
+					},
+					"style": {}
+				}
+			],
+			"steps": {
+				"0": {
+					"action_sets": {
+						"down": [
+							{
+								"id": "wFNuWSxXEVcGvF3wa35YK",
+								"action": "button_pressrelease_if_expression",
+								"instance": "internal",
+								"options": {
+									"expression": "$(internal:custom_connectionStateAudioN1) == 'ok'",
+									"page_from_variable": false,
+									"page": 0,
+									"page_variable": "1",
+									"bank_from_variable": false,
+									"bank": 18,
+									"bank_variable": "1",
+									"force": false
+								},
+								"delay": 0
+							}
+						],
+						"up": []
+					},
+					"options": {
+						"runWhileHeld": []
+					}
+				}
+			}
+		},
+		"bank:99-18": {
+			"type": "button",
+			"style": {
+				"text": "Skript zum TBS u. Beamer starten",
+				"size": "auto",
+				"png": null,
+				"alignment": "center:center",
+				"pngalignment": "center:center",
+				"color": 4737096,
+				"bgcolor": 0,
+				"show_topbar": "default"
+			},
+			"options": {
+				"relativeDelay": true,
+				"stepAutoProgress": true
+			},
+			"feedbacks": [],
+			"steps": {
+				"0": {
+					"action_sets": {
+						"down": [
+							{
+								"id": "7JvzvmuoSQWfvWMtktAR2",
+								"action": "button_pressrelease",
+								"instance": "internal",
+								"options": {
+									"page_from_variable": false,
+									"page": 0,
+									"page_variable": "1",
+									"bank_from_variable": false,
+									"bank": 12,
+									"bank_variable": "1",
+									"force": false
+								},
+								"delay": 0
+							},
+							{
+								"id": "wkr_w5oqyj_vSg1NdRweW",
+								"action": "button_pressrelease",
+								"instance": "internal",
+								"options": {
+									"page_from_variable": false,
+									"page": 5,
+									"page_variable": "1",
+									"bank_from_variable": false,
+									"bank": 12,
+									"bank_variable": "1",
+									"force": false
+								},
+								"delay": 10000
+							},
+							{
+								"id": "y46_PURhyGArYDH18Csh4",
+								"action": "button_pressrelease",
+								"instance": "internal",
+								"options": {
+									"page_from_variable": false,
+									"page": 5,
+									"page_variable": "1",
+									"bank_from_variable": false,
+									"bank": 14,
+									"bank_variable": "1",
+									"force": false
+								},
+								"delay": 5000
+							},
+							{
+								"id": "M-iRxdlRfL2AnbRYiZXMl",
+								"action": "button_pressrelease",
+								"instance": "internal",
+								"options": {
+									"page_from_variable": false,
+									"page": 5,
+									"page_variable": "1",
+									"bank_from_variable": false,
+									"bank": 15,
+									"bank_variable": "1",
+									"force": false
+								},
+								"delay": 5000
+							},
+							{
+								"id": "1cxA1n2qx5AH25Iu87Gp2",
+								"action": "button_pressrelease",
+								"instance": "internal",
+								"options": {
+									"page_from_variable": false,
+									"page": 5,
+									"page_variable": "1",
+									"bank_from_variable": false,
+									"bank": 28,
+									"bank_variable": "1",
+									"force": false
+								},
+								"delay": 5000
+							},
+							{
+								"id": "aaOlcFJvamsInhd5g8BcF",
+								"action": "button_pressrelease",
+								"instance": "internal",
+								"options": {
+									"page_from_variable": false,
+									"page": 4,
+									"page_variable": "1",
+									"bank_from_variable": false,
+									"bank": 28,
+									"bank_variable": "1",
+									"force": false
+								},
+								"delay": 5000
+							},
+							{
+								"id": "ivO4FNJUCi3Ss9Sc5VmV9",
+								"action": "button_pressrelease",
+								"instance": "internal",
+								"options": {
+									"page_from_variable": false,
+									"page": 3,
+									"page_variable": "1",
+									"bank_from_variable": false,
+									"bank": 28,
+									"bank_variable": "1",
+									"force": false
+								},
+								"delay": 5000
+							},
+							{
+								"id": "2I0jf1hGpWwZExiwC0nqG",
+								"action": "button_pressrelease",
+								"instance": "internal",
+								"options": {
+									"page_from_variable": false,
+									"page": 50,
+									"page_variable": "1",
+									"bank_from_variable": false,
+									"bank": 29,
+									"bank_variable": "1",
+									"force": false
+								},
+								"delay": 5000
+							}
+						],
+						"up": []
+					},
+					"options": {
+						"runWhileHeld": []
+					}
+				}
+			}
 		}
 	},
 	"triggers": {
@@ -55879,6 +56141,26 @@
 							"enable": "true"
 						},
 						"delay": 0
+					},
+					{
+						"id": "8oTmo_YMRJGAD6eG3Qlsq",
+						"action": "trigger_enabled",
+						"instance": "internal",
+						"options": {
+							"trigger_id": "trigger:gPki8LCEw1aq5-u77zluE",
+							"enable": "true"
+						},
+						"delay": 0
+					},
+					{
+						"id": "_EcAnVZxMgfIMJXlRCFgf",
+						"action": "trigger_enabled",
+						"instance": "internal",
+						"options": {
+							"trigger_id": "trigger:OTbmNaG-50SZrDfHMWpem",
+							"enable": "true"
+						},
+						"delay": 0
 					}
 				]
 			},
@@ -55933,6 +56215,126 @@
 					"instance_id": "internal",
 					"options": {
 						"instance_id": "D0NW3hpYm7DGmEmP0-arO",
+						"state": "error"
+					},
+					"style": {}
+				}
+			],
+			"events": [
+				{
+					"id": "2OPYar3HMgOQLlT3Y_sG4",
+					"type": "interval",
+					"enabled": true,
+					"options": {
+						"seconds": 5
+					}
+				}
+			]
+		},
+		"gPki8LCEw1aq5-u77zluE": {
+			"type": "trigger",
+			"options": {
+				"name": "check Audio N-1 Connection",
+				"enabled": true,
+				"sortOrder": 0,
+				"relativeDelay": false
+			},
+			"action_sets": {
+				"0": [
+					{
+						"id": "rylLz-VdnC8Rm2AVQmGxM",
+						"action": "custom_variable_set_value",
+						"instance": "internal",
+						"options": {
+							"name": "connectionStateAudioN1",
+							"value": "ok"
+						},
+						"delay": 0
+					},
+					{
+						"id": "DKg1EYnIvvIyNNn1Lr76w",
+						"action": "trigger_enabled",
+						"instance": "internal",
+						"options": {
+							"trigger_id": "trigger:gPki8LCEw1aq5-u77zluE",
+							"enable": "false"
+						},
+						"delay": 0
+					},
+					{
+						"id": "Oujg0EAPDYz8Ua9QG6OhA",
+						"action": "trigger_enabled",
+						"instance": "internal",
+						"options": {
+							"trigger_id": "trigger:OTbmNaG-50SZrDfHMWpem",
+							"enable": "false"
+						},
+						"delay": 0
+					}
+				]
+			},
+			"condition": [
+				{
+					"id": "1QZLIsmFkHDjU_excAL0D",
+					"type": "instance_custom_state",
+					"instance_id": "internal",
+					"options": {
+						"instance_id": "Roi5FbvsvKRL9uZ2QgrzK",
+						"state": "good"
+					},
+					"style": {}
+				}
+			],
+			"events": [
+				{
+					"id": "PK7FnsOd9qG4X7-C4_DkK",
+					"type": "interval",
+					"enabled": true,
+					"options": {
+						"seconds": 5
+					}
+				}
+			]
+		},
+		"OTbmNaG-50SZrDfHMWpem": {
+			"type": "trigger",
+			"options": {
+				"name": "reinit Audio N-1 Connection",
+				"enabled": true,
+				"sortOrder": 0,
+				"relativeDelay": true
+			},
+			"action_sets": {
+				"0": [
+					{
+						"id": "FB9WCSnpTKvLUTuFfK_pZ",
+						"action": "instance_control",
+						"instance": "internal",
+						"options": {
+							"instance_id": "Roi5FbvsvKRL9uZ2QgrzK",
+							"enable": "false"
+						},
+						"delay": 0
+					},
+					{
+						"id": "ZXL7ItKV44U2K-FlklfiO",
+						"action": "instance_control",
+						"instance": "internal",
+						"options": {
+							"instance_id": "Roi5FbvsvKRL9uZ2QgrzK",
+							"enable": "true"
+						},
+						"delay": 2000
+					}
+				]
+			},
+			"condition": [
+				{
+					"id": "uDtU2RW32PTM6IvT4mlbv",
+					"type": "instance_custom_state",
+					"instance_id": "internal",
+					"options": {
+						"instance_id": "Roi5FbvsvKRL9uZ2QgrzK",
 						"state": "error"
 					},
 					"style": {}
@@ -56126,6 +56528,12 @@
 			"defaultValue": "0"
 		},
 		"connectionStateOpenlp": {
+			"description": "A custom variable",
+			"defaultValue": "error",
+			"persistCurrentValue": false,
+			"sortOrder": null
+		},
+		"connectionStateAudioN1": {
 			"description": "A custom variable",
 			"defaultValue": "error",
 			"persistCurrentValue": false,
