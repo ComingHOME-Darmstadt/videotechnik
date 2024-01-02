@@ -8531,7 +8531,7 @@
 									"instance_id": "hCaPsZtF_49-pqMz8l44v",
 									"enable": "true"
 								},
-								"delay": 2000
+								"delay": 1000
 							},
 							{
 								"id": "gl_02Z0z2tyX9iHFHg0i4",
@@ -8541,7 +8541,7 @@
 									"val": "value",
 									"value": 6
 								},
-								"delay": 100
+								"delay": 3000
 							},
 							{
 								"id": "vdxwLrjtii1iYFNQzc0uP",
@@ -8677,7 +8677,7 @@
 									"instance_id": "_KgFlpU8iDjUwQ9rTkCHM",
 									"enable": "true"
 								},
-								"delay": 2000
+								"delay": 1000
 							},
 							{
 								"id": "yd0yk4V2_9dO6gO-gjuOn",
@@ -8687,7 +8687,7 @@
 									"val": "value",
 									"value": 6
 								},
-								"delay": 100
+								"delay": 3000
 							},
 							{
 								"id": "Apezru6lXeMgD4PuiaCtE",
