@@ -7180,13 +7180,13 @@
 		"bank:4-24": {
 			"type": "button",
 			"style": {
-				"text": "AUX\\n\\nSTAGE",
+				"text": "AUX",
 				"size": "18",
 				"png": null,
 				"alignment": "center:center",
 				"pngalignment": "center:center",
 				"color": 16777215,
-				"bgcolor": 17664,
+				"bgcolor": 4340021,
 				"show_topbar": "default",
 				"latch": false
 			},
@@ -7206,7 +7206,7 @@
 						"value": "24"
 					},
 					"style": {
-						"bgcolor": 10040115
+						"bgcolor": 26112
 					}
 				},
 				{
@@ -7484,13 +7484,13 @@
 		"bank:4-28": {
 			"type": "button",
 			"style": {
-				"text": "TBS\\n\\nSTAGE",
+				"text": "TBS",
 				"size": "18",
 				"png": null,
 				"alignment": "center:center",
 				"pngalignment": "center:center",
 				"color": 16777215,
-				"bgcolor": 17664,
+				"bgcolor": 4340021,
 				"show_topbar": "default",
 				"latch": false
 			},
@@ -7510,7 +7510,7 @@
 						"value": "28"
 					},
 					"style": {
-						"bgcolor": 10040115
+						"bgcolor": 26112
 					}
 				},
 				{
@@ -7585,13 +7585,13 @@
 		"bank:4-29": {
 			"type": "button",
 			"style": {
-				"text": "ZOOM\\n\\nSTAGE",
+				"text": "ZOOM",
 				"size": "18",
 				"png": null,
 				"alignment": "center:center",
 				"pngalignment": "center:center",
 				"color": 16777215,
-				"bgcolor": 17664,
+				"bgcolor": 4340021,
 				"show_topbar": "default",
 				"latch": false
 			},
@@ -7611,7 +7611,7 @@
 						"value": "29"
 					},
 					"style": {
-						"bgcolor": 10040115
+						"bgcolor": 26112
 					}
 				},
 				{
