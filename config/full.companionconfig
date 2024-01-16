@@ -6102,13 +6102,13 @@
 		"bank:4-14": {
 			"type": "button",
 			"style": {
-				"text": "OpenLP\\n\\nSTAGE",
+				"text": "OpenLP Stage",
 				"size": "18",
 				"png": null,
 				"alignment": "center:center",
 				"pngalignment": "center:center",
 				"color": 16777215,
-				"bgcolor": 17664,
+				"bgcolor": 4340021,
 				"show_topbar": "default",
 				"latch": false
 			},
@@ -6128,7 +6128,7 @@
 						"value": "14"
 					},
 					"style": {
-						"bgcolor": 10040115
+						"bgcolor": 26112
 					}
 				}
 			],
@@ -6330,13 +6330,13 @@
 		"bank:4-16": {
 			"type": "button",
 			"style": {
-				"text": "PRG\\n\\nSTAGE",
+				"text": "PRG",
 				"size": "18",
 				"png": null,
 				"alignment": "center:center",
 				"pngalignment": "center:center",
 				"color": 16777215,
-				"bgcolor": 17664,
+				"bgcolor": 4340021,
 				"show_topbar": "default",
 				"latch": false
 			},
@@ -6356,7 +6356,7 @@
 						"value": "16"
 					},
 					"style": {
-						"bgcolor": 10040115
+						"bgcolor": 26112
 					}
 				}
 			],
@@ -7287,7 +7287,7 @@
 				"alignment": "center:center",
 				"pngalignment": "center:center",
 				"color": 16777215,
-				"bgcolor": 10040115,
+				"bgcolor": "0",
 				"show_topbar": "default",
 				"latch": true
 			},
@@ -7383,13 +7383,13 @@
 		"bank:4-27": {
 			"type": "button",
 			"style": {
-				"text": "OpenLP\\nfull\\nSTAGE",
+				"text": "OpenLP\\nFULL",
 				"size": "18",
 				"png": null,
 				"alignment": "center:center",
 				"pngalignment": "center:center",
 				"color": 16777215,
-				"bgcolor": 17664,
+				"bgcolor": 4340021,
 				"show_topbar": "default",
 				"latch": false
 			},
@@ -7409,7 +7409,7 @@
 						"value": "27"
 					},
 					"style": {
-						"bgcolor": 10040115
+						"bgcolor": 26112
 					}
 				},
 				{
@@ -7686,13 +7686,13 @@
 		"bank:4-30": {
 			"type": "button",
 			"style": {
-				"text": "Uhrzeit STAGE",
+				"text": "Uhrzeit",
 				"size": "18",
 				"png": null,
 				"alignment": "center:center",
 				"pngalignment": "center:center",
 				"color": 16777215,
-				"bgcolor": 17664,
+				"bgcolor": 4340021,
 				"show_topbar": "default",
 				"latch": false
 			},
@@ -7712,7 +7712,7 @@
 						"value": "30"
 					},
 					"style": {
-						"bgcolor": 10040115
+						"bgcolor": 26112
 					}
 				}
 			],
@@ -7925,13 +7925,13 @@
 		"bank:4-32": {
 			"type": "button",
 			"style": {
-				"text": "BLACK STAGE",
+				"text": "BLACK",
 				"size": "18",
 				"png": null,
 				"alignment": "center:center",
 				"pngalignment": "center:center",
 				"color": 16777215,
-				"bgcolor": 17664,
+				"bgcolor": 4340021,
 				"show_topbar": "default",
 				"latch": false
 			},
@@ -7951,7 +7951,7 @@
 						"value": "32"
 					},
 					"style": {
-						"bgcolor": 10040115
+						"bgcolor": 26112
 					}
 				}
 			],
