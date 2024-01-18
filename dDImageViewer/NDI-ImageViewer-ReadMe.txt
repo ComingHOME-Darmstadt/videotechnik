@@ -69,3 +69,5 @@ v1.1.0.10 18-Mar-2021   Added "Use Last" & "Use Image" menu options for saving/l
 v1.1.0.11 30-Oct-2021   Recompiled to extend expiry date and use the NDI v5.03 DLL. 64-bit only (no 32-bit version in this release)
 
 v1.1.0.12  5-Sep-2022   Recompiled to extend expiry date and use the NDI v5.5 DLL. 64-bit only.
+
+v1.1.0.13 12-Jun-2023   Maintenance release, includes revised expiry warning dialog and extended lifetime.
