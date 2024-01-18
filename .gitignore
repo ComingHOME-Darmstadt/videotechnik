@@ -18,3 +18,5 @@
 /script/rdpChzoom.bat
 /script/setVars4Connection.bat
 /script/videoMonitor/node_modules
+/script/youtube-dl.exe
+/script/yt-dlp.exe
