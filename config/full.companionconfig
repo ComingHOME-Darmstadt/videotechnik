@@ -47681,8 +47681,9 @@
 						"step": 1
 					},
 					"style": {
-						"bgcolor": 10040115,
-						"text": "STAGE\\nOFF"
+						"bgcolor": 0,
+						"text": "STAGE\\nOFF",
+						"color": 4737096
 					}
 				}
 			],
@@ -51305,7 +51306,47 @@
 				"stepAutoProgress": true,
 				"rotaryActions": false
 			},
-			"feedbacks": [],
+			"feedbacks": [
+				{
+					"id": "hj-hH3lu0K1DTUi9cNmLA",
+					"type": "instance_custom_state",
+					"instance_id": "internal",
+					"options": {
+						"instance_id": "D0NW3hpYm7DGmEmP0-arO",
+						"state": "warning"
+					},
+					"style": {
+						"bgcolor": 10040115,
+						"text": "OpenLP OFF"
+					}
+				},
+				{
+					"id": "LugTC4eBOGNh3kDiwuv9U",
+					"type": "instance_custom_state",
+					"instance_id": "internal",
+					"options": {
+						"instance_id": "D0NW3hpYm7DGmEmP0-arO",
+						"state": "error"
+					},
+					"style": {
+						"bgcolor": 10040115,
+						"text": "OpenLP OFF"
+					}
+				},
+				{
+					"id": "9YUFmQUuGKHxE0JMJ2fhB",
+					"type": "instance_custom_state",
+					"instance_id": "internal",
+					"options": {
+						"instance_id": "D0NW3hpYm7DGmEmP0-arO",
+						"state": null
+					},
+					"style": {
+						"bgcolor": 10040115,
+						"text": "OpenLP OFF"
+					}
+				}
+			],
 			"steps": {
 				"0": {
 					"action_sets": {
@@ -52542,7 +52583,50 @@
 				"stepAutoProgress": true,
 				"rotaryActions": false
 			},
-			"feedbacks": [],
+			"feedbacks": [
+				{
+					"id": "g5f8itzm-PVUNgJNOP65-",
+					"type": "instance_custom_state",
+					"instance_id": "internal",
+					"options": {
+						"instance_id": "D0NW3hpYm7DGmEmP0-arO",
+						"state": "warning"
+					},
+					"style": {
+						"color": 4737096,
+						"bgcolor": 0,
+						"text": "OpenLP OFF"
+					}
+				},
+				{
+					"id": "s8TJlecUaxj_NtBfpd3g_",
+					"type": "instance_custom_state",
+					"instance_id": "internal",
+					"options": {
+						"instance_id": "D0NW3hpYm7DGmEmP0-arO",
+						"state": "error"
+					},
+					"style": {
+						"color": 4737096,
+						"bgcolor": 0,
+						"text": "OpenLP OFF"
+					}
+				},
+				{
+					"id": "1Me7ntLDQg_s2reeG_fgS",
+					"type": "instance_custom_state",
+					"instance_id": "internal",
+					"options": {
+						"instance_id": "D0NW3hpYm7DGmEmP0-arO",
+						"state": null
+					},
+					"style": {
+						"color": 4737096,
+						"bgcolor": 0,
+						"text": "OpenLP OFF"
+					}
+				}
+			],
 			"steps": {
 				"0": {
 					"action_sets": {
@@ -52553,7 +52637,7 @@
 								"instance": "internal",
 								"action": "set_page",
 								"options": {
-									"controller": "streamdeck:CL41K1A03537",
+									"controller": "self",
 									"page": 97
 								},
 								"delay": 0
@@ -52831,8 +52915,9 @@
 						"step": 1
 					},
 					"style": {
-						"bgcolor": 10040115,
-						"text": "Text\\nOFF"
+						"bgcolor": 0,
+						"text": "Text\\nOFF",
+						"color": 4737096
 					}
 				}
 			],
@@ -52941,8 +53026,9 @@
 						"step": 1
 					},
 					"style": {
-						"bgcolor": 10040115,
-						"text": "Text\\nOFF"
+						"bgcolor": 0,
+						"text": "Text\\nOFF",
+						"color": 4737096
 					}
 				}
 			],
