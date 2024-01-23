@@ -53665,46 +53665,6 @@
 								"delay": 20
 							},
 							{
-								"id": "9tUdapsHUtWwchjlW4WvG",
-								"action": "COMMAND",
-								"instance": "WqByb_xbfCDtPWSp60myw",
-								"options": {
-									"cmd": "swap 2-10 1-50"
-								},
-								"delay": 1060
-							},
-							{
-								"id": "9AIJT9G49awp7YyWe89Me",
-								"action": "COMMAND",
-								"instance": "WqByb_xbfCDtPWSp60myw",
-								"options": {
-									"cmd": "swap 1-51 1-50"
-								},
-								"delay": 40
-							},
-							{
-								"id": "u-tTaddqgbExZFUEFTx2L",
-								"label": "udTEF512G:COMMAND",
-								"instance": "WqByb_xbfCDtPWSp60myw",
-								"action": "COMMAND",
-								"options": {
-									"cmd": "CLEAR 1-51"
-								},
-								"delay": 360
-							},
-							{
-								"id": "rGrL23ozoP7p3U94jYzQt",
-								"label": "bitfocus-companion:bgcolor",
-								"instance": "internal",
-								"action": "bgcolor",
-								"options": {
-									"color": 6737151,
-									"page": "0",
-									"bank": "0"
-								},
-								"delay": 0
-							},
-							{
 								"id": "qmFXSTruLnpbqcUOCw89x",
 								"label": "bitfocus-companion:custom_variable_store_variable",
 								"instance": "internal",
@@ -53762,6 +53722,46 @@
 								},
 								"delay": 100,
 								"actionId": "button_pressrelease"
+							},
+							{
+								"id": "9tUdapsHUtWwchjlW4WvG",
+								"action": "COMMAND",
+								"instance": "WqByb_xbfCDtPWSp60myw",
+								"options": {
+									"cmd": "swap 2-10 1-50"
+								},
+								"delay": 1060
+							},
+							{
+								"id": "9AIJT9G49awp7YyWe89Me",
+								"action": "COMMAND",
+								"instance": "WqByb_xbfCDtPWSp60myw",
+								"options": {
+									"cmd": "swap 1-51 1-50"
+								},
+								"delay": 40
+							},
+							{
+								"id": "u-tTaddqgbExZFUEFTx2L",
+								"label": "udTEF512G:COMMAND",
+								"instance": "WqByb_xbfCDtPWSp60myw",
+								"action": "COMMAND",
+								"options": {
+									"cmd": "CLEAR 1-51"
+								},
+								"delay": 360
+							},
+							{
+								"id": "rGrL23ozoP7p3U94jYzQt",
+								"label": "bitfocus-companion:bgcolor",
+								"instance": "internal",
+								"action": "bgcolor",
+								"options": {
+									"color": 6737151,
+									"page": "0",
+									"bank": "0"
+								},
+								"delay": 0
 							}
 						],
 						"up": []
