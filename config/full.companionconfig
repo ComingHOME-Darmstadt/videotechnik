@@ -60121,19 +60121,23 @@
 		},
 		"input1label": {
 			"description": "A custom variable",
-			"defaultValue": "Cam 1"
+			"defaultValue": "Cam 1",
+			"persistCurrentValue": true
 		},
 		"input2label": {
 			"description": "A custom variable",
-			"defaultValue": "Cam 2"
+			"defaultValue": "Cam 2",
+			"persistCurrentValue": true
 		},
 		"input3label": {
 			"description": "A custom variable",
-			"defaultValue": "OpenLP full"
+			"defaultValue": "OpenLP full",
+			"persistCurrentValue": true
 		},
 		"input4label": {
 			"description": "A custom variable",
-			"defaultValue": "TBS"
+			"defaultValue": "TBS",
+			"persistCurrentValue": true
 		},
 		"beamerCurrentButton": {
 			"description": "A custom variable",
