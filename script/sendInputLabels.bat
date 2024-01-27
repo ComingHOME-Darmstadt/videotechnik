@@ -15,5 +15,5 @@ for /F "tokens=1,2 delims==" %%i in (%cfgFile%) do (
 
   set varValue=!varValue: =%%20!
 
-  curl -s http://127.0.0.1:8888/set/custom-variable/!varName!label?value=!varValue!
+  curl -s --request POST http://127.0.0.1:8888/api/custom-variable/!varName!label/value?value=!varValue!
 )
