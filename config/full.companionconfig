@@ -1679,6 +1679,16 @@
 												"value": "video-01"
 											},
 											"delay": 0
+										},
+										{
+											"id": "4TQd2GUitUU0dzvZR-l9b",
+											"action": "custom_variable_set_value",
+											"instance": "internal",
+											"options": {
+												"name": "videoPositionSeconds",
+												"value": "0"
+											},
+											"delay": 0
 										}
 									],
 									"up": []
@@ -1762,6 +1772,16 @@
 											"options": {
 												"name": "videoCurrent",
 												"value": "video-02"
+											},
+											"delay": 0
+										},
+										{
+											"id": "IaBoloObv61jX9QLYk-AK",
+											"action": "custom_variable_set_value",
+											"instance": "internal",
+											"options": {
+												"name": "videoPositionSeconds",
+												"value": "0"
 											},
 											"delay": 0
 										}
@@ -1849,6 +1869,16 @@
 												"value": "video-03"
 											},
 											"delay": 0
+										},
+										{
+											"id": "926GzRpimWroZJXCMtV_z",
+											"action": "custom_variable_set_value",
+											"instance": "internal",
+											"options": {
+												"name": "videoPositionSeconds",
+												"value": "0"
+											},
+											"delay": 0
 										}
 									],
 									"up": []
@@ -1932,6 +1962,16 @@
 											"options": {
 												"name": "videoCurrent",
 												"value": "video-04"
+											},
+											"delay": 0
+										},
+										{
+											"id": "8A6xSJ7GxBkhLhV3fAEGM",
+											"action": "custom_variable_set_value",
+											"instance": "internal",
+											"options": {
+												"name": "videoPositionSeconds",
+												"value": "0"
 											},
 											"delay": 0
 										}
@@ -2019,6 +2059,79 @@
 												"value": "video-05"
 											},
 											"delay": 0
+										},
+										{
+											"id": "9Emry5rWVXz4pg-CT7cx8",
+											"action": "custom_variable_set_value",
+											"instance": "internal",
+											"options": {
+												"name": "videoPositionSeconds",
+												"value": "0"
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"5": {
+						"type": "button",
+						"style": {
+							"text": "<<",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 0,
+							"bgcolor": 11974326,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "K97ssaAMh9Mks7mr5wbaB",
+											"action": "custom_variable_set_expression",
+											"instance": "internal",
+											"options": {
+												"name": "videoPositionSeconds",
+												"expression": "$(internal:custom_videoPositionSeconds) - $(internal:custom_videoDiffSeconds) "
+											},
+											"delay": 0
+										},
+										{
+											"id": "Kggyy-Cig4LC74lzjhSJb",
+											"action": "custom_variable_set_expression",
+											"instance": "internal",
+											"options": {
+												"name": "videoPositionSeconds",
+												"expression": "($(internal:custom_videoPositionSeconds) < 0) ? 0 : $(internal:custom_videoPositionSeconds) "
+											},
+											"delay": 0
+										},
+										{
+											"id": "l4fZG2AExfxuO37dQFewL",
+											"action": "GOTO",
+											"instance": "ZetzSMVlbXtt3C61NMoLQ",
+											"options": {
+												"channel": "18",
+												"layer": "10",
+												"offset": "$(internal:custom_videoPositionSeconds)"
+											},
+											"delay": 0
 										}
 									],
 									"up": []
@@ -2032,17 +2145,15 @@
 					"6": {
 						"type": "button",
 						"style": {
-							"text": "",
+							"text": "$(internal:custom_videoDiffSeconds)\\nSekunden",
 							"textExpression": false,
-							"size": "auto",
+							"size": "14",
 							"png64": null,
 							"alignment": "center:center",
 							"pngalignment": "center:center",
-							"color": 16777215,
-							"bgcolor": 0,
-							"show_topbar": "default",
-							"png": null,
-							"latch": false
+							"color": 0,
+							"bgcolor": 11974326,
+							"show_topbar": "default"
 						},
 						"options": {
 							"relativeDelay": false,
@@ -2051,14 +2162,74 @@
 						},
 						"feedbacks": [
 							{
-								"id": "7sgnk6WrTuRFmAXGDqv3_",
-								"type": "bank_style",
+								"id": "_1QEdvhEojh4B2HJSTTqS",
+								"type": "check_expression",
 								"instance_id": "internal",
 								"options": {
-									"location_target": "text",
-									"location_text": "93/1/6"
+									"expression": "$(internal:custom_videoDiffSeconds) == 1"
 								},
-								"style": {},
+								"style": {
+									"text": "1\\nSekunde",
+									"textExpression": false,
+									"bgcolor": 16777215
+								},
+								"isInverted": false
+							},
+							{
+								"id": "FZDvkq-PqH8sUBgLfT0kI",
+								"type": "check_expression",
+								"instance_id": "internal",
+								"options": {
+									"expression": "$(internal:custom_videoDiffSeconds) == 10"
+								},
+								"style": {
+									"text": "10\\nSekunden",
+									"textExpression": false,
+									"bgcolor": 14342874
+								},
+								"isInverted": false
+							},
+							{
+								"id": "3OpolFHtddR6505tFShKK",
+								"type": "check_expression",
+								"instance_id": "internal",
+								"options": {
+									"expression": "$(internal:custom_videoDiffSeconds) == 60"
+								},
+								"style": {
+									"text": "1\\nMinute",
+									"textExpression": false,
+									"bgcolor": 11974326
+								},
+								"isInverted": false
+							},
+							{
+								"id": "iNQvpe4cyNom_bwyrX3UB",
+								"type": "check_expression",
+								"instance_id": "internal",
+								"options": {
+									"expression": "$(internal:custom_videoDiffSeconds) == 600"
+								},
+								"style": {
+									"text": "10\\nMinuten",
+									"textExpression": false,
+									"bgcolor": 9605778
+								},
+								"isInverted": false
+							},
+							{
+								"id": "pcpyPo5R1dCTaWjFO9t5r",
+								"type": "check_expression",
+								"instance_id": "internal",
+								"options": {
+									"expression": "$(internal:custom_videoDiffSeconds) == 3600"
+								},
+								"style": {
+									"text": "1\\nStunde",
+									"textExpression": false,
+									"bgcolor": 4737096,
+									"color": 16777215
+								},
 								"isInverted": false
 							}
 						],
@@ -2067,34 +2238,17 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "sHJsYjjjMvXQ3uFt89_4q",
-											"label": "bitfocus-companion:button_press",
+											"id": "648PwLECmgDrMSNRTWkEJ",
+											"action": "custom_variable_set_expression",
 											"instance": "internal",
-											"action": "button_press",
 											"options": {
-												"force": true,
-												"location_target": "text",
-												"location_text": "93/1/6"
+												"name": "videoDiffSeconds",
+												"expression": "($(internal:custom_videoDiffSeconds) == 60) ? 10 : ($(internal:custom_videoDiffSeconds) == 600) ? 60 : ($(internal:custom_videoDiffSeconds) == 3600) ? 600 : ($(internal:custom_videoDiffSeconds) == 1) ? 3600 : 1"
 											},
-											"delay": 0,
-											"actionId": "button_press"
+											"delay": 0
 										}
 									],
-									"up": [
-										{
-											"id": "QJxyKlG-ETlsiE_eEysuH",
-											"label": "bitfocus-companion:button_release",
-											"instance": "internal",
-											"action": "button_release",
-											"options": {
-												"force": true,
-												"location_target": "text",
-												"location_text": "93/1/6"
-											},
-											"delay": 0,
-											"actionId": "button_release"
-										}
-									]
+									"up": []
 								},
 								"options": {
 									"runWhileHeld": []
@@ -2105,14 +2259,14 @@
 					"7": {
 						"type": "button",
 						"style": {
-							"text": "VOL",
+							"text": ">>",
 							"textExpression": false,
-							"size": "30",
+							"size": "auto",
 							"png64": null,
 							"alignment": "center:center",
 							"pngalignment": "center:center",
-							"color": 16777215,
-							"bgcolor": 0,
+							"color": 0,
+							"bgcolor": 11974326,
 							"show_topbar": "default",
 							"png": null,
 							"latch": false
@@ -2122,35 +2276,31 @@
 							"rotaryActions": false,
 							"stepAutoProgress": true
 						},
-						"feedbacks": [
-							{
-								"id": "uefpBOWA22CqTt5fOVDbP",
-								"type": "bank_style",
-								"instance_id": "internal",
-								"options": {
-									"location_target": "text",
-									"location_text": "93/1/7"
-								},
-								"style": {},
-								"isInverted": false
-							}
-						],
+						"feedbacks": [],
 						"steps": {
 							"0": {
 								"action_sets": {
 									"down": [
 										{
-											"id": "ggM-qSwdx7yWKUNWkXLCs",
-											"label": "bitfocus-companion:button_pressrelease",
+											"id": "0MRmShZH2ydUEob21h548",
+											"action": "custom_variable_set_expression",
 											"instance": "internal",
-											"action": "button_pressrelease",
 											"options": {
-												"force": true,
-												"location_target": "text",
-												"location_text": "93/1/7"
+												"name": "videoPositionSeconds",
+												"expression": "$(internal:custom_videoPositionSeconds) + $(internal:custom_videoDiffSeconds) "
 											},
-											"delay": 0,
-											"actionId": "button_pressrelease"
+											"delay": 0
+										},
+										{
+											"id": "5qhBaXUHD87SQknRxNRMT",
+											"action": "GOTO",
+											"instance": "ZetzSMVlbXtt3C61NMoLQ",
+											"options": {
+												"channel": "18",
+												"layer": "10",
+												"offset": "$(internal:custom_videoPositionSeconds)"
+											},
+											"delay": 0
 										}
 									],
 									"up": []
@@ -60304,6 +60454,18 @@
 		"stageCurrentButton": {
 			"description": "A custom variable",
 			"defaultValue": "0"
+		},
+		"videoDiffSeconds": {
+			"description": "A custom variable",
+			"defaultValue": "1",
+			"persistCurrentValue": false,
+			"sortOrder": null
+		},
+		"videoPositionSeconds": {
+			"description": "A custom variable",
+			"defaultValue": "0",
+			"persistCurrentValue": false,
+			"sortOrder": null
 		}
 	},
 	"instances": {
