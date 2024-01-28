@@ -59222,7 +59222,7 @@
 							"alignment": "center:center",
 							"pngalignment": "center:center",
 							"color": 16777215,
-							"bgcolor": 0,
+							"bgcolor": 13107200,
 							"show_topbar": "default",
 							"png": null
 						},
@@ -59234,20 +59234,17 @@
 						"feedbacks": [
 							{
 								"id": "IWBFT3NFhI_7-PJHaS68y",
-								"type": "instance_status",
+								"type": "instance_custom_state",
 								"instance_id": "internal",
 								"options": {
 									"instance_id": "8Wl43v_BmCGOcUPOedowF",
-									"ok_fg": 0,
-									"ok_bg": 0,
-									"warning_fg": 16777215,
-									"warning_bg": 13107200,
-									"error_fg": 16777215,
-									"error_bg": 13107200,
-									"disabled_fg": 16777215,
-									"disabled_bg": 13107200
+									"state": "good"
 								},
-								"style": {}
+								"style": {
+									"color": 0,
+									"bgcolor": 0
+								},
+								"isInverted": false
 							}
 						],
 						"steps": {
@@ -59272,7 +59269,7 @@
 							"alignment": "center:center",
 							"pngalignment": "center:center",
 							"color": 16777215,
-							"bgcolor": 0,
+							"bgcolor": 13107200,
 							"show_topbar": "default",
 							"png": null
 						},
@@ -59284,20 +59281,17 @@
 						"feedbacks": [
 							{
 								"id": "Kobe4tVHXY5QapENx1092",
-								"type": "instance_status",
+								"type": "instance_custom_state",
 								"instance_id": "internal",
 								"options": {
 									"instance_id": "E4XvMkbptZ865pJapmxPA",
-									"ok_fg": 0,
-									"ok_bg": 0,
-									"warning_fg": 16777215,
-									"warning_bg": 13107200,
-									"error_fg": 16777215,
-									"error_bg": 13107200,
-									"disabled_fg": 16777215,
-									"disabled_bg": 13107200
+									"state": "good"
 								},
-								"style": {}
+								"style": {
+									"color": 0,
+									"bgcolor": 0
+								},
+								"isInverted": false
 							}
 						],
 						"steps": {
@@ -59323,8 +59317,8 @@
 							"png64": null,
 							"alignment": "center:center",
 							"pngalignment": "center:center",
-							"color": 16777215,
-							"bgcolor": 26112,
+							"color": 26112,
+							"bgcolor": 13056,
 							"show_topbar": "default",
 							"png": null
 						},
@@ -59336,20 +59330,17 @@
 						"feedbacks": [
 							{
 								"id": "ELpdRjxrl3m3DtB8wg7gJ",
-								"type": "instance_status",
+								"type": "instance_custom_state",
 								"instance_id": "internal",
 								"options": {
 									"instance_id": "8Wl43v_BmCGOcUPOedowF",
-									"ok_fg": 16777215,
-									"ok_bg": 39168,
-									"warning_fg": 26112,
-									"warning_bg": 13056,
-									"error_fg": 26112,
-									"error_bg": 13056,
-									"disabled_fg": 26112,
-									"disabled_bg": 13056
+									"state": "good"
 								},
-								"style": {}
+								"style": {
+									"color": 16777215,
+									"bgcolor": 39168
+								},
+								"isInverted": false
 							}
 						],
 						"steps": {
@@ -59358,13 +59349,14 @@
 									"down": [
 										{
 											"id": "oerKehJm3Bua8H3_5Zykt",
-											"action": "button_pressrelease_if_expression",
+											"action": "button_pressrelease_condition",
 											"instance": "internal",
 											"options": {
-												"expression": "$(internal:custom_connectionStateOpenlp) == 'ok'",
-												"force": false,
+												"variable": "internal:connection_OpenLP_status",
+												"op": "eq",
+												"value": "good",
 												"location_target": "text",
-												"location_text": "$(this:page)/2/0"
+												"location_text": "$(this:page)/2/$(this:column)"
 											},
 											"delay": 0
 										}
@@ -59386,8 +59378,8 @@
 							"png64": null,
 							"alignment": "center:center",
 							"pngalignment": "center:center",
-							"color": 16777215,
-							"bgcolor": 26112,
+							"color": 26112,
+							"bgcolor": 13056,
 							"show_topbar": "default",
 							"png": null
 						},
@@ -59399,20 +59391,17 @@
 						"feedbacks": [
 							{
 								"id": "SiKdLB5W8ejsaOUB1ZSUW",
-								"type": "instance_status",
+								"type": "instance_custom_state",
 								"instance_id": "internal",
 								"options": {
 									"instance_id": "E4XvMkbptZ865pJapmxPA",
-									"ok_fg": 16777215,
-									"ok_bg": 39168,
-									"warning_fg": 26112,
-									"warning_bg": 13056,
-									"error_fg": 26112,
-									"error_bg": 13056,
-									"disabled_fg": 26112,
-									"disabled_bg": 13056
+									"state": "good"
 								},
-								"style": {}
+								"style": {
+									"color": 16777215,
+									"bgcolor": 39168
+								},
+								"isInverted": false
 							}
 						],
 						"steps": {
@@ -59421,13 +59410,14 @@
 									"down": [
 										{
 											"id": "YcAguj5ZmP-poIgEJE-GA",
-											"action": "button_pressrelease_if_expression",
+											"action": "button_pressrelease_condition",
 											"instance": "internal",
 											"options": {
-												"expression": "$(internal:custom_connectionStateAudioN1) == 'ok'",
-												"force": false,
+												"variable": "internal:connection_chaudio_Audio_N-1_status",
+												"op": "eq",
+												"value": "good",
 												"location_target": "text",
-												"location_text": "$(this:page)/2/1"
+												"location_text": "$(this:page)/2/$(this:column)"
 											},
 											"delay": 0
 										}
@@ -59731,11 +59721,11 @@
 				"0": [
 					{
 						"id": "pFLWa4wNbJYt4JQYqgZys",
-						"action": "custom_variable_set_value",
+						"action": "trigger_enabled",
 						"instance": "internal",
 						"options": {
-							"name": "connectionStateOpenlp",
-							"value": "ok"
+							"trigger_id": "trigger:mbl_Xa3qC-_Bj2wPVZJCs",
+							"enable": "false"
 						},
 						"delay": 0
 					},
@@ -59833,6 +59823,26 @@
 							"enable": "true"
 						},
 						"delay": 0
+					},
+					{
+						"id": "UZDwc1gF1k3wCaC_FhRMs",
+						"action": "trigger_enabled",
+						"instance": "internal",
+						"options": {
+							"trigger_id": "trigger:mbl_Xa3qC-_Bj2wPVZJCs",
+							"enable": "true"
+						},
+						"delay": 0
+					},
+					{
+						"id": "A7h6oN6dmCjz4Glv-pQSR",
+						"action": "trigger_enabled",
+						"instance": "internal",
+						"options": {
+							"trigger_id": "trigger:E3CBxuWekjWPC-kcJxZB3",
+							"enable": "true"
+						},
+						"delay": 0
 					}
 				]
 			},
@@ -59915,11 +59925,11 @@
 				"0": [
 					{
 						"id": "a86aVMdj-CSZ94wFFOfVQ",
-						"action": "custom_variable_set_value",
+						"action": "trigger_enabled",
 						"instance": "internal",
 						"options": {
-							"name": "connectionStateAudioN1",
-							"value": "ok"
+							"trigger_id": "trigger:E3CBxuWekjWPC-kcJxZB3",
+							"enable": "false"
 						},
 						"delay": 0
 					},
@@ -60010,6 +60020,98 @@
 						"state": "error"
 					},
 					"style": {}
+				}
+			],
+			"events": [
+				{
+					"id": "2OPYar3HMgOQLlT3Y_sG4",
+					"type": "interval",
+					"enabled": true,
+					"options": {
+						"seconds": 5
+					}
+				}
+			]
+		},
+		"mbl_Xa3qC-_Bj2wPVZJCs": {
+			"type": "trigger",
+			"options": {
+				"name": "enable OpenLP Connection",
+				"enabled": true,
+				"sortOrder": 0,
+				"relativeDelay": true
+			},
+			"action_sets": {
+				"0": [
+					{
+						"id": "V7LPFX2lV_nxw46JI9AW1",
+						"action": "instance_control",
+						"instance": "internal",
+						"options": {
+							"instance_id": "8Wl43v_BmCGOcUPOedowF",
+							"enable": "true"
+						},
+						"delay": 0
+					}
+				]
+			},
+			"condition": [
+				{
+					"id": "xCI3jInbfAgJdyvgW0i4E",
+					"type": "instance_custom_state",
+					"instance_id": "internal",
+					"options": {
+						"instance_id": "8Wl43v_BmCGOcUPOedowF",
+						"state": null
+					},
+					"style": {},
+					"isInverted": false
+				}
+			],
+			"events": [
+				{
+					"id": "2OPYar3HMgOQLlT3Y_sG4",
+					"type": "interval",
+					"enabled": true,
+					"options": {
+						"seconds": 5
+					}
+				}
+			]
+		},
+		"E3CBxuWekjWPC-kcJxZB3": {
+			"type": "trigger",
+			"options": {
+				"name": "enable Audio N-1 Connection",
+				"enabled": true,
+				"sortOrder": 0,
+				"relativeDelay": true
+			},
+			"action_sets": {
+				"0": [
+					{
+						"id": "ktdNx6iNNMzKo79mDIDl-",
+						"action": "instance_control",
+						"instance": "internal",
+						"options": {
+							"instance_id": "E4XvMkbptZ865pJapmxPA",
+							"enable": "true"
+						},
+						"delay": 0
+					}
+				]
+			},
+			"condition": [
+				{
+					"id": "gGdo0fRM2IqyPkg3kK5i1",
+					"type": "instance_custom_state",
+					"instance_id": "internal",
+					"options": {
+						"instance_id": "E4XvMkbptZ865pJapmxPA",
+						"state": null
+					},
+					"style": {},
+					"isInverted": false
 				}
 			],
 			"events": [
@@ -60202,18 +60304,6 @@
 		"stageCurrentButton": {
 			"description": "A custom variable",
 			"defaultValue": "0"
-		},
-		"connectionStateOpenlp": {
-			"description": "A custom variable",
-			"defaultValue": "error",
-			"persistCurrentValue": false,
-			"sortOrder": null
-		},
-		"connectionStateAudioN1": {
-			"description": "A custom variable",
-			"defaultValue": "error",
-			"persistCurrentValue": false,
-			"sortOrder": null
 		}
 	},
 	"instances": {
