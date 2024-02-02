@@ -17,4 +17,4 @@ start /min %mePath%casparcg_auto_restart.bat
 
 timeout /t 1
 
-start /min "videoMonitor" "%ProgramFiles%\nodejs\node.exe" "%mePath%videoMonitor\index.js"
+start /min "videoMonitor" "C:\comingHOME\dev\node-18.12\node.exe" "%mePath%videoMonitor\index.js"

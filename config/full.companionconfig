@@ -2654,7 +2654,7 @@
 											"instance": "vBoBdkVFSsZutuO-Pg8cG",
 											"action": "COMMAND",
 											"options": {
-												"cmd": "PLAY 17-10 \"ndi://COMINGHOME-VIDEO/ZEN DDIViewer 1\""
+												"cmd": "PLAY 17-10 \"ndi://A4NBUDNICKNB/ZEN DDIViewer 1\""
 											},
 											"delay": 0
 										},
@@ -12058,7 +12058,7 @@
 											"instance": "AlcyMpPiFs1qeIbCZltlg",
 											"action": "source",
 											"options": {
-												"source": "COMINGHOME-VIDEO (ComingHome_Multiview)"
+												"source": "A4NBUDNICKNB (ComingHome_Multiview)"
 											},
 											"delay": 1600
 										},
@@ -12749,7 +12749,7 @@
 											"instance": "eUPQEmkK6tACnlu1WTQUq",
 											"action": "source",
 											"options": {
-												"source": "COMINGHOME-VIDEO (Audio N -1)"
+												"source": "A4NBUDNICKNB (Audio N -1)"
 											},
 											"delay": 0,
 											"headline": "ChAudioPC: set NDI Source"
