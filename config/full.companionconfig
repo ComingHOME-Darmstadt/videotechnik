@@ -50558,7 +50558,7 @@
 						"style": {
 							"text": "Program\\nText",
 							"textExpression": false,
-							"size": "18",
+							"size": "14",
 							"png64": null,
 							"alignment": "center:center",
 							"pngalignment": "center:center",
@@ -50672,7 +50672,7 @@
 						"style": {
 							"text": "Beamer\\nText",
 							"textExpression": false,
-							"size": "18",
+							"size": "14",
 							"png64": null,
 							"alignment": "center:center",
 							"pngalignment": "center:center",
