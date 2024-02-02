@@ -9949,7 +9949,7 @@
 											"action": "COMMAND",
 											"instance": "vBoBdkVFSsZutuO-Pg8cG",
 											"options": {
-												"cmd": "PLAY 11-10 \"ndi://PTZ-CAM-01/CAM\""
+												"cmd": "PLAY 11-10 \"VIDEOS\\\\TEST\\\\1\" LOOP"
 											},
 											"delay": 0
 										},
@@ -10098,7 +10098,7 @@
 											"action": "COMMAND",
 											"instance": "vBoBdkVFSsZutuO-Pg8cG",
 											"options": {
-												"cmd": "PLAY 12-10 \"ndi://PTZ-CAM-02/CAM\""
+												"cmd": "PLAY 12-10 \"VIDEOS\\\\TEST\\\\2\" LOOP"
 											},
 											"delay": 0
 										},
@@ -10237,7 +10237,7 @@
 											"action": "COMMAND",
 											"instance": "vBoBdkVFSsZutuO-Pg8cG",
 											"options": {
-												"cmd": "PLAY 13-10 \"ndi://CHPRESENTATION/Intel Iris Xe Graphics 2\""
+												"cmd": "PLAY 13-10 \"VIDEOS\\\\TEST\\\\3\" LOOP"
 											},
 											"delay": 0
 										}
@@ -10326,7 +10326,7 @@
 											"action": "COMMAND",
 											"instance": "vBoBdkVFSsZutuO-Pg8cG",
 											"options": {
-												"cmd": "PLAY 14-10 \"ndi://192.168.77.21/Prediger\""
+												"cmd": "PLAY 14-10 \"VIDEOS\\\\TEST\\\\4\" LOOP"
 											},
 											"delay": 0
 										}
@@ -10880,7 +10880,7 @@
 											"action": "COMMAND",
 											"instance": "vBoBdkVFSsZutuO-Pg8cG",
 											"options": {
-												"cmd": "PLAY 15-10 \"ndi://CHZOOM/Intel Iris Xe Graphics 1\""
+												"cmd": "PLAY 15-10 \"VIDEOS\\\\TEST\\\\ZOOM\" LOOP"
 											},
 											"delay": 0
 										}
@@ -12358,7 +12358,7 @@
 											"action": "COMMAND",
 											"instance": "vBoBdkVFSsZutuO-Pg8cG",
 											"options": {
-												"cmd": "PLAY 10-10 \"ndi://CHAUDIO/OBS\""
+												"cmd": "PLAY 10-10 \"VIDEOS\\\\TEST\\\\LIVE\" LOOP"
 											},
 											"delay": 100,
 											"headline": "10-10 set Input"
