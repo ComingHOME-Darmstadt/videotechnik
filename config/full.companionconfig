@@ -2684,7 +2684,7 @@
 											"instance": "vBoBdkVFSsZutuO-Pg8cG",
 											"action": "COMMAND",
 											"options": {
-												"cmd": "PLAY 17-10 \"ndi://COMINGHOME-VIDEO/ZEN DDIViewer 1\""
+												"cmd": "PLAY 17-10 \"ndi://DE-CQJHFX3/ZEN DDIViewer 1\""
 											},
 											"delay": 0
 										},
@@ -12172,7 +12172,7 @@
 											"instance": "AlcyMpPiFs1qeIbCZltlg",
 											"action": "source",
 											"options": {
-												"source": "COMINGHOME-VIDEO (ComingHome_Multiview)"
+												"source": "DE-CQJHFX3 (ComingHome_Multiview)"
 											},
 											"delay": 1600
 										},
@@ -12865,7 +12865,7 @@
 											"instance": "eUPQEmkK6tACnlu1WTQUq",
 											"action": "source",
 											"options": {
-												"source": "COMINGHOME-VIDEO (Audio N -1)"
+												"source": "DE-CQJHFX3 (Audio N -1)"
 											},
 											"delay": 0,
 											"headline": "ChAudioPC: set NDI Source"
@@ -64505,7 +64505,7 @@
 	"custom_variables": {
 		"scriptPath": {
 			"description": "A custom variable",
-			"defaultValue": "\\comingHOME\\videotechnik\\script\\"
+			"defaultValue": "\\accso\\dev\\comingHOME\\videotechnik\\script\\"
 		},
 		"cam1pos1label": {
 			"description": "A custom variable",
