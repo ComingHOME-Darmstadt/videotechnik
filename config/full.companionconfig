@@ -8467,12 +8467,116 @@
 							}
 						}
 					},
+					"1": {
+						"type": "button",
+						"style": {
+							"text": "Presenter Ctrl",
+							"textExpression": false,
+							"size": "14",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 4340021,
+							"show_topbar": "default",
+							"png": null,
+							"latch": false
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [
+							{
+								"id": "MDA9UQvadDlPqy6s7B9x-",
+								"type": "variable_value",
+								"instance_id": "internal",
+								"options": {
+									"variable": "internal:custom_stageCurrentButton",
+									"op": "eq",
+									"value": "26"
+								},
+								"style": {
+									"bgcolor": 26112
+								}
+							},
+							{
+								"id": "I_NwVDE6x2zZA1eHu801l",
+								"type": "bank_current_step",
+								"instance_id": "internal",
+								"options": {
+									"step": 1,
+									"location_target": "text",
+									"location_text": "5/2/6"
+								},
+								"style": {
+									"color": 0,
+									"bgcolor": 0
+								},
+								"isInverted": false
+							}
+						],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "GZYEj73DsCtdPdCZbxJB3",
+											"label": "udTEF512G:COMMAND",
+											"instance": "vBoBdkVFSsZutuO-Pg8cG",
+											"action": "COMMAND",
+											"options": {
+												"cmd": "PLAY 5-10 route://20"
+											},
+											"delay": 0
+										},
+										{
+											"id": "fJrAoCPMVxWwuVjzFWVaQ",
+											"label": "udTEF512G:COMMAND",
+											"instance": "vBoBdkVFSsZutuO-Pg8cG",
+											"action": "COMMAND",
+											"options": {
+												"cmd": "MIXER 5-10 VOLUME 0 0 Linear"
+											},
+											"delay": 0
+										},
+										{
+											"id": "76vEYR69zsxh2QOsn7vHT",
+											"label": "udTEF512G:COMMAND",
+											"instance": "vBoBdkVFSsZutuO-Pg8cG",
+											"action": "COMMAND",
+											"options": {
+												"cmd": " MIXER 5-10 FILL 0 0 1 1 0 Linear"
+											},
+											"delay": 0
+										},
+										{
+											"id": "CISToTzjZMWQcQf1wVW02",
+											"label": "bitfocus-companion:custom_variable_set_value",
+											"instance": "internal",
+											"action": "custom_variable_set_value",
+											"options": {
+												"name": "stageCurrentButton",
+												"value": "26"
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
 					"2": {
 						"type": "button",
 						"style": {
 							"text": "OpenLP\\nFULL",
 							"textExpression": false,
-							"size": "18",
+							"size": "14",
 							"png64": null,
 							"alignment": "center:center",
 							"pngalignment": "center:center",
@@ -11026,6 +11130,94 @@
 												"value": ""
 											},
 											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"6": {
+						"type": "button",
+						"style": {
+							"text": "Presenter Ctrl\\ngestoppt",
+							"textExpression": false,
+							"size": "14",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 10040115,
+							"show_topbar": "default",
+							"png": null,
+							"latch": true
+						},
+						"options": {
+							"relativeDelay": true,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [
+							{
+								"id": "tnd74KYvurz8MDupia0gP",
+								"type": "bank_pushed",
+								"instance_id": "internal",
+								"options": {
+									"latch_compatability": true,
+									"location_target": "this"
+								},
+								"style": {
+									"bgcolor": 13056,
+									"text": "Presenter Ctrl\\nläuft"
+								},
+								"isInverted": false
+							}
+						],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "4bpnaDlzKTnTzLWxRbe0-",
+											"action": "COMMAND",
+											"instance": "vBoBdkVFSsZutuO-Pg8cG",
+											"options": {
+												"cmd": "PLAY 20-10 \"ndi://CHPRESENTATION/Intel Iris Xe Graphics 1\""
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							},
+							"1": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "ov9YFHydnr3eyaiHr6sau",
+											"label": "udTEF512G:COMMAND",
+											"instance": "vBoBdkVFSsZutuO-Pg8cG",
+											"action": "COMMAND",
+											"options": {
+												"cmd": "STOP 20-10"
+											},
+											"delay": 0
+										},
+										{
+											"id": "tVLTTpGpF1f2N_E1q_1Lr",
+											"label": "udTEF512G:COMMAND",
+											"instance": "vBoBdkVFSsZutuO-Pg8cG",
+											"action": "COMMAND",
+											"options": {
+												"cmd": "CLEAR 20"
+											},
+											"delay": 500
 										}
 									],
 									"up": []

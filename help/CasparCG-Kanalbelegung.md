@@ -65,7 +65,7 @@
 | 12 Input 2 |  |  |
 |  | 10 | CAM 02 |
 | 13 Input 3 |  |  |
-|  | 10 | OpenLP Monitor 2 |
+|  | 10 | ChPresentation Monitor 2 |
 | 14 Input 4 |  |  |
 |  | 10 | TBS |
 | 15 ZOOM |  |  |
@@ -81,4 +81,5 @@
 | 19 Video Monitor |  |  |
 |  | 90 | <- 18 Video[10] |
 |  | 100 | videoMonitor-Template |
-| 20 |  |  |  |
+| 20 ChPresentation |  |  |  |
+|  | 10 | ChPresentation Monitor 1 |
