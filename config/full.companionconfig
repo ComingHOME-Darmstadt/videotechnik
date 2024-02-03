@@ -58530,16 +58530,6 @@
 							"enable": "false"
 						},
 						"delay": 0
-					},
-					{
-						"id": "53RKclH1Khp_dtK5vcz-B",
-						"action": "trigger_enabled",
-						"instance": "internal",
-						"options": {
-							"trigger_id": "trigger:6xS1wpWLPbLQyOHhKi7qx",
-							"enable": "false"
-						},
-						"delay": 0
 					}
 				]
 			},
