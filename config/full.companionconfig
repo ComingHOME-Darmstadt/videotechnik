@@ -13016,6 +13016,22 @@
 									"text": "Liedtext\\nläuft"
 								},
 								"isInverted": false
+							},
+							{
+								"id": "SVCk2TMYUhsRw0tK-YxCU",
+								"type": "instance_custom_state",
+								"instance_id": "internal",
+								"options": {
+									"instance_id": "xl2Z1Q_VMtCsznm0mCc0G",
+									"state": "good"
+								},
+								"style": {
+									"color": 4737096,
+									"bgcolor": 0,
+									"text": "Liedtext: Erst OpneLP starten!",
+									"textExpression": false
+								},
+								"isInverted": true
 							}
 						],
 						"steps": {
