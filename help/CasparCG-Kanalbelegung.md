@@ -51,7 +51,12 @@
 |  | 18 | <- 18 Video |
 | 8 Liedtext |  |  |
 |  | 10 | OpenLP Monitor 2 mit CHROMA Green |
-| 9 |  |  |
+| 9 Controlview |  | NDI: Controlview |
+|  | 4 | <- 4 Beamer |
+|  | 5 | <- 5 Stage |
+|  | 20 | <- 20 ChPresentation Monitor 1 |
+|  | 21 | <- ChAudio Monitor 1 |
+|  | 99 | controlview-Template |
 | 10 Audio Program Mix |  |  |
 |  | 10 | Audio Live |
 |  | 11 | <- 11 Input 1 |

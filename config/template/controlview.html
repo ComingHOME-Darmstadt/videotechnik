@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+	<meta charset="utf-8" />
+	<title>controlview</title>
+	<style type="text/css">
+		html {
+			/* Explicitly set background color */
+			background-color: transparent;
+
+			/* Disable scrollbars by clipping page overflow */
+			overflow: hidden;
+
+			/* Set default box-sizing to border-box for easier sizing of elements */
+			box-sizing: border-box;
+
+			/* Set default font family */
+			font-family: Arial, Helvetica, sans-serif;
+
+			/* Set responsive root font size to 43.2px at 1080p */
+			font-size: 3vh;
+		}
+
+		*, *:before, *:after {
+			/* Make box-sizing property easy to change by components if required */
+			box-sizing: inherit;
+		}
+
+		body {
+			margin: 0;
+			padding: 0;
+		}
+
+		div {
+			margin: 0;
+			padding: 0;
+			border: 0.5vmin double white;
+			position: absolute;
+		}
+
+		.testing {
+			border: 0;
+			padding-left: 1vmin;
+			padding-right: 1vmin;
+		}
+
+		p {
+			margin: 0;
+			padding: 0;
+			position: absolute;
+			bottom: 0.1rem;
+			width: 100%;
+			text-align: center;
+		}
+
+		.label {
+			background-color: white;
+			padding-left: 0.5vmin;
+			padding-right: 0.5vmin;
+			font-stretch: ultra-condensed;
+		}
+
+
+		#input1 {
+			top: 0vh;
+			left: 0vw;
+			width: 50vw;
+			height: 50vh;
+			border-left: none;
+			border-top: none;
+		}
+
+		#input2 {
+			top: 0vh;
+			left: 50vw;
+			width: 50vw;
+			height: 50vh;
+			border-right: none;
+			border-top: none;
+		}
+
+		#input3 {
+			top: 50vh;
+			left: 0vw;
+			width: 50vw;
+			height: 50vh;
+			border-left: none;
+			border-bottom: none;
+		}
+
+		#input4 {
+			top: 50vh;
+			left: 50vw;
+			width: 50vw;
+			height: 50vh;
+			border-right: none;
+			border-bottom: none;
+		}
+	</style>
+</head>
+<body>
+	<div id="input1">
+		<div class="testing">
+			<script>
+				function testSetLabel() {
+					const label = document.getElementById('setLabelLabel').value
+					switch(document.getElementById('setLabelInput').value) {
+						case 'input1':
+							setInput1Label(label)
+							break
+						case 'input2':
+							setInput2Label(label)
+							break
+						case 'input3':
+							setInput3Label(label)
+							break
+						case 'input4':
+							setInput4Label(label)
+							break
+					}
+				}
+			</script>
+			<select id="setLabelInput">
+				<option value="input1">Input 1</option>
+				<option value="input2">Input 2</option>
+				<option value="input3">Input 3</option>
+				<option value="input4">Input 4</option>
+			</select>
+			<label for="setLabelLabel" style="font-size:0.5rem;">label</label>
+			<input id="setLabelLabel" type="text"/>
+			<input type="button" onclick="testSetLabel()" value="set"/>
+		</div>
+		<p><span class="label"><span id="input1Prefix"></span><span id="input1Label"></span></span></p>
+	</div>
+	<div id="input2">
+		<div class="testing">
+			<input type="button" onclick="play()" value="play()"/>
+		</div>
+		<p><span class="label"><span id="input2Prefix"></span><span id="input2Label"></span></span></p>
+	</div>
+	<div id="input3">
+		<p><span class="label"><span id="input3Prefix"></span><span id="input3Label"></span></span></p>
+	</div>
+	<div id="input4">
+		<p><span class="label"><span id="input4Prefix"></span><span id="input4Label"></span></span></p>
+	</div>
+	<script>
+		function play() {
+			log('play() called')
+			const list = document.getElementsByClassName('testing')
+			while (list.length > 0) {
+				list[0].parentNode.removeChild(list[0])
+			}
+			log('play() finished')
+		}
+
+		function stop() {
+			log('stop() called, nothing to do')
+		}
+
+		function next() {
+			log('next() called, nothin to do')
+		}
+
+		function update(data) {
+			log('update() called, nothing to do, data: ' + typeof data + "  " + data)
+		}
+
+		const inputElements = [document.getElementById('input1')
+													,document.getElementById('input2')
+													,document.getElementById('input3')
+													,document.getElementById('input4')
+													]
+
+		function setInput1Label(label) {
+			setLabel(label, 'input1')
+		}
+
+		function setInput2Label(label) {
+			setLabel(label, 'input2')
+		}
+
+		function setInput3Label(label) {
+			setLabel(label, 'input3')
+		}
+
+		function setInput4Label(label) {
+			setLabel(label, 'input4')
+		}
+
+		function setLabel(newLabel, id) {
+			const labelElemnt = document.getElementById(id + 'Label')
+			labelElemnt.textContent = newLabel
+		}
+
+		window.onerror = function(msg) {
+			log('error ' + msg)
+		}
+
+		function log(s) {
+			console.log(s)
+		}
+
+		log(window.location.href)
+		log('Chrome: ' + window.navigator.userAgent.match(/Chrome\/([^ ]+)/)[1])
+		log('window.caspar: ' + !!window.caspar)
+		log('html.backgroundColor: ' + window.getComputedStyle(document.getElementsByTagName('html')[0]).backgroundColor)
+		log('body.backgroundColor: ' + window.getComputedStyle(document.getElementsByTagName('body')[0]).backgroundColor)
+	</script>
+</body>
+</html>

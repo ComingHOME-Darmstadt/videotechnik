@@ -13736,6 +13736,368 @@
 								}
 							}
 						}
+					},
+					"6": {
+						"type": "button",
+						"style": {
+							"text": "Control-view\\ngestoppt",
+							"textExpression": false,
+							"size": "14",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 10040115,
+							"show_topbar": "default",
+							"png": null,
+							"latch": true
+						},
+						"options": {
+							"relativeDelay": true,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [
+							{
+								"id": "qkNFtYi4SAH1rf6Cwkrkl",
+								"type": "bank_pushed",
+								"instance_id": "internal",
+								"options": {
+									"latch_compatability": true,
+									"location_target": "this"
+								},
+								"style": {
+									"bgcolor": 26112,
+									"text": "Control-view\\nläuft"
+								},
+								"isInverted": false
+							}
+						],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "M-XTFxhZ-1aPZgHs8DBVc",
+											"label": "udTEF512G:PLAY",
+											"instance": "vBoBdkVFSsZutuO-Pg8cG",
+											"action": "PLAY",
+											"options": {
+												"channel": "9",
+												"layer": "4",
+												"clip_dd": "GRAFIKEN/BLACK",
+												"clip": "",
+												"loop": "false",
+												"auto": "false",
+												"transition": "CUT",
+												"transition_duration": "",
+												"transition_tween": "linear"
+											},
+											"delay": 0,
+											"headline": "9-4 black"
+										},
+										{
+											"id": "Tg4k_dRxdNtBNWi4JYmKG",
+											"label": "udTEF512G:PLAY",
+											"instance": "vBoBdkVFSsZutuO-Pg8cG",
+											"action": "PLAY",
+											"options": {
+												"channel": "9",
+												"layer": "5",
+												"clip_dd": "GRAFIKEN/BLACK",
+												"clip": "",
+												"loop": "false",
+												"auto": "false",
+												"transition": "CUT",
+												"transition_duration": "",
+												"transition_tween": "linear"
+											},
+											"delay": 100,
+											"headline": "9-5 black"
+										},
+										{
+											"id": "GIDIbkqbws_NrZYLPI3Cx",
+											"label": "udTEF512G:PLAY",
+											"instance": "vBoBdkVFSsZutuO-Pg8cG",
+											"action": "PLAY",
+											"options": {
+												"channel": "9",
+												"layer": "20",
+												"clip_dd": "GRAFIKEN/BLACK",
+												"clip": "",
+												"loop": "false",
+												"auto": "false",
+												"transition": "CUT",
+												"transition_duration": "",
+												"transition_tween": "linear"
+											},
+											"delay": 100,
+											"headline": "9-20 black"
+										},
+										{
+											"id": "_094QVzvBvsAJ8J-SpIZo",
+											"label": "udTEF512G:PLAY",
+											"instance": "vBoBdkVFSsZutuO-Pg8cG",
+											"action": "PLAY",
+											"options": {
+												"channel": "9",
+												"layer": "21",
+												"clip_dd": "GRAFIKEN/BLACK",
+												"clip": "",
+												"loop": "false",
+												"auto": "false",
+												"transition": "CUT",
+												"transition_duration": "",
+												"transition_tween": "linear"
+											},
+											"delay": 100,
+											"headline": "9-21 black"
+										},
+										{
+											"id": "Hkc0KltKoZAWlVMsQhKHW",
+											"label": "udTEF512G:COMMAND",
+											"instance": "vBoBdkVFSsZutuO-Pg8cG",
+											"action": "COMMAND",
+											"options": {
+												"cmd": "ADD 9 NDI NAME \"Controlview\""
+											},
+											"delay": 100,
+											"headline": "9 NDI Controlview"
+										},
+										{
+											"id": "ul7WCKTud8etj5xP62ghu",
+											"label": "udTEF512G:COMMAND",
+											"instance": "vBoBdkVFSsZutuO-Pg8cG",
+											"action": "COMMAND",
+											"options": {
+												"cmd": "MIXER 9-4 VOLUME 0 0 Linear"
+											},
+											"delay": 100,
+											"headline": "9-4 volume 0"
+										},
+										{
+											"id": "d1uRKBu02hYkOz-lFuklG",
+											"label": "udTEF512G:COMMAND",
+											"instance": "vBoBdkVFSsZutuO-Pg8cG",
+											"action": "COMMAND",
+											"options": {
+												"cmd": "MIXER 9-5 VOLUME 0 0 Linear"
+											},
+											"delay": 100,
+											"headline": "9-5 volume 0"
+										},
+										{
+											"id": "Gf5WjifGy32G-1jqaw0kD",
+											"label": "udTEF512G:COMMAND",
+											"instance": "vBoBdkVFSsZutuO-Pg8cG",
+											"action": "COMMAND",
+											"options": {
+												"cmd": "MIXER 9-20 VOLUME 0 0 Linear"
+											},
+											"delay": 100,
+											"headline": "9-20 volume 0"
+										},
+										{
+											"id": "2w0Qaq5mpD1RCuUOyAC-i",
+											"label": "udTEF512G:COMMAND",
+											"instance": "vBoBdkVFSsZutuO-Pg8cG",
+											"action": "COMMAND",
+											"options": {
+												"cmd": "MIXER 9-21 VOLUME 0 0 Linear"
+											},
+											"delay": 100,
+											"headline": "9-21 volume 0"
+										},
+										{
+											"id": "M9pvAi_BVFvT8m9r9wSKk",
+											"label": "udTEF512G:COMMAND",
+											"instance": "vBoBdkVFSsZutuO-Pg8cG",
+											"action": "COMMAND",
+											"options": {
+												"cmd": "PLAY 9-4 route://4"
+											},
+											"delay": 100,
+											"headline": "9-4 Beamer (4)"
+										},
+										{
+											"id": "hvrzc69bU5Z2OnOR179iu",
+											"label": "udTEF512G:COMMAND",
+											"instance": "vBoBdkVFSsZutuO-Pg8cG",
+											"action": "COMMAND",
+											"options": {
+												"cmd": "PLAY 9-5 route://5"
+											},
+											"delay": 100,
+											"headline": "9-5 Stage (5)"
+										},
+										{
+											"id": "8eafx3hejWUNXytZUf3U-",
+											"label": "udTEF512G:COMMAND",
+											"instance": "vBoBdkVFSsZutuO-Pg8cG",
+											"action": "COMMAND",
+											"options": {
+												"cmd": "PLAY 9-20 route://20"
+											},
+											"delay": 100,
+											"headline": "9-20 Presentation Monitor 1 (20)"
+										},
+										{
+											"id": "yH5thi6g1UHMqlG9RD1Nv",
+											"label": "udTEF512G:COMMAND",
+											"instance": "vBoBdkVFSsZutuO-Pg8cG",
+											"action": "COMMAND",
+											"options": {
+												"cmd": "PLAY 9-21 \"ndi://CHAUDIO/Intel UHD Graphics 1\""
+											},
+											"delay": 100,
+											"headline": "9-21 Audio Monitor 1"
+										},
+										{
+											"id": "mctUAbpBHDUi5JNdOP3XM",
+											"label": "udTEF512G:COMMAND",
+											"instance": "vBoBdkVFSsZutuO-Pg8cG",
+											"action": "COMMAND",
+											"options": {
+												"cmd": "MIXER 9-4 FILL 0 0 0.495 0.495 0 Linear"
+											},
+											"delay": 100,
+											"headline": "9-4 links oben"
+										},
+										{
+											"id": "wVYkNxQYy1rjurPNNyOLJ",
+											"label": "udTEF512G:COMMAND",
+											"instance": "vBoBdkVFSsZutuO-Pg8cG",
+											"action": "COMMAND",
+											"options": {
+												"cmd": "MIXER 9-5 FILL 0.505 0 0.495 0.495 0 Linear"
+											},
+											"delay": 100,
+											"headline": "9-5 rechts oben"
+										},
+										{
+											"id": "9RNFeCQde2ONBX61A0bry",
+											"label": "udTEF512G:COMMAND",
+											"instance": "vBoBdkVFSsZutuO-Pg8cG",
+											"action": "COMMAND",
+											"options": {
+												"cmd": "MIXER 9-20 FILL 0 0.505 0.495 0.495 0 Linear"
+											},
+											"delay": 100,
+											"headline": "9-20 links unten"
+										},
+										{
+											"id": "IPY0OlZlVcktKHvK5LdC5",
+											"label": "udTEF512G:COMMAND",
+											"instance": "vBoBdkVFSsZutuO-Pg8cG",
+											"action": "COMMAND",
+											"options": {
+												"cmd": "MIXER 9-21 FILL 0.505 0.505 0.495 0.495 0 Linear"
+											},
+											"delay": 100,
+											"headline": "9-21 rechts unten"
+										},
+										{
+											"id": "BIUJ_PY77te3Q-cSZPBmk",
+											"label": "udTEF512G:CG ADD",
+											"instance": "vBoBdkVFSsZutuO-Pg8cG",
+											"action": "CG ADD",
+											"options": {
+												"channel": "9",
+												"layer": "99",
+												"template_dd": "CONTROLVIEW",
+												"template": "",
+												"playonload": "true",
+												"templatelayer": "0",
+												"json": false,
+												"variables": ""
+											},
+											"delay": 100,
+											"headline": "9-99 Template Controlview"
+										},
+										{
+											"id": "NXMEm_-fHkgo5CYvRsMW8",
+											"label": "udTEF512G:COMMAND",
+											"instance": "vBoBdkVFSsZutuO-Pg8cG",
+											"action": "COMMAND",
+											"options": {
+												"cmd": "cg 9-99 invoke 0 \"setInput1Label('Beamer')\""
+											},
+											"delay": 100,
+											"headline": "Label links oben: Beamer"
+										},
+										{
+											"id": "ytXWNltOBZVHKajHhAcWi",
+											"label": "udTEF512G:COMMAND",
+											"instance": "vBoBdkVFSsZutuO-Pg8cG",
+											"action": "COMMAND",
+											"options": {
+												"cmd": "cg 9-99 invoke 0 \"setInput2Label('Stage')\""
+											},
+											"delay": 100,
+											"headline": "Label rechts oben: Stage"
+										},
+										{
+											"id": "IrZrKBYS2TESCgddIh0Pz",
+											"label": "udTEF512G:COMMAND",
+											"instance": "vBoBdkVFSsZutuO-Pg8cG",
+											"action": "COMMAND",
+											"options": {
+												"cmd": "cg 9-99 invoke 0 \"setInput3Label('Presenter Monitor 1')\""
+											},
+											"delay": 100,
+											"headline": "Label links unten: Presenter Monitor 1"
+										},
+										{
+											"id": "4oy7M8szFHOayfYPn_RZz",
+											"label": "udTEF512G:COMMAND",
+											"instance": "vBoBdkVFSsZutuO-Pg8cG",
+											"action": "COMMAND",
+											"options": {
+												"cmd": "cg 9-99 invoke 0 \"setInput4Label('Audio Monitor 1')\""
+											},
+											"delay": 100,
+											"headline": "Label rechts unten: Audio Monitor 1"
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							},
+							"1": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "RpMzs5jtAdi4ojafjryeC",
+											"label": "udTEF512G:COMMAND",
+											"instance": "vBoBdkVFSsZutuO-Pg8cG",
+											"action": "COMMAND",
+											"options": {
+												"cmd": "REMOVE 9 NDI"
+											},
+											"delay": 0,
+											"headline": "remove ndi"
+										},
+										{
+											"id": "fh0BgD5qnNDrNbUDlXPdM",
+											"label": "udTEF512G:COMMAND",
+											"instance": "vBoBdkVFSsZutuO-Pg8cG",
+											"action": "COMMAND",
+											"options": {
+												"cmd": "CLEAR 9"
+											},
+											"delay": 100,
+											"headline": "clear 9"
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
 					}
 				}
 			},
