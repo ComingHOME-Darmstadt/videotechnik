@@ -46259,19 +46259,44 @@
 							"rotaryActions": false,
 							"stepAutoProgress": true
 						},
-						"feedbacks": [],
+						"feedbacks": [
+							{
+								"id": "ttq3cwuNaAYWOPI0iX78M",
+								"type": "bank_style",
+								"instance_id": "internal",
+								"options": {
+									"location_target": "text",
+									"location_text": "93/1/0",
+									"location_expression": "concat($(this:page), '/', $(this:row), '/', $(this:column))",
+									"properties": [
+										"text",
+										"size",
+										"png64",
+										"alignment",
+										"pngalignment",
+										"color",
+										"bgcolor",
+										"show_topbar",
+										"imageBuffers"
+									]
+								},
+								"style": {},
+								"isInverted": false
+							}
+						],
 						"steps": {
 							"0": {
 								"action_sets": {
 									"down": [
 										{
 											"id": "wSzL6BtVQ482_rAvShUwD",
-											"label": "bitfocus-companion:set_page",
+											"action": "button_pressrelease",
 											"instance": "internal",
-											"action": "set_page",
 											"options": {
-												"controller": "streamdeck:CL41K1A03537",
-												"page": 96
+												"location_target": "text",
+												"location_text": "93/1/0",
+												"location_expression": "concat($(this:page), '/', $(this:row), '/', $(this:column))",
+												"force": false
 											},
 											"delay": 0
 										}
@@ -47102,19 +47127,44 @@
 							"rotaryActions": false,
 							"stepAutoProgress": true
 						},
-						"feedbacks": [],
+						"feedbacks": [
+							{
+								"id": "0DcvsRPIBXn9f957wpz_j",
+								"type": "bank_style",
+								"instance_id": "internal",
+								"options": {
+									"location_target": "text",
+									"location_text": "93/1/0",
+									"location_expression": "concat($(this:page), '/', $(this:row), '/', $(this:column))",
+									"properties": [
+										"text",
+										"size",
+										"png64",
+										"alignment",
+										"pngalignment",
+										"color",
+										"bgcolor",
+										"show_topbar",
+										"imageBuffers"
+									]
+								},
+								"style": {},
+								"isInverted": false
+							}
+						],
 						"steps": {
 							"0": {
 								"action_sets": {
 									"down": [
 										{
 											"id": "KI9HZSjQzXV3HUms8_4d1",
-											"label": "bitfocus-companion:set_page",
+											"action": "button_pressrelease",
 											"instance": "internal",
-											"action": "set_page",
 											"options": {
-												"controller": "streamdeck:CL41K1A03537",
-												"page": 96
+												"location_target": "text",
+												"location_text": "93/1/0",
+												"location_expression": "concat($(this:page), '/', $(this:row), '/', $(this:column))",
+												"force": false
 											},
 											"delay": 0
 										}
@@ -48004,19 +48054,44 @@
 							"rotaryActions": false,
 							"stepAutoProgress": true
 						},
-						"feedbacks": [],
+						"feedbacks": [
+							{
+								"id": "yPoNTnZAipzPLsCFY2nbY",
+								"type": "bank_style",
+								"instance_id": "internal",
+								"options": {
+									"location_target": "text",
+									"location_text": "93/1/0",
+									"location_expression": "concat($(this:page), '/', $(this:row), '/', $(this:column))",
+									"properties": [
+										"text",
+										"size",
+										"png64",
+										"alignment",
+										"pngalignment",
+										"color",
+										"bgcolor",
+										"show_topbar",
+										"imageBuffers"
+									]
+								},
+								"style": {},
+								"isInverted": false
+							}
+						],
 						"steps": {
 							"0": {
 								"action_sets": {
 									"down": [
 										{
 											"id": "PHTWxNYRnCOCQ3cVkpxnw",
-											"label": "bitfocus-companion:set_page",
+											"action": "button_pressrelease",
 											"instance": "internal",
-											"action": "set_page",
 											"options": {
-												"controller": "streamdeck:CL41K1A03537",
-												"page": 96
+												"location_target": "text",
+												"location_text": "93/1/0",
+												"location_expression": "concat($(this:page), '/', $(this:row), '/', $(this:column))",
+												"force": false
 											},
 											"delay": 0
 										}
@@ -48951,19 +49026,44 @@
 							"rotaryActions": false,
 							"stepAutoProgress": true
 						},
-						"feedbacks": [],
+						"feedbacks": [
+							{
+								"id": "D6BVv7wWqNx7HyTp9P4St",
+								"type": "bank_style",
+								"instance_id": "internal",
+								"options": {
+									"location_target": "text",
+									"location_text": "93/1/0",
+									"location_expression": "concat($(this:page), '/', $(this:row), '/', $(this:column))",
+									"properties": [
+										"text",
+										"size",
+										"png64",
+										"alignment",
+										"pngalignment",
+										"color",
+										"bgcolor",
+										"show_topbar",
+										"imageBuffers"
+									]
+								},
+								"style": {},
+								"isInverted": false
+							}
+						],
 						"steps": {
 							"0": {
 								"action_sets": {
 									"down": [
 										{
 											"id": "YxceBFyXGZb9YdmuyKs_L",
-											"label": "bitfocus-companion:set_page",
+											"action": "button_pressrelease",
 											"instance": "internal",
-											"action": "set_page",
 											"options": {
-												"controller": "streamdeck:CL41K1A03537",
-												"page": 96
+												"location_target": "text",
+												"location_text": "93/1/0",
+												"location_expression": "concat($(this:page), '/', $(this:row), '/', $(this:column))",
+												"force": false
 											},
 											"delay": 0
 										}
