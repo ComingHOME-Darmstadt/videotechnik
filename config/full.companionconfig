@@ -9684,7 +9684,7 @@
 								"instance_id": "internal",
 								"options": {
 									"location_target": "text",
-									"location_text": "91/1/7"
+									"location_text": "91/0/7"
 								},
 								"style": {},
 								"isInverted": false
@@ -9702,7 +9702,7 @@
 											"options": {
 												"force": true,
 												"location_target": "text",
-												"location_text": "91/1/7"
+												"location_text": "91/0/7"
 											},
 											"delay": 0,
 											"actionId": "button_pressrelease"
@@ -14098,6 +14098,52 @@
 								}
 							}
 						}
+					},
+					"7": {
+						"type": "button",
+						"style": {
+							"text": "System 2/2",
+							"textExpression": false,
+							"size": "18",
+							"png64": "iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAIAAADajyQQAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAx0lEQVRoge3U0QnCQBBF0bdxkMV82II92JFd2WL+N6AJxi87WBnu8k4F7zIwRc+7RjRlD/gXh9E4jMZhNA6jcRiNw2gcRuMwGofROIzGYTQOo3EYjcNoHEYTklSO7Bm9HSW0F72Hu9v5CF03zXv2kN5ahJaqW8se0ttSi+aH2iV7SG/zGmpVKtlDems1FJumV/aQ3j5TaC/SKXtIf8M9+h+H0TiMxmE0DqNxGI3DaBxG4zAah9E4jMZhNA6jcRiNw2gcRjNs2BchRhTM6wmQdgAAAABJRU5ErkJggg==",
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 102,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "7lpBXKIFzjexiaJdIggQd",
+											"action": "set_page",
+											"instance": "internal",
+											"options": {
+												"controller_from_variable": false,
+												"controller": "self",
+												"controller_variable": "self",
+												"page_from_variable": false,
+												"page": 6,
+												"page_variable": "1"
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
 					}
 				}
 			},
@@ -14562,7 +14608,7 @@
 								"instance_id": "internal",
 								"options": {
 									"location_target": "text",
-									"location_text": "91/2/7"
+									"location_text": "91/0/7"
 								},
 								"style": {},
 								"isInverted": false
@@ -14580,7 +14626,7 @@
 											"options": {
 												"force": true,
 												"location_target": "text",
-												"location_text": "91/2/7"
+												"location_text": "91/0/7"
 											},
 											"delay": 0,
 											"actionId": "button_pressrelease"
@@ -15833,6 +15879,52 @@
 												"path": "$(internal:custom_scriptPath)STOP_CasparCG.bat",
 												"timeout": 20000,
 												"targetVariable": ""
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"7": {
+						"type": "button",
+						"style": {
+							"text": "System 2/2",
+							"textExpression": false,
+							"size": "18",
+							"png64": "iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAIAAADajyQQAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAxUlEQVRoge3VIRLCMBRF0dfyW0F8NatjI6wRj0chOhMBDYIthPlzM++Y2HfNzyRdNaI5e8C/OIzGYTQOo3EYjcNoHEbjMBqH0TiMxmE0DqNxGI3DaBxG4zCaYcNC0TQf2TN6O+bQe5FO2UO6+4RK1X7O3tFbqaHbXZc9e0hvjxLaqqaWPaS3rYZei55r9pDe1haKpmW4q9im+D3ZQ/ob9oN2GI3DaBxG4zAah9E4jMZhNA6jcRiNw2gcRuMwGofROIzGYTRfpIYWddae67QAAAAASUVORK5CYII=",
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 102,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "wwNt07HB7SNrlw6aQRXfI",
+											"action": "set_page",
+											"instance": "internal",
+											"options": {
+												"controller_from_variable": false,
+												"controller": "self",
+												"controller_variable": "self",
+												"page_from_variable": false,
+												"page": 5,
+												"page_variable": "1"
 											},
 											"delay": 0
 										}
@@ -49774,7 +49866,7 @@
 					"7": {
 						"type": "button",
 						"style": {
-							"text": "System\\n 1/2",
+							"text": "STAGE",
 							"textExpression": false,
 							"size": "18",
 							"png64": null,
@@ -49802,8 +49894,8 @@
 											"instance": "internal",
 											"action": "set_page",
 											"options": {
-												"controller": "streamdeck:CL41K1A03537",
-												"page": "5"
+												"controller": "self",
+												"page": 4
 											},
 											"delay": 0
 										}
@@ -50134,7 +50226,7 @@
 					"7": {
 						"type": "button",
 						"style": {
-							"text": "System\\n1/2",
+							"text": "STAGE",
 							"textExpression": false,
 							"size": "18",
 							"png64": null,
@@ -50155,19 +50247,7 @@
 						"steps": {
 							"0": {
 								"action_sets": {
-									"down": [
-										{
-											"id": "S6GJEcZX-mREwdcnxjZ1K",
-											"label": "bitfocus-companion:set_page",
-											"instance": "internal",
-											"action": "set_page",
-											"options": {
-												"controller": "streamdeck:CL41K1A03537",
-												"page": 6
-											},
-											"delay": 0
-										}
-									],
+									"down": [],
 									"up": []
 								},
 								"options": {
@@ -50211,51 +50291,6 @@
 											"options": {
 												"controller": "streamdeck:CL41K1A03537",
 												"page": 93
-											},
-											"delay": 0
-										}
-									],
-									"up": []
-								},
-								"options": {
-									"runWhileHeld": []
-								}
-							}
-						}
-					},
-					"7": {
-						"type": "button",
-						"style": {
-							"text": "System\\n2/2",
-							"textExpression": false,
-							"size": "18",
-							"png64": null,
-							"alignment": "center:center",
-							"pngalignment": "center:center",
-							"color": 16777215,
-							"bgcolor": 39219,
-							"show_topbar": "default",
-							"png": null,
-							"latch": false
-						},
-						"options": {
-							"relativeDelay": false,
-							"rotaryActions": false,
-							"stepAutoProgress": true
-						},
-						"feedbacks": [],
-						"steps": {
-							"0": {
-								"action_sets": {
-									"down": [
-										{
-											"id": "qLSUgdGyHRWAZ1YNqqlAh",
-											"label": "bitfocus-companion:set_page",
-											"instance": "internal",
-											"action": "set_page",
-											"options": {
-												"controller": "streamdeck:CL41K1A03537",
-												"page": 5
 											},
 											"delay": 0
 										}
@@ -56576,7 +56611,7 @@
 					"0": {
 						"type": "button",
 						"style": {
-							"text": "STAGE",
+							"text": "System 1/2",
 							"textExpression": false,
 							"size": "18",
 							"png64": null,
@@ -56622,7 +56657,7 @@
 											"action": "set_page",
 											"options": {
 												"controller": "self",
-												"page": 4
+												"page": 5
 											},
 											"delay": 0
 										}
