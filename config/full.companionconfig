@@ -52799,48 +52799,32 @@
 											"delay": 0
 										},
 										{
-											"id": "ysvAVMqSElmFcbACitBbZ",
-											"action": "bank_current_step",
-											"instance": "internal",
-											"options": {
-												"step": 1,
-												"location_target": "text",
-												"location_text": "51/3/6"
-											},
-											"delay": 100
-										},
-										{
-											"id": "hEM7jQWqwhHpgb78XQr6c",
-											"action": "button_pressrelease",
-											"instance": "internal",
-											"options": {
-												"force": false,
-												"location_target": "text",
-												"location_text": "51/3/6"
-											},
-											"delay": 0
-										},
-										{
 											"id": "axTj3ccTOk9T0jxy54ScM",
-											"action": "bank_current_step",
+											"action": "button_pressrelease_if_expression",
 											"instance": "internal",
 											"options": {
-												"step": 1,
+												"expression": "$(internal:custom_volPrgAux) <= 0",
 												"location_target": "text",
-												"location_text": "50/3/6"
+												"location_text": "51/3/6",
+												"location_expression": "concat($(this:page), '/', $(this:row), '/', $(this:column))",
+												"force": true
 											},
-											"delay": 100
+											"delay": 100,
+											"headline": "Prg Aux On"
 										},
 										{
 											"id": "NgQn9MkhxgnUcvy-bOl-Z",
-											"action": "button_pressrelease",
+											"action": "button_pressrelease_if_expression",
 											"instance": "internal",
 											"options": {
-												"force": false,
+												"expression": "$(internal:custom_volN1Aux) <= 0",
 												"location_target": "text",
-												"location_text": "50/3/6"
+												"location_text": "50/3/6",
+												"location_expression": "concat($(this:page), '/', $(this:row), '/', $(this:column))",
+												"force": true
 											},
-											"delay": 0
+											"delay": 100,
+											"headline": "N-1 Aux On"
 										},
 										{
 											"id": "FQTIok6JiO9xj_oDDC4gc",
@@ -52889,50 +52873,32 @@
 											"delay": 100
 										},
 										{
-											"id": "cyi3gtEPgav1atPUxBMLq",
-											"action": "bank_current_step",
-											"instance": "internal",
-											"options": {
-												"step": 2,
-												"location_target": "text",
-												"location_text": "51/3/6"
-											},
-											"delay": 100
-										},
-										{
-											"id": "yZYnFJVaevEqDu3aFAOAT",
-											"action": "button_pressrelease",
-											"instance": "internal",
-											"options": {
-												"force": false,
-												"location_target": "text",
-												"location_text": "51/3/6"
-											},
-											"delay": 0
-										},
-										{
 											"id": "oEf6qksMCZoKLMxMwbNiK",
-											"action": "bank_current_step",
+											"action": "button_pressrelease_if_expression",
 											"instance": "internal",
 											"options": {
-												"step": 2,
+												"expression": "$(internal:custom_volPrgAux) > 0",
 												"location_target": "text",
-												"location_text": "50/3/6"
+												"location_text": "51/3/6",
+												"location_expression": "concat($(this:page), '/', $(this:row), '/', $(this:column))",
+												"force": false
 											},
-											"delay": 100
+											"delay": 0,
+											"headline": "Prg Aux Off"
 										},
 										{
 											"id": "-X-cjPdkaMbJBb_52gSaD",
-											"label": "bitfocus-companion:button_pressrelease",
+											"action": "button_pressrelease_if_expression",
 											"instance": "internal",
-											"action": "button_pressrelease",
 											"options": {
-												"force": true,
+												"expression": "$(internal:custom_volN1Aux) > 0",
 												"location_target": "text",
-												"location_text": "50/3/6"
+												"location_text": "50/3/6",
+												"location_expression": "concat($(this:page), '/', $(this:row), '/', $(this:column))",
+												"force": false
 											},
 											"delay": 0,
-											"actionId": "button_pressrelease"
+											"headline": "N-1 Aux Off"
 										},
 										{
 											"id": "ozpNY5FuX5_0a70yz4Asn",
