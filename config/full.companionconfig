@@ -965,7 +965,7 @@
 					"2": {
 						"type": "button",
 						"style": {
-							"text": "play\\nAUX\\nTBS 2",
+							"text": "play\\nAUX\\n03",
 							"textExpression": false,
 							"size": "14",
 							"png64": null,
@@ -61953,7 +61953,7 @@
 					"0": {
 						"type": "button",
 						"style": {
-							"text": "Erst OpneLP starten!",
+							"text": "Erst OpenLP starten!",
 							"textExpression": false,
 							"size": "auto",
 							"png64": null,
