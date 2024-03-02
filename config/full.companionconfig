@@ -49509,7 +49509,7 @@
 											"instance": "internal",
 											"action": "set_page",
 											"options": {
-												"controller": "streamdeck:CL41K1A03537",
+												"controller": "self",
 												"page": 94
 											},
 											"delay": 0
@@ -61138,16 +61138,14 @@
 									"down": [
 										{
 											"id": "cEr7NeRA-Du_hrvNiKHDX",
-											"label": "bitfocus-companion:button_press",
 											"instance": "internal",
-											"action": "button_press",
+											"action": "button_pressrelease",
 											"options": {
 												"force": true,
 												"location_target": "text",
-												"location_text": "91/$(this:row)/$(this:column)"
+												"location_text": "91/0/0"
 											},
-											"delay": 0,
-											"actionId": "button_press"
+											"delay": 0
 										}
 									],
 									"up": []
