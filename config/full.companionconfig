@@ -56628,24 +56628,7 @@
 							"rotaryActions": false,
 							"stepAutoProgress": true
 						},
-						"feedbacks": [
-							{
-								"id": "4y9nCLlCxzL3p6Rbu7lvB",
-								"type": "bank_current_step",
-								"instance_id": "internal",
-								"options": {
-									"step": 1,
-									"location_target": "text",
-									"location_text": "5/1/6"
-								},
-								"style": {
-									"bgcolor": 0,
-									"text": "STAGE\\nOFF",
-									"color": 4737096
-								},
-								"isInverted": false
-							}
-						],
+						"feedbacks": [],
 						"steps": {
 							"0": {
 								"action_sets": {
