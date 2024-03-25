@@ -255,6 +255,80 @@
 								}
 							}
 						}
+					},
+					"7": {
+						"type": "button",
+						"style": {
+							"text": "goto Page 99 (Start)",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 0,
+							"bgcolor": 16777215,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "2ecVSt1Ohmdsl76dyW0Rf",
+											"action": "set_page",
+											"instance": "internal",
+											"options": {
+												"controller_from_variable": false,
+												"controller": "self",
+												"controller_variable": "self",
+												"page_from_variable": false,
+												"page": 99,
+												"page_variable": "1"
+											},
+											"delay": 0
+										},
+										{
+											"id": "RgOj98eTLtAopWqcOx0IN",
+											"action": "set_page",
+											"instance": "internal",
+											"options": {
+												"controller_from_variable": false,
+												"controller": "streamdeck:DL46K1A08634",
+												"controller_variable": "self",
+												"page_from_variable": false,
+												"page": 99,
+												"page_variable": "1"
+											},
+											"delay": 0
+										},
+										{
+											"id": "vnp3Sfm5sInvzAbuHW9Sm",
+											"action": "set_page",
+											"instance": "internal",
+											"options": {
+												"controller_from_variable": false,
+												"controller": "streamdeck:A00WA3331LAU",
+												"controller_variable": "self",
+												"page_from_variable": false,
+												"page": 99,
+												"page_variable": "1"
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
 					}
 				},
 				"1": {
@@ -45585,24 +45659,8 @@
 			}
 		},
 		"80": {
-			"name": "PAGE",
-			"controls": {
-				"0": {
-					"0": {
-						"type": "pageup"
-					}
-				},
-				"1": {
-					"0": {
-						"type": "pagenum"
-					}
-				},
-				"2": {
-					"0": {
-						"type": "pagedown"
-					}
-				}
-			},
+			"name": "Mix16+",
+			"controls": {},
 			"gridSize": {
 				"minColumn": 0,
 				"maxColumn": 7,
@@ -49513,6 +49571,20 @@
 												"page": 94
 											},
 											"delay": 0
+										},
+										{
+											"id": "Z6ioLP8YoEkGYpo9VCF7-",
+											"action": "set_page",
+											"instance": "internal",
+											"options": {
+												"controller_from_variable": false,
+												"controller": "streamdeck:A00WA3331LAU",
+												"controller_variable": "self",
+												"page_from_variable": false,
+												"page": 80,
+												"page_variable": "1"
+											},
+											"delay": 0
 										}
 									],
 									"up": []
@@ -49941,8 +50013,22 @@
 											"instance": "internal",
 											"action": "set_page",
 											"options": {
-												"controller": "streamdeck:CL41K1A03537",
+												"controller": "self",
 												"page": 94
+											},
+											"delay": 0
+										},
+										{
+											"id": "IduYeZ2bJIHthYOdHnJHP",
+											"action": "set_page",
+											"instance": "internal",
+											"options": {
+												"controller_from_variable": false,
+												"controller": "streamdeck:A00WA3331LAU",
+												"controller_variable": "self",
+												"page_from_variable": false,
+												"page": 80,
+												"page_variable": "1"
 											},
 											"delay": 0
 										}
@@ -50289,8 +50375,22 @@
 											"instance": "internal",
 											"action": "set_page",
 											"options": {
-												"controller": "streamdeck:CL41K1A03537",
+												"controller": "self",
 												"page": 93
+											},
+											"delay": 0
+										},
+										{
+											"id": "OtF3Oa-WsfwWCBJpyEDCi",
+											"action": "set_page",
+											"instance": "internal",
+											"options": {
+												"controller_from_variable": false,
+												"controller": "streamdeck:A00WA3331LAU",
+												"controller_variable": "self",
+												"page_from_variable": false,
+												"page": 80,
+												"page_variable": "1"
 											},
 											"delay": 0
 										}
@@ -62222,6 +62322,20 @@
 											"delay": 0
 										},
 										{
+											"id": "L7gN5xhPrU0_9dcnle24K",
+											"action": "set_page",
+											"instance": "internal",
+											"options": {
+												"controller_from_variable": false,
+												"controller": "streamdeck:A00WA3331LAU",
+												"controller_variable": "self",
+												"page_from_variable": false,
+												"page": 80,
+												"page_variable": "1"
+											},
+											"delay": 0
+										},
+										{
 											"id": "0WOTD-InotMZ7901oMYNd",
 											"label": "bitfocus-companion:button_text",
 											"instance": "internal",
@@ -63204,7 +63318,7 @@
 				"import_to": "OFdw4ps0h"
 			},
 			"lastUpgradeIndex": -1,
-			"enabled": false
+			"enabled": true
 		},
 		"xl2Z1Q_VMtCsznm0mCc0G": {
 			"instance_type": "openlp-http",
@@ -63245,36 +63359,6 @@
 	"surfaces": {
 		"emulator:emulator": {
 			"config": {
-				"config": {
-					"config": {
-						"config": {
-							"config": {
-								"brightness": 100,
-								"rotation": 0,
-								"use_last_page": true,
-								"page": 1,
-								"xOffset": 0,
-								"yOffset": 0,
-								"emulator_control_enable": false,
-								"emulator_prompt_fullscreen": false
-							},
-							"integrationType": "emulator",
-							"type": "Emulator",
-							"xOffset": 0,
-							"yOffset": 0,
-							"use_last_page": true
-						},
-						"integrationType": "emulator",
-						"type": "Emulator"
-					},
-					"integrationType": "emulator",
-					"type": "Emulator",
-					"xOffset": 0,
-					"yOffset": 0,
-					"use_last_page": true
-				},
-				"integrationType": "emulator",
-				"type": "Emulator",
 				"xOffset": 0,
 				"yOffset": 0,
 				"emulator_columns": 8,
@@ -63287,80 +63371,84 @@
 				"rows": 4
 			},
 			"groupConfig": {
-				"name": "Auto group",
-				"last_page": 1,
-				"startup_page": 1,
-				"use_last_page": true
+				"name": "Unnamed group",
+				"last_page": 99,
+				"startup_page": 99,
+				"use_last_page": false
 			},
 			"groupId": null
 		},
-		"streamdeck:DL46K1A08634": {
-			"config": {
-				"config": {
-					"config": {
-						"brightness": 43,
-						"rotation": 0,
-						"use_last_page": false,
-						"page": 99,
-						"xOffset": 0,
-						"yOffset": 0
-					},
-					"page": 99,
-					"name": "Elgato Streamdeck 15",
-					"type": "Elgato Streamdeck MK2",
-					"integrationType": "elgato-streamdeck"
-				},
-				"name": "Elgato Streamdeck 15",
-				"type": "Elgato Streamdeck MK2",
-				"integrationType": "elgato-streamdeck",
-				"xOffset": 0,
-				"yOffset": 0
+		"streamdeck:A00WA3331LAU": {
+			"type": "Elgato Streamdeck +",
+			"integrationType": "elgato-streamdeck",
+			"gridSize": {
+				"columns": 4,
+				"rows": 4
 			},
-			"page": 99,
-			"name": "Elgato Streamdeck 15",
+			"config": {
+				"brightness": 75,
+				"rotation": 0,
+				"never_lock": false,
+				"xOffset": 0,
+				"yOffset": 0,
+				"groupId": null
+			},
+			"groupConfig": {
+				"name": "Unnamed group",
+				"last_page": 99,
+				"startup_page": 99,
+				"use_last_page": false
+			},
+			"groupId": null,
+			"name": "Elegato Streamdeck + 16"
+		},
+		"streamdeck:DL46K1A08634": {
 			"type": "Elgato Streamdeck MK2",
 			"integrationType": "elgato-streamdeck",
-			"groupId": null,
+			"gridSize": {
+				"columns": 5,
+				"rows": 3
+			},
+			"config": {
+				"brightness": 75,
+				"rotation": 0,
+				"never_lock": false,
+				"xOffset": 0,
+				"yOffset": 0,
+				"groupId": null
+			},
 			"groupConfig": {
-				"name": "Auto group",
+				"name": "Unnamed group",
 				"last_page": 99,
 				"startup_page": 99,
 				"use_last_page": false
-			}
+			},
+			"groupId": null,
+			"name": "Elgato Streamdeck 15"
 		},
 		"streamdeck:CL41K1A03537": {
-			"config": {
-				"config": {
-					"config": {
-						"brightness": 15,
-						"rotation": 0,
-						"use_last_page": false,
-						"page": 99,
-						"xOffset": 0,
-						"yOffset": 0
-					},
-					"page": 99,
-					"name": "Elgato Streamdeck XL 32",
-					"type": "Elgato Streamdeck XL",
-					"integrationType": "elgato-streamdeck"
-				},
-				"name": "Elgato Streamdeck XL 32",
-				"type": "Elgato Streamdeck XL",
-				"integrationType": "elgato-streamdeck",
-				"xOffset": 0,
-				"yOffset": 0
-			},
-			"page": 99,
-			"name": "Elgato Streamdeck XL 32",
 			"type": "Elgato Streamdeck XL",
 			"integrationType": "elgato-streamdeck",
-			"groupId": null,
+			"gridSize": {
+				"columns": 8,
+				"rows": 4
+			},
+			"config": {
+				"brightness": 75,
+				"rotation": 0,
+				"never_lock": false,
+				"xOffset": 0,
+				"yOffset": 0,
+				"groupId": null
+			},
 			"groupConfig": {
-				"name": "Auto group",
+				"name": "Unnamed group",
 				"last_page": 99,
 				"startup_page": 99,
 				"use_last_page": false
-			}
+			},
+			"groupId": null,
+			"name": "Elgato Streamdeck XL 32"
 		}
 	},
 	"surfaceGroups": {}
