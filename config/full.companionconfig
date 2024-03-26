@@ -20600,7 +20600,7 @@
 						"style": {
 							"text": "↑ klein\\noben l\\nGROß ↓",
 							"textExpression": false,
-							"size": "18",
+							"size": "14",
 							"png64": null,
 							"alignment": "center:center",
 							"pngalignment": "center:center",
@@ -20709,7 +20709,7 @@
 						"style": {
 							"text": "↑ klein\\noben r\\nGROß ↓",
 							"textExpression": false,
-							"size": "18",
+							"size": "14",
 							"png64": null,
 							"alignment": "center:center",
 							"pngalignment": "center:center",
@@ -21312,7 +21312,7 @@
 						"style": {
 							"text": "GROß ↓\\n↑ klein\\nunten l",
 							"textExpression": false,
-							"size": "18",
+							"size": "14",
 							"png64": null,
 							"alignment": "center:center",
 							"pngalignment": "center:center",
@@ -21421,7 +21421,7 @@
 						"style": {
 							"text": "GROß ↓\\n↑ klein\\nunten r",
 							"textExpression": false,
-							"size": "18",
+							"size": "14",
 							"png64": null,
 							"alignment": "center:center",
 							"pngalignment": "center:center",
