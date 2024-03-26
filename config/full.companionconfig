@@ -10384,26 +10384,6 @@
 												"location_text": "3/2/5"
 											},
 											"delay": 100
-										},
-										{
-											"id": "6dPcBg2ujaPws0bK3wcBp",
-											"label": "4YIpLwJwP:source",
-											"instance": "ApZA0tDsdZISdCwvCiNBt",
-											"action": "source",
-											"options": {
-												"source": "COMINGHOME-VIDEO (Beamer)"
-											},
-											"delay": 0
-										},
-										{
-											"id": "QlYN-eZZ_4c2Swyp2m07N",
-											"label": "4YIpLwJwP:customJSON",
-											"instance": "ApZA0tDsdZISdCwvCiNBt",
-											"action": "customJSON",
-											"options": {
-												"customJSON": "{\"version\":1,\"window\":{\"display_device\":\"\",\"showcmd\":1,\"min_posn_x\":-1,\"min_posn_y\":-1,\"max_posn_x\":-1,\"max_posn_y\":-1,\"normal_posn_left\":1010,\"normal_posn_right\":1688,\"normal_posn_top\":0,\"normal_posn_bottom\":412}}"
-											},
-											"delay": 100
 										}
 									],
 									"up": []
@@ -63266,26 +63246,9 @@
 			"lastUpgradeIndex": -1,
 			"enabled": true
 		},
-		"ApZA0tDsdZISdCwvCiNBt": {
-			"instance_type": "newtek-ndistudiomonitor",
-			"sortOrder": 6,
-			"label": "localhost_Beamer",
-			"isFirstInit": false,
-			"config": {
-				"product": "NDI Studio Monitor",
-				"host": "127.0.0.1",
-				"port": 81,
-				"useWebPassword": true,
-				"username": "admin",
-				"password": "admin",
-				"import_to": "4YIpLwJwP"
-			},
-			"lastUpgradeIndex": -1,
-			"enabled": true
-		},
 		"eUPQEmkK6tACnlu1WTQUq": {
 			"instance_type": "newtek-ndistudiomonitor",
-			"sortOrder": 7,
+			"sortOrder": 6,
 			"label": "chaudio_Audio_N-1",
 			"isFirstInit": false,
 			"config": {
@@ -63302,7 +63265,7 @@
 		},
 		"xl2Z1Q_VMtCsznm0mCc0G": {
 			"instance_type": "openlp-http",
-			"sortOrder": 8,
+			"sortOrder": 7,
 			"label": "OpenLP",
 			"isFirstInit": false,
 			"config": {
