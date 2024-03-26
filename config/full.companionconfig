@@ -20640,7 +20640,7 @@
 											"instance": "vBoBdkVFSsZutuO-Pg8cG",
 											"action": "COMMAND",
 											"options": {
-												"cmd": "MIXER 16-11 FILL 0.116667 0.106481 0.869792 0.87037 16 EaseInOutSine"
+												"cmd": "MIXER 16-11 FILL 0.2 0.2 0.8 0.8 16 EaseInOutSine"
 											},
 											"delay": 0
 										},
@@ -20660,7 +20660,7 @@
 											"instance": "vBoBdkVFSsZutuO-Pg8cG",
 											"action": "COMMAND",
 											"options": {
-												"cmd": "MIXER 16-12 FILL -0.0229167 0.0148148 0.3 0.3 16 EaseInOutSine"
+												"cmd": "MIXER 16-12 FILL 0 0 0.4 0.4 16 EaseInOutSine"
 											},
 											"delay": 0
 										},
@@ -20670,7 +20670,7 @@
 											"instance": "vBoBdkVFSsZutuO-Pg8cG",
 											"action": "COMMAND",
 											"options": {
-												"cmd": "MIXER 16-12 CROP 0.104167 0 0.895833 1 16 EaseInOutSine"
+												"cmd": "MIXER 16-12 CROP 0 0 1 1 16 EaseInOutSine"
 											},
 											"delay": 0
 										},
@@ -20749,7 +20749,7 @@
 											"instance": "vBoBdkVFSsZutuO-Pg8cG",
 											"action": "COMMAND",
 											"options": {
-												"cmd": "MIXER 16-11 FILL 0.0130208 0.1064814 0.869792 0.87037 16 EaseInOutSine"
+												"cmd": "MIXER 16-11 FILL 0 0.2 0.8 0.8 16 EaseInOutSine"
 											},
 											"delay": 0
 										},
@@ -20769,7 +20769,7 @@
 											"instance": "vBoBdkVFSsZutuO-Pg8cG",
 											"action": "COMMAND",
 											"options": {
-												"cmd": "MIXER 16-12 FILL 0.721354 0.0148148 0.3 0.3 16 EaseInOutSine"
+												"cmd": "MIXER 16-12 FILL 0.6 0 0.4 0.4 16 EaseInOutSine"
 											},
 											"delay": 0
 										},
@@ -20779,7 +20779,7 @@
 											"instance": "vBoBdkVFSsZutuO-Pg8cG",
 											"action": "COMMAND",
 											"options": {
-												"cmd": "MIXER 16-12 CROP 0.104167 0 0.895833 1 16 EaseInOutSine"
+												"cmd": "MIXER 16-12 CROP 0 0 1 1 16 EaseInOutSine"
 											},
 											"delay": 0
 										},
@@ -21352,7 +21352,7 @@
 											"instance": "vBoBdkVFSsZutuO-Pg8cG",
 											"action": "COMMAND",
 											"options": {
-												"cmd": "MIXER 16-11 FILL 0.116667 0.0231481 0.869792 0.87037 16 EaseInOutSine"
+												"cmd": "MIXER 16-11 FILL 0.2 0 0.8 0.8 16 EaseInOutSine"
 											},
 											"delay": 0
 										},
@@ -21372,7 +21372,7 @@
 											"instance": "vBoBdkVFSsZutuO-Pg8cG",
 											"action": "COMMAND",
 											"options": {
-												"cmd": "MIXER 16-12 FILL -0.0229167 0.685185 0.3 0.3 16 EaseInOutSine"
+												"cmd": "MIXER 16-12 FILL 0 0.6 0.4 0.4 16 EaseInOutSine"
 											},
 											"delay": 0
 										},
@@ -21382,7 +21382,7 @@
 											"instance": "vBoBdkVFSsZutuO-Pg8cG",
 											"action": "COMMAND",
 											"options": {
-												"cmd": "MIXER 16-12 CROP 0.104167 0 0.895833 1 16 EaseInOutSine"
+												"cmd": "MIXER 16-12 CROP 0 0 1 1 16 EaseInOutSine"
 											},
 											"delay": 0
 										},
@@ -21461,7 +21461,7 @@
 											"instance": "vBoBdkVFSsZutuO-Pg8cG",
 											"action": "COMMAND",
 											"options": {
-												"cmd": "MIXER 16-11 FILL 0.0130208 0.0231481 0.869792 0.87037 16 EaseInOutSine"
+												"cmd": "MIXER 16-11 FILL 0 0 0.8 0.8 16 EaseInOutSine"
 											},
 											"delay": 0
 										},
@@ -21481,7 +21481,7 @@
 											"instance": "vBoBdkVFSsZutuO-Pg8cG",
 											"action": "COMMAND",
 											"options": {
-												"cmd": "MIXER 16-12 FILL 0.721354 0.685185 0.3 0.3 16 EaseInOutSine"
+												"cmd": "MIXER 16-12 FILL 0.6 0.6 0.4 0.4 16 EaseInOutSine"
 											},
 											"delay": 0
 										},
@@ -21491,7 +21491,7 @@
 											"instance": "vBoBdkVFSsZutuO-Pg8cG",
 											"action": "COMMAND",
 											"options": {
-												"cmd": "MIXER 16-12 CROP 0.104167 0 0.895833 1 16 EaseInOutSine"
+												"cmd": "MIXER 16-12 CROP 0 0 1 1 16 EaseInOutSine"
 											},
 											"delay": 0
 										},
