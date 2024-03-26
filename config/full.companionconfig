@@ -10536,26 +10536,6 @@
 											"delay": 0
 										},
 										{
-											"id": "mbCLtCQZ7Lr8E8Cs54Q-r",
-											"label": "wxv8gkkdt:source",
-											"instance": "l5MrxMdWQ1rp9DzPR5LIP",
-											"action": "source",
-											"options": {
-												"source": "COMINGHOME-VIDEO (Stage)"
-											},
-											"delay": 100
-										},
-										{
-											"id": "BTEXfsc7qupxn6RFe4TEc",
-											"label": "wxv8gkkdt:customJSON",
-											"instance": "l5MrxMdWQ1rp9DzPR5LIP",
-											"action": "customJSON",
-											"options": {
-												"customJSON": "{\"version\":1,\"window\":{\"display_device\":\"\",\"showcmd\":1,\"min_posn_x\":-1,\"min_posn_y\":-1,\"max_posn_x\":-1,\"max_posn_y\":-1,\"normal_posn_left\":1010,\"normal_posn_right\":1688,\"normal_posn_top\":406,\"normal_posn_bottom\":819}}"
-											},
-											"delay": 100
-										},
-										{
 											"id": "s1SqVuTZoCDuypNZ8diwG",
 											"label": "bitfocus-companion:button_pressrelease",
 											"instance": "internal",
@@ -63336,23 +63316,6 @@
 				"import_to": "5W2chVadM"
 			},
 			"lastUpgradeIndex": 2,
-			"enabled": true
-		},
-		"l5MrxMdWQ1rp9DzPR5LIP": {
-			"instance_type": "newtek-ndistudiomonitor",
-			"sortOrder": 9,
-			"label": "localhost_STAGE",
-			"isFirstInit": false,
-			"config": {
-				"product": "NDI Studio Monitor",
-				"host": "127.0.0.1",
-				"port": 82,
-				"useWebPassword": true,
-				"username": "admin",
-				"password": "admin",
-				"import_to": "wxv8gkkdt"
-			},
-			"lastUpgradeIndex": -1,
 			"enabled": true
 		}
 	},
