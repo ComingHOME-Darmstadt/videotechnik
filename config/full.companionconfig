@@ -17123,6 +17123,114 @@
 			"name": "PiP16+",
 			"controls": {
 				"2": {
+					"2": {
+						"type": "button",
+						"style": {
+							"text": "concat('GROß\\n', round($(internal:custom_pipLargeScale)*100),'%')",
+							"textExpression": true,
+							"size": "18",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 13056,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "OGg0twO4oM_gi5w99csPQ",
+											"action": "custom_variable_set_expression",
+											"instance": "internal",
+											"options": {
+												"name": "pipLargeScale",
+												"expression": "0.8"
+											},
+											"delay": 0
+										},
+										{
+											"id": "R_TIhNtmwuRXj826osORO",
+											"action": "button_pressrelease",
+											"instance": "internal",
+											"options": {
+												"location_target": "text",
+												"location_text": "8/3/4",
+												"location_expression": "concat($(this:page), '/', $(this:row), '/', $(this:column))",
+												"force": false
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"3": {
+						"type": "button",
+						"style": {
+							"text": "concat('klein\\n', round($(internal:custom_pipSmallScale)*100),'%')",
+							"textExpression": true,
+							"size": "18",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 39219,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "DZXS-700Bnzh48uMJnKpy",
+											"action": "custom_variable_set_expression",
+											"instance": "internal",
+											"options": {
+												"name": "pipSmallScale",
+												"expression": "0.4"
+											},
+											"delay": 0
+										},
+										{
+											"id": "3dUjrJFKxGfrhfkvY6Eny",
+											"action": "button_pressrelease",
+											"instance": "internal",
+											"options": {
+												"location_target": "text",
+												"location_text": "8/3/4",
+												"location_expression": "concat($(this:page), '/', $(this:row), '/', $(this:column))",
+												"force": false
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
 					"5": {
 						"type": "button",
 						"style": {
@@ -17297,6 +17405,250 @@
 					}
 				},
 				"3": {
+					"2": {
+						"type": "button",
+						"style": {
+							"text": "set largeScale",
+							"textExpression": false,
+							"size": "14",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": true,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "w9Y0DKl3abhDrC-5mgXii",
+											"action": "custom_variable_set_expression",
+											"instance": "internal",
+											"options": {
+												"name": "pipLargeScale",
+												"expression": "0.8"
+											},
+											"delay": 0
+										},
+										{
+											"id": "J-9r_sxdnCkCzu73H--DL",
+											"action": "button_pressrelease",
+											"instance": "internal",
+											"options": {
+												"location_target": "text",
+												"location_text": "8/3/4",
+												"location_expression": "concat($(this:page), '/', $(this:row), '/', $(this:column))",
+												"force": false
+											},
+											"delay": 0
+										}
+									],
+									"up": [],
+									"rotate_left": [
+										{
+											"id": "c7Wor0XIm3OtuF4cOmwRX",
+											"action": "custom_variable_set_expression",
+											"instance": "internal",
+											"options": {
+												"name": "pipLargeScale",
+												"expression": "$(internal:custom_pipLargeScale) - 0.01"
+											},
+											"delay": 0
+										},
+										{
+											"id": "EjAwsjMFOGmugtPsdelx6",
+											"action": "custom_variable_set_expression",
+											"instance": "internal",
+											"options": {
+												"name": "pipLargeScale",
+												"expression": "$(internal:custom_pipLargeScale) < 0 ? 0 : $(internal:custom_pipLargeScale) "
+											},
+											"delay": 0
+										},
+										{
+											"id": "hyb3p5tjJYDI3cH-4AhoY",
+											"action": "button_pressrelease",
+											"instance": "internal",
+											"options": {
+												"location_target": "text",
+												"location_text": "8/3/4",
+												"location_expression": "concat($(this:page), '/', $(this:row), '/', $(this:column))",
+												"force": false
+											},
+											"delay": 0
+										}
+									],
+									"rotate_right": [
+										{
+											"id": "KFfPvQ3-16pOP5Dz6Woc_",
+											"action": "custom_variable_set_expression",
+											"instance": "internal",
+											"options": {
+												"name": "pipLargeScale",
+												"expression": "$(internal:custom_pipLargeScale) + 0.01"
+											},
+											"delay": 0
+										},
+										{
+											"id": "3wnYaUM4McC5l4iebyVR7",
+											"action": "custom_variable_set_expression",
+											"instance": "internal",
+											"options": {
+												"name": "pipLargeScale",
+												"expression": "$(internal:custom_pipLargeScale) > 1 ? 1 : $(internal:custom_pipLargeScale) "
+											},
+											"delay": 0
+										},
+										{
+											"id": "fVjTbMmcj_m9YeuIonkIB",
+											"action": "button_pressrelease",
+											"instance": "internal",
+											"options": {
+												"location_target": "text",
+												"location_text": "8/3/4",
+												"location_expression": "concat($(this:page), '/', $(this:row), '/', $(this:column))",
+												"force": false
+											},
+											"delay": 0
+										}
+									]
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"3": {
+						"type": "button",
+						"style": {
+							"text": "set smallScale",
+							"textExpression": false,
+							"size": "14",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": true,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "VVwluMfdE6FtXgIm9yx_4",
+											"action": "custom_variable_set_expression",
+											"instance": "internal",
+											"options": {
+												"name": "pipSmallScale",
+												"expression": "0.4"
+											},
+											"delay": 0
+										},
+										{
+											"id": "KeYZToSTiRp4uYJcfKvsV",
+											"action": "button_pressrelease",
+											"instance": "internal",
+											"options": {
+												"location_target": "text",
+												"location_text": "8/3/4",
+												"location_expression": "concat($(this:page), '/', $(this:row), '/', $(this:column))",
+												"force": false
+											},
+											"delay": 0
+										}
+									],
+									"up": [],
+									"rotate_left": [
+										{
+											"id": "i69PbQxp_ylEuZbqoyybo",
+											"action": "custom_variable_set_expression",
+											"instance": "internal",
+											"options": {
+												"name": "pipSmallScale",
+												"expression": "$(internal:custom_pipSmallScale) - 0.01"
+											},
+											"delay": 0
+										},
+										{
+											"id": "GnFuBD4yMc6hDE2FAb5Uj",
+											"action": "custom_variable_set_expression",
+											"instance": "internal",
+											"options": {
+												"name": "pipSmallScale",
+												"expression": "$(internal:custom_pipSmallScale) < 0 ? 0 : $(internal:custom_pipSmallScale) "
+											},
+											"delay": 0
+										},
+										{
+											"id": "Z76UX9g0_dEhuE3a7Zobk",
+											"action": "button_pressrelease",
+											"instance": "internal",
+											"options": {
+												"location_target": "text",
+												"location_text": "8/3/4",
+												"location_expression": "concat($(this:page), '/', $(this:row), '/', $(this:column))",
+												"force": false
+											},
+											"delay": 0
+										}
+									],
+									"rotate_right": [
+										{
+											"id": "sgu3wBTBjZ-yqZoxNOyq0",
+											"action": "custom_variable_set_expression",
+											"instance": "internal",
+											"options": {
+												"name": "pipSmallScale",
+												"expression": "$(internal:custom_pipSmallScale) + 0.01"
+											},
+											"delay": 0
+										},
+										{
+											"id": "NRtVPg-WlRoWF8W4q5HIc",
+											"action": "custom_variable_set_expression",
+											"instance": "internal",
+											"options": {
+												"name": "pipSmallScale",
+												"expression": "$(internal:custom_pipSmallScale) > 1 ? 1 : $(internal:custom_pipSmallScale) "
+											},
+											"delay": 0
+										},
+										{
+											"id": "M0SKTPyQdmHu9slU3-gdm",
+											"action": "button_pressrelease",
+											"instance": "internal",
+											"options": {
+												"location_target": "text",
+												"location_text": "8/3/4",
+												"location_expression": "concat($(this:page), '/', $(this:row), '/', $(this:column))",
+												"force": false
+											},
+											"delay": 0
+										}
+									]
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
 					"4": {
 						"type": "button",
 						"style": {
@@ -48436,8 +48788,22 @@
 											"instance": "internal",
 											"action": "set_page",
 											"options": {
-												"controller": "streamdeck:CL41K1A03537",
+												"controller": "self",
 												"page": 9
+											},
+											"delay": 0
+										},
+										{
+											"id": "cFlkyLD-QyHb08UvydRJE",
+											"action": "set_page",
+											"instance": "internal",
+											"options": {
+												"controller_from_variable": false,
+												"controller": "streamdeck:A00WA3331LAU",
+												"controller_variable": "self",
+												"page_from_variable": false,
+												"page": 8,
+												"page_variable": "1"
 											},
 											"delay": 0
 										}
