@@ -52054,7 +52054,8 @@
 									"location_expression": "concat($(this:page), '/', $(this:row), '/', $(this:column))",
 									"properties": [
 										"color",
-										"bgcolor"
+										"bgcolor",
+										"text"
 									]
 								},
 								"style": {},
@@ -52117,7 +52118,8 @@
 									"location_expression": "concat($(this:page), '/', $(this:row), '/', $(this:column))",
 									"properties": [
 										"color",
-										"bgcolor"
+										"bgcolor",
+										"text"
 									]
 								},
 								"style": {},
@@ -55076,7 +55078,8 @@
 									"location_text": "96/3/1",
 									"properties": [
 										"color",
-										"bgcolor"
+										"bgcolor",
+										"text"
 									]
 								},
 								"style": {},
@@ -55139,7 +55142,8 @@
 									"location_text": "96/3/2",
 									"properties": [
 										"color",
-										"bgcolor"
+										"bgcolor",
+										"text"
 									]
 								},
 								"style": {},
@@ -59088,7 +59092,7 @@
 					"1": {
 						"type": "button",
 						"style": {
-							"text": "PRG\\nOFF",
+							"text": "AUDIO\\nPRG\\nOFF",
 							"textExpression": false,
 							"size": "auto",
 							"png64": "iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAIAAADajyQQAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAB3RJTUUH6AIKFgQtGqbG+AAAAGJJREFUaN7tzwEVABAQBbBPJZ10EkqnSyCAe1uDjWTn7aybP800JSYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJtY/Vg3fAo/M2DEeAAAAAElFTkSuQmCC",
@@ -59117,7 +59121,7 @@
 								},
 								"style": {
 									"bgcolor": 13056,
-									"text": "concat('PRG\\n', round($(internal:custom_volPrgMain)*100),'%')",
+									"text": "concat('AUDIO\\nPRG\\n', round($(internal:custom_volPrgMain)*100),'%')",
 									"textExpression": true
 								},
 								"isInverted": false,
@@ -59162,7 +59166,7 @@
 								"style": {
 									"color": 4737096,
 									"bgcolor": 0,
-									"text": "PRG\\nOFF",
+									"text": "AUDIO\\nPRG\\nOFF",
 									"textExpression": false,
 									"png64": null
 								},
@@ -59207,7 +59211,7 @@
 					"2": {
 						"type": "button",
 						"style": {
-							"text": "N-1\\nOFF",
+							"text": "AUDIO\\nN-1\\nOFF",
 							"textExpression": false,
 							"size": "auto",
 							"png64": "iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAIAAADajyQQAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAB3RJTUUH6AIKFgQtGqbG+AAAAGJJREFUaN7tzwEVABAQBbBPJZ10EkqnSyCAe1uDjWTn7aybP800JSYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmJtY/Vg3fAo/M2DEeAAAAAElFTkSuQmCC",
@@ -59236,7 +59240,7 @@
 								},
 								"style": {
 									"bgcolor": 13056,
-									"text": "concat('N-1\\n', round($(internal:custom_volN1Main)*100),'%')",
+									"text": "concat('AUDIO\\nN-1\\n', round($(internal:custom_volN1Main)*100),'%')",
 									"textExpression": true
 								},
 								"isInverted": false,
@@ -59281,7 +59285,7 @@
 								"style": {
 									"color": 4737096,
 									"bgcolor": 0,
-									"text": "N-1\\nOFF",
+									"text": "AUDIO\\nN-1\\nOFF",
 									"textExpression": false,
 									"png64": null
 								},
