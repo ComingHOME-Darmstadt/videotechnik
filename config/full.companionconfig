@@ -17120,8 +17120,544 @@
 			}
 		},
 		"8": {
-			"name": "PAGE",
-			"controls": {},
+			"name": "PiP16+",
+			"controls": {
+				"2": {
+					"5": {
+						"type": "button",
+						"style": {
+							"text": "calculate var kleinObenLinks",
+							"textExpression": false,
+							"size": "14",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 7237230,
+							"bgcolor": 0,
+							"show_topbar": "default",
+							"png": null,
+							"latch": false
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "u5b_MkXIE8zMoA9YiQifS",
+											"action": "custom_variable_set_expression",
+											"instance": "internal",
+											"options": {
+												"name": "pipLargeStartX",
+												"expression": "1 - $(internal:custom_pipLargeScale) "
+											},
+											"delay": 0
+										},
+										{
+											"id": "7K9RxZq_2NqqSGvnrLlf8",
+											"action": "custom_variable_set_expression",
+											"instance": "internal",
+											"options": {
+												"name": "pipLargeStartY",
+												"expression": "1 - $(internal:custom_pipLargeScale) "
+											},
+											"delay": 0
+										},
+										{
+											"id": "0-H2pQthEdbM3eZrY6V2p",
+											"action": "custom_variable_set_expression",
+											"instance": "internal",
+											"options": {
+												"name": "pipSmallStartX",
+												"expression": "0"
+											},
+											"delay": 0
+										},
+										{
+											"id": "BG-MJ0MHN9q2ozhGCDjcQ",
+											"action": "custom_variable_set_expression",
+											"instance": "internal",
+											"options": {
+												"name": "pipSmallStartY",
+												"expression": "0"
+											},
+											"delay": 0
+										},
+										{
+											"id": "doiXp3glO_cC4b6qVW1z4",
+											"action": "button_pressrelease",
+											"instance": "internal",
+											"options": {
+												"location_target": "text",
+												"location_text": "8/3/7",
+												"location_expression": "concat($(this:page), '/', $(this:row), '/', $(this:column))",
+												"force": false
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"6": {
+						"type": "button",
+						"style": {
+							"text": "calculate var kleinObenRechts",
+							"textExpression": false,
+							"size": "14",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 7237230,
+							"bgcolor": 0,
+							"show_topbar": "default",
+							"png": null,
+							"latch": false
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "AbJ7-JUbCZao0738CQAPN",
+											"action": "custom_variable_set_expression",
+											"instance": "internal",
+											"options": {
+												"name": "pipLargeStartX",
+												"expression": "0"
+											},
+											"delay": 0
+										},
+										{
+											"id": "oEJ-Dgro4cgmP7DozNovO",
+											"action": "custom_variable_set_expression",
+											"instance": "internal",
+											"options": {
+												"name": "pipLargeStartY",
+												"expression": "1 - $(internal:custom_pipLargeScale)"
+											},
+											"delay": 0
+										},
+										{
+											"id": "ya675Zti_JNXqH442dHUv",
+											"action": "custom_variable_set_expression",
+											"instance": "internal",
+											"options": {
+												"name": "pipSmallStartX",
+												"expression": "1 - $(internal:custom_pipSmallScale)"
+											},
+											"delay": 0
+										},
+										{
+											"id": "70kPeaXu4Zyh4JxJfPuNs",
+											"action": "custom_variable_set_expression",
+											"instance": "internal",
+											"options": {
+												"name": "pipSmallStartY",
+												"expression": "0"
+											},
+											"delay": 0
+										},
+										{
+											"id": "6dkpppKhzbd6E33jp4Yrx",
+											"action": "button_pressrelease",
+											"instance": "internal",
+											"options": {
+												"location_target": "text",
+												"location_text": "8/3/7",
+												"location_expression": "concat($(this:page), '/', $(this:row), '/', $(this:column))",
+												"force": false
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					}
+				},
+				"3": {
+					"4": {
+						"type": "button",
+						"style": {
+							"text": "calculate var",
+							"textExpression": false,
+							"size": "14",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 7237230,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "P_pEZR2WKfWaEP1EJ4oBs",
+											"action": "button_pressrelease_condition",
+											"instance": "internal",
+											"options": {
+												"variable": "internal:custom_pipStatus",
+												"op": "eq",
+												"value": "kleinObenLinks",
+												"location_target": "text",
+												"location_text": "8/2/5",
+												"location_expression": "concat($(this:page), '/', $(this:row), '/', $(this:column))",
+												"force": true
+											},
+											"delay": 0,
+											"headline": "kleinObenLinks"
+										},
+										{
+											"id": "vpP-irJtli1wHKWiBY7Ux",
+											"action": "button_pressrelease_condition",
+											"instance": "internal",
+											"options": {
+												"variable": "internal:custom_pipStatus",
+												"op": "eq",
+												"value": "kleinObenRechts",
+												"location_target": "text",
+												"location_text": "8/2/6",
+												"location_expression": "concat($(this:page), '/', $(this:row), '/', $(this:column))",
+												"force": true
+											},
+											"delay": 0,
+											"headline": "kleinObenRechts"
+										},
+										{
+											"id": "gjHH3G_9xcmfcVcHktIq9",
+											"action": "button_pressrelease_condition",
+											"instance": "internal",
+											"options": {
+												"variable": "internal:custom_pipStatus",
+												"op": "eq",
+												"value": "kleinUntenLinks",
+												"location_target": "text",
+												"location_text": "8/3/5",
+												"location_expression": "concat($(this:page), '/', $(this:row), '/', $(this:column))",
+												"force": true
+											},
+											"delay": 0,
+											"headline": "kleinUntenLinks"
+										},
+										{
+											"id": "Zqv9lfIeQeTp8MMF8G4rO",
+											"action": "button_pressrelease_condition",
+											"instance": "internal",
+											"options": {
+												"variable": "internal:custom_pipStatus",
+												"op": "eq",
+												"value": "kleinUntenRechts",
+												"location_target": "text",
+												"location_text": "8/3/6",
+												"location_expression": "concat($(this:page), '/', $(this:row), '/', $(this:column))",
+												"force": true
+											},
+											"delay": 0,
+											"headline": "kleinUntenRechts"
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"5": {
+						"type": "button",
+						"style": {
+							"text": "calculate var kleinUntenLinks",
+							"textExpression": false,
+							"size": "14",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 7237230,
+							"bgcolor": 0,
+							"show_topbar": "default",
+							"png": null,
+							"latch": false
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "XtvVD98dEH0a59pj9tape",
+											"action": "custom_variable_set_expression",
+											"instance": "internal",
+											"options": {
+												"name": "pipLargeStartX",
+												"expression": "1 - $(internal:custom_pipLargeScale)"
+											},
+											"delay": 0
+										},
+										{
+											"id": "1wZZhDJp8DXi7Hm6whwRs",
+											"action": "custom_variable_set_expression",
+											"instance": "internal",
+											"options": {
+												"name": "pipLargeStartY",
+												"expression": "0"
+											},
+											"delay": 0
+										},
+										{
+											"id": "iMxNxPiq6ucci7yGC-mXi",
+											"action": "custom_variable_set_expression",
+											"instance": "internal",
+											"options": {
+												"name": "pipSmallStartX",
+												"expression": "0"
+											},
+											"delay": 0
+										},
+										{
+											"id": "B2qzGGfWHqjYTi1M0ybnS",
+											"action": "custom_variable_set_expression",
+											"instance": "internal",
+											"options": {
+												"name": "pipSmallStartY",
+												"expression": "1 - $(internal:custom_pipSmallScale)"
+											},
+											"delay": 0
+										},
+										{
+											"id": "nuOsti6j79XAypOrjTXim",
+											"action": "button_pressrelease",
+											"instance": "internal",
+											"options": {
+												"location_target": "text",
+												"location_text": "8/3/7",
+												"location_expression": "concat($(this:page), '/', $(this:row), '/', $(this:column))",
+												"force": false
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"6": {
+						"type": "button",
+						"style": {
+							"text": "calculate var kleinUntenRechts",
+							"textExpression": false,
+							"size": "14",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 7237230,
+							"bgcolor": 0,
+							"show_topbar": "default",
+							"png": null,
+							"latch": false
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "tWs9bqxzNPpaBw_aUUR5W",
+											"action": "custom_variable_set_expression",
+											"instance": "internal",
+											"options": {
+												"name": "pipLargeStartX",
+												"expression": "0"
+											},
+											"delay": 0
+										},
+										{
+											"id": "zkd-nBdTNBnhOMS2X547L",
+											"action": "custom_variable_set_expression",
+											"instance": "internal",
+											"options": {
+												"name": "pipLargeStartY",
+												"expression": "0"
+											},
+											"delay": 0
+										},
+										{
+											"id": "AJW5WpEuJqGfVfBVSs_Jb",
+											"action": "custom_variable_set_expression",
+											"instance": "internal",
+											"options": {
+												"name": "pipSmallStartX",
+												"expression": "1 - $(internal:custom_pipSmallScale)"
+											},
+											"delay": 0
+										},
+										{
+											"id": "AhCvuiGoByLYmzvsatEM2",
+											"action": "custom_variable_set_expression",
+											"instance": "internal",
+											"options": {
+												"name": "pipSmallStartY",
+												"expression": "1 - $(internal:custom_pipSmallScale)"
+											},
+											"delay": 0
+										},
+										{
+											"id": "PTuvICsXp6_kXY1UnXh1D",
+											"action": "button_pressrelease",
+											"instance": "internal",
+											"options": {
+												"location_target": "text",
+												"location_text": "8/3/7",
+												"location_expression": "concat($(this:page), '/', $(this:row), '/', $(this:column))",
+												"force": false
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"7": {
+						"type": "button",
+						"style": {
+							"text": "send var to MIXER",
+							"textExpression": false,
+							"size": "14",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 7237230,
+							"bgcolor": 0,
+							"show_topbar": "default",
+							"png": null,
+							"latch": false
+						},
+						"options": {
+							"relativeDelay": true,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "Be9c97goJaTR6_8ZG26uZ",
+											"label": "udTEF512G:COMMAND",
+											"instance": "vBoBdkVFSsZutuO-Pg8cG",
+											"action": "COMMAND",
+											"options": {
+												"cmd": "MIXER 16-11 FILL $(internal:custom_pipLargeStartX) $(internal:custom_pipLargeStartY) $(internal:custom_pipLargeScale) $(internal:custom_pipLargeScale) 16 EaseInOutSine"
+											},
+											"delay": 0,
+											"headline": "fill large"
+										},
+										{
+											"id": "280KiDVK4uQj89SSwog15",
+											"label": "udTEF512G:COMMAND",
+											"instance": "vBoBdkVFSsZutuO-Pg8cG",
+											"action": "COMMAND",
+											"options": {
+												"cmd": "MIXER 16-11 CROP 0 0 1 1 16 EaseInOutSine"
+											},
+											"delay": 2,
+											"disabled": false,
+											"headline": "crop large"
+										},
+										{
+											"id": "M-a60EsbXj3cSHUWaJfzR",
+											"label": "udTEF512G:COMMAND",
+											"instance": "vBoBdkVFSsZutuO-Pg8cG",
+											"action": "COMMAND",
+											"options": {
+												"cmd": "MIXER 16-12 FILL $(internal:custom_pipSmallStartX) $(internal:custom_pipSmallStartY) $(internal:custom_pipSmallScale) $(internal:custom_pipSmallScale) 16 EaseInOutSine"
+											},
+											"delay": 2,
+											"headline": "fill small"
+										},
+										{
+											"id": "OaX6riSmuhNiMGkUemphM",
+											"label": "udTEF512G:COMMAND",
+											"instance": "vBoBdkVFSsZutuO-Pg8cG",
+											"action": "COMMAND",
+											"options": {
+												"cmd": "MIXER 16-12 CROP 0 0 1 1 16 EaseInOutSine"
+											},
+											"delay": 2,
+											"disabled": false,
+											"headline": "crop small"
+										},
+										{
+											"id": "rSQzI6QCEUcHuUA940BsU",
+											"label": "udTEF512G:COMMAND",
+											"instance": "vBoBdkVFSsZutuO-Pg8cG",
+											"action": "COMMAND",
+											"options": {
+												"cmd": "mixer 16-12 opacity 1 16 Linear"
+											},
+											"delay": 2,
+											"headline": "opacity small"
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					}
+				}
+			},
 			"gridSize": {
 				"minColumn": 0,
 				"maxColumn": 7,
@@ -18806,56 +19342,6 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "4kA3PqCKQ10cNVFuvM6yi",
-											"label": "udTEF512G:COMMAND",
-											"instance": "vBoBdkVFSsZutuO-Pg8cG",
-											"action": "COMMAND",
-											"options": {
-												"cmd": "MIXER 16-11 FILL 0.2 0.2 0.8 0.8 16 EaseInOutSine"
-											},
-											"delay": 0
-										},
-										{
-											"id": "bM5GMi4xnxub9aeJuEMZF",
-											"label": "udTEF512G:COMMAND",
-											"instance": "vBoBdkVFSsZutuO-Pg8cG",
-											"action": "COMMAND",
-											"options": {
-												"cmd": "MIXER 16-11 CROP 0 0 1 1 16 EaseInOutSine"
-											},
-											"delay": 0
-										},
-										{
-											"id": "8LsmggqrbwOoNxcCaMMR8",
-											"label": "udTEF512G:COMMAND",
-											"instance": "vBoBdkVFSsZutuO-Pg8cG",
-											"action": "COMMAND",
-											"options": {
-												"cmd": "MIXER 16-12 FILL 0 0 0.4 0.4 16 EaseInOutSine"
-											},
-											"delay": 0
-										},
-										{
-											"id": "qd4umiPUQfR9ZgDK3WY1J",
-											"label": "udTEF512G:COMMAND",
-											"instance": "vBoBdkVFSsZutuO-Pg8cG",
-											"action": "COMMAND",
-											"options": {
-												"cmd": "MIXER 16-12 CROP 0 0 1 1 16 EaseInOutSine"
-											},
-											"delay": 0
-										},
-										{
-											"id": "FhfU3OZvIbEA886OF9PRQ",
-											"label": "udTEF512G:COMMAND",
-											"instance": "vBoBdkVFSsZutuO-Pg8cG",
-											"action": "COMMAND",
-											"options": {
-												"cmd": "mixer 16-12 opacity 1 16 Linear"
-											},
-											"delay": 0
-										},
-										{
 											"id": "KvSVvJIS46IFA1OAi0kEg",
 											"label": "bitfocus-companion:custom_variable_set_value",
 											"instance": "internal",
@@ -18863,6 +19349,18 @@
 											"options": {
 												"name": "pipStatus",
 												"value": "kleinObenLinks"
+											},
+											"delay": 0
+										},
+										{
+											"id": "LiueaxTYhZY3oDIVL2RjF",
+											"action": "button_pressrelease",
+											"instance": "internal",
+											"options": {
+												"location_target": "text",
+												"location_text": "8/3/4",
+												"location_expression": "concat($(this:page), '/', $(this:row), '/', $(this:column))",
+												"force": false
 											},
 											"delay": 0
 										}
@@ -18915,56 +19413,6 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "tkveaX45iT5kSY3vipaGB",
-											"label": "udTEF512G:COMMAND",
-											"instance": "vBoBdkVFSsZutuO-Pg8cG",
-											"action": "COMMAND",
-											"options": {
-												"cmd": "MIXER 16-11 FILL 0 0.2 0.8 0.8 16 EaseInOutSine"
-											},
-											"delay": 0
-										},
-										{
-											"id": "UUw7fyZAtTdopfHlP0LXM",
-											"label": "udTEF512G:COMMAND",
-											"instance": "vBoBdkVFSsZutuO-Pg8cG",
-											"action": "COMMAND",
-											"options": {
-												"cmd": "MIXER 16-11 CROP 0 0 1 1 16 EaseInOutSine"
-											},
-											"delay": 0
-										},
-										{
-											"id": "e-uLXweZsv7K7WDK4M2PW",
-											"label": "udTEF512G:COMMAND",
-											"instance": "vBoBdkVFSsZutuO-Pg8cG",
-											"action": "COMMAND",
-											"options": {
-												"cmd": "MIXER 16-12 FILL 0.6 0 0.4 0.4 16 EaseInOutSine"
-											},
-											"delay": 0
-										},
-										{
-											"id": "L2YT9G2_fUbAV80VwlG3S",
-											"label": "udTEF512G:COMMAND",
-											"instance": "vBoBdkVFSsZutuO-Pg8cG",
-											"action": "COMMAND",
-											"options": {
-												"cmd": "MIXER 16-12 CROP 0 0 1 1 16 EaseInOutSine"
-											},
-											"delay": 0
-										},
-										{
-											"id": "83d5ZuHyj2qLtYZ3MEai6",
-											"label": "udTEF512G:COMMAND",
-											"instance": "vBoBdkVFSsZutuO-Pg8cG",
-											"action": "COMMAND",
-											"options": {
-												"cmd": "mixer 16-12 opacity 1 16 Linear"
-											},
-											"delay": 0
-										},
-										{
 											"id": "Fnxod_ol0zyTzmwJaiSic",
 											"label": "bitfocus-companion:custom_variable_set_value",
 											"instance": "internal",
@@ -18972,6 +19420,18 @@
 											"options": {
 												"name": "pipStatus",
 												"value": "kleinObenRechts"
+											},
+											"delay": 0
+										},
+										{
+											"id": "ZFKmIGyb_2peAHN5zyZ7R",
+											"action": "button_pressrelease",
+											"instance": "internal",
+											"options": {
+												"location_target": "text",
+												"location_text": "8/3/4",
+												"location_expression": "concat($(this:page), '/', $(this:row), '/', $(this:column))",
+												"force": false
 											},
 											"delay": 0
 										}
@@ -19518,56 +19978,6 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "5aaHdGegEj_iMw_W5deiP",
-											"label": "udTEF512G:COMMAND",
-											"instance": "vBoBdkVFSsZutuO-Pg8cG",
-											"action": "COMMAND",
-											"options": {
-												"cmd": "MIXER 16-11 FILL 0.2 0 0.8 0.8 16 EaseInOutSine"
-											},
-											"delay": 0
-										},
-										{
-											"id": "cvNPWVRAFlsy_R--rO1xz",
-											"label": "udTEF512G:COMMAND",
-											"instance": "vBoBdkVFSsZutuO-Pg8cG",
-											"action": "COMMAND",
-											"options": {
-												"cmd": "MIXER 16-11 CROP 0 0 1 1 16 EaseInOutSine"
-											},
-											"delay": 0
-										},
-										{
-											"id": "NnVU12opqwdrpxXFmjiAO",
-											"label": "udTEF512G:COMMAND",
-											"instance": "vBoBdkVFSsZutuO-Pg8cG",
-											"action": "COMMAND",
-											"options": {
-												"cmd": "MIXER 16-12 FILL 0 0.6 0.4 0.4 16 EaseInOutSine"
-											},
-											"delay": 0
-										},
-										{
-											"id": "3K0bewvI1Z1C0RDJnQD2b",
-											"label": "udTEF512G:COMMAND",
-											"instance": "vBoBdkVFSsZutuO-Pg8cG",
-											"action": "COMMAND",
-											"options": {
-												"cmd": "MIXER 16-12 CROP 0 0 1 1 16 EaseInOutSine"
-											},
-											"delay": 0
-										},
-										{
-											"id": "T2TpKZDZbgIbpxjsmPQA3",
-											"label": "udTEF512G:COMMAND",
-											"instance": "vBoBdkVFSsZutuO-Pg8cG",
-											"action": "COMMAND",
-											"options": {
-												"cmd": "mixer 16-12 opacity 1 16 Linear"
-											},
-											"delay": 0
-										},
-										{
 											"id": "euWZSfTPGZEoyE4r7D457",
 											"label": "bitfocus-companion:custom_variable_set_value",
 											"instance": "internal",
@@ -19575,6 +19985,18 @@
 											"options": {
 												"name": "pipStatus",
 												"value": "kleinUntenLinks"
+											},
+											"delay": 0
+										},
+										{
+											"id": "DQoStHvoBCm9uiWagXrDR",
+											"action": "button_pressrelease",
+											"instance": "internal",
+											"options": {
+												"location_target": "text",
+												"location_text": "8/3/4",
+												"location_expression": "concat($(this:page), '/', $(this:row), '/', $(this:column))",
+												"force": false
 											},
 											"delay": 0
 										}
@@ -19627,56 +20049,6 @@
 								"action_sets": {
 									"down": [
 										{
-											"id": "84FTVoNHd1e3i2nDUomrS",
-											"label": "udTEF512G:COMMAND",
-											"instance": "vBoBdkVFSsZutuO-Pg8cG",
-											"action": "COMMAND",
-											"options": {
-												"cmd": "MIXER 16-11 FILL 0 0 0.8 0.8 16 EaseInOutSine"
-											},
-											"delay": 0
-										},
-										{
-											"id": "yKabNtGehThhyZubSbUC1",
-											"label": "udTEF512G:COMMAND",
-											"instance": "vBoBdkVFSsZutuO-Pg8cG",
-											"action": "COMMAND",
-											"options": {
-												"cmd": "MIXER 16-11 CROP 0 0 1 1 16 EaseInOutSine"
-											},
-											"delay": 0
-										},
-										{
-											"id": "e34aV5yHVR56AczpE-IhH",
-											"label": "udTEF512G:COMMAND",
-											"instance": "vBoBdkVFSsZutuO-Pg8cG",
-											"action": "COMMAND",
-											"options": {
-												"cmd": "MIXER 16-12 FILL 0.6 0.6 0.4 0.4 16 EaseInOutSine"
-											},
-											"delay": 0
-										},
-										{
-											"id": "6YGN8f1Fy48Qloj9GvM9x",
-											"label": "udTEF512G:COMMAND",
-											"instance": "vBoBdkVFSsZutuO-Pg8cG",
-											"action": "COMMAND",
-											"options": {
-												"cmd": "MIXER 16-12 CROP 0 0 1 1 16 EaseInOutSine"
-											},
-											"delay": 0
-										},
-										{
-											"id": "yTXaXkH46i9BvLbn1Uu3L",
-											"label": "udTEF512G:COMMAND",
-											"instance": "vBoBdkVFSsZutuO-Pg8cG",
-											"action": "COMMAND",
-											"options": {
-												"cmd": "mixer 16-12 opacity 1 16 Linear"
-											},
-											"delay": 0
-										},
-										{
 											"id": "1M76TIaJeHJPL1aMZa7go",
 											"label": "bitfocus-companion:custom_variable_set_value",
 											"instance": "internal",
@@ -19684,6 +20056,18 @@
 											"options": {
 												"name": "pipStatus",
 												"value": "kleinUntenRechts"
+											},
+											"delay": 0
+										},
+										{
+											"id": "E5yq1yX4m1d1uch6UhOBm",
+											"action": "button_pressrelease",
+											"instance": "internal",
+											"options": {
+												"location_target": "text",
+												"location_text": "8/3/4",
+												"location_expression": "concat($(this:page), '/', $(this:row), '/', $(this:column))",
+												"force": false
 											},
 											"delay": 0
 										}
@@ -61227,7 +61611,7 @@
 		},
 		"pipStatus": {
 			"description": "A custom variable",
-			"defaultValue": ""
+			"defaultValue": "kleinUntenRechts"
 		},
 		"volPrgMain": {
 			"description": "A custom variable",
@@ -61334,6 +61718,42 @@
 			"sortOrder": null
 		},
 		"volN1Zoom": {
+			"description": "A custom variable",
+			"defaultValue": "0",
+			"persistCurrentValue": false,
+			"sortOrder": null
+		},
+		"pipSmallScale": {
+			"description": "A custom variable",
+			"defaultValue": "0.4",
+			"persistCurrentValue": false,
+			"sortOrder": null
+		},
+		"pipLargeScale": {
+			"description": "A custom variable",
+			"defaultValue": "0.8",
+			"persistCurrentValue": false,
+			"sortOrder": null
+		},
+		"pipSmallStartX": {
+			"description": "A custom variable",
+			"defaultValue": "0.6",
+			"persistCurrentValue": false,
+			"sortOrder": null
+		},
+		"pipSmallStartY": {
+			"description": "A custom variable",
+			"defaultValue": "0.6",
+			"persistCurrentValue": false,
+			"sortOrder": null
+		},
+		"pipLargeStartX": {
+			"description": "A custom variable",
+			"defaultValue": "0",
+			"persistCurrentValue": false,
+			"sortOrder": null
+		},
+		"pipLargeStartY": {
 			"description": "A custom variable",
 			"defaultValue": "0",
 			"persistCurrentValue": false,
