@@ -34697,7 +34697,7 @@
 								"instance_id": "internal",
 								"options": {
 									"location_target": "text",
-									"location_text": "91/1/2",
+									"location_text": "91/0/2",
 									"properties": [
 										"text",
 										"color",
@@ -35034,54 +35034,26 @@
 					"0": {
 						"type": "button",
 						"style": {
-							"text": "",
-							"textExpression": false,
+							"text": "concat('Audio\\nN-1\\n', round($(internal:custom_volN1Main)*100),'%')",
+							"textExpression": true,
 							"size": "auto",
 							"png64": null,
 							"alignment": "center:center",
 							"pngalignment": "center:center",
 							"color": 16777215,
-							"bgcolor": 0,
-							"show_topbar": "default",
-							"png": null,
-							"latch": false
+							"bgcolor": 39219,
+							"show_topbar": "default"
 						},
 						"options": {
 							"relativeDelay": false,
 							"rotaryActions": false,
 							"stepAutoProgress": true
 						},
-						"feedbacks": [
-							{
-								"id": "PssJs-WonadewMUwtKC6T",
-								"type": "bank_style",
-								"instance_id": "internal",
-								"options": {
-									"location_target": "text",
-									"location_text": "93/1/0"
-								},
-								"style": {},
-								"isInverted": false
-							}
-						],
+						"feedbacks": [],
 						"steps": {
 							"0": {
 								"action_sets": {
-									"down": [
-										{
-											"id": "T1tgMDpVfUVwdZ7NNmNC6",
-											"label": "bitfocus-companion:button_pressrelease",
-											"instance": "internal",
-											"action": "button_pressrelease",
-											"options": {
-												"force": true,
-												"location_target": "text",
-												"location_text": "93/1/0"
-											},
-											"delay": 0,
-											"actionId": "button_pressrelease"
-										}
-									],
+									"down": [],
 									"up": []
 								},
 								"options": {
@@ -37447,7 +37419,7 @@
 								"instance_id": "internal",
 								"options": {
 									"location_target": "text",
-									"location_text": "91/1/1",
+									"location_text": "91/0/1",
 									"properties": [
 										"text",
 										"color",
@@ -38358,54 +38330,26 @@
 					"5": {
 						"type": "button",
 						"style": {
-							"text": "",
-							"textExpression": false,
+							"text": "concat('Audio\\nPRG\\n', round($(internal:custom_volPrgMain)*100),'%')",
+							"textExpression": true,
 							"size": "auto",
 							"png64": null,
 							"alignment": "center:center",
 							"pngalignment": "center:center",
 							"color": 16777215,
-							"bgcolor": 0,
-							"show_topbar": "default",
-							"png": null,
-							"latch": false
+							"bgcolor": 39219,
+							"show_topbar": "default"
 						},
 						"options": {
 							"relativeDelay": false,
 							"rotaryActions": false,
 							"stepAutoProgress": true
 						},
-						"feedbacks": [
-							{
-								"id": "uCmzE4Q9KQy01yXMuc9qf",
-								"type": "bank_style",
-								"instance_id": "internal",
-								"options": {
-									"location_target": "text",
-									"location_text": "93/$(this:row)/0"
-								},
-								"style": {},
-								"isInverted": false
-							}
-						],
+						"feedbacks": [],
 						"steps": {
 							"0": {
 								"action_sets": {
-									"down": [
-										{
-											"id": "pcKDf2-ZPhzd-CAgieFBz",
-											"label": "bitfocus-companion:button_pressrelease",
-											"instance": "internal",
-											"action": "button_pressrelease",
-											"options": {
-												"force": true,
-												"location_target": "text",
-												"location_text": "93/$(this:row)/0"
-											},
-											"delay": 0,
-											"actionId": "button_pressrelease"
-										}
-									],
+									"down": [],
 									"up": []
 								},
 								"options": {
@@ -45255,76 +45199,6 @@
 								}
 							}
 						}
-					},
-					"4": {
-						"type": "button",
-						"style": {
-							"text": "VOL",
-							"textExpression": false,
-							"size": "auto",
-							"png64": null,
-							"alignment": "center:center",
-							"pngalignment": "center:center",
-							"color": 0,
-							"bgcolor": 13421568,
-							"show_topbar": "default",
-							"png": null,
-							"latch": false
-						},
-						"options": {
-							"relativeDelay": false,
-							"rotaryActions": false,
-							"stepAutoProgress": true
-						},
-						"feedbacks": [
-							{
-								"id": "ttq3cwuNaAYWOPI0iX78M",
-								"type": "bank_style",
-								"instance_id": "internal",
-								"options": {
-									"location_target": "text",
-									"location_text": "93/1/0",
-									"location_expression": "concat($(this:page), '/', $(this:row), '/', $(this:column))",
-									"properties": [
-										"text",
-										"size",
-										"png64",
-										"alignment",
-										"pngalignment",
-										"color",
-										"bgcolor",
-										"show_topbar",
-										"imageBuffers"
-									]
-								},
-								"style": {},
-								"isInverted": false
-							}
-						],
-						"steps": {
-							"0": {
-								"action_sets": {
-									"down": [
-										{
-											"id": "wSzL6BtVQ482_rAvShUwD",
-											"action": "button_pressrelease",
-											"instance": "internal",
-											"options": {
-												"location_target": "text",
-												"location_text": "93/1/0",
-												"location_expression": "concat($(this:page), '/', $(this:row), '/', $(this:column))",
-												"force": false
-											},
-											"delay": 0
-										}
-									],
-									"up": []
-								},
-								"options": {
-									"runWhileHeld": []
-								}
-							}
-						}
 					}
 				},
 				"2": {
@@ -46114,76 +45988,6 @@
 											},
 											"delay": 0,
 											"actionId": "button_pressrelease"
-										}
-									],
-									"up": []
-								},
-								"options": {
-									"runWhileHeld": []
-								}
-							}
-						}
-					},
-					"4": {
-						"type": "button",
-						"style": {
-							"text": "VOL",
-							"textExpression": false,
-							"size": "auto",
-							"png64": null,
-							"alignment": "center:center",
-							"pngalignment": "center:center",
-							"color": 0,
-							"bgcolor": 13421568,
-							"show_topbar": "default",
-							"png": null,
-							"latch": false
-						},
-						"options": {
-							"relativeDelay": false,
-							"rotaryActions": false,
-							"stepAutoProgress": true
-						},
-						"feedbacks": [
-							{
-								"id": "0DcvsRPIBXn9f957wpz_j",
-								"type": "bank_style",
-								"instance_id": "internal",
-								"options": {
-									"location_target": "text",
-									"location_text": "93/1/0",
-									"location_expression": "concat($(this:page), '/', $(this:row), '/', $(this:column))",
-									"properties": [
-										"text",
-										"size",
-										"png64",
-										"alignment",
-										"pngalignment",
-										"color",
-										"bgcolor",
-										"show_topbar",
-										"imageBuffers"
-									]
-								},
-								"style": {},
-								"isInverted": false
-							}
-						],
-						"steps": {
-							"0": {
-								"action_sets": {
-									"down": [
-										{
-											"id": "KI9HZSjQzXV3HUms8_4d1",
-											"action": "button_pressrelease",
-											"instance": "internal",
-											"options": {
-												"location_target": "text",
-												"location_text": "93/1/0",
-												"location_expression": "concat($(this:page), '/', $(this:row), '/', $(this:column))",
-												"force": false
-											},
-											"delay": 0
 										}
 									],
 									"up": []
@@ -47041,76 +46845,6 @@
 											},
 											"delay": 0,
 											"actionId": "button_pressrelease"
-										}
-									],
-									"up": []
-								},
-								"options": {
-									"runWhileHeld": []
-								}
-							}
-						}
-					},
-					"4": {
-						"type": "button",
-						"style": {
-							"text": "VOL",
-							"textExpression": false,
-							"size": "auto",
-							"png64": null,
-							"alignment": "center:center",
-							"pngalignment": "center:center",
-							"color": 0,
-							"bgcolor": 13421568,
-							"show_topbar": "default",
-							"png": null,
-							"latch": false
-						},
-						"options": {
-							"relativeDelay": false,
-							"rotaryActions": false,
-							"stepAutoProgress": true
-						},
-						"feedbacks": [
-							{
-								"id": "yPoNTnZAipzPLsCFY2nbY",
-								"type": "bank_style",
-								"instance_id": "internal",
-								"options": {
-									"location_target": "text",
-									"location_text": "93/1/0",
-									"location_expression": "concat($(this:page), '/', $(this:row), '/', $(this:column))",
-									"properties": [
-										"text",
-										"size",
-										"png64",
-										"alignment",
-										"pngalignment",
-										"color",
-										"bgcolor",
-										"show_topbar",
-										"imageBuffers"
-									]
-								},
-								"style": {},
-								"isInverted": false
-							}
-						],
-						"steps": {
-							"0": {
-								"action_sets": {
-									"down": [
-										{
-											"id": "PHTWxNYRnCOCQ3cVkpxnw",
-											"action": "button_pressrelease",
-											"instance": "internal",
-											"options": {
-												"location_target": "text",
-												"location_text": "93/1/0",
-												"location_expression": "concat($(this:page), '/', $(this:row), '/', $(this:column))",
-												"force": false
-											},
-											"delay": 0
 										}
 									],
 									"up": []
@@ -48022,76 +47756,6 @@
 								}
 							}
 						}
-					},
-					"4": {
-						"type": "button",
-						"style": {
-							"text": "VOL",
-							"textExpression": false,
-							"size": "auto",
-							"png64": null,
-							"alignment": "center:center",
-							"pngalignment": "center:center",
-							"color": 0,
-							"bgcolor": 13421568,
-							"show_topbar": "default",
-							"png": null,
-							"latch": false
-						},
-						"options": {
-							"relativeDelay": false,
-							"rotaryActions": false,
-							"stepAutoProgress": true
-						},
-						"feedbacks": [
-							{
-								"id": "D6BVv7wWqNx7HyTp9P4St",
-								"type": "bank_style",
-								"instance_id": "internal",
-								"options": {
-									"location_target": "text",
-									"location_text": "93/1/0",
-									"location_expression": "concat($(this:page), '/', $(this:row), '/', $(this:column))",
-									"properties": [
-										"text",
-										"size",
-										"png64",
-										"alignment",
-										"pngalignment",
-										"color",
-										"bgcolor",
-										"show_topbar",
-										"imageBuffers"
-									]
-								},
-								"style": {},
-								"isInverted": false
-							}
-						],
-						"steps": {
-							"0": {
-								"action_sets": {
-									"down": [
-										{
-											"id": "YxceBFyXGZb9YdmuyKs_L",
-											"action": "button_pressrelease",
-											"instance": "internal",
-											"options": {
-												"location_target": "text",
-												"location_text": "93/1/0",
-												"location_expression": "concat($(this:page), '/', $(this:row), '/', $(this:column))",
-												"force": false
-											},
-											"delay": 0
-										}
-									],
-									"up": []
-								},
-								"options": {
-									"runWhileHeld": []
-								}
-							}
-						}
 					}
 				},
 				"2": {
@@ -48465,8 +48129,8 @@
 					"1": {
 						"type": "button",
 						"style": {
-							"text": "concat('Audio\\nPRG\\n', round($(internal:custom_volPrgMain)*100),'%')",
-							"textExpression": true,
+							"text": "VOL",
+							"textExpression": false,
 							"size": "18",
 							"png64": null,
 							"alignment": "center:center",
@@ -48511,8 +48175,8 @@
 											"instance": "internal",
 											"action": "set_page",
 											"options": {
-												"controller": "streamdeck:CL41K1A03537",
-												"page": 51
+												"controller": "self",
+												"page": 96
 											},
 											"delay": 0
 										}
@@ -48528,8 +48192,8 @@
 					"2": {
 						"type": "button",
 						"style": {
-							"text": "concat('Audio\\nN-1\\n', round($(internal:custom_volN1Main)*100),'%')",
-							"textExpression": true,
+							"text": "OpenLP",
+							"textExpression": false,
 							"size": "18",
 							"png64": null,
 							"alignment": "center:center",
@@ -48548,20 +48212,45 @@
 						"feedbacks": [
 							{
 								"id": "ZuYa7J-BU-ioxfeDJ87xd",
-								"type": "bank_current_step",
+								"type": "instance_custom_state",
 								"instance_id": "internal",
 								"options": {
-									"step": 1,
-									"location_target": "text",
-									"location_text": "5/3/3"
+									"instance_id": "xl2Z1Q_VMtCsznm0mCc0G",
+									"state": "warning"
 								},
 								"style": {
-									"bgcolor": 0,
-									"text": "'Audio\\nN-1\\nOFF'",
 									"color": 4737096,
-									"textExpression": true
+									"bgcolor": 0,
+									"text": "OpenLP OFF"
+								}
+							},
+							{
+								"id": "ekA7azln8bs5zlu0m3WNr",
+								"type": "instance_custom_state",
+								"instance_id": "internal",
+								"options": {
+									"instance_id": "xl2Z1Q_VMtCsznm0mCc0G",
+									"state": "error"
 								},
-								"isInverted": false
+								"style": {
+									"color": 4737096,
+									"bgcolor": 0,
+									"text": "OpenLP OFF"
+								}
+							},
+							{
+								"id": "qTgIvsQdlaJX4uOQ7ee3j",
+								"type": "instance_custom_state",
+								"instance_id": "internal",
+								"options": {
+									"instance_id": "xl2Z1Q_VMtCsznm0mCc0G",
+									"state": null
+								},
+								"style": {
+									"color": 4737096,
+									"bgcolor": 0,
+									"text": "OpenLP OFF"
+								}
 							}
 						],
 						"steps": {
@@ -48574,8 +48263,8 @@
 											"instance": "internal",
 											"action": "set_page",
 											"options": {
-												"controller": "streamdeck:CL41K1A03537",
-												"page": 50
+												"controller": "self",
+												"page": 97
 											},
 											"delay": 0
 										}
@@ -48925,8 +48614,8 @@
 					"1": {
 						"type": "button",
 						"style": {
-							"text": "concat('Audio\\nPRG\\n', round($(internal:custom_volPrgMain)*100),'%')",
-							"textExpression": true,
+							"text": "VOL",
+							"textExpression": false,
 							"size": "18",
 							"png64": null,
 							"alignment": "center:center",
@@ -48976,8 +48665,8 @@
 					"2": {
 						"type": "button",
 						"style": {
-							"text": "concat('Audio\\nN-1\\n', round($(internal:custom_volN1Main)*100),'%')",
-							"textExpression": true,
+							"text": "OpenLP",
+							"textExpression": false,
 							"size": "18",
 							"png64": null,
 							"alignment": "center:center",
@@ -51496,51 +51185,6 @@
 					}
 				},
 				"1": {
-					"0": {
-						"type": "button",
-						"style": {
-							"text": "VOL",
-							"textExpression": false,
-							"size": "auto",
-							"png64": null,
-							"alignment": "center:center",
-							"pngalignment": "center:center",
-							"color": 16777215,
-							"bgcolor": 10066176,
-							"show_topbar": "default",
-							"png": null,
-							"latch": false
-						},
-						"options": {
-							"relativeDelay": false,
-							"rotaryActions": false,
-							"stepAutoProgress": true
-						},
-						"feedbacks": [],
-						"steps": {
-							"0": {
-								"action_sets": {
-									"down": [
-										{
-											"id": "n3bAV6zAR6qEt-q5edDe3",
-											"label": "bitfocus-companion:set_page",
-											"instance": "internal",
-											"action": "set_page",
-											"options": {
-												"controller": "streamdeck:CL41K1A03537",
-												"page": 96
-											},
-											"delay": 0
-										}
-									],
-									"up": []
-								},
-								"options": {
-									"runWhileHeld": []
-								}
-							}
-						}
-					},
 					"1": {
 						"type": "button",
 						"style": {
@@ -54694,65 +54338,6 @@
 					}
 				},
 				"1": {
-					"0": {
-						"type": "button",
-						"style": {
-							"text": "",
-							"textExpression": false,
-							"size": "auto",
-							"png64": null,
-							"alignment": "center:center",
-							"pngalignment": "center:center",
-							"color": 16777215,
-							"bgcolor": 0,
-							"show_topbar": "default",
-							"png": null,
-							"latch": false
-						},
-						"options": {
-							"relativeDelay": false,
-							"rotaryActions": false,
-							"stepAutoProgress": true
-						},
-						"feedbacks": [
-							{
-								"id": "pyjMC94BSEBonrsIhgvNs",
-								"type": "bank_style",
-								"instance_id": "internal",
-								"options": {
-									"location_target": "text",
-									"location_text": "93/1/0"
-								},
-								"style": {},
-								"isInverted": false
-							}
-						],
-						"steps": {
-							"0": {
-								"action_sets": {
-									"down": [
-										{
-											"id": "KoW2UUn46fPNPEBKJpFnp",
-											"label": "bitfocus-companion:button_pressrelease",
-											"instance": "internal",
-											"action": "button_pressrelease",
-											"options": {
-												"force": true,
-												"location_target": "text",
-												"location_text": "93/1/0"
-											},
-											"delay": 0,
-											"actionId": "button_pressrelease"
-										}
-									],
-									"up": []
-								},
-								"options": {
-									"runWhileHeld": []
-								}
-							}
-						}
-					},
 					"1": {
 						"type": "button",
 						"style": {
@@ -56595,7 +56180,7 @@
 					"1": {
 						"type": "button",
 						"style": {
-							"text": "concat('Audio PRG')",
+							"text": "concat('Audio\\nPRG\\n', round($(internal:custom_volPrgMain)*100),'%')",
 							"textExpression": true,
 							"size": "18",
 							"png64": null,
@@ -56615,18 +56200,19 @@
 						"feedbacks": [
 							{
 								"id": "-AyUkGk4l0YzCtw29q1Lw",
-								"type": "bank_style",
+								"type": "bank_current_step",
 								"instance_id": "internal",
 								"options": {
+									"step": 1,
 									"location_target": "text",
-									"location_text": "91/0/1",
-									"properties": [
-										"text",
-										"color",
-										"bgcolor"
-									]
+									"location_text": "5/3/2"
 								},
-								"style": {},
+								"style": {
+									"bgcolor": 0,
+									"text": "'Audio\\nPRG\\nOFF'",
+									"color": 4737096,
+									"textExpression": true
+								},
 								"isInverted": false
 							}
 						],
@@ -56636,16 +56222,14 @@
 									"down": [
 										{
 											"id": "0PGvUOv89Op4eiPrfP3OP",
-											"label": "bitfocus-companion:button_pressrelease",
+											"label": "bitfocus-companion:set_page",
 											"instance": "internal",
-											"action": "button_pressrelease",
+											"action": "set_page",
 											"options": {
-												"force": true,
-												"location_target": "text",
-												"location_text": "91/0/1"
+												"controller": "self",
+												"page": 51
 											},
-											"delay": 0,
-											"actionId": "button_pressrelease"
+											"delay": 0
 										}
 									],
 									"up": []
@@ -56659,8 +56243,8 @@
 					"2": {
 						"type": "button",
 						"style": {
-							"text": "CAM 02",
-							"textExpression": false,
+							"text": "concat('Audio\\nN-1\\n', round($(internal:custom_volN1Main)*100),'%')",
+							"textExpression": true,
 							"size": "18",
 							"png64": null,
 							"alignment": "center:center",
@@ -56679,18 +56263,19 @@
 						"feedbacks": [
 							{
 								"id": "j7xyshy90rD9zfv8C3igE",
-								"type": "bank_style",
+								"type": "bank_current_step",
 								"instance_id": "internal",
 								"options": {
+									"step": 1,
 									"location_target": "text",
-									"location_text": "91/0/2",
-									"properties": [
-										"text",
-										"color",
-										"bgcolor"
-									]
+									"location_text": "5/3/3"
 								},
-								"style": {},
+								"style": {
+									"bgcolor": 0,
+									"text": "'Audio\\nN-1\\nOFF'",
+									"color": 4737096,
+									"textExpression": true
+								},
 								"isInverted": false
 							}
 						],
@@ -56700,16 +56285,14 @@
 									"down": [
 										{
 											"id": "9hZTcZi3LcrozrrMB0tyL",
-											"label": "bitfocus-companion:button_pressrelease",
+											"label": "bitfocus-companion:set_page",
 											"instance": "internal",
-											"action": "button_pressrelease",
+											"action": "set_page",
 											"options": {
-												"force": true,
-												"location_target": "text",
-												"location_text": "91/0/2"
+												"controller": "self",
+												"page": 50
 											},
-											"delay": 0,
-											"actionId": "button_pressrelease"
+											"delay": 0
 										}
 									],
 									"up": []
@@ -60215,7 +59798,7 @@
 								"instance_id": "internal",
 								"options": {
 									"location_target": "text",
-									"location_text": "91/$(this:row)/$(this:column)",
+									"location_text": "91/1/$(this:column)",
 									"properties": [
 										"text",
 										"color",
@@ -60238,7 +59821,7 @@
 											"options": {
 												"force": true,
 												"location_target": "text",
-												"location_text": "91/$(this:row)/$(this:column)"
+												"location_text": "91/1/$(this:column)"
 											},
 											"delay": 0,
 											"actionId": "button_pressrelease"
