@@ -13,17 +13,13 @@ if [%defaultPw%] == [] (
 )
 
 if not [%1] == [cominghome-video] (
-	if not exist v:\ (
-		if [%comingHomeVideoUser%] == [] (
-			set /p comingHomeVideoUser="Benutzername fr cominghome-video Anmeldung: "
+	if exist \\cominghome-video\c (
+		if not exist v:\ (
+			net use /PERSISTENT:NO v: \\cominghome-video\c %defaultPw% /USER:%defaultUser%
 		)
-		if [%comingHomeVideoPw%] == [] (
-			set /p comingHomeVideoPw="Passwort fr cominghome-video Anmeldung: "
+		if exist v:\ (
+			echo Laufwerk V: cominghome-video
 		)
-		net use /PERSISTENT:NO v: \\cominghome-video\c %comingHomeVideoPw% /USER:%comingHomeVideoUser%
-	)
-	if exist v:\ (
-		echo Laufwerk V: cominghome-video
 	)
 )
 
