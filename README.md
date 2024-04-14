@@ -10,7 +10,7 @@ Desweiteren sollte in `script` das Programm `yt-dlp.exe` (siehe https://github.c
 
 Im Untervezeichnis `config` werden alle Konfigurations-Dateien gesammelt. Hierbei ist jedoch `config/media/Videos` von der Überwachung durch die Versionierung ausgenommen.
 
-Die Programme `Bitfocus Companion 3.2.0`, `NDI 5.6.0.0` und `Node.js 18.19.0` werden in den vom Installationsprogramm vorgeschlagenen Ordnern erwartet. `Node.js` muss im Pfad liegen. `Companion` sollte automatisch starten.
+Die Programme `Bitfocus Companion 3.2.2`, `NDI 5.6.0.0` und `Node.js 18.19.0` werden in den vom Installationsprogramm vorgeschlagenen Ordnern erwartet. `Node.js` muss im Pfad liegen. `Companion` sollte automatisch starten.
 
 In einem `companion-modules`-Ordner muss das Repository `https://github.com/ComingHOME-Darmstadt/companion-module-casparcg-server.git` mit Branch `parse-variables` ausgechecked sein. Der Ordner `companion-modules` wird bei Companion als `Developer modules path` angegeben.
 Mit `corepack enable` (als Administrator) und `yarn` werden im Ordner `companion-module-casparcg-server` alle notwendigen Bibliotheken installiert.
