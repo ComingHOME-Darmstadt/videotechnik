@@ -58,3 +58,5 @@ Kanalbelegung: [help\CasparCG-Kanalbelegung.md](help/CasparCG-Kanalbelegung.md)
 
 ## Übersicht Hardware-Komponenten
 ![Schematische Zeichung Hardware-Komponenten](help/videotechnikUEberblick.jpg)
+Administration der Komponenten: [config\browserWelcome.html](config/browserWelcome.html)
+Reihenfolge beim Einschalten der Komponenten: [help\einschaltenReihenfolge.html](help/einschaltenReihenfolge.html)
