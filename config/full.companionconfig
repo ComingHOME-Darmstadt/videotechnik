@@ -64060,7 +64060,7 @@
 			"isFirstInit": false,
 			"config": {
 				"product": "NDI Studio Monitor",
-				"host": "chaudio",
+				"host": "192.168.77.33",
 				"port": 80,
 				"useWebPassword": true,
 				"username": "admin",
