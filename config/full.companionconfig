@@ -40367,10 +40367,10 @@
 											"action": "COMMAND",
 											"instance": "vBoBdkVFSsZutuO-Pg8cG",
 											"options": {
-												"cmd": "MIXER 7-12 VOLUME $(internal:custom_volN2Input1) 50 Linear"
+												"cmd": "MIXER 7-12 VOLUME $(internal:custom_volN1Input2) 50 Linear"
 											},
 											"delay": 0,
-											"headline": "7-11 Vol volN1Input1"
+											"headline": "7-12 Vol volN1Input2"
 										}
 									],
 									"up": []
