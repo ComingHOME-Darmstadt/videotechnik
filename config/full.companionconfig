@@ -7293,7 +7293,7 @@
 											"action": "COMMAND",
 											"instance": "vBoBdkVFSsZutuO-Pg8cG",
 											"options": {
-												"cmd": "PLAY 5-10 [HTML] \"http://chpresentation:4316/stage/chstage/\""
+												"cmd": "PLAY 5-10 [HTML] \"http://192.168.77.31:4316/stage/chstage/\""
 											},
 											"delay": 0
 										},
@@ -13301,7 +13301,7 @@
 											"action": "COMMAND",
 											"instance": "vBoBdkVFSsZutuO-Pg8cG",
 											"options": {
-												"cmd": "PLAY 8-10 [HTML] \"http://chpresentation:4316/stage/text/\""
+												"cmd": "PLAY 8-10 [HTML] \"http://192.168.77.31:4316/stage/text/\""
 											},
 											"delay": 100
 										},
