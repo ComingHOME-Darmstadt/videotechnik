@@ -313,7 +313,7 @@
 											"instance": "internal",
 											"options": {
 												"controller_from_variable": false,
-												"controller": "streamdeck:A00WA3331LAU",
+												"controller": "streamdeck:A00WA3331LAU14",
 												"controller_variable": "self",
 												"page_from_variable": false,
 												"page": 99,
@@ -50332,7 +50332,7 @@
 											"instance": "internal",
 											"options": {
 												"controller_from_variable": false,
-												"controller": "streamdeck:A00WA3331LAU",
+												"controller": "streamdeck:A00WA3331LAU14",
 												"controller_variable": "self",
 												"page_from_variable": false,
 												"page": 80,
@@ -50409,7 +50409,7 @@
 											"instance": "internal",
 											"options": {
 												"controller_from_variable": false,
-												"controller": "streamdeck:A00WA3331LAU",
+												"controller": "streamdeck:A00WA3331LAU14",
 												"controller_variable": "self",
 												"page_from_variable": false,
 												"page": 81,
@@ -50601,7 +50601,7 @@
 											"instance": "internal",
 											"options": {
 												"controller_from_variable": false,
-												"controller": "streamdeck:A00WA3331LAU",
+												"controller": "streamdeck:A00WA3331LAU14",
 												"controller_variable": "self",
 												"page_from_variable": false,
 												"page": 82,
@@ -50739,7 +50739,7 @@
 											"instance": "internal",
 											"options": {
 												"controller_from_variable": false,
-												"controller": "streamdeck:A00WA3331LAU",
+												"controller": "streamdeck:A00WA3331LAU14",
 												"controller_variable": "self",
 												"page_from_variable": false,
 												"page": 8,
@@ -50845,7 +50845,7 @@
 											"instance": "internal",
 											"options": {
 												"controller_from_variable": false,
-												"controller": "streamdeck:A00WA3331LAU",
+												"controller": "streamdeck:A00WA3331LAU14",
 												"controller_variable": "self",
 												"page_from_variable": false,
 												"page": 80,
@@ -51207,7 +51207,7 @@
 											"instance": "internal",
 											"options": {
 												"controller_from_variable": false,
-												"controller": "streamdeck:A00WA3331LAU",
+												"controller": "streamdeck:A00WA3331LAU14",
 												"controller_variable": "self",
 												"page_from_variable": false,
 												"page": 80,
@@ -63058,7 +63058,7 @@
 											"instance": "internal",
 											"options": {
 												"controller_from_variable": false,
-												"controller": "streamdeck:A00WA3331LAU",
+												"controller": "streamdeck:A00WA3331LAU14",
 												"controller_variable": "self",
 												"page_from_variable": false,
 												"page": 80,
@@ -64111,32 +64111,8 @@
 			},
 			"groupId": null
 		},
-		"streamdeck:A00WA3331LAU": {
-			"type": "Elgato Streamdeck +",
-			"integrationType": "elgato-streamdeck",
-			"gridSize": {
-				"columns": 4,
-				"rows": 4
-			},
-			"config": {
-				"brightness": 75,
-				"rotation": 0,
-				"never_lock": false,
-				"xOffset": 0,
-				"yOffset": 0,
-				"groupId": null
-			},
-			"groupConfig": {
-				"name": "Unnamed group",
-				"last_page": 99,
-				"startup_page": 99,
-				"use_last_page": false
-			},
-			"groupId": null,
-			"name": "Elegato Streamdeck + 16"
-		},
 		"streamdeck:DL46K1A08634": {
-			"type": "Elgato Streamdeck MK2",
+			"type": "Elgato Stream Deck MK.2",
 			"integrationType": "elgato-streamdeck",
 			"gridSize": {
 				"columns": 5,
@@ -64160,7 +64136,7 @@
 			"name": "Elgato Streamdeck 15"
 		},
 		"streamdeck:CL41K1A03537": {
-			"type": "Elgato Streamdeck XL",
+			"type": "Elgato Stream Deck XL",
 			"integrationType": "elgato-streamdeck",
 			"gridSize": {
 				"columns": 8,
@@ -64182,6 +64158,30 @@
 			},
 			"groupId": null,
 			"name": "Elgato Streamdeck XL 32"
+		},
+		"streamdeck:A00WA3331LAU14": {
+			"type": "Elgato Stream Deck +",
+			"integrationType": "elgato-streamdeck",
+			"gridSize": {
+				"columns": 4,
+				"rows": 4
+			},
+			"config": {
+				"brightness": 75,
+				"rotation": 0,
+				"never_lock": false,
+				"xOffset": 0,
+				"yOffset": 0,
+				"groupId": null
+			},
+			"groupConfig": {
+				"name": "Unnamed group",
+				"last_page": 99,
+				"startup_page": 99,
+				"use_last_page": false
+			},
+			"name": "Elegato Streamdeck + 16",
+			"groupId": null
 		}
 	},
 	"surfaceGroups": {}
