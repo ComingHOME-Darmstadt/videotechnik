@@ -12876,7 +12876,7 @@
 											"instance": "eUPQEmkK6tACnlu1WTQUq",
 											"action": "customJSON",
 											"options": {
-												"customJSON": "{\"version\":1,\"NDI_overlay\":\"\",\"PTZ_controller\":\"\",\"audio_output\":\"Lautsprecher (Focusrite USB Audio)\",\"window\":{\"display_device\":\"\",\"always_on_top\":false,\"hide_border\":false,\"showcmd\":1,\"min_posn_x\":-32000,\"min_posn_y\":-32000,\"max_posn_x\":-1,\"max_posn_y\":-1,\"normal_posn_left\":336,\"normal_posn_right\":1028,\"normal_posn_top\":577,\"normal_posn_bottom\":972},\"decorations\":{\"mute_audio\":false,\"audio_gain\":0,\"vu_meter\":true,\"vu_meter_scale\":false,\"menu_posn_x\":56.0,\"menu_posn_y\":8.0,\"lowest_latency\":true,\"enable_ndi_output\":false,\"connection_quality\":false}}"
+												"customJSON": "{\"version\":1,\"NDI_overlay\":\"\",\"PTZ_controller\":\"\",\"audio_output\":\"Lautsprecher (Focusrite USB Audio)\",\"window\":{\"display_device\":\"\",\"always_on_top\":false,\"hide_border\":false,\"showcmd\":1,\"min_posn_x\":-1,\"min_posn_y\":-1,\"max_posn_x\":-1,\"max_posn_y\":-1,\"normal_posn_left\":15,\"normal_posn_right\":707,\"normal_posn_top\":774,\"normal_posn_bottom\":1169},\"decorations\":{\"mute_audio\":false,\"audio_gain\":0,\"vu_meter\":true,\"vu_meter_scale\":false,\"menu_posn_x\":56.0,\"menu_posn_y\":8.0,\"lowest_latency\":true,\"enable_ndi_output\":false,\"connection_quality\":false}}"
 											},
 											"delay": 100,
 											"headline": "ChAudioPC: set NDI Config"
