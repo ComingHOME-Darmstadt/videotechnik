@@ -13,13 +13,11 @@ if [%defaultPw%] == [] (
 )
 
 if not [%1] == [cominghome-video] (
-	if exist \\cominghome-video\c (
-		if not exist v:\ (
-			net use /PERSISTENT:NO v: \\cominghome-video\c %defaultPw% /USER:%defaultUser%
-		)
-		if exist v:\ (
-			echo Laufwerk V: cominghome-video
-		)
+	if not exist v:\ (
+		net use /PERSISTENT:NO v: \\cominghome-video\c %defaultPw% /USER:%defaultUser%
+	)
+	if exist v:\ (
+		echo Laufwerk V: cominghome-video
 	)
 )
 
