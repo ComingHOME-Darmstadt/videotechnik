@@ -22,9 +22,9 @@ if not [%1] == [cominghome-video] (
 )
 
 if not [%1] == [chaudio] (
-	if exist \\chaudio\c (
+	if exist \\Chaudio\c (
 		if not exist u:\ (
-			net use /PERSISTENT:NO u: \\chaudio\c %defaultPw% /USER:%defaultUser%
+			net use /PERSISTENT:NO u: \\Chaudio\c %defaultPw% /USER:%defaultUser%
 		)
 		if exist u:\ (
 			echo Laufwerk U: chaudio

@@ -12,7 +12,9 @@ Im Untervezeichnis `config` werden alle Konfigurations-Dateien gesammelt. Hierbe
 
 Die Programme `Bitfocus Companion 3.4.2`, `NDI 5.6.0.0` und `Node.js 18.19.0` werden in den vom Installationsprogramm vorgeschlagenen Ordnern erwartet. `Node.js` muss im Pfad liegen. `Companion` sollte automatisch starten.
 
-Der CHAudio-Rechner verwendet `OBS Studio 27.2.4` und benötigt die `obs-websocket` und `obs-ndi` Plugins (siehe https://obsproject.com/forum/resources/categories/obs-studio-plugins.6/), sowie das Profil `ComingHome` und die SceneCollection `CasparCG_Audio_IN` (zu finden unter `config/obs`.
+Der CHAudio-Rechner verwendet `OBS Studio 30.2.3` und benötigt das `DistroAV 6.0.0` Plugins (siehe https://obsproject.com/forum/resources/categories/obs-studio-plugins.6/), sowie das Profil `ComingHome` und die SceneCollection `CasparCG_Audio_IN` (zu finden unter `config/obs`.
+Ein NDI-Studio-Monitor muss laufen und verzögert gestartet werden, da es sonst nicht von außen erreichbar ist.
+Zur Anzeige des Pegels vom Mischpult kann https://youlean.co/download-youlean-loudness-meter verwendet werden.
 
 Im Verzeichnis `script\videoMonitor` müssen die npm-Module installiert sein.
 

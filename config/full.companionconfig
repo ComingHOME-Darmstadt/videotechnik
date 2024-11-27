@@ -14101,7 +14101,7 @@
 											"instance": "vBoBdkVFSsZutuO-Pg8cG",
 											"action": "COMMAND",
 											"options": {
-												"cmd": "PLAY 9-21 \"ndi://CHAUDIO/Intel UHD Graphics 1\""
+												"cmd": "PLAY 9-21 \"ndi://CHAUDIO/Intel UHD Graphics 630 1\""
 											},
 											"delay": 100,
 											"headline": "9-21 Audio Monitor 1"
