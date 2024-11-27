@@ -10,7 +10,7 @@ Desweiteren sollte in `script` das Programm `yt-dlp.exe` (siehe https://github.c
 
 Im Untervezeichnis `config` werden alle Konfigurations-Dateien gesammelt. Hierbei ist jedoch `config/media/Videos` von der Überwachung durch die Versionierung ausgenommen.
 
-Die Programme `Bitfocus Companion 3.4.2`, `NDI 5.6.0.0` und `Node.js 18.19.0` werden in den vom Installationsprogramm vorgeschlagenen Ordnern erwartet. `Node.js` muss im Pfad liegen. `Companion` sollte automatisch starten.
+Die Programme `Bitfocus Companion 3.4.3`, `NDI 5.6.0.0` und `Node.js 18.19.0` werden in den vom Installationsprogramm vorgeschlagenen Ordnern erwartet. `Node.js` muss im Pfad liegen. `Companion` sollte automatisch starten.
 
 Der CHAudio-Rechner verwendet `OBS Studio 30.2.3` und benötigt das `DistroAV 6.0.0` Plugins (siehe https://obsproject.com/forum/resources/categories/obs-studio-plugins.6/), sowie das Profil `ComingHome` und die SceneCollection `CasparCG_Audio_IN` (zu finden unter `config/obs`.
 Ein NDI-Studio-Monitor muss laufen und verzögert gestartet werden, da es sonst nicht von außen erreichbar ist.
