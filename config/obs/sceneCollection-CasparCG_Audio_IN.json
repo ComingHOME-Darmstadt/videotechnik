@@ -132,7 +132,7 @@
                 "use_device_timing": true
             },
             "mixers": 193,
-            "sync": 160000000,
+            "sync": 100000000,
             "flags": 0,
             "volume": 1.0,
             "balance": 0.5,
