@@ -14211,6 +14211,33 @@
 											},
 											"delay": 100,
 											"headline": "Label rechts unten: Audio Monitor 1"
+										},
+										{
+											"id": "dWVrA9NM5TwieKoxFgIMu",
+											"action": "source",
+											"instance": "7S4Fvn8yYhy3xZEkuPtAY",
+											"options": {
+												"source": "COMINGHOME-VIDEO (Controlview)"
+											},
+											"delay": 100
+										},
+										{
+											"id": "kaiwPCDgjgjM_4sFOUjwF",
+											"action": "customJSON",
+											"instance": "7S4Fvn8yYhy3xZEkuPtAY",
+											"options": {
+												"customJSON": "{\"version\":1,\"window\":{\"display_device\":\"Monitor 1\",\"showcmd\":1,\"min_posn_x\":-1,\"min_posn_y\":-1,\"max_posn_x\":-1,\"max_posn_y\":-1,\"normal_posn_left\":1353,\"normal_posn_right\":2485,\"normal_posn_top\":32,\"normal_posn_bottom\":882},\"decorations\":{\"lowest_latency\":true}}"
+											},
+											"delay": 0
+										},
+										{
+											"id": "vxizvoDJmEP3PPV-8YzXf",
+											"action": "customJSON",
+											"instance": "7S4Fvn8yYhy3xZEkuPtAY",
+											"options": {
+												"customJSON": "{\"version\":1,\"NDI_overlay\":\"\",\"PTZ_controller\":\"\",\"audio_output\":\"Digital Audio (S/PDIF) (High Definition Audio Device)\",\"window\":{\"display_device\":\"Monitor 1\",\"always_on_top\":false,\"hide_border\":false,\"showcmd\":3,\"min_posn_x\":-1,\"min_posn_y\":-1,\"max_posn_x\":-1,\"max_posn_y\":-1,\"normal_posn_left\":1353,\"normal_posn_right\":2485,\"normal_posn_top\":32,\"normal_posn_bottom\":882},\"decorations\":{\"vu_meter\":true,\"vu_meter_scale\":false,\"center_cross\":false,\"safe_areas\":false,\"show_4_3\":false,\"best_fit\":true,\"square_aspect\":false,\"hide_ptz_controls\":false,\"do_not_hide_controls\":false,\"show_alpha\":false,\"menu_posn_x\":56.0,\"menu_posn_y\":8.0,\"flip_horizontal\":false,\"flip_vertical\":false,\"lowest_latency\":true,\"enable_ndi_output\":false,\"connection_quality\":false}}"
+											},
+											"delay": 0
 										}
 									],
 									"up": []
@@ -64770,9 +64797,24 @@
 			"lastUpgradeIndex": -1,
 			"enabled": true
 		},
-		"eUPQEmkK6tACnlu1WTQUq": {
+		"7S4Fvn8yYhy3xZEkuPtAY": {
 			"instance_type": "newtek-ndistudiomonitor",
 			"sortOrder": 6,
+			"label": "localhost_Controlview",
+			"isFirstInit": false,
+			"config": {
+				"host": "127.0.0.1",
+				"port": 81,
+				"useWebPassword": true,
+				"username": "admin",
+				"password": "admin"
+			},
+			"lastUpgradeIndex": -1,
+			"enabled": true
+		},
+		"eUPQEmkK6tACnlu1WTQUq": {
+			"instance_type": "newtek-ndistudiomonitor",
+			"sortOrder": 7,
 			"label": "chaudio_Audio_N-1",
 			"isFirstInit": false,
 			"config": {
@@ -64789,7 +64831,7 @@
 		},
 		"xl2Z1Q_VMtCsznm0mCc0G": {
 			"instance_type": "openlp-http",
-			"sortOrder": 7,
+			"sortOrder": 8,
 			"label": "OpenLP",
 			"isFirstInit": false,
 			"config": {
