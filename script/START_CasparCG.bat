@@ -9,7 +9,7 @@ IF NOT %ERRORLEVEL%==0 (
 
 curl -f -s 127.0.0.1:81/v1/configuration
 IF NOT %ERRORLEVEL%==0 (
-  start "NDI-Monitor 2" /min "%ProgramFiles%\NDI\NDI 6 Tools\Studio Monitor\Application.Network.StudioMonitor.x64.exe" Multiview
+  start "NDI-Monitor 2" /min "%ProgramFiles%\NDI\NDI 6 Tools\Studio Monitor\Application.Network.StudioMonitor.x64.exe" Controlview
 )
 
 if not exist "%mePath%..\temp" mkdir "%mePath%..\temp"
