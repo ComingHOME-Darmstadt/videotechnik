@@ -22,4 +22,4 @@ start /min %mePath%casparcg_auto_restart.bat
 
 timeout /t 1
 
-start /min "videoMonitor" "%ProgramFiles%\nodejs\node.exe" "%mePath%videoMonitor\index.js"
+call %mePath%startVideoMonitor.bat

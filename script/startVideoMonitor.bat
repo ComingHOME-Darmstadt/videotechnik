@@ -1,0 +1,1 @@
+start /min "videoMonitor" "%ProgramFiles%\nodejs\node.exe" "%mePath%videoMonitor\index.js"
