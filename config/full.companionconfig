@@ -49561,6 +49561,82 @@
 								}
 							}
 						}
+					},
+					"4": {
+						"type": "button",
+						"style": {
+							"text": "",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 16777215,
+							"bgcolor": 0,
+							"show_topbar": "default"
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [
+							{
+								"id": "e_2p29oVsk177ymAG9DPk",
+								"type": "bank_style",
+								"instance_id": "internal",
+								"options": {
+									"location_target": "text",
+									"location_text": "3/2/5",
+									"location_expression": "concat($(this:page), '/', $(this:row), '/', $(this:column))",
+									"properties": [
+										"text",
+										"color",
+										"bgcolor"
+									]
+								},
+								"style": {},
+								"isInverted": false,
+								"children": []
+							}
+						],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "7XMfKyg5vO-qqah5iwWkG",
+											"action": "button_press",
+											"instance": "internal",
+											"options": {
+												"location_target": "text",
+												"location_text": "3/2/5",
+												"location_expression": "concat($(this:page), '/', $(this:row), '/', $(this:column))",
+												"force": false
+											},
+											"delay": 0
+										}
+									],
+									"up": [
+										{
+											"id": "pkGOEj4fLWOzbRlpeiVDv",
+											"action": "button_release",
+											"instance": "internal",
+											"options": {
+												"location_target": "text",
+												"location_text": "3/2/5",
+												"location_expression": "concat($(this:page), '/', $(this:row), '/', $(this:column))",
+												"force": false
+											},
+											"delay": 0
+										}
+									]
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
 					}
 				},
 				"2": {
