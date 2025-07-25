@@ -49233,9 +49233,9 @@
 					"4": {
 						"type": "button",
 						"style": {
-							"text": "MIX\\nBeamer",
+							"text": "MIX\\n\\nBeamer",
 							"textExpression": false,
-							"size": "auto",
+							"size": "18",
 							"png64": "iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAYAAABV7bNHAAABPElEQVR4Xu3aMUoDURiF0X9isHA24Q4sFNyPYAoXY2dh78LcxFiI5vkgdpoM5HaPM0W6GXgfZy4EZqratXIdLTAJdFqHQCtvj0ACZQNLEEEEZQUIyvrZIIIIygoQlPWzQQQRlBUgKOtngwgiKCtAUNbPBhFEUFaAoKyfDSKIoKwAQVk/G0QQQVkBgrJ+U20fW2322VNGvXu/qT7ST/0Ls4tRjxie67sHmh9aLVfhgwa9ff7ogZ7vW10vg54wPNb73AO93bSav8InDXr7su2BXu5affYpcv0tcNl6oNfb/utL4H99tOk3ED1HCxwEuQQ61wBBq//FvGInExFE0Lnrc7iPIIIIygoQlPWzQQQRlBUgKOtngwgiKCtAUNbPBhFEUFaAoKyfDSKIoKwAQVk/G0QQQVkBgrJ+Nmil3w9aJYAUYQAvCgAAAABJRU5ErkJggg==",
 							"alignment": "center:center",
 							"pngalignment": "center:center",
@@ -50222,9 +50222,9 @@
 					"4": {
 						"type": "button",
 						"style": {
-							"text": "MIX\\nBeamer",
+							"text": "MIX\\n\\nBeamer",
 							"textExpression": false,
-							"size": "auto",
+							"size": "18",
 							"png64": "iVBORw0KGgoAAAANSUhEUgAAAEgAAABICAYAAABV7bNHAAABN0lEQVR4Xu3asU0DMQCFYTtEFNwS2YACJPZBgoJh6FLQMxhLHAWCGNPDBenJhaUvA9yd/3x5SZFaXm5a8fqzQBVoW4dAZz49AgmUDSxBBBGUFSAo62eDCCIoK0BQ1s8GEURQVoCgrJ8NIoigrABBWT8bRBBBWQGCsn42iCCCsgIEZf1sEEEEZQX+Jaj6i9CvnVottRxvW/moQ9+FaS9+2Xqg1+tWls9pzzD0wdd9D/R818phHXqfaS/+tvRAy30r69W0Zxj64Mt7D1Se+kJfDL3PvBf/6oH2D63sTvOeYeSTn3Y/gh59x29EFujsD0WCNhMRRFC24gQRRFBWgKCsnw0iiKCsAEFZPxtEEEFZAYKyfjaIIIKyAgRl/WwQQQRlBQjK+tkgggjKChCU9bNBBBGUFSAo6/cNd0iAFJFukXoAAAAASUVORK5CYII=",
 							"alignment": "center:center",
 							"pngalignment": "center:center",
