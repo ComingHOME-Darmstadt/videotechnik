@@ -5,7 +5,7 @@ set mePath=%~dp0
 cd "%mePath%..\casparcg-server"
 
 :Start
-SET ERRORLEVEL 0
+SET ERRORLEVEL=0
 
 casparcg.exe ..\config\casparcg-server.config
 
