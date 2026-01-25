@@ -23,9 +23,9 @@ Als Administrator möchte ich ein Migrationsskript ausführen, das alle betroffe
 
 1. **Given** eine Konfigurationsdatei mit Buttons (type="button") die Feedbacks mit type="bank_pushed" enthalten, **When** das Migrationsskript ausgeführt wird, **Then** werden ausschließlich die Feedbacks vom Typ "bank_pushed" auf "bank_current_step" geändert, während alle anderen Feedback-Typen unverändert bleiben.
 
-2. **Given** ein Button mit einem Feedback vom Typ "bank_pushed", **When** das Migrationsskript diesen Button verarbeitet, **Then** wird bei den zugehörigen Button "options" die Eigenschaft "step" mit Wert 2 hinzugefügt.
+2. **Given** ein Button mit einem Feedback vom Typ "bank_pushed", **When** das Migrationsskript diesen Button verarbeitet, **Then** wird bei den "options" des betroffenen Feedbacks die Eigenschaft "step" mit Wert 2 hinzugefügt.
 
-3. **Given** ein Button mit einem Feedback vom Typ "bank_pushed" dessen Options die Eigenschaft "latch_compatability" enthalten, **When** das Migrationsskript diesen Button verarbeitet, **Then** wird die Eigenschaft "latch_compatability" aus den Options entfernt.
+3. **Given** ein Button mit einem Feedback vom Typ "bank_pushed" dessen Feedback-Options die Eigenschaft "latch_compatability" enthalten, **When** das Migrationsskript diesen Button verarbeitet, **Then** wird die Eigenschaft "latch_compatability" aus den Feedback-Options entfernt.
 
 4. **Given** eine Konfigurationsdatei ohne betroffene Buttons (keine mit type="button" und feedback type="bank_pushed"), **When** das Migrationsskript ausgeführt wird, **Then** bleibt die Konfiguration unverändert.
 
@@ -72,7 +72,7 @@ Als Administrator möchte ich nach der Migration einen Bericht über die durchge
 - Was passiert, wenn die Konfigurationsdatei nicht gefunden wird?
 - Was passiert, wenn die Konfigurationsdatei kein gültiges Format hat?
 - Was passiert, wenn ein Button bereits den Feedback-Typ "bank_current_step" hat?
-- Was passiert, wenn ein Button bereits die Option "step" mit einem anderen Wert hat?
+- Was passiert, wenn ein Feedback bereits die Option "step" mit einem anderen Wert hat?
 - Was passiert, wenn das Skript keine Schreibrechte auf die Konfigurationsdatei hat?
 - Was passiert, wenn das Skript mehrfach ausgeführt wird (Idempotenz)?
 - Was passiert mit Elementen, die NICHT vom Typ "button" sind, aber trotzdem Feedbacks mit type="bank_pushed" haben? (Diese MÜSSEN unverändert bleiben)
@@ -84,8 +84,8 @@ Als Administrator möchte ich nach der Migration einen Bericht über die durchge
 - **FR-001**: Das Skript MUSS alle Buttons mit dem Attribut type="button" in der Konfiguration identifizieren.
 - **FR-002**: Das Skript MUSS bei identifizierten Buttons alle Feedbacks mit type="bank_pushed" finden.
 - **FR-003**: Das Skript MUSS NUR den Feedback-Typ von "bank_pushed" auf "bank_current_step" ändern. Alle anderen Feedback-Typen MÜSSEN unverändert bleiben.
-- **FR-004**: Das Skript MUSS bei betroffenen Buttons die Eigenschaft "step" mit Wert 2 zu den "options" hinzufügen.
-- **FR-005**: Das Skript MUSS bei betroffenen Buttons die Eigenschaft "latch_compatability" aus den "options" entfernen, sofern vorhanden.
+- **FR-004**: Das Skript MUSS bei betroffenen Feedbacks die Eigenschaft "step" mit Wert 2 zu den Feedback-"options" hinzufügen.
+- **FR-005**: Das Skript MUSS bei betroffenen Feedbacks die Eigenschaft "latch_compatability" aus den Feedback-"options" entfernen, sofern vorhanden.
 - **FR-006**: Das Skript MUSS vor der Migration ein Backup der Original-Konfiguration erstellen.
 - **FR-007**: Das Skript MUSS nach Abschluss einen Bericht über die durchgeführten Änderungen ausgeben.
 - **FR-008**: Das Skript MUSS idempotent sein - mehrfache Ausführung darf keine zusätzlichen Änderungen verursachen.
@@ -96,9 +96,9 @@ Als Administrator möchte ich nach der Migration einen Bericht über die durchge
 
 ### Key Entities
 
-- **Button**: Ein Konfigurationselement mit type="button", enthält "feedbacks" und "options"
-- **Feedback**: Ein Unter-Element eines Buttons mit einem "type"-Attribut (z.B. "bank_pushed", "bank_current_step")
-- **Options**: Die Konfigurationsoptionen eines Buttons, können Eigenschaften wie "step" und "latch_compatability" enthalten
+- **Button**: Ein Konfigurationselement mit type="button", enthält "feedbacks"
+- **Feedback**: Ein Unter-Element eines Buttons mit einem "type"-Attribut (z.B. "bank_pushed", "bank_current_step") und eigenen "options"
+- **Feedback-Options**: Die Konfigurationsoptionen eines Feedbacks, können Eigenschaften wie "step" und "latch_compatability" enthalten
 - **Backup**: Eine Sicherungskopie der Original-Konfigurationsdatei vor der Migration
 
 ## Success Criteria *(mandatory)*
@@ -107,8 +107,8 @@ Als Administrator möchte ich nach der Migration einen Bericht über die durchge
 
 - **SC-001**: Nach Ausführung des Skripts existieren keine Buttons mehr mit Feedbacks vom Typ "bank_pushed".
 - **SC-002**: Alle ursprünglich betroffenen Buttons haben nach der Migration einen Feedback vom Typ "bank_current_step".
-- **SC-003**: Alle migrierten Buttons haben die Option "step" mit Wert 2.
-- **SC-004**: Keine migrierten Buttons enthalten mehr die Option "latch_compatability".
+- **SC-003**: Alle migrierten Feedbacks haben die Option "step" mit Wert 2 in ihren Feedback-Options.
+- **SC-004**: Keine migrierten Feedbacks enthalten mehr die Option "latch_compatability" in ihren Feedback-Options.
 - **SC-005**: Ein Backup der Original-Konfiguration existiert nach der Migration.
 - **SC-006**: Das Skript gibt einen Bericht aus, der die Anzahl der migrierten Buttons anzeigt.
 - **SC-007**: Bei erneuter Ausführung des Skripts werden keine weiteren Änderungen vorgenommen (Idempotenz-Prüfung bestanden).
