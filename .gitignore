@@ -1,4 +1,7 @@
 .project
+.idea
+.github
+.vscode
 /casparcg-client
 /casparcg-server
 /casparcg-server-2.3.3
