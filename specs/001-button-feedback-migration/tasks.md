@@ -23,9 +23,9 @@ This feature uses: `migrations/buttonFeedback2step/` at repository root
 
 **Purpose**: Create migration script folder structure and documentation
 
-- [ ] T001 Create migration directory structure at `migrations/buttonFeedback2step/`
-- [ ] T002 [P] Create README.md documentation at `migrations/buttonFeedback2step/README.md`
-- [ ] T003 [P] Create migrate.py script skeleton with CLI interface at `migrations/buttonFeedback2step/migrate.py`
+- [X] T001 Create migration directory structure at `migrations/buttonFeedback2step/`
+- [X] T002 [P] Create README.md documentation at `migrations/buttonFeedback2step/README.md`
+- [X] T003 [P] Create migrate.py script skeleton with CLI interface at `migrations/buttonFeedback2step/migrate.py`
 
 ---
 
@@ -35,10 +35,10 @@ This feature uses: `migrations/buttonFeedback2step/` at repository root
 
 **⚠️ CRITICAL**: User story implementation requires these foundations to be complete
 
-- [ ] T004 Implement argparse CLI parsing with --config, --dry-run, --verbose, --help options in `migrations/buttonFeedback2step/migrate.py`
-- [ ] T005 Implement configuration file loading with JSON parsing in `migrations/buttonFeedback2step/migrate.py`
-- [ ] T006 Implement error handling for FileNotFoundError (exit code 1), JSONDecodeError (exit code 2), PermissionError (exit code 3), and unexpected errors (exit code 4) in `migrations/buttonFeedback2step/migrate.py`
-- [ ] T007 Implement JSON writing with tab indentation (`indent='\t'`, `ensure_ascii=False`) in `migrations/buttonFeedback2step/migrate.py`
+- [X] T004 Implement argparse CLI parsing with --config, --dry-run, --verbose, --help options in `migrations/buttonFeedback2step/migrate.py`
+- [X] T005 Implement configuration file loading with JSON parsing in `migrations/buttonFeedback2step/migrate.py`
+- [X] T006 Implement error handling for FileNotFoundError (exit code 1), JSONDecodeError (exit code 2), PermissionError (exit code 3), and unexpected errors (exit code 4) in `migrations/buttonFeedback2step/migrate.py`
+- [X] T007 Implement JSON writing with tab indentation (`indent='\t'`, `ensure_ascii=False`) in `migrations/buttonFeedback2step/migrate.py`
 
 **Checkpoint**: Foundation ready - user story implementation can now begin
 
@@ -57,15 +57,15 @@ This feature uses: `migrations/buttonFeedback2step/` at repository root
 
 ### Implementation for User Story 1
 
-- [ ] T008 [US1] Implement page and control iteration logic (navigate pages → controls) in `migrations/buttonFeedback2step/migrate.py`
-- [ ] T009 [US1] Implement button type filter (only process controls with type="button") in `migrations/buttonFeedback2step/migrate.py`
-- [ ] T010 [US1] Implement feedback iteration and bank_pushed detection in `migrations/buttonFeedback2step/migrate.py`
-- [ ] T011 [US1] Implement feedback type change from "bank_pushed" to "bank_current_step" in `migrations/buttonFeedback2step/migrate.py`
-- [ ] T012 [US1] Implement "step": 2 option addition to feedback options in `migrations/buttonFeedback2step/migrate.py`
-- [ ] T013 [US1] Implement "latch_compatability" option removal from feedback options in `migrations/buttonFeedback2step/migrate.py`
-- [ ] T014 [US1] Implement warning for existing "step" values being overwritten (only if value != 2) in `migrations/buttonFeedback2step/migrate.py`
-- [ ] T015 [US1] Implement dry-run mode (preview changes without writing) in `migrations/buttonFeedback2step/migrate.py`
-- [ ] T016 [US1] Implement idempotency check (skip already migrated feedbacks) in `migrations/buttonFeedback2step/migrate.py`
+- [X] T008 [US1] Implement page and control iteration logic (navigate pages → controls) in `migrations/buttonFeedback2step/migrate.py`
+- [X] T009 [US1] Implement button type filter (only process controls with type="button") in `migrations/buttonFeedback2step/migrate.py`
+- [X] T010 [US1] Implement feedback iteration and bank_pushed detection in `migrations/buttonFeedback2step/migrate.py`
+- [X] T011 [US1] Implement feedback type change from "bank_pushed" to "bank_current_step" in `migrations/buttonFeedback2step/migrate.py`
+- [X] T012 [US1] Implement "step": 2 option addition to feedback options in `migrations/buttonFeedback2step/migrate.py`
+- [X] T013 [US1] Implement "latch_compatability" option removal from feedback options in `migrations/buttonFeedback2step/migrate.py`
+- [X] T014 [US1] Implement warning for existing "step" values being overwritten (only if value != 2) in `migrations/buttonFeedback2step/migrate.py`
+- [X] T015 [US1] Implement dry-run mode (preview changes without writing) in `migrations/buttonFeedback2step/migrate.py`
+- [X] T016 [US1] Implement idempotency check (skip already migrated feedbacks) in `migrations/buttonFeedback2step/migrate.py`
 
 **Checkpoint**: User Story 1 (Migration) is fully functional and testable
 
@@ -83,12 +83,12 @@ This feature uses: `migrations/buttonFeedback2step/` at repository root
 
 ### Implementation for User Story 2
 
-- [ ] T017 [US2] Implement migration statistics tracking (buttons processed, feedbacks migrated, options changed) in `migrations/buttonFeedback2step/migrate.py`
-- [ ] T018 [US2] Implement warning collection for overwritten step values in `migrations/buttonFeedback2step/migrate.py`
-- [ ] T019 [US2] Implement standard migration report output format in `migrations/buttonFeedback2step/migrate.py`
-- [ ] T020 [US2] Implement "no changes necessary" message for empty migrations in `migrations/buttonFeedback2step/migrate.py`
-- [ ] T021 [US2] Implement verbose mode output with detailed processing information in `migrations/buttonFeedback2step/migrate.py`
-- [ ] T022 [US2] Implement dry-run specific report format ("would be migrated" vs "migrated") in `migrations/buttonFeedback2step/migrate.py`
+- [X] T017 [US2] Implement migration statistics tracking (buttons processed, feedbacks migrated, options changed) in `migrations/buttonFeedback2step/migrate.py`
+- [X] T018 [US2] Implement warning collection for overwritten step values in `migrations/buttonFeedback2step/migrate.py`
+- [X] T019 [US2] Implement standard migration report output format in `migrations/buttonFeedback2step/migrate.py`
+- [X] T020 [US2] Implement "no changes necessary" message for empty migrations in `migrations/buttonFeedback2step/migrate.py`
+- [X] T021 [US2] Implement verbose mode output with detailed processing information in `migrations/buttonFeedback2step/migrate.py`
+- [X] T022 [US2] Implement dry-run specific report format ("would be migrated" vs "migrated") in `migrations/buttonFeedback2step/migrate.py`
 
 **Checkpoint**: User Stories 1 AND 2 are fully functional
 
@@ -98,10 +98,10 @@ This feature uses: `migrations/buttonFeedback2step/` at repository root
 
 **Purpose**: Documentation finalization and validation
 
-- [ ] T023 [P] Complete README.md with full usage instructions, examples, and rollback information in `migrations/buttonFeedback2step/README.md`
-- [ ] T024 [P] Add docstrings and inline comments to migrate.py in `migrations/buttonFeedback2step/migrate.py`
-- [ ] T025 Run migration in dry-run mode on actual `config/full.companionconfig` to validate
-- [ ] T026 Execute quickstart.md validation steps from `specs/001-button-feedback-migration/quickstart.md`
+- [X] T023 [P] Complete README.md with full usage instructions, examples, and rollback information in `migrations/buttonFeedback2step/README.md`
+- [X] T024 [P] Add docstrings and inline comments to migrate.py in `migrations/buttonFeedback2step/migrate.py`
+- [X] T025 Run migration in dry-run mode on actual `config/full.companionconfig` to validate
+- [X] T026 Execute quickstart.md validation steps from `specs/001-button-feedback-migration/quickstart.md`
 
 ---
 

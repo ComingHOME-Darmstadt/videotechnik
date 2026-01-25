@@ -2,6 +2,17 @@
 .idea
 .github
 .vscode
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+.venv/
+venv/
+
 /casparcg-client
 /casparcg-server
 /casparcg-server-2.3.3
