@@ -80,12 +80,16 @@ Als Administrator möchte ich nach der Migration einen Bericht über die durchge
 - **FR-010**: Das Skript MUSS alle Feedbacks mit anderen Typen als "bank_pushed" (z.B. "bank_style", "bank_text", etc.) unverändert lassen.
 - **FR-011**: Das Skript DARF NUR Feedbacks von Elementen verarbeiten, die den Typ "button" haben. Elemente mit anderen Typen (z.B. "pageup", "pagedown", "text", etc.) MÜSSEN vollständig ignoriert werden, auch wenn sie Feedbacks mit type="bank_pushed" enthalten.
 - **FR-012**: Das Skript MUSS die Konfigurationsdatei `config/full.companionconfig` verarbeiten.
+- **FR-013**: Das Skript MUSS in Python geschrieben sein.
+- **FR-014**: Im Ordner `migrations/buttonFeedback2step` MUSS eine README.md-Datei enthalten sein, die dokumentiert, wie das Skript ausgeführt wird (inkl. Python-Version, ggf. benötigte Abhängigkeiten, Ausführungsbefehl).
 
 ### Key Entities
 
 - **Button**: Ein Konfigurationselement mit type="button", enthält "feedbacks"
 - **Feedback**: Ein Unter-Element eines Buttons mit einem "type"-Attribut (z.B. "bank_pushed", "bank_current_step") und eigenen "options"
 - **Feedback-Options**: Die Konfigurationsoptionen eines Feedbacks, können Eigenschaften wie "step" und "latch_compatability" enthalten
+- **Migrationsskript**: Python-Skript im Ordner `migrations/buttonFeedback2step`
+- **README.md**: Dokumentation zur Ausführung des Skripts
 
 ## Success Criteria *(mandatory)*
 
@@ -98,6 +102,7 @@ Als Administrator möchte ich nach der Migration einen Bericht über die durchge
 - **SC-005**: Das Skript gibt einen Bericht aus, der die Anzahl der migrierten Feedbacks anzeigt.
 - **SC-005a**: Falls "step"-Werte überschrieben wurden, enthält der Bericht Warnungen mit den ursprünglichen Werten.
 - **SC-006**: Bei erneuter Ausführung des Skripts werden keine weiteren Änderungen vorgenommen (Idempotenz-Prüfung bestanden).
+- **SC-007**: Eine README.md-Datei im Ordner `migrations/buttonFeedback2step` dokumentiert die Ausführung des Skripts.
 
 ## Assumptions
 
@@ -105,6 +110,7 @@ Als Administrator möchte ich nach der Migration einen Bericht über die durchge
 - Das Skript hat Lese- und Schreibrechte auf die Konfigurationsdatei
 - Die Button-Struktur enthält die beschriebenen Eigenschaften ("type", "feedbacks", "options")
 - Die Konfigurationsdatei ist versioniert (Git), daher ist kein separates Backup erforderlich
+- Python 3.x ist auf dem System installiert und verfügbar
 
 ## Out of Scope
 
