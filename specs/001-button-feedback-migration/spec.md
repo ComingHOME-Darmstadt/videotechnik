@@ -82,6 +82,7 @@ Als Administrator möchte ich nach der Migration einen Bericht über die durchge
 - **FR-012**: Das Skript MUSS die Konfigurationsdatei `config/full.companionconfig` verarbeiten.
 - **FR-013**: Das Skript MUSS in Python geschrieben sein.
 - **FR-014**: Im Ordner `migrations/buttonFeedback2step` MUSS eine README.md-Datei enthalten sein, die dokumentiert, wie das Skript ausgeführt wird (inkl. Python-Version, ggf. benötigte Abhängigkeiten, Ausführungsbefehl).
+- **FR-015**: Das Skript MUSS die JSON-Formatierung der Originaldatei beibehalten (Tab-Einrückung).
 
 ### Key Entities
 
