@@ -31,6 +31,8 @@ Als Administrator möchte ich ein Migrationsskript ausführen, das alle betroffe
 
 5. **Given** ein Button mit mehreren Feedbacks (z.B. type="bank_pushed", type="bank_style", type="bank_text"), **When** das Migrationsskript diesen Button verarbeitet, **Then** wird nur der Feedback mit type="bank_pushed" auf "bank_current_step" geändert und alle anderen Feedbacks bleiben unverändert.
 
+6. **Given** ein Element mit einem anderen Typ als "button" (z.B. type="pageup" oder type="text") das Feedbacks mit type="bank_pushed" enthält, **When** das Migrationsskript ausgeführt wird, **Then** bleibt dieses Element vollständig unverändert.
+
 ---
 
 ### User Story 2 - Backup vor Migration erstellen (Priority: P2)
@@ -73,6 +75,7 @@ Als Administrator möchte ich nach der Migration einen Bericht über die durchge
 - Was passiert, wenn ein Button bereits die Option "step" mit einem anderen Wert hat?
 - Was passiert, wenn das Skript keine Schreibrechte auf die Konfigurationsdatei hat?
 - Was passiert, wenn das Skript mehrfach ausgeführt wird (Idempotenz)?
+- Was passiert mit Elementen, die NICHT vom Typ "button" sind, aber trotzdem Feedbacks mit type="bank_pushed" haben? (Diese MÜSSEN unverändert bleiben)
 
 ## Requirements *(mandatory)*
 
@@ -89,6 +92,7 @@ Als Administrator möchte ich nach der Migration einen Bericht über die durchge
 - **FR-009**: Das Skript MUSS bei fehlender oder ungültiger Konfigurationsdatei eine verständliche Fehlermeldung ausgeben.
 - **FR-010**: Alle für die Migration notwendigen Dateien MÜSSEN im Ordner `migrations/buttonFeedback2step` abgelegt werden.
 - **FR-011**: Das Skript MUSS alle Feedbacks mit anderen Typen als "bank_pushed" (z.B. "bank_style", "bank_text", etc.) unverändert lassen.
+- **FR-012**: Das Skript DARF NUR Feedbacks von Elementen verarbeiten, die den Typ "button" haben. Elemente mit anderen Typen (z.B. "pageup", "pagedown", "text", etc.) MÜSSEN vollständig ignoriert werden, auch wenn sie Feedbacks mit type="bank_pushed" enthalten.
 
 ### Key Entities
 
