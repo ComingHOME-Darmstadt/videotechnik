@@ -7,7 +7,7 @@
 
 ## Übersicht
 
-Dieses Feature beschreibt ein einmaliges Migrationsskript, das Konfigurationsdateien für Buttons modifiziert. Das Skript ändert spezifische Feedback-Typen und passt zugehörige Button-Optionen an.
+Dieses Feature beschreibt ein einmaliges Migrationsskript, das die Konfigurationsdatei `config/full.companionconfig` modifiziert. Das Skript ändert spezifische Feedback-Typen und passt zugehörige Feedback-Optionen an.
 
 ## User Scenarios & Testing *(mandatory)*
 
@@ -93,6 +93,7 @@ Als Administrator möchte ich nach der Migration einen Bericht über die durchge
 - **FR-010**: Alle für die Migration notwendigen Dateien MÜSSEN im Ordner `migrations/buttonFeedback2step` abgelegt werden.
 - **FR-011**: Das Skript MUSS alle Feedbacks mit anderen Typen als "bank_pushed" (z.B. "bank_style", "bank_text", etc.) unverändert lassen.
 - **FR-012**: Das Skript DARF NUR Feedbacks von Elementen verarbeiten, die den Typ "button" haben. Elemente mit anderen Typen (z.B. "pageup", "pagedown", "text", etc.) MÜSSEN vollständig ignoriert werden, auch wenn sie Feedbacks mit type="bank_pushed" enthalten.
+- **FR-013**: Das Skript MUSS die Konfigurationsdatei `config/full.companionconfig` verarbeiten.
 
 ### Key Entities
 
@@ -115,11 +116,10 @@ Als Administrator möchte ich nach der Migration einen Bericht über die durchge
 
 ## Assumptions
 
-- Die Konfigurationsdatei liegt in einem standardmäßigen Format vor (JSON oder ähnliches strukturiertes Format)
+- Die Konfigurationsdatei `config/full.companionconfig` liegt im JSON-Format vor
 - Das Skript hat Lese- und Schreibrechte auf die Konfigurationsdatei und den Backup-Ordner
-- Es existiert nur eine relevante Konfigurationsdatei, die migriert werden muss
 - Die Button-Struktur enthält die beschriebenen Eigenschaften ("type", "feedbacks", "options")
-- Das Backup wird im selben Verzeichnis wie das Skript oder in einem konfigurierbaren Backup-Ordner gespeichert
+- Das Backup wird im `migrations/buttonFeedback2step` Ordner gespeichert
 
 ## Out of Scope
 
