@@ -37,7 +37,7 @@ This feature uses: `migrations/buttonFeedback2step/` at repository root
 
 - [ ] T004 Implement argparse CLI parsing with --config, --dry-run, --verbose, --help options in `migrations/buttonFeedback2step/migrate.py`
 - [ ] T005 Implement configuration file loading with JSON parsing in `migrations/buttonFeedback2step/migrate.py`
-- [ ] T006 Implement error handling for FileNotFoundError (exit code 1), JSONDecodeError (exit code 2), PermissionError (exit code 3) in `migrations/buttonFeedback2step/migrate.py`
+- [ ] T006 Implement error handling for FileNotFoundError (exit code 1), JSONDecodeError (exit code 2), PermissionError (exit code 3), and unexpected errors (exit code 4) in `migrations/buttonFeedback2step/migrate.py`
 - [ ] T007 Implement JSON writing with tab indentation (`indent='\t'`, `ensure_ascii=False`) in `migrations/buttonFeedback2step/migrate.py`
 
 **Checkpoint**: Foundation ready - user story implementation can now begin
