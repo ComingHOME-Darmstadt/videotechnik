@@ -35,23 +35,7 @@ Als Administrator möchte ich ein Migrationsskript ausführen, das alle betroffe
 
 ---
 
-### User Story 2 - Backup vor Migration erstellen (Priority: P2)
-
-Als Administrator möchte ich, dass vor der Migration ein Backup der Original-Konfiguration erstellt wird, damit ich bei Problemen den ursprünglichen Zustand wiederherstellen kann.
-
-**Why this priority**: Ein Backup schützt vor Datenverlust und ermöglicht Rollback bei unerwarteten Problemen.
-
-**Independent Test**: Kann getestet werden, indem geprüft wird ob nach Skript-Ausführung eine Backup-Datei existiert.
-
-**Acceptance Scenarios**:
-
-1. **Given** eine Konfigurationsdatei, **When** das Migrationsskript ausgeführt wird, **Then** wird vor der Änderung ein Backup der Originaldatei erstellt.
-
-2. **Given** das Backup wurde erstellt, **When** der Administrator das Backup prüft, **Then** entspricht der Inhalt exakt dem Original vor der Migration.
-
----
-
-### User Story 3 - Migrationsbericht erhalten (Priority: P3)
+### User Story 2 - Migrationsbericht erhalten (Priority: P2)
 
 Als Administrator möchte ich nach der Migration einen Bericht über die durchgeführten Änderungen erhalten, damit ich nachvollziehen kann, welche Buttons modifiziert wurden.
 
@@ -86,21 +70,19 @@ Als Administrator möchte ich nach der Migration einen Bericht über die durchge
 - **FR-003**: Das Skript MUSS NUR den Feedback-Typ von "bank_pushed" auf "bank_current_step" ändern. Alle anderen Feedback-Typen MÜSSEN unverändert bleiben.
 - **FR-004**: Das Skript MUSS bei betroffenen Feedbacks die Eigenschaft "step" mit Wert 2 zu den Feedback-"options" hinzufügen.
 - **FR-005**: Das Skript MUSS bei betroffenen Feedbacks die Eigenschaft "latch_compatability" aus den Feedback-"options" entfernen, sofern vorhanden.
-- **FR-006**: Das Skript MUSS vor der Migration ein Backup der Original-Konfiguration erstellen.
-- **FR-007**: Das Skript MUSS nach Abschluss einen Bericht über die durchgeführten Änderungen ausgeben.
-- **FR-008**: Das Skript MUSS idempotent sein - mehrfache Ausführung darf keine zusätzlichen Änderungen verursachen.
-- **FR-009**: Das Skript MUSS bei fehlender oder ungültiger Konfigurationsdatei eine verständliche Fehlermeldung ausgeben.
-- **FR-010**: Alle für die Migration notwendigen Dateien MÜSSEN im Ordner `migrations/buttonFeedback2step` abgelegt werden.
-- **FR-011**: Das Skript MUSS alle Feedbacks mit anderen Typen als "bank_pushed" (z.B. "bank_style", "bank_text", etc.) unverändert lassen.
-- **FR-012**: Das Skript DARF NUR Feedbacks von Elementen verarbeiten, die den Typ "button" haben. Elemente mit anderen Typen (z.B. "pageup", "pagedown", "text", etc.) MÜSSEN vollständig ignoriert werden, auch wenn sie Feedbacks mit type="bank_pushed" enthalten.
-- **FR-013**: Das Skript MUSS die Konfigurationsdatei `config/full.companionconfig` verarbeiten.
+- **FR-006**: Das Skript MUSS nach Abschluss einen Bericht über die durchgeführten Änderungen ausgeben.
+- **FR-007**: Das Skript MUSS idempotent sein - mehrfache Ausführung darf keine zusätzlichen Änderungen verursachen.
+- **FR-008**: Das Skript MUSS bei fehlender oder ungültiger Konfigurationsdatei eine verständliche Fehlermeldung ausgeben.
+- **FR-009**: Alle für die Migration notwendigen Dateien MÜSSEN im Ordner `migrations/buttonFeedback2step` abgelegt werden.
+- **FR-010**: Das Skript MUSS alle Feedbacks mit anderen Typen als "bank_pushed" (z.B. "bank_style", "bank_text", etc.) unverändert lassen.
+- **FR-011**: Das Skript DARF NUR Feedbacks von Elementen verarbeiten, die den Typ "button" haben. Elemente mit anderen Typen (z.B. "pageup", "pagedown", "text", etc.) MÜSSEN vollständig ignoriert werden, auch wenn sie Feedbacks mit type="bank_pushed" enthalten.
+- **FR-012**: Das Skript MUSS die Konfigurationsdatei `config/full.companionconfig` verarbeiten.
 
 ### Key Entities
 
 - **Button**: Ein Konfigurationselement mit type="button", enthält "feedbacks"
 - **Feedback**: Ein Unter-Element eines Buttons mit einem "type"-Attribut (z.B. "bank_pushed", "bank_current_step") und eigenen "options"
 - **Feedback-Options**: Die Konfigurationsoptionen eines Feedbacks, können Eigenschaften wie "step" und "latch_compatability" enthalten
-- **Backup**: Eine Sicherungskopie der Original-Konfigurationsdatei vor der Migration
 
 ## Success Criteria *(mandatory)*
 
@@ -110,20 +92,20 @@ Als Administrator möchte ich nach der Migration einen Bericht über die durchge
 - **SC-002**: Alle ursprünglich betroffenen Buttons haben nach der Migration einen Feedback vom Typ "bank_current_step".
 - **SC-003**: Alle migrierten Feedbacks haben die Option "step" mit Wert 2 in ihren Feedback-Options.
 - **SC-004**: Keine migrierten Feedbacks enthalten mehr die Option "latch_compatability" in ihren Feedback-Options.
-- **SC-005**: Ein Backup der Original-Konfiguration existiert nach der Migration.
-- **SC-006**: Das Skript gibt einen Bericht aus, der die Anzahl der migrierten Buttons anzeigt.
-- **SC-007**: Bei erneuter Ausführung des Skripts werden keine weiteren Änderungen vorgenommen (Idempotenz-Prüfung bestanden).
+- **SC-005**: Das Skript gibt einen Bericht aus, der die Anzahl der migrierten Feedbacks anzeigt.
+- **SC-006**: Bei erneuter Ausführung des Skripts werden keine weiteren Änderungen vorgenommen (Idempotenz-Prüfung bestanden).
 
 ## Assumptions
 
 - Die Konfigurationsdatei `config/full.companionconfig` liegt im JSON-Format vor
-- Das Skript hat Lese- und Schreibrechte auf die Konfigurationsdatei und den Backup-Ordner
+- Das Skript hat Lese- und Schreibrechte auf die Konfigurationsdatei
 - Die Button-Struktur enthält die beschriebenen Eigenschaften ("type", "feedbacks", "options")
-- Das Backup wird im `migrations/buttonFeedback2step` Ordner gespeichert
+- Die Konfigurationsdatei ist versioniert (Git), daher ist kein separates Backup erforderlich
 
 ## Out of Scope
 
-- Automatische Rollback-Funktionalität (nur manuelles Rollback via Backup)
+- Automatische Rollback-Funktionalität (Rollback erfolgt über Git-Versionierung)
+- Backup-Erstellung (Konfigurationsdatei ist versioniert)
 - Migration mehrerer Konfigurationsdateien gleichzeitig
 - Interaktive Benutzeroberfläche - das Skript läuft kommandozeilenbasiert
 - Dauerhafte/wiederkehrende Ausführung - dies ist ein einmaliges Migrationsskript
