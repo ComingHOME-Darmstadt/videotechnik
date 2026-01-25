@@ -35,6 +35,8 @@ Als Administrator möchte ich ein Migrationsskript ausführen, das alle betroffe
 
 7. **Given** ein Button mit einem Feedback vom Typ "bank_pushed" dessen Feedback-Options bereits eine Eigenschaft "step" mit einem Wert ungleich 2 enthält, **When** das Migrationsskript diesen Button verarbeitet, **Then** wird der vorhandene "step"-Wert mit 2 überschrieben UND eine Warnung ausgegeben, die den ursprünglichen Wert dokumentiert.
 
+8. **Given** ein Button mit einem Feedback vom Typ "bank_pushed" dessen Feedback-Options bereits eine Eigenschaft "step" mit dem Wert 2 enthält, **When** das Migrationsskript diesen Button verarbeitet, **Then** wird dies still ignoriert und keine Warnung ausgegeben.
+
 ---
 
 ### User Story 2 - Migrationsbericht erhalten (Priority: P2)
@@ -59,6 +61,7 @@ Als Administrator möchte ich nach der Migration einen Bericht über die durchge
 - Was passiert, wenn die Konfigurationsdatei kein gültiges Format hat?
 - Was passiert, wenn ein Button bereits den Feedback-Typ "bank_current_step" hat?
 - Was passiert, wenn ein Feedback bereits die Option "step" mit einem anderen Wert hat? → Überschreiben mit 2 und Warnung ausgeben (siehe FR-004a)
+- Was passiert, wenn ein Feedback bereits die Option "step" mit dem Wert 2 hat? → Still ignorieren, keine Warnung (siehe FR-004a)
 - Was passiert, wenn das Skript keine Schreibrechte auf die Konfigurationsdatei hat?
 - Was passiert, wenn das Skript mehrfach ausgeführt wird (Idempotenz)?
 - Was passiert mit Elementen, die NICHT vom Typ "button" sind, aber trotzdem Feedbacks mit type="bank_pushed" haben? (Diese MÜSSEN unverändert bleiben)
@@ -71,7 +74,7 @@ Als Administrator möchte ich nach der Migration einen Bericht über die durchge
 - **FR-002**: Das Skript MUSS bei identifizierten Buttons alle Feedbacks mit type="bank_pushed" finden.
 - **FR-003**: Das Skript MUSS NUR den Feedback-Typ von "bank_pushed" auf "bank_current_step" ändern. Alle anderen Feedback-Typen MÜSSEN unverändert bleiben.
 - **FR-004**: Das Skript MUSS bei betroffenen Feedbacks die Eigenschaft "step" mit Wert 2 zu den Feedback-"options" hinzufügen. Falls bereits ein "step"-Wert existiert, MUSS dieser mit 2 überschrieben werden.
-- **FR-004a**: Falls ein vorhandener "step"-Wert überschrieben wird und dieser ungleich 2 war, MUSS das Skript eine Warnung ausgeben, die den ursprünglichen Wert dokumentiert.
+- **FR-004a**: Falls ein vorhandener "step"-Wert überschrieben wird und dieser ungleich 2 war, MUSS das Skript eine Warnung ausgeben, die den ursprünglichen Wert dokumentiert. Falls der vorhandene Wert bereits 2 ist, wird dies still ignoriert (keine Warnung).
 - **FR-005**: Das Skript MUSS bei betroffenen Feedbacks die Eigenschaft "latch_compatability" aus den Feedback-"options" entfernen, sofern vorhanden.
 - **FR-006**: Das Skript MUSS nach Abschluss einen Bericht über die durchgeführten Änderungen ausgeben.
 - **FR-007**: Das Skript MUSS idempotent sein - mehrfache Ausführung darf keine zusätzlichen Änderungen verursachen.
