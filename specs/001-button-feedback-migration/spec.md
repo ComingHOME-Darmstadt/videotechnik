@@ -21,13 +21,15 @@ Als Administrator möchte ich ein Migrationsskript ausführen, das alle betroffe
 
 **Acceptance Scenarios**:
 
-1. **Given** eine Konfigurationsdatei mit Buttons (type="button") die Feedbacks mit type="bank_pushed" enthalten, **When** das Migrationsskript ausgeführt wird, **Then** werden alle betroffenen Feedback-Typen auf "bank_current_step" geändert.
+1. **Given** eine Konfigurationsdatei mit Buttons (type="button") die Feedbacks mit type="bank_pushed" enthalten, **When** das Migrationsskript ausgeführt wird, **Then** werden ausschließlich die Feedbacks vom Typ "bank_pushed" auf "bank_current_step" geändert, während alle anderen Feedback-Typen unverändert bleiben.
 
 2. **Given** ein Button mit einem Feedback vom Typ "bank_pushed", **When** das Migrationsskript diesen Button verarbeitet, **Then** wird bei den zugehörigen Button "options" die Eigenschaft "step" mit Wert 2 hinzugefügt.
 
 3. **Given** ein Button mit einem Feedback vom Typ "bank_pushed" dessen Options die Eigenschaft "latch_compatability" enthalten, **When** das Migrationsskript diesen Button verarbeitet, **Then** wird die Eigenschaft "latch_compatability" aus den Options entfernt.
 
 4. **Given** eine Konfigurationsdatei ohne betroffene Buttons (keine mit type="button" und feedback type="bank_pushed"), **When** das Migrationsskript ausgeführt wird, **Then** bleibt die Konfiguration unverändert.
+
+5. **Given** ein Button mit mehreren Feedbacks (z.B. type="bank_pushed", type="bank_style", type="bank_text"), **When** das Migrationsskript diesen Button verarbeitet, **Then** wird nur der Feedback mit type="bank_pushed" auf "bank_current_step" geändert und alle anderen Feedbacks bleiben unverändert.
 
 ---
 
@@ -78,7 +80,7 @@ Als Administrator möchte ich nach der Migration einen Bericht über die durchge
 
 - **FR-001**: Das Skript MUSS alle Buttons mit dem Attribut type="button" in der Konfiguration identifizieren.
 - **FR-002**: Das Skript MUSS bei identifizierten Buttons alle Feedbacks mit type="bank_pushed" finden.
-- **FR-003**: Das Skript MUSS den Feedback-Typ von "bank_pushed" auf "bank_current_step" ändern.
+- **FR-003**: Das Skript MUSS NUR den Feedback-Typ von "bank_pushed" auf "bank_current_step" ändern. Alle anderen Feedback-Typen MÜSSEN unverändert bleiben.
 - **FR-004**: Das Skript MUSS bei betroffenen Buttons die Eigenschaft "step" mit Wert 2 zu den "options" hinzufügen.
 - **FR-005**: Das Skript MUSS bei betroffenen Buttons die Eigenschaft "latch_compatability" aus den "options" entfernen, sofern vorhanden.
 - **FR-006**: Das Skript MUSS vor der Migration ein Backup der Original-Konfiguration erstellen.
@@ -86,6 +88,7 @@ Als Administrator möchte ich nach der Migration einen Bericht über die durchge
 - **FR-008**: Das Skript MUSS idempotent sein - mehrfache Ausführung darf keine zusätzlichen Änderungen verursachen.
 - **FR-009**: Das Skript MUSS bei fehlender oder ungültiger Konfigurationsdatei eine verständliche Fehlermeldung ausgeben.
 - **FR-010**: Alle für die Migration notwendigen Dateien MÜSSEN im Ordner `migrations/buttonFeedback2step` abgelegt werden.
+- **FR-011**: Das Skript MUSS alle Feedbacks mit anderen Typen als "bank_pushed" (z.B. "bank_style", "bank_text", etc.) unverändert lassen.
 
 ### Key Entities
 
