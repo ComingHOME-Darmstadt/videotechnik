@@ -31,7 +31,13 @@
 
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
 
-[Gates determined based on constitution file]
+- [ ] **Documentation**: Installation prerequisites documented in README.md?
+- [ ] **Configuration Storage**: Companion config in `config/full.companionconfig`?
+- [ ] **JSON Formatting**: Tab indentation and line breaks preserved?
+- [ ] **CasparCG Config**: Server config in `config/casparcg-server.config`?
+- [ ] **Channel/Layer Docs**: Changes documented in `help/CasparCG-Kanalbelegung.md`?
+- [ ] **Media Files**: Media stored in `config/media/`?
+- [ ] **Templates**: Templates stored in `config/template/`?
 
 ## Project Structure
 
