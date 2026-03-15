@@ -285,7 +285,7 @@
 											"instance": "internal",
 											"options": {
 												"controller_from_variable": false,
-												"controller": "self",
+												"controller": "streamdeck:CL41K1A03537",
 												"controller_variable": "self",
 												"page_from_variable": false,
 												"page": 99,
