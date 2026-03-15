@@ -63800,6 +63800,98 @@
 							}
 						}
 					},
+					"2": {
+						"type": "button",
+						"style": {
+							"text": "für ZOOM starten",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 26112,
+							"bgcolor": 13056,
+							"show_topbar": "default",
+							"png": null
+						},
+						"options": {
+							"relativeDelay": false,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [
+							{
+								"id": "uf_RZTrZUirJ7sr6yo7WI",
+								"type": "logic_and",
+								"instance_id": "internal",
+								"options": {},
+								"style": {
+									"color": 16777215,
+									"bgcolor": 39168
+								},
+								"isInverted": false,
+								"children": [
+									{
+										"id": "7fn0E2E8tXql_yNeLLBI3",
+										"type": "instance_custom_state",
+										"instance_id": "internal",
+										"options": {
+											"instance_id": "eUPQEmkK6tACnlu1WTQUq",
+											"state": "good"
+										},
+										"style": {
+											"color": 16777215,
+											"bgcolor": 65280
+										},
+										"isInverted": false,
+										"children": []
+									},
+									{
+										"id": "FhhmJ8dpT3SKbIDTraC1T",
+										"type": "instance_custom_state",
+										"instance_id": "internal",
+										"options": {
+											"instance_id": "xl2Z1Q_VMtCsznm0mCc0G",
+											"state": "good"
+										},
+										"style": {
+											"color": 16777215,
+											"bgcolor": 65280
+										},
+										"isInverted": false,
+										"children": []
+									}
+								]
+							}
+						],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "TMwtnNXNvLafem8bfw2nj",
+											"action": "bank_current_step_if_expression",
+											"instance": "internal",
+											"options": {
+												"expression": "$(internal:connection_OpenLP_status) == \"good\" && $(internal:connection_chaudio_Audio_N-1_status) == \"OK\"",
+												"location_target": "text",
+												"location_text": "$(this:page)/2/$(this:column)",
+												"location_expression": "concat($(this:page), '/', $(this:row), '/', $(this:column))",
+												"step_from_expression": false,
+												"step": 1,
+												"step_expression": "1"
+											},
+											"delay": 0
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
 					"3": {
 						"type": "button",
 						"style": {
@@ -64072,6 +64164,175 @@
 												"location_text": "50/3/4"
 											},
 											"delay": 5000
+										}
+									],
+									"up": []
+								},
+								"options": {
+									"runWhileHeld": []
+								}
+							}
+						}
+					},
+					"2": {
+						"type": "button",
+						"style": {
+							"text": "Skript zum für ZOOM starten",
+							"textExpression": false,
+							"size": "auto",
+							"png64": null,
+							"alignment": "center:center",
+							"pngalignment": "center:center",
+							"color": 4737096,
+							"bgcolor": 0,
+							"show_topbar": "default",
+							"png": null
+						},
+						"options": {
+							"relativeDelay": true,
+							"rotaryActions": false,
+							"stepAutoProgress": true
+						},
+						"feedbacks": [],
+						"steps": {
+							"0": {
+								"action_sets": {
+									"down": [
+										{
+											"id": "jyGAlX7Vy493zjnUb8LIQ",
+											"action": "button_pressrelease",
+											"instance": "internal",
+											"options": {
+												"force": false,
+												"location_target": "text",
+												"location_text": "$(this:page)/1/3"
+											},
+											"delay": 0
+										},
+										{
+											"id": "wGXNoV0HTXyu2wWR9tE8g",
+											"action": "button_pressrelease",
+											"instance": "internal",
+											"options": {
+												"force": false,
+												"location_target": "text",
+												"location_text": "5/1/6"
+											},
+											"delay": 10000
+										},
+										{
+											"id": "ih2l9r77QqhUpFb4OZQrz",
+											"action": "button_pressrelease",
+											"instance": "internal",
+											"options": {
+												"location_target": "text",
+												"location_text": "5/3/0",
+												"location_expression": "concat($(this:page), '/', $(this:row), '/', $(this:column))",
+												"force": false
+											},
+											"delay": 2000
+										},
+										{
+											"id": "_liuHrUPM3NBdbh0p0f0f",
+											"action": "button_pressrelease",
+											"instance": "internal",
+											"options": {
+												"location_target": "text",
+												"location_text": "5/3/2",
+												"location_expression": "concat($(this:page), '/', $(this:row), '/', $(this:column))",
+												"force": false
+											},
+											"delay": 2000
+										},
+										{
+											"id": "XSi5j3vZy6BTW0QkhCOqd",
+											"action": "button_pressrelease",
+											"instance": "internal",
+											"options": {
+												"location_target": "text",
+												"location_text": "5/1/1",
+												"location_expression": "concat($(this:page), '/', $(this:row), '/', $(this:column))",
+												"force": false
+											},
+											"delay": 2000
+										},
+										{
+											"id": "itAp7HqRFkfE8k05h2SNO",
+											"action": "button_pressrelease",
+											"instance": "internal",
+											"options": {
+												"location_target": "text",
+												"location_text": "22/1/1",
+												"location_expression": "concat($(this:page), '/', $(this:row), '/', $(this:column))",
+												"force": true
+											},
+											"delay": 5000
+										},
+										{
+											"id": "BWiHJNmkgPcgQtjL6-wEs",
+											"action": "button_pressrelease",
+											"instance": "internal",
+											"options": {
+												"location_target": "text",
+												"location_text": "93/3/1",
+												"location_expression": "concat($(this:page), '/', $(this:row), '/', $(this:column))",
+												"force": false
+											},
+											"delay": 1000
+										},
+										{
+											"id": "d6gWn4nRWNmuWbkKXk781",
+											"action": "button_pressrelease",
+											"instance": "internal",
+											"options": {
+												"location_target": "text",
+												"location_text": "93/3/7",
+												"location_expression": "concat($(this:page), '/', $(this:row), '/', $(this:column))",
+												"force": false
+											},
+											"delay": 1000
+										},
+										{
+											"id": "YdPIQsbhcxXU0UNXJwCfQ",
+											"action": "button_pressrelease_condition",
+											"instance": "internal",
+											"options": {
+												"variable": "internal:connection_OpenLP_status",
+												"op": "eq",
+												"value": "good",
+												"location_target": "text",
+												"location_text": "5/3/4",
+												"location_expression": "concat($(this:page), '/', $(this:row), '/', $(this:column))",
+												"force": true
+											},
+											"delay": 1000
+										},
+										{
+											"id": "sTBkn-Gt2E7qsspjVBeq0",
+											"action": "button_pressrelease_condition",
+											"instance": "internal",
+											"options": {
+												"variable": "internal:connection_OpenLP_status",
+												"op": "eq",
+												"value": "good",
+												"location_target": "text",
+												"location_text": "93/2/0",
+												"location_expression": "concat($(this:page), '/', $(this:row), '/', $(this:column))",
+												"force": true
+											},
+											"delay": 1000
+										},
+										{
+											"id": "Ii8tbJQ85JCTUV1awWzJx",
+											"action": "button_pressrelease",
+											"instance": "internal",
+											"options": {
+												"location_target": "text",
+												"location_text": "5/3/1",
+												"location_expression": "concat($(this:page), '/', $(this:row), '/', $(this:column))",
+												"force": false
+											},
+											"delay": 1000
 										}
 									],
 									"up": []
