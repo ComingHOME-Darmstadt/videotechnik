@@ -9421,6 +9421,14 @@ pages:
                       execution_mode: concurrent
                     children:
                       default:
+                        - id: 38-awqUBYAK5gRWQpE8vV
+                          definitionId: exec
+                          connectionId: internal
+                          options:
+                            path: $(custom:scriptPath)START_Multiview_Monitor.bat
+                            timeout: 20000
+                          type: action
+                          children: {}
                         - type: action
                           id: b7otkCGRl40LVqKbv2gNG
                           definitionId: PLAY
@@ -12109,6 +12117,14 @@ pages:
             "0":
               action_sets:
                 down:
+                  - id: K3ld68nGXbFTAIe5ZAc5y
+                    definitionId: exec
+                    connectionId: internal
+                    options:
+                      path: $(custom:scriptPath)START_Controlview_Monitor.bat
+                      timeout: 20000
+                    type: action
+                    children: {}
                   - type: action
                     id: o_s9lCukG_Koblp3WufpQ
                     definitionId: PLAY
