@@ -9418,7 +9418,7 @@ pages:
                     definitionId: action_group
                     connectionId: internal
                     options:
-                      execution_mode: concurrent
+                      execution_mode: sequential
                     children:
                       default:
                         - id: 38-awqUBYAK5gRWQpE8vV
@@ -9899,7 +9899,7 @@ pages:
                     definitionId: action_group
                     connectionId: internal
                     options:
-                      execution_mode: concurrent
+                      execution_mode: sequential
                     children:
                       default:
                         - type: action
@@ -12117,408 +12117,416 @@ pages:
             "0":
               action_sets:
                 down:
-                  - id: K3ld68nGXbFTAIe5ZAc5y
-                    definitionId: exec
+                  - id: 4Jx3Ioa0lBYY7pBVVvdDi
+                    definitionId: action_group
                     connectionId: internal
                     options:
-                      path: $(custom:scriptPath)START_Controlview_Monitor.bat
-                      timeout: 20000
+                      execution_mode: sequential
                     type: action
-                    children: {}
-                  - type: action
-                    id: o_s9lCukG_Koblp3WufpQ
-                    definitionId: PLAY
-                    connectionId: 8BJfoiEPdZT6t5q75S4tA
-                    headline: 9-4 black
-                    options:
-                      channel: "9"
-                      layer: "4"
-                      clip_dd: GRAFIKEN/BLACK
-                      clip: ""
-                      loop: "false"
-                      auto: "false"
-                      transition: CUT
-                      transition_duration: ""
-                      transition_tween: linear
-                    upgradeIndex: -1
-                  - type: action
-                    id: 6Gy0fO1hwSE23XIso2DQ3
-                    definitionId: wait
-                    connectionId: internal
-                    options:
-                      time: 100
-                    children: {}
-                  - type: action
-                    id: Anx2Ry8cFIHYqZUKNMTV7
-                    definitionId: PLAY
-                    connectionId: 8BJfoiEPdZT6t5q75S4tA
-                    headline: 9-5 black
-                    options:
-                      channel: "9"
-                      layer: "5"
-                      clip_dd: GRAFIKEN/BLACK
-                      clip: ""
-                      loop: "false"
-                      auto: "false"
-                      transition: CUT
-                      transition_duration: ""
-                      transition_tween: linear
-                    upgradeIndex: -1
-                  - type: action
-                    id: tMy6ErZdH9dtLbThd5247
-                    definitionId: wait
-                    connectionId: internal
-                    options:
-                      time: 100
-                    children: {}
-                  - type: action
-                    id: QYP4a713MTlXcNQdpEt5R
-                    definitionId: PLAY
-                    connectionId: 8BJfoiEPdZT6t5q75S4tA
-                    headline: 9-20 black
-                    options:
-                      channel: "9"
-                      layer: "20"
-                      clip_dd: GRAFIKEN/BLACK
-                      clip: ""
-                      loop: "false"
-                      auto: "false"
-                      transition: CUT
-                      transition_duration: ""
-                      transition_tween: linear
-                    upgradeIndex: -1
-                  - type: action
-                    id: fgYRcdeFCvD0ULBdYsjQH
-                    definitionId: wait
-                    connectionId: internal
-                    options:
-                      time: 100
-                    children: {}
-                  - type: action
-                    id: nDp-vebT7R4m59ZgayZmu
-                    definitionId: PLAY
-                    connectionId: 8BJfoiEPdZT6t5q75S4tA
-                    headline: 9-21 black
-                    options:
-                      channel: "9"
-                      layer: "21"
-                      clip_dd: GRAFIKEN/BLACK
-                      clip: ""
-                      loop: "false"
-                      auto: "false"
-                      transition: CUT
-                      transition_duration: ""
-                      transition_tween: linear
-                    upgradeIndex: -1
-                  - type: action
-                    id: 92IqvV9RRWEG8H6RuNq-m
-                    definitionId: wait
-                    connectionId: internal
-                    options:
-                      time: 100
-                    children: {}
-                  - type: action
-                    id: xCvFgJfNv0G_Ambf3h8A4
-                    definitionId: COMMAND
-                    connectionId: 8BJfoiEPdZT6t5q75S4tA
-                    headline: 9 NDI Controlview
-                    options:
-                      cmd: ADD 9 NDI NAME "Controlview"
-                    upgradeIndex: -1
-                  - type: action
-                    id: Qrn9UcByNLEB5ggLCNXBh
-                    definitionId: wait
-                    connectionId: internal
-                    options:
-                      time: 100
-                    children: {}
-                  - type: action
-                    id: kTZ3-p--4JM3guVabEg7T
-                    definitionId: COMMAND
-                    connectionId: 8BJfoiEPdZT6t5q75S4tA
-                    headline: 9-4 volume 0
-                    options:
-                      cmd: MIXER 9-4 VOLUME 0 0 Linear
-                    upgradeIndex: -1
-                  - type: action
-                    id: P7U32WgcPE0L0HidtsN8n
-                    definitionId: wait
-                    connectionId: internal
-                    options:
-                      time: 100
-                    children: {}
-                  - type: action
-                    id: mBJpZCo_GyIclSsNJUx41
-                    definitionId: COMMAND
-                    connectionId: 8BJfoiEPdZT6t5q75S4tA
-                    headline: 9-5 volume 0
-                    options:
-                      cmd: MIXER 9-5 VOLUME 0 0 Linear
-                    upgradeIndex: -1
-                  - type: action
-                    id: sIHPhiS5WeIUeLm2x1fXh
-                    definitionId: wait
-                    connectionId: internal
-                    options:
-                      time: 100
-                    children: {}
-                  - type: action
-                    id: fCActI7whvGcBrCBeYhlJ
-                    definitionId: COMMAND
-                    connectionId: 8BJfoiEPdZT6t5q75S4tA
-                    headline: 9-20 volume 0
-                    options:
-                      cmd: MIXER 9-20 VOLUME 0 0 Linear
-                    upgradeIndex: -1
-                  - type: action
-                    id: bxwNDVbiQouiuhUFpOwZd
-                    definitionId: wait
-                    connectionId: internal
-                    options:
-                      time: 100
-                    children: {}
-                  - type: action
-                    id: PdYFIlYPw-e7JU6NKoqV8
-                    definitionId: COMMAND
-                    connectionId: 8BJfoiEPdZT6t5q75S4tA
-                    headline: 9-21 volume 0
-                    options:
-                      cmd: MIXER 9-21 VOLUME 0 0 Linear
-                    upgradeIndex: -1
-                  - type: action
-                    id: 74Wfc770aNwNwtNQBNCCE
-                    definitionId: wait
-                    connectionId: internal
-                    options:
-                      time: 100
-                    children: {}
-                  - type: action
-                    id: 7hDHIM2ZeQlBgRoVFdVld
-                    definitionId: COMMAND
-                    connectionId: 8BJfoiEPdZT6t5q75S4tA
-                    headline: 9-4 Beamer (4)
-                    options:
-                      cmd: PLAY 9-4 route://4
-                    upgradeIndex: -1
-                  - type: action
-                    id: EBVFI4AicryXrnW-UUwuH
-                    definitionId: wait
-                    connectionId: internal
-                    options:
-                      time: 100
-                    children: {}
-                  - type: action
-                    id: 7mh8DS0KnQ5CMzOjB_ZHl
-                    definitionId: COMMAND
-                    connectionId: 8BJfoiEPdZT6t5q75S4tA
-                    headline: 9-5 Stage (5)
-                    options:
-                      cmd: PLAY 9-5 route://5
-                    upgradeIndex: -1
-                  - type: action
-                    id: X_UTCdmM8giA1Ca2PbHQR
-                    definitionId: wait
-                    connectionId: internal
-                    options:
-                      time: 100
-                    children: {}
-                  - type: action
-                    id: cVi4tXWCVNHO5VvynXRyX
-                    definitionId: COMMAND
-                    connectionId: 8BJfoiEPdZT6t5q75S4tA
-                    headline: 9-20 Presentation Monitor 1 (20)
-                    options:
-                      cmd: PLAY 9-20 route://20
-                    upgradeIndex: -1
-                  - type: action
-                    id: PETIRrD7a5DvGpB8LUUPg
-                    definitionId: wait
-                    connectionId: internal
-                    options:
-                      time: 100
-                    children: {}
-                  - type: action
-                    id: 6vh2xiL715digxoV1QFls
-                    definitionId: COMMAND
-                    connectionId: 8BJfoiEPdZT6t5q75S4tA
-                    headline: 9-21 Audio Monitor 1
-                    options:
-                      cmd: PLAY 9-21 "ndi://CHAUDIO/Intel UHD Graphics 630 1"
-                    upgradeIndex: -1
-                  - type: action
-                    id: ScJWT__8akQ_wraqSaroS
-                    definitionId: wait
-                    connectionId: internal
-                    options:
-                      time: 100
-                    children: {}
-                  - type: action
-                    id: K-RCT6Bl8KmZFosJ5Sz-5
-                    definitionId: COMMAND
-                    connectionId: 8BJfoiEPdZT6t5q75S4tA
-                    headline: 9-4 links oben
-                    options:
-                      cmd: MIXER 9-4 FILL 0 0 0.495 0.495 0 Linear
-                    upgradeIndex: -1
-                  - type: action
-                    id: EP6O4sCmOiPBqBVn3PKWr
-                    definitionId: wait
-                    connectionId: internal
-                    options:
-                      time: 100
-                    children: {}
-                  - type: action
-                    id: HaRnIDCc1XSpZapwHvSmb
-                    definitionId: COMMAND
-                    connectionId: 8BJfoiEPdZT6t5q75S4tA
-                    headline: 9-5 rechts oben
-                    options:
-                      cmd: MIXER 9-5 FILL 0.505 0 0.495 0.495 0 Linear
-                    upgradeIndex: -1
-                  - type: action
-                    id: jPm2wgfmY9iMbtn-JrzLT
-                    definitionId: wait
-                    connectionId: internal
-                    options:
-                      time: 100
-                    children: {}
-                  - type: action
-                    id: fmJMur6suX4ObR3HLrcPu
-                    definitionId: COMMAND
-                    connectionId: 8BJfoiEPdZT6t5q75S4tA
-                    headline: 9-20 links unten
-                    options:
-                      cmd: MIXER 9-20 FILL 0 0.505 0.495 0.495 0 Linear
-                    upgradeIndex: -1
-                  - type: action
-                    id: wLhcMklb5WXGR1Q_4ybgs
-                    definitionId: wait
-                    connectionId: internal
-                    options:
-                      time: 100
-                    children: {}
-                  - type: action
-                    id: RfFoQ4S8EjgGqtOR7RsBv
-                    definitionId: COMMAND
-                    connectionId: 8BJfoiEPdZT6t5q75S4tA
-                    headline: 9-21 rechts unten
-                    options:
-                      cmd: MIXER 9-21 FILL 0.505 0.505 0.495 0.495 0 Linear
-                    upgradeIndex: -1
-                  - type: action
-                    id: eDrFtgIqUyV18MUAWSOYM
-                    definitionId: wait
-                    connectionId: internal
-                    options:
-                      time: 100
-                    children: {}
-                  - type: action
-                    id: MsqO8G9HhBYh-Y26DjHIF
-                    definitionId: CG ADD
-                    connectionId: 8BJfoiEPdZT6t5q75S4tA
-                    headline: 9-99 Template Controlview
-                    options:
-                      channel: "9"
-                      layer: "99"
-                      template_dd: CONTROLVIEW
-                      template: ""
-                      playonload: "true"
-                      templatelayer: "0"
-                      json: false
-                      variables: ""
-                    upgradeIndex: -1
-                  - type: action
-                    id: GmioSey5sh3CNo4BEd99M
-                    definitionId: wait
-                    connectionId: internal
-                    options:
-                      time: 100
-                    children: {}
-                  - type: action
-                    id: Cehq1UlVU8-L31zGB6Ivf
-                    definitionId: COMMAND
-                    connectionId: 8BJfoiEPdZT6t5q75S4tA
-                    headline: "Label links oben: Beamer"
-                    options:
-                      cmd: cg 9-99 invoke 0 "setInput1Label('Beamer')"
-                    upgradeIndex: -1
-                  - type: action
-                    id: cRpvMSJxB6PCxMIlJvNEG
-                    definitionId: wait
-                    connectionId: internal
-                    options:
-                      time: 100
-                    children: {}
-                  - type: action
-                    id: 1UnNUF-n6xC1-A-208CDQ
-                    definitionId: COMMAND
-                    connectionId: 8BJfoiEPdZT6t5q75S4tA
-                    headline: "Label rechts oben: Stage"
-                    options:
-                      cmd: cg 9-99 invoke 0 "setInput2Label('Stage')"
-                    upgradeIndex: -1
-                  - type: action
-                    id: qrbNdPj_3DX-rzUksVUuK
-                    definitionId: wait
-                    connectionId: internal
-                    options:
-                      time: 100
-                    children: {}
-                  - type: action
-                    id: 5CgVV-1tqSgLix00JcTOL
-                    definitionId: COMMAND
-                    connectionId: 8BJfoiEPdZT6t5q75S4tA
-                    headline: "Label links unten: Presenter Monitor 1"
-                    options:
-                      cmd: cg 9-99 invoke 0 "setInput3Label('Presenter Monitor 1')"
-                    upgradeIndex: -1
-                  - type: action
-                    id: BWsqwSJFICBKj6ehWD3jj
-                    definitionId: wait
-                    connectionId: internal
-                    options:
-                      time: 100
-                    children: {}
-                  - type: action
-                    id: cjUQYR_Y2tt6zLBtlob5s
-                    definitionId: COMMAND
-                    connectionId: 8BJfoiEPdZT6t5q75S4tA
-                    headline: "Label rechts unten: Audio Monitor 1"
-                    options:
-                      cmd: cg 9-99 invoke 0 "setInput4Label('Audio Monitor 1')"
-                    upgradeIndex: -1
-                  - type: action
-                    id: RHJ2za_qOvD6QzVsBDa_e
-                    definitionId: wait
-                    connectionId: internal
-                    options:
-                      time: 100
-                    children: {}
-                  - type: action
-                    id: 2kaAUppUEfqEICQ5PIoHT
-                    definitionId: source
-                    connectionId: ovH-7L1LQkqeeIDgEnI-A
-                    options:
-                      source: COMINGHOME-VIDEO (Controlview)
-                    upgradeIndex: -1
-                  - type: action
-                    id: EQ0wk5ePz1ABMWjhv9rAC
-                    definitionId: customJSON
-                    connectionId: ovH-7L1LQkqeeIDgEnI-A
-                    options:
-                      customJSON: '{"version":1,"window":{"display_device":"Monitor
-                        1","showcmd":1,"min_posn_x":-1,"min_posn_y":-1,"max_posn_x":-1,"max_posn_y":-1,"normal_posn_left":1353,"normal_posn_right":2485,"normal_posn_top":32,"normal_posn_bottom":882},"decorations":{"lowest_latency":true}}'
-                    upgradeIndex: -1
-                  - type: action
-                    id: bpuJmr7hoV45xoECE9x5t
-                    definitionId: customJSON
-                    connectionId: ovH-7L1LQkqeeIDgEnI-A
-                    options:
-                      customJSON: '{"version":1,"NDI_overlay":"","PTZ_controller":"","audio_output":"Digital
-                        Audio (S/PDIF) (High Definition Audio
-                        Device)","window":{"display_device":"Monitor
-                        1","always_on_top":false,"hide_border":false,"showcmd":3,"min_posn_x":-1,"min_posn_y":-1,"max_posn_x":-1,"max_posn_y":-1,"normal_posn_left":1353,"normal_posn_right":2485,"normal_posn_top":32,"normal_posn_bottom":882},"decorations":{"vu_meter":true,"vu_meter_scale":false,"center_cross":false,"safe_areas":false,"show_4_3":false,"best_fit":true,"square_aspect":false,"hide_ptz_controls":false,"do_not_hide_controls":false,"show_alpha":false,"menu_posn_x":56.0,"menu_posn_y":8.0,"flip_horizontal":false,"flip_vertical":false,"lowest_latency":true,"enable_ndi_output":false,"connection_quality":false}}'
-                    upgradeIndex: -1
+                    children:
+                      default:
+                        - id: K3ld68nGXbFTAIe5ZAc5y
+                          definitionId: exec
+                          connectionId: internal
+                          options:
+                            path: $(custom:scriptPath)START_Controlview_Monitor.bat
+                            timeout: 20000
+                          type: action
+                          children: {}
+                        - type: action
+                          id: o_s9lCukG_Koblp3WufpQ
+                          definitionId: PLAY
+                          connectionId: 8BJfoiEPdZT6t5q75S4tA
+                          headline: 9-4 black
+                          options:
+                            channel: "9"
+                            layer: "4"
+                            clip_dd: GRAFIKEN/BLACK
+                            clip: ""
+                            loop: "false"
+                            auto: "false"
+                            transition: CUT
+                            transition_duration: ""
+                            transition_tween: linear
+                          upgradeIndex: -1
+                        - type: action
+                          id: 6Gy0fO1hwSE23XIso2DQ3
+                          definitionId: wait
+                          connectionId: internal
+                          options:
+                            time: 100
+                          children: {}
+                        - type: action
+                          id: Anx2Ry8cFIHYqZUKNMTV7
+                          definitionId: PLAY
+                          connectionId: 8BJfoiEPdZT6t5q75S4tA
+                          headline: 9-5 black
+                          options:
+                            channel: "9"
+                            layer: "5"
+                            clip_dd: GRAFIKEN/BLACK
+                            clip: ""
+                            loop: "false"
+                            auto: "false"
+                            transition: CUT
+                            transition_duration: ""
+                            transition_tween: linear
+                          upgradeIndex: -1
+                        - type: action
+                          id: tMy6ErZdH9dtLbThd5247
+                          definitionId: wait
+                          connectionId: internal
+                          options:
+                            time: 100
+                          children: {}
+                        - type: action
+                          id: QYP4a713MTlXcNQdpEt5R
+                          definitionId: PLAY
+                          connectionId: 8BJfoiEPdZT6t5q75S4tA
+                          headline: 9-20 black
+                          options:
+                            channel: "9"
+                            layer: "20"
+                            clip_dd: GRAFIKEN/BLACK
+                            clip: ""
+                            loop: "false"
+                            auto: "false"
+                            transition: CUT
+                            transition_duration: ""
+                            transition_tween: linear
+                          upgradeIndex: -1
+                        - type: action
+                          id: fgYRcdeFCvD0ULBdYsjQH
+                          definitionId: wait
+                          connectionId: internal
+                          options:
+                            time: 100
+                          children: {}
+                        - type: action
+                          id: nDp-vebT7R4m59ZgayZmu
+                          definitionId: PLAY
+                          connectionId: 8BJfoiEPdZT6t5q75S4tA
+                          headline: 9-21 black
+                          options:
+                            channel: "9"
+                            layer: "21"
+                            clip_dd: GRAFIKEN/BLACK
+                            clip: ""
+                            loop: "false"
+                            auto: "false"
+                            transition: CUT
+                            transition_duration: ""
+                            transition_tween: linear
+                          upgradeIndex: -1
+                        - type: action
+                          id: 92IqvV9RRWEG8H6RuNq-m
+                          definitionId: wait
+                          connectionId: internal
+                          options:
+                            time: 100
+                          children: {}
+                        - type: action
+                          id: xCvFgJfNv0G_Ambf3h8A4
+                          definitionId: COMMAND
+                          connectionId: 8BJfoiEPdZT6t5q75S4tA
+                          headline: 9 NDI Controlview
+                          options:
+                            cmd: ADD 9 NDI NAME "Controlview"
+                          upgradeIndex: -1
+                        - type: action
+                          id: Qrn9UcByNLEB5ggLCNXBh
+                          definitionId: wait
+                          connectionId: internal
+                          options:
+                            time: 100
+                          children: {}
+                        - type: action
+                          id: kTZ3-p--4JM3guVabEg7T
+                          definitionId: COMMAND
+                          connectionId: 8BJfoiEPdZT6t5q75S4tA
+                          headline: 9-4 volume 0
+                          options:
+                            cmd: MIXER 9-4 VOLUME 0 0 Linear
+                          upgradeIndex: -1
+                        - type: action
+                          id: P7U32WgcPE0L0HidtsN8n
+                          definitionId: wait
+                          connectionId: internal
+                          options:
+                            time: 100
+                          children: {}
+                        - type: action
+                          id: mBJpZCo_GyIclSsNJUx41
+                          definitionId: COMMAND
+                          connectionId: 8BJfoiEPdZT6t5q75S4tA
+                          headline: 9-5 volume 0
+                          options:
+                            cmd: MIXER 9-5 VOLUME 0 0 Linear
+                          upgradeIndex: -1
+                        - type: action
+                          id: sIHPhiS5WeIUeLm2x1fXh
+                          definitionId: wait
+                          connectionId: internal
+                          options:
+                            time: 100
+                          children: {}
+                        - type: action
+                          id: fCActI7whvGcBrCBeYhlJ
+                          definitionId: COMMAND
+                          connectionId: 8BJfoiEPdZT6t5q75S4tA
+                          headline: 9-20 volume 0
+                          options:
+                            cmd: MIXER 9-20 VOLUME 0 0 Linear
+                          upgradeIndex: -1
+                        - type: action
+                          id: bxwNDVbiQouiuhUFpOwZd
+                          definitionId: wait
+                          connectionId: internal
+                          options:
+                            time: 100
+                          children: {}
+                        - type: action
+                          id: PdYFIlYPw-e7JU6NKoqV8
+                          definitionId: COMMAND
+                          connectionId: 8BJfoiEPdZT6t5q75S4tA
+                          headline: 9-21 volume 0
+                          options:
+                            cmd: MIXER 9-21 VOLUME 0 0 Linear
+                          upgradeIndex: -1
+                        - type: action
+                          id: 74Wfc770aNwNwtNQBNCCE
+                          definitionId: wait
+                          connectionId: internal
+                          options:
+                            time: 100
+                          children: {}
+                        - type: action
+                          id: 7hDHIM2ZeQlBgRoVFdVld
+                          definitionId: COMMAND
+                          connectionId: 8BJfoiEPdZT6t5q75S4tA
+                          headline: 9-4 Beamer (4)
+                          options:
+                            cmd: PLAY 9-4 route://4
+                          upgradeIndex: -1
+                        - type: action
+                          id: EBVFI4AicryXrnW-UUwuH
+                          definitionId: wait
+                          connectionId: internal
+                          options:
+                            time: 100
+                          children: {}
+                        - type: action
+                          id: 7mh8DS0KnQ5CMzOjB_ZHl
+                          definitionId: COMMAND
+                          connectionId: 8BJfoiEPdZT6t5q75S4tA
+                          headline: 9-5 Stage (5)
+                          options:
+                            cmd: PLAY 9-5 route://5
+                          upgradeIndex: -1
+                        - type: action
+                          id: X_UTCdmM8giA1Ca2PbHQR
+                          definitionId: wait
+                          connectionId: internal
+                          options:
+                            time: 100
+                          children: {}
+                        - type: action
+                          id: cVi4tXWCVNHO5VvynXRyX
+                          definitionId: COMMAND
+                          connectionId: 8BJfoiEPdZT6t5q75S4tA
+                          headline: 9-20 Presentation Monitor 1 (20)
+                          options:
+                            cmd: PLAY 9-20 route://20
+                          upgradeIndex: -1
+                        - type: action
+                          id: PETIRrD7a5DvGpB8LUUPg
+                          definitionId: wait
+                          connectionId: internal
+                          options:
+                            time: 100
+                          children: {}
+                        - type: action
+                          id: 6vh2xiL715digxoV1QFls
+                          definitionId: COMMAND
+                          connectionId: 8BJfoiEPdZT6t5q75S4tA
+                          headline: 9-21 Audio Monitor 1
+                          options:
+                            cmd: PLAY 9-21 "ndi://CHAUDIO/Intel UHD Graphics 630 1"
+                          upgradeIndex: -1
+                        - type: action
+                          id: ScJWT__8akQ_wraqSaroS
+                          definitionId: wait
+                          connectionId: internal
+                          options:
+                            time: 100
+                          children: {}
+                        - type: action
+                          id: K-RCT6Bl8KmZFosJ5Sz-5
+                          definitionId: COMMAND
+                          connectionId: 8BJfoiEPdZT6t5q75S4tA
+                          headline: 9-4 links oben
+                          options:
+                            cmd: MIXER 9-4 FILL 0 0 0.495 0.495 0 Linear
+                          upgradeIndex: -1
+                        - type: action
+                          id: EP6O4sCmOiPBqBVn3PKWr
+                          definitionId: wait
+                          connectionId: internal
+                          options:
+                            time: 100
+                          children: {}
+                        - type: action
+                          id: HaRnIDCc1XSpZapwHvSmb
+                          definitionId: COMMAND
+                          connectionId: 8BJfoiEPdZT6t5q75S4tA
+                          headline: 9-5 rechts oben
+                          options:
+                            cmd: MIXER 9-5 FILL 0.505 0 0.495 0.495 0 Linear
+                          upgradeIndex: -1
+                        - type: action
+                          id: jPm2wgfmY9iMbtn-JrzLT
+                          definitionId: wait
+                          connectionId: internal
+                          options:
+                            time: 100
+                          children: {}
+                        - type: action
+                          id: fmJMur6suX4ObR3HLrcPu
+                          definitionId: COMMAND
+                          connectionId: 8BJfoiEPdZT6t5q75S4tA
+                          headline: 9-20 links unten
+                          options:
+                            cmd: MIXER 9-20 FILL 0 0.505 0.495 0.495 0 Linear
+                          upgradeIndex: -1
+                        - type: action
+                          id: wLhcMklb5WXGR1Q_4ybgs
+                          definitionId: wait
+                          connectionId: internal
+                          options:
+                            time: 100
+                          children: {}
+                        - type: action
+                          id: RfFoQ4S8EjgGqtOR7RsBv
+                          definitionId: COMMAND
+                          connectionId: 8BJfoiEPdZT6t5q75S4tA
+                          headline: 9-21 rechts unten
+                          options:
+                            cmd: MIXER 9-21 FILL 0.505 0.505 0.495 0.495 0 Linear
+                          upgradeIndex: -1
+                        - type: action
+                          id: eDrFtgIqUyV18MUAWSOYM
+                          definitionId: wait
+                          connectionId: internal
+                          options:
+                            time: 100
+                          children: {}
+                        - type: action
+                          id: MsqO8G9HhBYh-Y26DjHIF
+                          definitionId: CG ADD
+                          connectionId: 8BJfoiEPdZT6t5q75S4tA
+                          headline: 9-99 Template Controlview
+                          options:
+                            channel: "9"
+                            layer: "99"
+                            template_dd: CONTROLVIEW
+                            template: ""
+                            playonload: "true"
+                            templatelayer: "0"
+                            json: false
+                            variables: ""
+                          upgradeIndex: -1
+                        - type: action
+                          id: GmioSey5sh3CNo4BEd99M
+                          definitionId: wait
+                          connectionId: internal
+                          options:
+                            time: 100
+                          children: {}
+                        - type: action
+                          id: Cehq1UlVU8-L31zGB6Ivf
+                          definitionId: COMMAND
+                          connectionId: 8BJfoiEPdZT6t5q75S4tA
+                          headline: "Label links oben: Beamer"
+                          options:
+                            cmd: cg 9-99 invoke 0 "setInput1Label('Beamer')"
+                          upgradeIndex: -1
+                        - type: action
+                          id: cRpvMSJxB6PCxMIlJvNEG
+                          definitionId: wait
+                          connectionId: internal
+                          options:
+                            time: 100
+                          children: {}
+                        - type: action
+                          id: 1UnNUF-n6xC1-A-208CDQ
+                          definitionId: COMMAND
+                          connectionId: 8BJfoiEPdZT6t5q75S4tA
+                          headline: "Label rechts oben: Stage"
+                          options:
+                            cmd: cg 9-99 invoke 0 "setInput2Label('Stage')"
+                          upgradeIndex: -1
+                        - type: action
+                          id: qrbNdPj_3DX-rzUksVUuK
+                          definitionId: wait
+                          connectionId: internal
+                          options:
+                            time: 100
+                          children: {}
+                        - type: action
+                          id: 5CgVV-1tqSgLix00JcTOL
+                          definitionId: COMMAND
+                          connectionId: 8BJfoiEPdZT6t5q75S4tA
+                          headline: "Label links unten: Presenter Monitor 1"
+                          options:
+                            cmd: cg 9-99 invoke 0 "setInput3Label('Presenter Monitor 1')"
+                          upgradeIndex: -1
+                        - type: action
+                          id: BWsqwSJFICBKj6ehWD3jj
+                          definitionId: wait
+                          connectionId: internal
+                          options:
+                            time: 100
+                          children: {}
+                        - type: action
+                          id: cjUQYR_Y2tt6zLBtlob5s
+                          definitionId: COMMAND
+                          connectionId: 8BJfoiEPdZT6t5q75S4tA
+                          headline: "Label rechts unten: Audio Monitor 1"
+                          options:
+                            cmd: cg 9-99 invoke 0 "setInput4Label('Audio Monitor 1')"
+                          upgradeIndex: -1
+                        - type: action
+                          id: RHJ2za_qOvD6QzVsBDa_e
+                          definitionId: wait
+                          connectionId: internal
+                          options:
+                            time: 100
+                          children: {}
+                        - type: action
+                          id: 2kaAUppUEfqEICQ5PIoHT
+                          definitionId: source
+                          connectionId: ovH-7L1LQkqeeIDgEnI-A
+                          options:
+                            source: COMINGHOME-VIDEO (Controlview)
+                          upgradeIndex: -1
+                        - type: action
+                          id: EQ0wk5ePz1ABMWjhv9rAC
+                          definitionId: customJSON
+                          connectionId: ovH-7L1LQkqeeIDgEnI-A
+                          options:
+                            customJSON: '{"version":1,"window":{"display_device":"Monitor
+                              1","showcmd":1,"min_posn_x":-1,"min_posn_y":-1,"max_posn_x":-1,"max_posn_y":-1,"normal_posn_left":1353,"normal_posn_right":2485,"normal_posn_top":32,"normal_posn_bottom":882},"decorations":{"lowest_latency":true}}'
+                          upgradeIndex: -1
+                        - type: action
+                          id: bpuJmr7hoV45xoECE9x5t
+                          definitionId: customJSON
+                          connectionId: ovH-7L1LQkqeeIDgEnI-A
+                          options:
+                            customJSON: '{"version":1,"NDI_overlay":"","PTZ_controller":"","audio_output":"Digital
+                              Audio (S/PDIF) (High Definition Audio
+                              Device)","window":{"display_device":"Monitor
+                              1","always_on_top":false,"hide_border":false,"showcmd":3,"min_posn_x":-1,"min_posn_y":-1,"max_posn_x":-1,"max_posn_y":-1,"normal_posn_left":1353,"normal_posn_right":2485,"normal_posn_top":32,"normal_posn_bottom":882},"decorations":{"vu_meter":true,"vu_meter_scale":false,"center_cross":false,"safe_areas":false,"show_4_3":false,"best_fit":true,"square_aspect":false,"hide_ptz_controls":false,"do_not_hide_controls":false,"show_alpha":false,"menu_posn_x":56.0,"menu_posn_y":8.0,"flip_horizontal":false,"flip_vertical":false,"lowest_latency":true,"enable_ndi_output":false,"connection_quality":false}}'
+                          upgradeIndex: -1
                 up: []
               options:
                 runWhileHeld: []
