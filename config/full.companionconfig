@@ -55086,20 +55086,18 @@ pages:
                           options:
                             expression: $(internal:connection_OpenLP_status) == "good" &&
                               $(internal:connection_chaudio_Audio_N-1_status) ==
-                              "OK"
+                              "good"
                           children: {}
                       actions:
-                        - type: action
-                          id: 6miUSveIGuev62epvist2
-                          definitionId: bank_current_step
+                        - id: 6miUSveIGuev62epvist2
+                          definitionId: button_pressrelease
                           connectionId: internal
                           options:
                             location_target: text
                             location_text: $(this:page)/2/$(this:column)
                             location_expression: concat($(this:page), '/', $(this:row), '/', $(this:column))
-                            step_from_expression: false
-                            step: 1
-                            step_expression: "1"
+                            force: false
+                          type: action
                           children: {}
                       else_actions: []
                 up: []
