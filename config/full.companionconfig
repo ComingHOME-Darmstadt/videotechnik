@@ -152,7 +152,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -359,7 +359,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -566,7 +566,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -773,7 +773,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -980,7 +980,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -1398,7 +1398,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -1605,7 +1605,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -1812,7 +1812,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -2019,7 +2019,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -2226,7 +2226,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -2433,7 +2433,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -2641,7 +2641,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -2848,7 +2848,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -3055,7 +3055,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -3262,7 +3262,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -3469,7 +3469,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -3676,7 +3676,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -3884,7 +3884,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -4091,7 +4091,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -4298,7 +4298,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -4723,7 +4723,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -5032,7 +5032,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -5293,7 +5293,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -5554,7 +5554,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -5863,7 +5863,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -6172,7 +6172,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -6481,7 +6481,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -6790,7 +6790,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -7100,7 +7100,7 @@ pages:
                   value: 50.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -7363,7 +7363,7 @@ pages:
                   value: 50.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -7626,7 +7626,7 @@ pages:
                   value: 50.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -7889,7 +7889,7 @@ pages:
                   value: 50.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -8152,7 +8152,7 @@ pages:
                   value: 50.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -8630,7 +8630,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -9153,7 +9153,7 @@ pages:
                   value: 50.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -9404,7 +9404,7 @@ pages:
                   value: 50.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -9655,7 +9655,7 @@ pages:
                   value: 50.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -10383,7 +10383,7 @@ pages:
                   value: 50.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -10626,7 +10626,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -10973,7 +10973,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -11320,7 +11320,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -11667,7 +11667,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -12014,7 +12014,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -12233,7 +12233,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -12452,7 +12452,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -12671,7 +12671,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -12948,7 +12948,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -13257,7 +13257,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -13518,7 +13518,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -13779,7 +13779,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -14088,7 +14088,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -14397,7 +14397,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -14706,7 +14706,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -15015,7 +15015,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -15325,7 +15325,7 @@ pages:
                   value: 50.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -15548,7 +15548,7 @@ pages:
                   value: 50.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -15771,7 +15771,7 @@ pages:
                   value: 50.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -15994,7 +15994,7 @@ pages:
                   value: 50.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -16217,7 +16217,7 @@ pages:
                   value: 50.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -16440,7 +16440,7 @@ pages:
                   value: 50.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -16663,7 +16663,7 @@ pages:
                   value: 63
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -16919,7 +16919,7 @@ pages:
                   value: 50.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -17142,7 +17142,7 @@ pages:
                   value: 50.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -17365,7 +17365,7 @@ pages:
                   value: 50.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -17594,7 +17594,7 @@ pages:
                   value: 50.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -17817,7 +17817,7 @@ pages:
                   value: 50.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -18040,7 +18040,7 @@ pages:
                   value: 50.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -18581,7 +18581,7 @@ pages:
                   value: 63
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -19845,7 +19845,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -20090,7 +20090,7 @@ pages:
                   value: 63
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -20335,7 +20335,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -20644,7 +20644,7 @@ pages:
                   value: 50.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -20945,7 +20945,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -21254,7 +21254,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -21515,7 +21515,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -21776,7 +21776,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -22085,7 +22085,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -22394,7 +22394,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -22703,7 +22703,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -23012,7 +23012,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -23322,7 +23322,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -23559,7 +23559,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -23880,7 +23880,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -24201,7 +24201,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -24522,7 +24522,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -24775,7 +24775,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -25049,7 +25049,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -25285,7 +25285,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -25522,7 +25522,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -25843,7 +25843,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -26164,7 +26164,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -26485,7 +26485,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -26759,7 +26759,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -27023,7 +27023,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -27260,7 +27260,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -27523,7 +27523,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -27786,7 +27786,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -28049,7 +28049,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -28312,7 +28312,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -28557,7 +28557,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -28831,7 +28831,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -29097,7 +29097,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -29406,7 +29406,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -29667,7 +29667,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -29928,7 +29928,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -30237,7 +30237,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -30546,7 +30546,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -30855,7 +30855,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -31164,7 +31164,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -31474,7 +31474,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -31832,7 +31832,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -32190,7 +32190,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -32434,7 +32434,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -32678,7 +32678,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -33120,7 +33120,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -33727,7 +33727,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -33971,7 +33971,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -34293,7 +34293,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -34576,7 +34576,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -34868,7 +34868,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -35113,7 +35113,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -35633,7 +35633,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -36970,7 +36970,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -37918,7 +37918,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -38986,7 +38986,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -39900,7 +39900,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -40144,7 +40144,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -41020,7 +41020,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -41213,7 +41213,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -41522,7 +41522,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -41783,7 +41783,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -42044,7 +42044,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -42353,7 +42353,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -42662,7 +42662,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -42971,7 +42971,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -43280,7 +43280,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -43590,7 +43590,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -43788,7 +43788,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -43974,7 +43974,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -44149,7 +44149,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -44424,7 +44424,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -45106,7 +45106,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -45766,7 +45766,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -45941,7 +45941,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -46127,7 +46127,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -46674,7 +46674,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -46867,7 +46867,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -47176,7 +47176,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -47437,7 +47437,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -47698,7 +47698,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -48007,7 +48007,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -48316,7 +48316,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -48625,7 +48625,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -48934,7 +48934,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -49244,7 +49244,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -49442,7 +49442,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -49640,7 +49640,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -49838,7 +49838,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -50036,7 +50036,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -50235,7 +50235,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -50433,7 +50433,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -50631,7 +50631,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -50829,7 +50829,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -51027,7 +51027,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -51232,7 +51232,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -51433,7 +51433,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -51634,7 +51634,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -51871,7 +51871,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -52109,7 +52109,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -52392,7 +52392,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -52675,7 +52675,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -53009,7 +53009,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -53246,7 +53246,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -53483,7 +53483,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -53758,7 +53758,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -54067,7 +54067,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -54328,7 +54328,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -54589,7 +54589,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -54898,7 +54898,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -55207,7 +55207,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -55516,7 +55516,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -55825,7 +55825,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -57295,7 +57295,7 @@ pages:
                   value: 50.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -57527,7 +57527,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -57780,7 +57780,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -58034,7 +58034,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -58287,7 +58287,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -59494,7 +59494,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -59717,7 +59717,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -61101,7 +61101,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -61333,7 +61333,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -61556,7 +61556,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -61786,7 +61786,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -62095,7 +62095,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -62404,7 +62404,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -62713,7 +62713,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -63022,7 +63022,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -63331,7 +63331,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -63640,7 +63640,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -63949,7 +63949,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -64259,7 +64259,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -64538,7 +64538,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -64787,7 +64787,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -65070,7 +65070,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -65292,7 +65292,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -65502,7 +65502,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -65694,7 +65694,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -65880,7 +65880,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -66064,7 +66064,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -66315,7 +66315,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -66537,7 +66537,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -66760,7 +66760,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -66982,7 +66982,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -67192,7 +67192,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -67384,7 +67384,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -67570,7 +67570,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -67754,7 +67754,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -68001,7 +68001,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -68250,7 +68250,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -68529,7 +68529,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -68751,7 +68751,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -68937,7 +68937,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -69120,7 +69120,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -69310,7 +69310,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -72295,7 +72295,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -72922,7 +72922,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -73130,7 +73130,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -73338,7 +73338,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -73546,7 +73546,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -73754,7 +73754,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -73938,7 +73938,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -74149,7 +74149,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -74357,7 +74357,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -74565,7 +74565,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -74773,7 +74773,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -74981,7 +74981,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -75189,7 +75189,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -75397,7 +75397,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -75587,7 +75587,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -78397,7 +78397,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -78949,7 +78949,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -79132,7 +79132,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -79315,7 +79315,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -79498,7 +79498,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -79681,7 +79681,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -79865,7 +79865,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -80051,7 +80051,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -80234,7 +80234,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -80417,7 +80417,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -80600,7 +80600,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -80783,7 +80783,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -80966,7 +80966,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -81149,7 +81149,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -81444,7 +81444,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -81753,7 +81753,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -82062,7 +82062,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -82371,7 +82371,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -82680,7 +82680,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -82989,7 +82989,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -83298,7 +83298,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -83607,7 +83607,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -83917,7 +83917,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -84196,7 +84196,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -84445,7 +84445,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -84728,7 +84728,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -84950,7 +84950,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -85160,7 +85160,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -85352,7 +85352,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -85538,7 +85538,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -85722,7 +85722,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -85973,7 +85973,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -86195,7 +86195,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -86418,7 +86418,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -86640,7 +86640,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -86850,7 +86850,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -87042,7 +87042,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -87228,7 +87228,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -87412,7 +87412,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -87659,7 +87659,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -87908,7 +87908,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -88187,7 +88187,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -88409,7 +88409,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -88595,7 +88595,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -88778,7 +88778,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -88968,7 +88968,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -91995,7 +91995,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -92640,7 +92640,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -92854,7 +92854,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -93068,7 +93068,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -93282,7 +93282,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -93496,7 +93496,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -93680,7 +93680,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -93897,7 +93897,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -94111,7 +94111,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -94325,7 +94325,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -94539,7 +94539,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -94753,7 +94753,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -94967,7 +94967,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -95181,7 +95181,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -95371,7 +95371,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -98181,7 +98181,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -98733,7 +98733,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -98916,7 +98916,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -99099,7 +99099,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -99282,7 +99282,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -99465,7 +99465,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -99649,7 +99649,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -99835,7 +99835,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -100018,7 +100018,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -100201,7 +100201,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -100384,7 +100384,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -100567,7 +100567,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -100750,7 +100750,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -100933,7 +100933,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -101228,7 +101228,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -101537,7 +101537,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -101846,7 +101846,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -102155,7 +102155,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -102464,7 +102464,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -102773,7 +102773,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -103082,7 +103082,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -103391,7 +103391,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -103701,7 +103701,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -103934,7 +103934,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -104153,7 +104153,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -104406,7 +104406,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -104598,7 +104598,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -104790,7 +104790,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -104982,7 +104982,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -105165,7 +105165,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -105349,7 +105349,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -105554,7 +105554,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -105746,7 +105746,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -105954,7 +105954,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -106146,7 +106146,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -106338,7 +106338,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -106530,7 +106530,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -106713,7 +106713,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -106897,7 +106897,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -107144,7 +107144,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -107363,7 +107363,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -107612,7 +107612,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -107804,7 +107804,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -107990,7 +107990,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -108188,7 +108188,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -108386,7 +108386,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -108576,7 +108576,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -110104,7 +110104,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -110287,7 +110287,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -110470,7 +110470,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -110653,7 +110653,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -110836,7 +110836,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -111019,7 +111019,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -111202,7 +111202,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -111386,7 +111386,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -111572,7 +111572,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -111755,7 +111755,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -111938,7 +111938,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -112121,7 +112121,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -112304,7 +112304,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -112487,7 +112487,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -112670,7 +112670,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -112854,7 +112854,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -113040,7 +113040,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -113223,7 +113223,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -113406,7 +113406,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -113589,7 +113589,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -113772,7 +113772,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -113955,7 +113955,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -114138,7 +114138,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -114328,7 +114328,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -115856,7 +115856,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -116039,7 +116039,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -116222,7 +116222,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -116405,7 +116405,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -116588,7 +116588,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -116771,7 +116771,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -116954,7 +116954,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -117138,7 +117138,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -117324,7 +117324,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -117507,7 +117507,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -117690,7 +117690,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -117873,7 +117873,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -118056,7 +118056,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -118239,7 +118239,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -118422,7 +118422,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -118606,7 +118606,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -118792,7 +118792,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -118975,7 +118975,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -119158,7 +119158,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -119341,7 +119341,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -119524,7 +119524,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -119707,7 +119707,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -119890,7 +119890,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -120335,7 +120335,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -120644,7 +120644,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -120905,7 +120905,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -121166,7 +121166,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -121475,7 +121475,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -121784,7 +121784,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -122093,7 +122093,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -122402,7 +122402,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -129717,7 +129717,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -130026,7 +130026,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -130287,7 +130287,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -130548,7 +130548,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -130857,7 +130857,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -131166,7 +131166,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -131475,7 +131475,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -131784,7 +131784,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -139283,7 +139283,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -139468,7 +139468,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -139652,7 +139652,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -139836,7 +139836,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -140020,7 +140020,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -140204,7 +140204,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -140388,7 +140388,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -140572,7 +140572,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -140757,7 +140757,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -140941,7 +140941,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -141125,7 +141125,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -141309,7 +141309,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -141493,7 +141493,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -141677,7 +141677,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -141861,7 +141861,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -142157,7 +142157,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -142466,7 +142466,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -142727,7 +142727,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -142988,7 +142988,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -143297,7 +143297,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -143606,7 +143606,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -143915,7 +143915,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -144224,7 +144224,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -144534,7 +144534,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -144843,7 +144843,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -145152,7 +145152,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -145461,7 +145461,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -145965,7 +145965,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -146274,7 +146274,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -146583,7 +146583,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -146893,7 +146893,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -147202,7 +147202,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -147511,7 +147511,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -148456,7 +148456,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -148765,7 +148765,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -149074,7 +149074,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -149384,7 +149384,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -149693,7 +149693,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -150002,7 +150002,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -150311,7 +150311,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -150497,7 +150497,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -150683,7 +150683,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -150992,7 +150992,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -151301,7 +151301,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -151617,7 +151617,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -151926,7 +151926,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -152187,7 +152187,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -152448,7 +152448,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -152757,7 +152757,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -153066,7 +153066,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -153375,7 +153375,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -153684,7 +153684,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -154019,7 +154019,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -154353,7 +154353,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -154687,7 +154687,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -155375,7 +155375,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -155715,7 +155715,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -156055,7 +156055,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -156390,7 +156390,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -156724,7 +156724,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -157058,7 +157058,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -157746,7 +157746,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -158086,7 +158086,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -158426,7 +158426,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -158761,7 +158761,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -159095,7 +159095,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -159429,7 +159429,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -160117,7 +160117,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -160457,7 +160457,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -160797,7 +160797,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -164932,7 +164932,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -165261,7 +165261,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -165590,7 +165590,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -165850,7 +165850,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -166117,7 +166117,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -166761,7 +166761,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -167079,7 +167079,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -167397,7 +167397,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -167715,7 +167715,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -168423,7 +168423,7 @@ pages:
                   value: 63
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -168732,7 +168732,7 @@ pages:
                   value: 63
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -169041,7 +169041,7 @@ pages:
                   value: 63
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -169351,7 +169351,7 @@ pages:
                   value: 63
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -169660,7 +169660,7 @@ pages:
                   value: 63
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -169969,7 +169969,7 @@ pages:
                   value: 63
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -170471,7 +170471,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -170789,7 +170789,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -171107,7 +171107,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -171425,7 +171425,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -172133,7 +172133,7 @@ pages:
                   value: 63
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -172442,7 +172442,7 @@ pages:
                   value: 63
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -172751,7 +172751,7 @@ pages:
                   value: 63
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -173061,7 +173061,7 @@ pages:
                   value: 63
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -173370,7 +173370,7 @@ pages:
                   value: 63
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -173679,7 +173679,7 @@ pages:
                   value: 63
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -174181,7 +174181,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -174499,7 +174499,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -174817,7 +174817,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -175135,7 +175135,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -175470,7 +175470,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -175843,7 +175843,7 @@ pages:
                   value: 63
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -176152,7 +176152,7 @@ pages:
                   value: 63
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -176461,7 +176461,7 @@ pages:
                   value: 63
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -176770,7 +176770,7 @@ pages:
                   value: 63
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -177350,7 +177350,7 @@ pages:
                   value: 63
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -177659,7 +177659,7 @@ pages:
                   value: 63
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -177968,7 +177968,7 @@ pages:
                   value: 63
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -178277,7 +178277,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -178463,7 +178463,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -178656,7 +178656,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -178974,7 +178974,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -179292,7 +179292,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -179610,7 +179610,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -179945,7 +179945,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -180318,7 +180318,7 @@ pages:
                   value: 63
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -180627,7 +180627,7 @@ pages:
                   value: 63
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -180936,7 +180936,7 @@ pages:
                   value: 63
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -181245,7 +181245,7 @@ pages:
                   value: 63
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -181555,7 +181555,7 @@ pages:
                   value: 63
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -181864,7 +181864,7 @@ pages:
                   value: 63
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -182173,7 +182173,7 @@ pages:
                   value: 63
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -182482,7 +182482,7 @@ pages:
                   value: 63
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -182791,7 +182791,7 @@ pages:
                   value: 63
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -183107,7 +183107,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -183305,7 +183305,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -183537,7 +183537,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -183816,7 +183816,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -184002,7 +184002,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -184200,7 +184200,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -184420,7 +184420,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -184652,7 +184652,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -184852,7 +184852,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -185050,7 +185050,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -185258,7 +185258,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -185466,7 +185466,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -185640,7 +185640,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -185814,7 +185814,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -186022,7 +186022,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -186230,7 +186230,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -186418,7 +186418,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -193101,7 +193101,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -193410,7 +193410,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -193671,7 +193671,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -193932,7 +193932,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -194241,7 +194241,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -194550,7 +194550,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -194859,7 +194859,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -195168,7 +195168,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -195478,7 +195478,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -195664,7 +195664,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -195850,7 +195850,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -196106,7 +196106,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -196580,7 +196580,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -196859,7 +196859,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -197120,7 +197120,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -197382,7 +197382,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -197654,7 +197654,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -197926,7 +197926,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -198934,7 +198934,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -199446,7 +199446,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -200468,7 +200468,7 @@ pages:
                   value: 63
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -202023,7 +202023,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -202314,7 +202314,7 @@ pages:
                   value: 63
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -202605,7 +202605,7 @@ pages:
                   value: 63
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -203179,7 +203179,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -203488,7 +203488,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -203749,7 +203749,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -204010,7 +204010,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -204319,7 +204319,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -204628,7 +204628,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -204937,7 +204937,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -205246,7 +205246,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -207101,7 +207101,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -207362,7 +207362,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -209788,7 +209788,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -209981,7 +209981,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -210290,7 +210290,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -210551,7 +210551,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -210812,7 +210812,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -211121,7 +211121,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -211430,7 +211430,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -211739,7 +211739,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -212048,7 +212048,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -212358,7 +212358,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -212599,7 +212599,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -212840,7 +212840,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -213081,7 +213081,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -213322,7 +213322,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -213570,7 +213570,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -213879,7 +213879,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -214099,7 +214099,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -214319,7 +214319,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -214628,7 +214628,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -214937,7 +214937,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -215246,7 +215246,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -215555,7 +215555,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -216815,7 +216815,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -217298,7 +217298,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -219993,7 +219993,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -220477,7 +220477,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -223241,7 +223241,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -223726,7 +223726,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -224519,7 +224519,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -225000,7 +225000,7 @@ pages:
                   value: 29.4
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -225788,7 +225788,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -226049,7 +226049,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -226310,7 +226310,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -226619,7 +226619,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -226928,7 +226928,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -227237,7 +227237,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -227546,7 +227546,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -227901,7 +227901,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
@@ -228296,7 +228296,7 @@ pages:
                   value: 37.8
                   isExpression: false
                 fontsizeAllowShrink:
-                  value: false
+                  value: true
                   isExpression: false
                 font:
                   value: companion-sans
