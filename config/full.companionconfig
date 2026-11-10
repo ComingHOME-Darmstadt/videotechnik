@@ -31545,7 +31545,7 @@ pages:
                     connectionId: 1rAmTsAWjhrSoIAtaQko6
                     options:
                       cmd:
-                        value: PLAY 11-10 "ndi://PTZ-CAM-01/CAM"
+                        value: PLAY 11-10 "VIDEOS/TEST/1" LOOP
                         isExpression: false
                     upgradeIndex: -1
                   - type: action
@@ -31903,7 +31903,7 @@ pages:
                     connectionId: 1rAmTsAWjhrSoIAtaQko6
                     options:
                       cmd:
-                        value: PLAY 12-10 "ndi://PTZ-CAM-02/CAM"
+                        value: PLAY 12-10 "VIDEOS/TEST/2" LOOP
                         isExpression: false
                     upgradeIndex: -1
                   - type: action
@@ -32249,7 +32249,7 @@ pages:
                     connectionId: 1rAmTsAWjhrSoIAtaQko6
                     options:
                       cmd:
-                        value: PLAY 13-10 "ndi://CHPRESENTATION/Intel Iris Xe Graphics 2"
+                        value: PLAY 13-10 "VIDEOS/TEST/3" LOOP
                         isExpression: false
                     upgradeIndex: -1
                 up: []
@@ -32493,7 +32493,7 @@ pages:
                     connectionId: 1rAmTsAWjhrSoIAtaQko6
                     options:
                       cmd:
-                        value: PLAY 14-10 "ndi://192.168.77.21/Prediger"
+                        value: PLAY 14-10 "VIDEOS/TEST/4" LOOP
                         isExpression: false
                     upgradeIndex: -1
                 up: []
@@ -33786,7 +33786,7 @@ pages:
                     connectionId: 1rAmTsAWjhrSoIAtaQko6
                     options:
                       cmd:
-                        value: PLAY 15-10 "ndi://CHZOOM/Intel Iris Xe Graphics 1"
+                        value: PLAY 15-10 "VIDEOS/TEST/ZOOM" LOOP
                         isExpression: false
                     upgradeIndex: -1
                 up: []
@@ -37068,7 +37068,7 @@ pages:
                     headline: 10-10 set Input
                     options:
                       cmd:
-                        value: PLAY 10-10 "ndi://CHAUDIO/OBS"
+                        value: PLAY 10-10 "VIDEOS/TEST/LIVE" LOOP
                         isExpression: false
                     upgradeIndex: -1
                   - type: action
