@@ -10,7 +10,7 @@ Desweiteren sollte in `script` das Programm `yt-dlp.exe` (siehe https://github.c
 
 Im Untervezeichnis `config` werden alle Konfigurations-Dateien gesammelt. Hierbei ist jedoch `config/media/Videos` von der Überwachung durch die Versionierung ausgenommen.
 
-Die Programme `Bitfocus Companion 4.2.6`, `NDI 6.x.` und `Node.js 18.19.0` werden in den vom Installationsprogramm vorgeschlagenen Ordnern erwartet. `Node.js` muss im Pfad liegen. `Companion` sollte automatisch starten. Companion benötigt folgende Module: `CasparCG: Server v2.1.2`,`BirdDog: PTZ v3.6.2`,`NewTek: NDI Studio Monitor v1.0.3`,`OpenLP: HTTP API v0.1.7`
+Die Programme `Bitfocus Companion 5.1.1`, `NDI 6.x.` und `Node.js 18.19.0` werden in den vom Installationsprogramm vorgeschlagenen Ordnern erwartet. `Node.js` muss im Pfad liegen. `Companion` sollte automatisch starten. Companion benötigt folgende Module: `CasparCG: Server v2.1.2`,`BirdDog: PTZ v3.6.2`,`NewTek: NDI Studio Monitor v1.0.3`,`OpenLP: HTTP API v0.1.7`,`Elgato Stream Deck 1.5.2`,`Mirabox Stream Dock 1.3.0`,`XKeys 1.0.2`
 
 
 
