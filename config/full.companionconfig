@@ -9968,7 +9968,7 @@ pages:
                     connectionId: 1rAmTsAWjhrSoIAtaQko6
                     options:
                       cmd:
-                        value: PLAY 17-10 "ndi://COMINGHOME-VIDEO/ZEN DDIViewer 1"
+                        value: PLAY 17-10 "ndi://USER-PC/ZEN DDIViewer 1"
                         isExpression: false
                     upgradeIndex: -1
                   - type: action
@@ -36614,7 +36614,7 @@ pages:
                           connectionId: JIL3eKZZQiJm9qvTBb8aU
                           options:
                             source:
-                              value: COMINGHOME-VIDEO (ComingHome_Multiview)
+                              value: USER-PC (ComingHome_Multiview)
                               isExpression: false
                           upgradeIndex: -1
                         - type: action
@@ -38059,7 +38059,7 @@ pages:
                     headline: "ChAudioPC: set NDI Source"
                     options:
                       source:
-                        value: COMINGHOME-VIDEO (Audio N -1)
+                        value: USER-PC (Audio N -1)
                         isExpression: false
                     upgradeIndex: -1
                   - type: action
@@ -40798,7 +40798,7 @@ pages:
                           connectionId: I7o_8c8lrSZ80ZUhoBZIq
                           options:
                             source:
-                              value: COMINGHOME-VIDEO (Controlview)
+                              value: USER-PC (Controlview)
                               isExpression: false
                           upgradeIndex: -1
                         - type: action
@@ -232265,7 +232265,7 @@ triggerCollections: []
 custom_variables:
   scriptPath:
     description: A custom variable
-    defaultValue: \comingHOME\videotechnik\script\
+    defaultValue: F:\comingHOME\videotechnik\script\
   cam1pos1label:
     description: A custom variable
     defaultValue: Totale
